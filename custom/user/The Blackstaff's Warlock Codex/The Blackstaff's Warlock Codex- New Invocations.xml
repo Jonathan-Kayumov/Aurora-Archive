@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+		<author url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex">By Jeremy Forbing, Heath Harris and Scott Bean</author>		
+		<file name="the-blackstaff-warlock-codex-new-invocations.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/the-great-dale/archetypes/invocations.xml" />
+		</update>
+	</info>
+
+	<element name="Agonizing Secret" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_AGONIZING_SECRET">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>		
+		<requirements>[level:5]</requirements>
+		<description>
+		<p>When you cast a cantrip that deals damage to one or more creatures, you add your Charisma modifier to the damage dealt to each creature. If The cantrip’s damage already includes your Charisma bonus (such as if you hit with <I>eldritch blast</I> and have the Agonizing Blast eldritch invocation), you cannot inflict this extra damage.</p>
+		</description>
+		<sheet>
+		<description>When you cast a cantrip that deals damage to one or more creatures, you add {{charisma:modifier}} to the damage dealt to each creature. If The cantrip’s damage already includes your Charisma bonus, you cannot inflict this extra damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Bonded Ally" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_BONDED_ALLY">
+		<supports>Eldritch Invocation</supports>		
+		<description>
+		<p>You borrow magic from an ancient eladrin enclave to share in an ally’s triumphs and pain. As an action, you touch one willing creature and establish a bond with it. Once before the next time you finish a short or long rest, when you regain hit points, the bonded ally can use its reaction to regain an amount of hit points equal to half the amount you regain. Also, once before the next time you finish a short or long rest, when your bonded ally regains hit points, you can use your reaction to regain an amount of hit points equal to half the amount your bonded ally regains.</p>
+		<p class="indent">This bond remains in place until you use an action to end it, your bonded ally uses an action to end it, or you use this feature to bond with a different creature.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short or Long rest">
+		<description>As an action, you touch one willing creature and establish a bond with it. Once before the next time you finish a short or long rest, when you regain hit points, the bonded ally can use its reaction to regain an amount of hit points equal to half the amount you regain. Also, once before the next time you finish a short or long rest, when your bonded ally regains hit points, you can use your reaction to regain an amount of hit points equal to half the amount your bonded ally regains. This bond remains in place until you use an action to end it, your bonded ally uses an action to end it, or you use this feature to bond with a different creature.</description>
+		</sheet>
+	</element>
+
+	<element name="Brutal Caster" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_BRUTAL_CASTER">
+		<supports>Eldritch Invocation</supports>		
+		<description>
+		<p>When you score a critical hit with a spell attack roll for a spell that deals damage, you can roll one of the spell’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
+		</description>
+		<sheet>
+		<description>When you score a critical hit with a spell attack roll for a spell that deals damage, you can roll one of the spell’s damage dice one additional time and add it to the extra damage of the critical hit.</description>
+		</sheet>
+	</element>
+
+	<element name="Clarion Call" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_CLARION_CALL">
+		<supports>Eldritch Invocation</supports>		
+		<description>
+		<p>You can use a warlock spell slot to cast either <i>thunderwave</i> or <i>warning shout</i>. Once you use this invocation to cast one of these spells, you can’t do so again until you finish a long rest.</p>
+		<p class="indent">If you have the Pact of the Vestige Relic feature and you are holding your pact relic, when you cast either <i>thunderwave</i> or <i>warning shout</i>, you can invoke the vestige known as Yuri the Hunter, and the sound of his bellowing horn, causing one creature of your choice within 30 feet of you to take thunder damage equal to your Charisma modifier.</p>
+		</description>
+		<sheet action="Action" usage="1/Long rest">
+		<description>You can use a warlock spell slot to cast either thunderwave or warning shout. If you have the Pact of the Vestige Relic feature and you are holding your pact relic, when you cast either thunderwave or warning shout, you can cause one creature of your choice within 30 feet of you to take thunder damage equal to {{charisma:modifier}}.</description>
+		</sheet>
+	</element>
+
+	<element name="Crushing Hex" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_CRUSHING_HEX">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level, hex spell or a warlock feature that curses</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+        <p>Each time you cast the <i>hex</i> spell or use a warlock feature that curses, the initial target you choose to curse when you first cast the spell or use the feature takes 1d6 magical bludgeoning damage.</p>
+        </description>
+        <sheet>
+        <description>Each time you cast the hex spell or use a warlock feature that curses, the initial target you choose to curse when you first cast the spell or use the feature takes 1d6 magical bludgeoning damage.</description>
+        </sheet>
+    </element>
+
+	<element name="Crimson Knight Initiation" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_CRIMSON_KNIGHT_INITIATION">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>				
+		<description>
+		<p>Fighting for a lost empire that struck a bargain with Asmodeus, the Crimson Knights were crusading warlocks willing to sacrifice their own life force for victory—and you have earned their ways. You learn the <i>gift to Avernus</i> cantrip if you don't already know it, and it doesn't count against the number of cantrips you know. Also, once per turn, when you miss with an attack roll, you can choose to reroll the attack by taking damage. You must use the second roll. When you reroll an attack with this invocation, you take necrotic damage equal to your Charisma modifier + half your warlock level. This damage cannot be reduced or prevented by any means. Once you reroll an attack with this invocation, you cannot do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Short or Long rest">
+		<description>You learn the gift to Avernus cantrip. Also, once per turn, when you miss with an attack roll, you can choose to reroll the attack by taking damage, and you must use the second roll. When you reroll an attack with this invocation, you take necrotic damage equal to {{charisma:modifier}} + {{level:warlock:half}}. This damage cannot be reduced or prevented by any means.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_TBWC_SPELL_GIFT_TO_AVERNUS" spellcasting="Warlock"/>
+		</rules>		
+	</element>
+
+	<element name="Dark Maelstrom’s Reach" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_DARK_MAELSTROM'S_REACH">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+        <p>When a hostile creature within 60 feet of you succeeds on a saving throw, you can use your reaction to place an invisible maelstrom of dark misfortune on that creature, dealing necrotic damage to it equal to half your warlock level + your Charisma modifier (minimum of 1).</p>
+		<p class="indent">If you have the Pact of the Vestige Relic feature and you are holding your pact relic, you can call on the vestige Xevut, He Who Hungers, to use the dark maelstrom to transfer the avoided affliction to another foe nearby. As part of the same reaction you used to deal the damage for this invocation, choose one other creature within 15 feet of the creature that succeeded on the saving throw. That creature must make the same saving throw if it has not already done so this turn. On a failure, it suffers the same effect the other creature would have suffered if it had failed.</p>		
+        </description>
+		<sheet action="Reaction">
+        <description>When a hostile creature within 60 feet of you succeeds on a saving throw, you can use your reaction to deal it necrotic damage equal to {{level:warlock:half}} + {{charisma:modifier}}. If you have the Pact of the Vestige Relic feature and you are holding your pact relic, you can, as part of the same reactio nyou used to deal the damage for this invocation, choose one other creature within 15 feet of the creature that succeeded on the saving throw. That creature must make the same saving throw if it has not already done so this turn. On a failure, it suffers the same effect the other creature would have suffered if it had failed.</description>
+        </sheet>
+    </element>
+
+    <element name="Darkspiral Aura" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_DARKSPIRAL_AURA">
+        <supports>Eldritch Invocation, Pact of the Gloom</supports>
+        <prerequisite>Pact of the Gloom feature</prerequisite>
+        <requirements>ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_GLOOM</requirements>
+        <description>
+        <p>When you reduce a hostile creature to 0 hit points, you can use your reaction to enshroud yourself in swirling shadows that give you advantage on Dexterity (Stealth) checks. Your darkspiral aura ends when you take a short or long rest, or when you choose to expend it.</p>
+		<p class="indent">When a hostile creature that you can see within 60 feet targets you with an attack roll, you can expend your darkspiral aura as a reaction to deal necrotic damage to it equal to half your warlock level + your Charisma modifier.</p>        
+		</description>
+		<sheet action="Reaction">
+        <description>When you reduce a hostile creature to 0 hit points, you can use your reaction to enshroud yourself in swirling shadows that give you advantage on Dexterity (Stealth) checks. Your darkspiral aura ends when you take a short or long rest, or when you choose to expend it. When a hostile creature that you can see within 60 feet targets you with an attack roll, you can expend your darkspiral aura to deal necrotic damage equal to  {{level:warlock:half}} + {{charisma:modifier}} to that creature.</description>
+        </sheet>
+    </element>
+
+    <element name="Defensive Bond" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_DEFENSIVE_BOND">
+        <supports>Eldritch Invocation, Pact of the Gloom</supports>
+        <prerequisite>Pact of the Eye feature, Bonded Ally eldritch invocation</prerequisite>
+        <requirements>ID_DMSG_TBWC_CLASS_FEATURE_BONDED_ALLY,ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_EYE</requirements>
+        <description>
+        <p>When you use your Bonded Ally eldritch invocation, until the bond ends, when your bonded ally is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your Charisma modifier (minimum of 1) and push it up to 10 feet away from your bonded ally.</p>        
+		</description>
+		<sheet action="Reaction">
+        <description>When you use your Bonded Ally eldritch invocation, until the bond ends, when your bonded ally is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your {{Charisma:modifier}} and push it up to 10 feet away from your bonded ally.</description>
+        </sheet>
+    </element>
+
+	<element name="Destructive Messenger" type="Class Feature" source="Player’s Handbook" id="ID_DMSG_TBWC_CLASS_FEATURE_DESTRUCTIVE_MESSENGER">
+		<supports>Eldritch Invocation, Pact of the Chain</supports>
+		<prerequisite>5th level, Pact of the Chain feature</prerequisite>
+		<requirements>[level:5],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+		<description>
+		<p>You can use a 10-minute ritual to turn your familiar into a nondescript commoner of a humanoid race appropriate for the nearby area, dressed in the manner of a local peasant or vagabond. Your familiar loses all of its own statistics and uses those of a commoner only, but it can speak and has all the normal abilities of a commoner of that race. You can use your telepathic bond with your familiar to speak through it while it is in this commoner form, as to perceive through its senses as per the <i>find familiar</i> spell. You can use a bonus action to return it to its normal form as your familiar at any time.</p>
+		<p class="indent">If your familiar is reduced to 0 hit points while in its commoner form, it immediately explodes in a shadowy conflagration, forcing every creature within 20 feet of it to make a Dexterity saving throw against your warlock spell DC. A creature takes 4d8 necrotic damage on a failure, or half as much on a success.</p>			
+		</description>
+		<sheet>
+		<description>You can turn your familiar into a nondescript commoner of a humanoid race appropriate for the nearby area via a 10-minute ritual, dressed in the manner of a local peasant or vagabond. Your familiar loses all of its own statistics and uses those of a commoner only, but it can speak and has all the normal abilities of a commoner of that race. You can use your telepathic bond with your familiar to speak through it while it is in this commoner form, as to perceive through its senses. You can use a bonus action to return it to its normal form as your familiar at any time. If your familiar is reduced to 0 hit points while in its commoner form, it immediately explodes in a shadowy conflagration, forcing every creature within 20 feet of it to make a Dexterity saving throw against your warlock spell DC. A creature takes 4d8 necrotic damage on a failure, or half as much on a success.</description>
+		</sheet>
+	</element>
+
+	<element name="Draining Hex" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_DRAINING_HEX">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>9th level, hex spell or a warlock feature that curses</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+        <p>Once per turn, when you inflict necrotic damage on a target that is cursed by your hex spell or by a warlock feature of yours, you add your Charisma modifier to the necrotic damage inflicted. If the damage is inflicted as part of an attack already includes your Charisma bonus (such as if you hit with eldritch blast and have the Agonizing Blast eldritch invocation), you cannot inflict this extra damage from this eldritch invocation.</p>
+        </description>
+        <sheet>
+        <description>Once per turn, when you inflict necrotic damage on a target that is cursed by your hex spell or by a warlock feature of yours, you add {{charisma:modifier}} to the necrotic damage inflicted. If the damage is inflicted as part of an attack already includes your Charisma bonus (such as if you hit with eldritch blast and have the Agonizing Blast eldritch invocation), you cannot inflict this extra damage from this eldritch invocation.</description>
+        </sheet>
+    </element>
+
+    <element name="Eldritch Bond" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_ELDRITCH_BOND">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>12th level, Bonded Ally eldritch invocation</prerequisite>
+        <requirements>[level:12],ID_DMSG_TBWC_CLASS_FEATURE_BONDED_ALLY</requirements>
+        <description>
+        <p>When you use your Bonded Ally eldritch invocation, until the bond ends, you can use your action to teleport to an unoccupied space closest to your bonded ally, provided the two of you are on the same plane of existence. Your bonded ally can do the same thing, using its action to teleport to the unoccupied space closest to you.</p>        
+		</description>
+		<sheet action="Action">
+        <description>Until the bond ends, you can use your action to teleport to an unoccupied space closest to your bonded ally, provided the two of you are on the same plane of existence. Your bonded ally can do the same thing, using its action to teleport to the unoccupied space closest to you.</description>
+        </sheet>
+    </element>
+
+	<element name="Ender of All" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_ENDER_OF_ALL">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>11th level</prerequisite>
+        <requirements>[level:11]</requirements>
+        <description>
+        <p>You can cast <i>disintegrate</i> once without expending a spell slot. You must finish a long rest before you can do so again.</p>
+        </description>
+		<sheet usage="1/Long rest">
+        <description>You can cast disintegrate once without expending a spell slot.</description>
+        </sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_DISINTEGRATE" spellcasting="Warlock"/>
+		</rules>		
+    </element>
+
+	<element name="Falsify Perceptions" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_FALSIFY_PERCEPTIONS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level</prerequisite>
+		<requirements>[level:9]</requirements>				
+		<description>
+		<p>You can use a warlock spell slot to cast either <i>modify memory</i> or <i>mislead</i>. Once you use this invocation to cast one of these spells, you can’t do so again until you finish a long rest.</p>
+		<p class="indent">If you have the Pact of the Vestige Relic feature and you are holding your pact relic, when you cast either <i>modify memory</i> or <i>mislead</i>, you can call on the vestige Xandor the Mad to add a bonus equal to your Constitution, Intelligence, or Wisdom modifier (your choice, minimum 1) to all your Charisma (Deception) and Dexterity (Sleight of Hand) checks for 10 minutes.</p>		
+		</description>
+		<sheet usage="1/Long rest">
+		<description>You can use a warlock spell slot to cast either modify memory or mislead. If you have the Pact of the Vestige Relic feature and you are holding your pact relic, when you cast either modify memory or mislead, you can add a bonus equal to {{constitution:modifier}}, {{intelligence:modifire}}, or {{wisdom:modifier}} to all your Charisma (Deception) and Dexterity (Sleight of Hand) checks for 10 minutes.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" spellcasting="Warlock"/>
+		<grant type="Spell" id="ID_PHB_SPELL_MISLEAD" spellcasting="Warlock"/>		
+		</rules>		
+	</element>
+
+	<element name="Fiendish Talent" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_FIENDISH_TALENT">
+		<supports>Eldritch Invocation</supports>		
+		<description>
+		<p>Whether you sold your soul or won a midnight competion at a crossroads, somehow your perfoming skills compel supernatural support. You gain proficiency in the Performance skill if you don’t already have it, and with one musical instrument of your choice. Also, choose one musical instrument you are proficient with. You gain expertise with that musical  instrument, which means your proficiency bonus is doubled for any ability check you make with it.</p>
+		<p class="indent">Finally, you learn one bard cantrip of your choice. This is a warlock cantrip for you, but it doesn't count against the number of cantrips you know.</p> 		
+		 </description>
+        <sheet>
+        <description>You gain expertise with one musical instrument that you are proficient with.</description>
+        </sheet>		
+		<rules>
+		<select type="Spell" name="Bard Cantrip (Fiendish Talent)" supports="Bard,0" spellcasting="Warlock"/>		
+		<select type="Proficiency" name="Musical Instrument (Fiendish Talent)" supports="Musical Instrument"/>		
+        <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE"/>
+		</rules>
+	</element>
+
+    <element name="Fierce Familiar" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_FIERCE_FAMILIAR">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>9th level, Pact of the Chain feature</prerequisite>
+        <requirements>[level:9],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+        <description>
+        <p>As a bonus action, you can command your familiar to take the Attack action.</p>        
+		</description>
+		<sheet action="Bonus Action">
+        <description>You can command your familiar to take the Attack action.</description>
+        </sheet>
+    </element>
+
+    <element name="Gloom Walk" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_GLOOM_WALK">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level, Pact of the Gloom feature</prerequisite>
+        <requirements>[level:7],ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_GLOOM</requirements>
+        <description>
+        <p>When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You can then take the Hide action as part of the same bonus action.</p>        
+		</description>
+		<sheet action="Bonus Action">
+        <description>When you are in dim light or darkness you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You can then take the Hide action as part of the same bonus action.</description>
+        </sheet>
+    </element>
+
+    <element name="Glorious Bond" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_GLORIOUS_BOND">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Eye feature, Bonded Ally eldritch invocation</prerequisite>
+        <requirements>ID_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_EYE,ID_DMSG_TBWC_CLASS_FEATURE_BONDED_ALLY</requirements>
+        <description>
+        <p>When you use your Bonded Ally eldritch invocation, until the bond ends, when your bonded ally reduces a hostile creature that is within 5 feet of you to 0 hit points, your bonded ally gains temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).</p>        
+		</description>
+		<sheet action="Action">
+        <description>When your bonded ally reduces a hostile creature that is within 5 feet of you to 0 hit points, your bonded ally gains temporary hit points equal to {{charisma:modifier}} + {{level:warlock}}.</description>
+        </sheet>
+    </element>
+
+	<element name="Ironfell Blade" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_IRONFELL_BLADE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level, Pact of Iron feature or Pact of the Ring feature</prerequisite>
+		<requirements>[level:5],ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_IRON,ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_RING</requirements>
+		<description>
+		<p>You can transform a one-handed melee weapon that inflicts slashing or piecing damage, changing it into the mysterious metal-like substance called <i>ironfell</i>. To do so, you must touch the weapon and perform a 1-minute ritual. When you take the attack action on your turn and attack with a weapon you have transformed in this way, you can attack with that weapon twice, instead of once. If you perform the ritual again on a different weapon, any weapons you have previously transformed in this way return to normal.</p>
+		<p class="indent">In addition, you fulfill all prerequisites for other eldritch invocations as if you had the Pact of the Blade feature, treating your ironfell blade weapon as your pact weapon for the purposes of those invocations.</p>			
+		</description>
+		<sheet>
+		<description>You can transform a one-handed melee weapon that inflicts slashing or piecing damage, changing it into the mysterious metal-like substance called ironfell. To do so, you must touch the weapon and perform a 1-minute ritual. When you take the attack action on your turn and attack with a weapon you have transformed in this way, you can attack with that weapon twice, instead of once. If you perform the ritual again on a different weapon, any weapons you have previously transformed in this way return to normal.</description>
+		</sheet>
+	</element>
+
+	<element name="Iron Sky Starfall" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_IRONFELL_SKY_STARFALL">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level, eldritch blast cantrip, Pact of the Ring feature</prerequisite>
+		<requirements>[level:9],ID_PHB_SPELL_ELDRITCH_BLAST,ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_RING</requirements>
+		<description>
+		<p>When you hit a creature with your <i>eldritch blast</i>, you can cast <i>hold person</i> as a bonus action using a warlock spell slot, changing the casting time to 1 bonus action for that casting. The <i>hold person</i> spell must target the creature you hit with <i>eldritch blast</i>.</p>			
+		</description>
+		<sheet action="Bonus Action">
+		<description>You can cast hold person as a warlock spell using a warlock spell slot as a bonus action, but the spell must be cast on a creature you hit with your eldritch blast cantrip.</description>
+		</sheet>
+	</element>
+
+	<element name="Life Bind" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_LIFE_BIND">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>				
+		<description>
+		<p>You can use a warlock spell slot to cast either <i>animate dead</i> or <i>life transference</i>. Once you use this invocation to cast one of these spells, you can’t do so again until you finish a long rest.</p>
+		<p class="indent">If you have the Pact of the Vestige Relic feature and you are holding your pact relic, you can invoke the remnant of the dead god Amaan to gain resistance to poison and necrotic damage for 1 hour after you cast  <i>animate dead</i> or <i>life transference</i>.</p>		
+		</description>
+		<sheet usage="1/Long rest">
+		<description>You can use a warlock spell slot to cast either animate dead or life transference. If you have the Pact of the Vestige Relic feature and you are holding your pact relic, you gain resistance to poison and necrotic damage for 1 hour after you cast animate dead or life transference.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" spellcasting="Warlock"/>
+		<grant type="Spell" id="ID_XGTE_SPELL_LIFE_TRANSFERENCE" spellcasting="Warlock"/>		
+		</rules>		
+	</element>
+
+	<element name="Mandrake Effigy" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_MANDRAKE_EFFIGY">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>11th level</prerequisite>
+		<requirements>[level:11]</requirements>				
+		<description>
+		<p>You can cast <i>create homunculus</i> once without expending a spell slot. You must finish a long rest before you can do so again.</p>
+		<p class="indent">If you have the Pact of the Vestige Relic feature and you are holding your pact relic, any homunculus you create with the <i>create homunculus</i> spell is infused with the vitality of Zutwa, gaining resistance to acid and necrotic damage.</p>		
+		</description>
+		<sheet usage="1/Long rest">
+		<description>You can cast create homunculus once without expending a spell slot. If you have the Pact of the Vestige Relic feature and you are holding your pact relic, any homunculus you create with the create homunculus spell gains resistance to acid and necrotic damage.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_XGTE_SPELL_CREATE_HOMUNCULUS" spellcasting="Warlock"/>
+		</rules>		
+	</element>
+
+	<element name="Otherworldly Alliances" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_OTHERWORLDLY_ALLIANCES">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level</prerequisite>
+		<requirements>[level:9]</requirements>				
+		<description>
+		<p>You can use a warlock spell slot to cast either <i>planar binding</i> or <i>teleport circle</i>. Once you use this invocation to cast one of these spells, you can’t do so again until you finish a long rest.</p>
+		<p class="indent">If you have the Pact of the Vestige Relic feature and you are holding your pact relic, once you finish casting either planar binding or teleport circle, you can call upon the secrets of Seriach the Hell-Hound Whisperer to add a bonus equal to your Charisma modifier to all your Intelligence (Arcana or Religion) checks for 1 hour.</p>		
+		</description>
+		<sheet usage="1/Long rest">
+		<description>You can use a warlock spell slot to cast either planar binding or teleport circle. If you have the Pact of the Vestige Relic feature and you are holding your pact relic, once you finish casting either planar binding or teleport circle, you can  add a bonus equal to your {{charisma:modifier}} to all your Intelligence (Arcana or Religion) checks for 1 hour.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_TELEPORTATION_CIRCLE" spellcasting="Warlock"/>
+		<grant type="Spell" id="ID_PHB_SPELL_PLANAR_BINDING" spellcasting="Warlock"/>		
+		</rules>		
+	</element>
+
+	<element name="Improved Pact Armor" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_IMPROVED_PACT_ARMOR">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of Iron feature</prerequisite>
+		<requirements>ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_IRON</requirements>
+		<description>
+		<p>You can use your pact armor as a spellcasting focus for your warlock spells. Also, your pact armor grants you a +1 bonus to AC, in addition to the armor’s normal bonus to AC, unless it is magic armor that already grants an additional AC bonus.</p>			
+		</description>
+		<sheet>
+		<description>You can use your pact armor as a spellcasting focus for your warlock spells. Also, your pact armor grants you a +1 bonus to AC, in addition to the armor’s normal bonus to AC, unless it is magic armor that already grants an additional AC bonus.</description>
+		</sheet>
+		<rules>
+		<stat name="ac:misc" value="1" />		
+		</rules>		
+	</element>
+
+	<element name="Pact Shield" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_PACT_SHIELD">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>7th level, Pact of the Blade or pact of Iron feature</prerequisite>
+		<requirements>[level:7],ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_IRON,ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+		<description>
+		<p>When you summon your pact armor or pact weapon, you can also create a magical shield made of eldritch energy. Whenever you dismiss your pact armor or pact weapon, you can dismiss this shield as well. Otherwise it works like a normal shield.</p>
+		<p class="indent">While you are holding your pact shield, when a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to roll a d8. Add your Charisma modifier to the number rolled, and reduce the attack’s damage by that total (to a minimum of 0 damage).</p>			
+		</description>
+		<sheet action="Reaction">
+		<description>When you summon your pact armor or pact weapon, you can also create a magical shield made of eldritch energy. While you are holding your pact shield, when a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to roll a d8. Add {{charisma:modifier}} to the number rolled, and reduce the attack’s damage by that total.</description>
+		</sheet>
+	</element>
+
+	<element name="Potent Hex" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_POTENT_HEX">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Hex spell</prerequisite>
+        <requirements>ID_PHB_SPELL_HEX</requirements>
+        <description>
+        <p>Whenever you cast the <i>hex</i> spell, when you choose which of the target’s ability scores suffers disadvantage on ability checks, you can choose two ability scores instead of just one.</p>
+        </description>
+        <sheet>
+        <description>>Whenever you cast the hex spell, when you choose which of the target’s ability scores suffers disadvantage on ability checks, you can choose two ability scores instead of just one.</description>
+        </sheet>
+    </element>
+
+	<element name="Power in Endings" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_POWER_IN_ENDINGS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>7th level, Pact of Iron feature</prerequisite>
+		<requirements>[level:7],ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_IRON</requirements>
+		<description>
+		<p>When you make a death saving throw, you choose to roll with advantage or disadvantage. Whenever you fail a death save, you immediately recover one of your expended warlock spell slots. Once you have recovered a spell slot in this way, you cannot do so again until you finish a short or long rest.</p>			
+		</description>
+		<sheet usage="1/Short or Long rest">
+		<description>When you make a death saving throw, you choose to roll with advantage or disadvantage. Whenever you fail a death save, you immediately recover one of your expended warlock spell slots.</description>
+		</sheet>
+	</element>
+
+	<element name="Preternatural Performance" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_PRETERNATURAL_PEROFMANCE">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>11th level, Pact of the Tome feature, proficiency in the Performance skill</prerequisite>
+		<requirements>[level:11],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME,ID_PROFICIENCY_SKILL_PERFORMANCE</requirements>
+		<description>
+		<p>Your patron grants you rare supernatural skill in performing. You gain expertise with your Performance skill, which means your proficiency bonus is doubled for any ability check you make with it. Also, whenever you gain a warlock level, you can choose one spell you learned from the Spellcasting feature of your warlock class and replace it with a spell from the bard spell list. The new spell must be of the same level as the spell you replace.</p>			
+		</description>
+		<sheet display="false">
+		<description>Your patron grants you rare supernatural skill in performing. You gain expertise with your Performance skill, which means your proficiency bonus is doubled for any ability check you make with it. Also, whenever you gain a warlock level, you can choose one spell you learned from the Spellcasting feature of your warlock class and replace it with a spell from the bard spell list. The new spell must be of the same level as the spell you replace.</description>
+		</sheet>
+		<rules>
+        <grant type="Expertise" id="ID_EXPERTISE_SKILL_PERFORMANCE"/>
+		</rules>
+		<spellcasting name="Warlock" extend="true">
+      	<extend>Bard</extend>
+		</spellcasting>				
+	</element>
+
+	<element name="Probing Shadows" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_PROBING_SHADOWS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Gloom feature</prerequisite>
+		<requirements>ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_GLOOM</requirements>
+		<description>
+		<p>The darkness whispers to you, guiding your senses to notice looming threats. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells, and advantage on Wisdom (Perception) checks made to avoid being surprised. To gain these benefits, you can’t be blinded, deafened, or incapacitated.</p>			
+		</description>
+		<sheet>
+		<description>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells, and advantage on Wisdom (Perception) checks made to avoid being surprised. To gain these benefits, you can’t be blinded, deafened, or incapacitated.</description>
+		</sheet>
+	</element>
+
+	<element name="Probing Shadows" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_PROBING_SHADOWS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level, Pact of the Gloom feature, Pact of the Vestige Relic feature</prerequisite>
+		<requirements>[level:12],ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_GLOOM,ID_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_VESTIGE_RELIC</requirements>
+		<description>
+		<p>As an action, you can choose one creature you’ve dealt necrotic damage to since the start of your previous turn. You teleport up to 60 feet to the unoccupied space closest to that target.</p>
+		<p class="indent">If you have the Pact of the Vestige Relic feature and you are holding your pact relic, you have advantage on your next attack roll against the target before the end of your next turn, thanks to the swiftness of Ulban, who flashes across the nighty sky in a fiery streak of blue flame.</p>				
+		</description>
+		<sheet>
+		<description>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells, and advantage on Wisdom (Perception) checks made to avoid being surprised. To gain these benefits, you can’t be blinded, deafened, or incapacitated.</description>
+		</sheet>
+	</element>
+
+	<element name="Retributive Bond" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_RETRIBUTIVE_BOND">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Eye feature, Bonded Ally eldritch invocation</prerequisite>
+		<requirements>ID_DMSG_TBWC_CLASS_FEATURE_BONDED_ALLY</requirements>
+		<description>
+		<p>When you use your Bonded Ally eldritch invocation, until the bond ends, when a creature makes an attack roll against you while it is within your bonded ally’s reach, it provokes an attack of opportunity from your bonded ally. In addition, when your bonded ally hits a creature that is within 5 feet of you with an opportunity attack, the attack deals an extra 1d6 psychic damage.</p>				
+		</description>
+		<sheet>
+		<description>When you use your Bonded Ally eldritch invocation, until the bond ends, when a creature makes an attack roll against you while it is within your bonded ally’s reach, it provokes an attack of opportunity from your bonded ally. In addition, when your bonded ally hits a creature that is within 5 feet of you with an opportunity attack, the attack deals an extra 1d6 psychic damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Shadow’s Eclipse" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_SHADOW'S_ECLIPSE">
+		<supports>Eldritch Invocation</supports>
+		<description>
+		<p>You’ve learned the secret names of certain constellations, and glimpsed alien comets too far away for most eyes to discern unaided. Drawing on elder beings that most believe to be stars or planets, you learn your choice of one of the following cantrips: <i>astral seal</i>, <i>blazing starfall</i>, <i>dire radiance</i>, <i>hand of radiance</i>, or <i>word of radiance</i>. This is a warlock cantrip for you, but it doesn't count against the number of cantrips you know. Also, whenever you are in dim light or darkness, you have resistance to radiant damage.</p>			
+		</description>
+		<sheet>
+		<description>Whenever you are in dim light or darkness, you have resistance to radiant damage.</description>
+		</sheet>
+		<rules>
+		<select type="Spell" name="Warlock Cantrip (Shadow’s Eclipse)" supports="ID_TBC_SPELL_ASTRAL_SEAL|ID_TBC_SPELL_BLAZING_STARFELL|ID_TBC_SPELL_DIRE_RADIANCE|ID_TBC_SPELL_HAND_OF_RADIANCE" spellcasting="Warlock"/>		
+		</rules>		
+	</element>
+
+	<element name="Smoking Bolts" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_SMOKING_BOLTS">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Blade feature</prerequisite>
+        <requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+		<description>
+		<p>You can create a hand crossbow using your Pact of the Blade feature. When you load it, instead of using normal ammunition, you can draw a wisp of black smoke out of the air that magically transforms into a black crossbow bolt, which vanishes after 1 minute. When you fire it at a creature you’ve made a successful Wisdom (Insight) check against within the past 24 hours, you have advantage on the attack roll. When you hit a creature with it, you can expend a warlock spell slot to deal an additional 1d8 necrotic damage to the target per spell level.</p>				
+		</description>
+		<sheet>
+		<description>You can create a hand crossbow using your Pact of the Blade feature. When you load it, instead of using normal ammunition, you can draw a wisp of black smoke out of the air that magically transforms into a black crossbow bolt, which vanishes after 1 minute. When you fire it at a creature you’ve made a successful Wisdom (Insight) check against within the past 24 hours, you have advantage on the attack roll. When you hit a creature with it, you can expend a warlock spell slot to deal an additional 1d8 necrotic damage to the target per spell level.</description>
+		</sheet>
+	</element>
+
+	<element name="Shard Star Warrior" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_SHARD_STAR_WARRIOR">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>15th level</prerequisite>
+		<requirements>[level:15]</requirements>
+		<description>
+		<p>When you make an attack roll for a melee weapon or a cantrip, you score a critical hit on a roll of 19 or 20 if you have not already inflicted a critical hit that turn.</p>		
+		</description>
+		<sheet>
+		<description>When you make an attack roll for a melee weapon or a cantrip, you score a critical hit on a roll of 19 or 20 if you have not already inflicted a critical hit that turn.</description>
+		</sheet>
+	</element>
+
+	<element name="Spectral Ammunition" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_SPECTRA;_AMMUNITION">
+		<supports>Eldritch Invocation</supports>
+		<description>
+		<p>Each time you make a ranged attack that uses a piece of ammunition, this effect magically replaces it temporarily with a similar piece of nonmagical ammunition. Any piece of ammunition created by this Eldritch Invocation appears in the container from which you drew the ammunition before you used it, then dissipates 1 minute after it is created.</p>		
+		</description>
+		<sheet>
+		<description>Each time you make a ranged attack that uses a piece of ammunition, this effect magically replaces it temporarily with a similar piece of nonmagical ammunition. Any piece of ammunition created by this Eldritch Invocation appears in the container from which you drew the ammunition before you used it, then dissipates 1 minute after it is created.</description>
+		</sheet>
+	</element>
+
+	<element name="Starfire Womb" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_STARFIRE_WOMB">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>7th level</prerequisite>
+		<requirements>[level:7]</requirements>
+		<description>
+		<p>When you fail a saving throw, if you have dealt psychic or radiant damage to a creature since the start of your last turn, you can reroll that saving throw. You must use the second roll.</p>		
+		</description>
+		<sheet>
+		<description>When you fail a saving throw, if you have dealt psychic or radiant damage to a creature since the start of your last turn, you can reroll that saving throw. You must use the second roll.</description>
+		</sheet>
+	</element>
+
+	<element name="Starlight Hex" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_STARLIGHT_HEX">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level,Hex spell</prerequisite>
+        <requirements>[level:5],ID_PHB_SPELL_HEX</requirements>
+        <description>
+        <p>When you cast the hex spell using a warlock spell slot, the initial target you choose as its first subject immediately takes 1d8 magical radiant damage and must succeed on a Constitution saving throw. On a failure, it is blinded until the end of its next turn. Also, whenever you inflict necrotic damage with your hex spell, you may choose for it to be radiant damage instead.</p>
+        </description>
+        <sheet>
+        <description>>When you cast the hex spell using a warlock spell slot, the initial target you choose as its first subject immediately takes 1d8 magical radiant damage and must succeed on a Constitution saving throw. On a failure, it is blinded until the end of its next turn. Also, whenever you inflict necrotic damage with your hex spell, you may choose for it to be radiant damage instead.</description>
+        </sheet>
+    </element>
+
+	<element name="Threshold Breaker" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_THRESHOLD_BREAKER">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+        <p>You can use a warlock spell slot to cast either <i>knock</i> or <i>warp stone</i>. Once you use this invocation to cast one of these spells, you can’t do so again until you finish a long rest.</p>
+	    <p class="indent">If you have the Pact of the Vestige Relic feature and you are holding your pact relic, when you cast either <i>knock</i> or <i>warp stone</i>, you can call upon the dormant wisdom of Gibbeth the Endless to add a bonus equal to your Charisma modifier to all your Intelligence (Investigation) and Wisdom (Perception) checks for 10 minutes.</p>
+		</description>
+        <sheet usage="1/Long Rest">
+        <description>You can use a warlock spell slot to cast either knock or warp stone. If you have the Pact of the Vestige Relic feature and you are holding your pact relic, when you cast either knock or warp stone, you can add a bonus equal to {{charisma:modifier}} to all your Intelligence (Investigation) and Wisdom (Perception) checks for 10 minutes.</description>
+        </sheet>
+		<rules>		
+		<grant type="Spell" id="ID_PHB_SPELL_KNOCK" spellcasting="Warlock"/>
+		<grant type="Spell" id="ID_TBC_SPELL_WARP_STONE" spellcasting="Warlock"/>		
+		</rules>		
+    </element>
+
+	<element name="Twofold Pact" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_TWOFOLD_PACT">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>11th level</prerequisite>
+        <requirements>[level:11]</requirements>
+        <description>
+        <p>When you gain this eldritch invocation, you can choose a second option for your Pact Boon feature. You gain all the benefits of this second pact, including fulfilling prerequisites for other eldritch invocations that require it.</p>
+		</description>
+		<sheet display="false">
+        <description>When you gain this eldritch invocation, you can choose a second option for your Pact Boon feature. You gain all the benefits of this second pact, including fulfilling prerequisites for other eldritch invocations that require it.</description>
+        </sheet>
+		<rules>		
+		<select type="Pact Boon" supports="Pact Boon" name="Twofold Pact"/>
+		<select type="Class Feature" name="Pact Boon (Twofold Pact)" supports="Pact Boon" level="11"/>		
+		</rules>		
+    </element>
+
+	<element name="Unleash Disease" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_OTHERWORLDLY_ALLIANCES">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level</prerequisite>
+		<requirements>[level:12]</requirements>				
+		<description>
+		<p>You can cast <i>harm</i> once using a warlock spell slot. You can’t do so again until you finish a long rest.</p>		
+		</description>
+		<sheet usage="1/Long rest">
+		<description>You can cast harm once using a warlock spell slot.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_HARM" spellcasting="Warlock"/>
+		</rules>		
+	</element>
+
+	<element name="Unleash Disease" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_OTHERWORLDLY_ALLIANCES">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>12th level</prerequisite>
+		<requirements>[level:12]</requirements>				
+		<description>
+		<p>You can cast <i>harm</i> once using a warlock spell slot. You can’t do so again until you finish a long rest.</p>		
+		</description>
+		<sheet usage="1/Long rest">
+		<description>You can cast harm once using a warlock spell slot.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_HARM" spellcasting="Warlock"/>
+		</rules>		
+	</element>
+
+	<element name="Otherworldly Alliances" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_OTHERWORLDLY_ALLIANCES">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>9th level,Pact of Iron feature</prerequisite>
+		<requirements>[level:9],ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_IRON</requirements>				
+		<description>
+		<p>You can make a suit of heavy armor into your pact armor.</p>		
+		</description>
+		<sheet>
+		<description>You can make a suit of heavy armor into your pact armor.</description>
+		</sheet>
+	</element>
+
+	<element name="Vanishing Hex" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_CRUSHING_HEX">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level, hex spell or a warlock feature that curses</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+        <p>When a creature that is cursed by your hex spell or by a warlock feature of yours misses you with an attack roll, you can immediately use your reaction to teleport up to 15 feet. When you do so, you become invisible to the creature that missed you with the triggering attack until the end of your next turn. Once you use this eldritch invocation, you can’t do so again until you finish a long rest.</p>
+        </description>
+        <sheet action="Reaction" usage="1/Long rest">
+        <description>When a creature that is cursed by your hex spell or by a warlock feature of yours misses you with an attack roll, you can immediately use your reaction to teleport up to 15 feet. When you do so, you become invisible to the creature that missed you with the triggering attack until the end of your next turn.</description>
+        </sheet>
+    </element>
+
+	<element name="Bramble Brawler" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_BRAMBLE_BRAWLER">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>5th level, Pact of the Barbs</prerequisite>
+		<requirements>[level:5], ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BARBS</requirements>				
+		<description>
+		<p>When you take the attack action on your turn, you can make 2 attacks using armor spikes.</p>		
+		</description>
+		<sheet>
+		<description>When you take the attack action on your turn, you can make 2 attacks using armor spikes.</description>
+		</sheet>	
+	</element>
+
+	<element name="Briar Beckoning" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_BRIAR_BECKONING">
+		<supports>Eldritch Invocation</supports>
+		<prerequisite>Pact of the Barbs</prerequisite>
+		<requirements>ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BARBS</requirements>				
+		<description>
+		<p>You can cast <i>spike growth</i> once without expending a spell slot. Once you do so you must complete a long rest before you can do so again.</p>		
+		</description>
+		<sheet usage="1/Long rest">
+		<description>You can cast spike growth once without expending a spell slot.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" spellcasting="Warlock"/>
+		</rules>		
+	</element>
+</elements>

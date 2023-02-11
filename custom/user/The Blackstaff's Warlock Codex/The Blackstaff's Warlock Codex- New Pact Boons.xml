@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Warlock</name>
+		<description>The Blackstaff's Warlock Codex- New Pact Boons</description>
+		<author url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex">By Jeremy Forbing, Heath Harris and Scott Bean</author>
+		<update version="0.3.7">
+			<file name="the-blackstaff-warlock-codex-boons.xml" url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex" />
+		</update>
+	</info>
+
+	<element name="Pact of the Eye" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_EYE">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>When you choose this pact, one of your eyes is replaced with a false magical eye provided by your pact patron. If you are already missing one or more eyes, this mystical eye can appear where that eye should be. The eye grants you certain persuasive and perceptive powers.</p>
+			<p class="indent">Except during turns when you cast a spell, this eye appears identical to how your normal eye should look, unless you choose to reveal it. The eye manifests its true from when you cast a spell, but returns to normal at the end of the turn. You can also reveal the eye purposefully during your turn. When you do, it remains revealed for one minute. During that minute, you have advantage on Charisma (Intimidation) checks but disadvantage on Charisma (Persuasion) checks.</p>
+			<p class="indent">Additionally, when you use one of your warlock spell slots to cast a divination or enchantment spell of 1st or 2nd level (even if you use a higher-level slot to cast it), you can immediately regain that spell slot as if it had never been used. Once you regain a spell slot in this way, you cannot do so again until you complete a short or long rest. If some effect causes you to lose your eye, you can perform a 1- hour ceremony to replace it. The ceremony can be performed during a short or long rest, and it destroys the previous eye.</p>
+
+			<p class="indent">Some warlocks who make this pact replace both eyes instead of one. Others are cursed to have their new eye or eyes visible at all times. The effects of these variations are essentially cosmetic, with neither granting any additional abilities or changing an eye’s function.</p>
+		</description>
+		<sheet usage="1/Short/Long Rest">
+			<description>You replace either one or both of your eyes with a mystical eye, which can appear where it should be. Except during turns when you cast a spell, this eye appears identical to how your normal eye should look, unless you choose to reveal it. The eye manifests its true from when you cast a spell, but returns to normal at the end of the turn. You can also reveal the eye purposefully during your turn. When you do, it remains revealed for one minute. During that minute, you have advantage on Charisma (Intimidation) checks but disadvantage on Charisma (Persuasion) checks. Additionally, when you use one of your warlock spell slots to cast a divination or enchantment spell of 1st or 2nd level (even if you use a higher-level slot to cast it), you can immediately regain that spell slot as if it had never been used. Once you regain a spell slot in this way, you cannot do so again until you complete a short or long rest. If some effect causes you to lose your eye, you can perform a 1- hour ceremony to replace it. The ceremony can be performed during a short or long rest, and it destroys the previous eye.</description>
+		</sheet>
+	</element>
+
+	<element name="Pact of the Gloom" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_GLOOM">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>You can call upon the magical substance ofshadow and weave it into a cloak that helps you hide from enemies. When you are in dim light or darkness, you can use your bonus action to create a gloom cloak, a magical mantle of shadow that appears on your person. When you create this garment, you can choose its style and appearance, which can be any sort of cloak, cape, long coat, or jacket, but always inky black in color. Your gloom cloak disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, dismiss the cloak, or die.</p>
+			<p class="indent">While you wear your gloom cloak, when you roll a Dexterity (Stealth) check, you can use your Charisma modifier instead of your Dexterity modifier. In addition, whenever you use your reaction to cast a spell or cantrip, you can take the Disengage or Hide action as part of the same reaction.</p>
+			<p class="indent">You can transform one magical cloak into your gloom cloak by performing a special ritual while you wear that cloak. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the cloak, shunting it into an extradimensional space, and it appears whenever you create your gloom cloak thereafter. You can’t affect an artifact in this way. The magic item ceases being your gloom cloak if you die, if you perform the 1-hour ritual on a different item or if you use a 1-hour ritual to break your bond to it. The magical cloak appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+		</description>
+		<sheet usage="Bonus Action">
+			<description>While in dim light or darkness you can create a gloom cloak on your person. Your gloom cloak disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, dismiss the cloak, or die. When you roll a stealth check, you can use your Charisma modifier instead of your Dexterity modifier. In addition, whenever you use your reaction to cast a spell or cantrip, you can take the Disengage or Hide action as part of the same reaction. You can transform one magical cloak into your gloom cloak by performing a special ritual while you wear that cloak. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the cloak, shunting it into an extradimensional space, and it appears whenever you create your gloom cloak thereafter. You can’t affect an artifact in this way. The magic item ceases being your gloom cloak if you die, if you perform the 1-hour ritual on a different item or if you use a 1-hour ritual to break your bond to it. The magical cloak appears at your feet if it is in the extradimensional space when the bond breaks.</description>
+		</sheet>
+	</element>
+
+	<element name="Pact of The Iron" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_IRON">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>You can create an eldritch bond with a suit of light or medium armor by performing a special ritual with it over the course of 1 hour, which can be done during a short rest. You can then dismiss the armor, shunting it into an extradimensional space from which it will appear again whenever you use your action to summon it. When you summon your pact armor, you can also don it instantly as part of the  same action. While you are wearing it, your pact armor weighs nothing, you are proficient with it, and it never imposes disadvantage on your Dexterity (Stealth) checks. Your pact armor appears to be made out of whatever material you choose, from mundane black iron to fantastical configurations of smoke and glass.</p>
+			<p class="indent">You can make one magical armor into your pact armor, as long as it is not an artifact or a sentient item. Magical armor retains its properties while it is your pact armor.</p>
+			<p class="indent">The armor ceases being your pact armor if you die, if you perform the 1-hour ritual on different armor, or if you use a 1-hour ritual to break your bond to it. The armor appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+		</description>
+		<sheet usage="Action">
+			<description>Create an armor which can be don on your person. You can then dismiss the armor, shunting it into an extradimensional space from which it will appear again whenever you use your action to summon it. While you are wearing it, your pact armor weighs nothing, you are proficient with it, and it never imposes disadvantage on your Dexterity (Stealth) checks. You can make one magical armor into your pact armor, as long as it is not an artifact or a sentient item. Magical armor retains its properties while it is your pact armor. The armor ceases being your pact armor if you die, if you perform the 1-hour ritual on different armor, or if you use a 1-hour ritual to break your bond to it. The armor appears at your feet if it is in the extradimensional space when the bond breaks.</description>
+		</sheet>
+	</element>
+
+		<element name="Pact of the Ring" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_RING">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>You bear a nigh-indestructible ring. If the ring is lost or somehow destroyed, you can perform a 1-hour ceremony to create a replacement. While you bear this ring, once during each of your turns when  you hit with an attack roll for a melee weapon or a cantrip, you can inflict extra radiant damage equal to your Charisma bonus on one target you hit with that attack. If the damage for the attack already includes your Charisma bonus (such as if you hit with eldritch blast and have the Agonizing Blast eldritch invocation), you cannot inflict this extra damage. An attack which includes this extra damage blazes with a violet, starlight glare.</p>
+		</description>
+		<sheet>
+			<description>You bear a nigh-indestructible ring. If the ring is lost or somehow destroyed, you can perform a 1-hour ceremony to create a replacement. While you bear this ring, once during each of your turns when  you hit with an attack roll for a melee weapon or a cantrip, you can inflict extra radiant damage equal to your Charisma bonus on one target you hit with that attack. If the damage for the attack already includes your Charisma bonus (such as if you hit with eldritch blast and have the Agonizing Blast eldritch invocation), you cannot inflict this extra damage. An attack which includes this extra damage blazes with a violet, starlight glare.</description>
+		</sheet>
+	</element>
+
+		<element name="Pact of the Vestige Relic" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_VESTIGE_RELIC">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>You can perform a 1-hour ritual on a spellcasting focus you are holding that is a rod, staff, or wand, transforming it into a pact relic tied to the power of vestiges— the remnants of powerful forces  and entities that once wielded great authority or awful capabilities. While you have this pact relic, the magic you gain from your patron is enhanced by these arcane influences, mislaid spheres of power, and forgotten allegiances, enhancing some of your eldritch invocations.</p>
+			<p class="indent">A magical rod, staff, or wand that becomes your pact relic retains all of its previous magical properties. If your pact relic is lost or destroyed, you can perform the 1-hour ritual to enchant a new rod, staff, or wand, causing the old one to stop being your pact relic. This ritual can be performed during a short or long rest.</p>
+			<p class="indent">The augmentations this pact grants to certain eldritch invocations are noted below (or, for the new invocations included in this book, as listed in each one’s description). You must have the invocation named to gain the benefit described:</p>
+			<p class="indent"><b><i>Agonizing Blast, Eldritch Spear, Grasp of Hadar, Lance of Lethargy, or Repelling Blast.</i></b> When you miss with one or more attack rolls for eldritch blast, at the end of the turn you can call upon Hadar, the Ebon Hunger. Choose one creature within 15 feet of you which you did not deal damage to during that turn. The creature takes necrotic damage equal to your proficiency bonus if you have your pact relic in hand.</p>
+			<p class="indent"><b><i>Armor of Shadows.</i></b> When a creature has disadvantage on an attack roll against you but still hits, you can call upon Caiphon the Dream Whisperer to help you move out of harm’s way. If you have your pact relic in hand, you can use your reaction to roll 1d4. Add your proficiency bonus to the result. Any nonmagical bludgeoning, piercing, or slashing damage you take from that attack is reduced by the total.</p>
+			<p class="indent"><b><i>Beguiling Influence.</i></b> During your turn, when you succeed on a Charisma (Deception or Persuasion) check contested by another creature’s ability check, you can call uon the protection of King Elidyr, last lord of a lost empire. At the end of that turn, you gain temporary hit points equal your proficiency bonus if you have your pact relic in hand.</p>
+			<p class="indent"><b><i>Bewitching Whispers, Chains of Carceri, Dreadful Word, Mire the Mind, Sculptor of Flesh, Sign of Ill Omen or Thief of Five Fates.</i></b> Whenever a creature that is already the target of an active concentration spell you cast fails a saving throw, you can call upon the inexhaustible lifeforce of towering Zutwa. If you have your pact relic in hand, you can use your reaction to regain hit points equal to half your proficiency bonus.</p>
+		</description>
+		<sheet usage="Action">
+			<description>You can perform a 1-hour ritual on a spellcasting focus you are holding that is a rod, staff, or wand, transforming it into a pact relic tied to the power of vestiges— the remnants of powerful forces  and entities that once wielded great authority or awful capabilities. While you have this pact relic, the magic you gain from your patron is enhanced by these arcane influences, mislaid spheres of power, and forgotten allegiances, enhancing some of your eldritch invocations.</description>
+		</sheet>
+	</element>
+
+		<element name="Pact of the Barbs" type="Class Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BARBS">
+		<supports>Pact Boon</supports>
+		<description>
+			<p>Your patron has granted you the power to conjure spikes, barbs, thorns, or other piercing protrusions to yourself. As an action on your turn, you can cause the armor you are wearing or a shield you are carrying to grow some manner of spikes until you take a short or long rest (this causes them to count as spiked). If you use this ability again, the spikes disappear from the previously effected item.</p>
+			<p class="indent">You gain proficiency with medium and spiked armors. If you have or gain proficiency with heavy armor, or shields; you also gain proficiency with spiked armor of those kinds.</p>
+		</description>
+		<sheet usage="Action">
+			<description>As an action on your turn, you can cause the armor you are wearing or a shield you are carrying to grow some manner of spikes until you take a short or long rest (this causes them to count as spiked). If you use this ability again, the spikes disappear from the previously effected item.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+		</rules>		
+	</element>
+    </elements>

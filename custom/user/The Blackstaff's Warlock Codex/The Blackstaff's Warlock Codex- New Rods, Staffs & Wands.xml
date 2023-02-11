@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Rods, Staffs and Wands</name>
+		<update version="0.0.4">
+		<author url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex">By Jeremy Forbing, Heath Harris and Scott Bean</author>		
+		<file name="items-rods-staffs-wands.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-rods.xml" />
+		</update>
+	</info>
+
+<!-- Rods -->
+
+	<element name="Hexer’s Rod, +1" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_HEXER'S_ROD_1">
+		<description>
+		<p>While holding this rod, you always know the hex spell as a warlock spell, and you gain a bonus to spell attack rolls determined by the rod’s rarity.</p>
+		<p class="indent">This rod has 2 charges. When you cast the hex spell using a warlock spell slot while holding this rod, you can expend 1 charge to immediately regain that spell slot, as if it had never been spent.</p>
+		<p class="indent">In addition, if you are holding this rod when you finish a long rest, you can choose one option for your Eldritch Invocations feature that you don’t already know but for which you meet all the prerequisites (if any). Until the next time you finish a long rest, you know that Eldritch Invocation in addition to any others provided by your warlock class. The Eldritch Invocation you choose in this way must require the hex spell or a warlock feature that curses as a prerequisite.</p>
+		<p class="indent">The rod regains all expended charges daily at dawn.</p>				
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a warlock that knows the hex spell or has a warlock feature that curses">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+		<stat name="warlock:spellcasting:attack" value="1" bonus="hexer's rod" />
+		<grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock"/>
+		</rules>
+	</element>
+
+	<element name="Hexer’s Rod, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_HEXER'S_ROD_2">
+		<description>
+		<p>While holding this rod, you always know the hex spell as a warlock spell, and you gain a bonus to spell attack rolls determined by the rod’s rarity.</p>
+		<p class="indent">This rod has 2 charges. When you cast the hex spell using a warlock spell slot while holding this rod, you can expend 1 charge to immediately regain that spell slot, as if it had never been spent.</p>
+		<p class="indent">In addition, if you are holding this rod when you finish a long rest, you can choose one option for your Eldritch Invocations feature that you don’t already know but for which you meet all the prerequisites (if any). Until the next time you finish a long rest, you know that Eldritch Invocation in addition to any others provided by your warlock class. The Eldritch Invocation you choose in this way must require the hex spell or a warlock feature that curses as a prerequisite.</p>
+		<p class="indent">The rod regains all expended charges daily at dawn.</p>				
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a warlock that knows the hex spell or has a warlock feature that curses">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+		<stat name="warlock:spellcasting:attack" value="2" bonus="hexer's rod" />
+		<grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock"/>
+		</rules>
+	</element>
+
+	<element name="Hexer’s Rod, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_HEXER'S_ROD_3">
+		<description>
+		<p>While holding this rod, you always know the hex spell as a warlock spell, and you gain a bonus to spell attack rolls determined by the rod’s rarity.</p>
+		<p class="indent">This rod has 2 charges. When you cast the hex spell using a warlock spell slot while holding this rod, you can expend 1 charge to immediately regain that spell slot, as if it had never been spent.</p>
+		<p class="indent">In addition, if you are holding this rod when you finish a long rest, you can choose one option for your Eldritch Invocations feature that you don’t already know but for which you meet all the prerequisites (if any). Until the next time you finish a long rest, you know that Eldritch Invocation in addition to any others provided by your warlock class. The Eldritch Invocation you choose in this way must require the hex spell or a warlock feature that curses as a prerequisite.</p>
+		<p class="indent">The rod regains all expended charges daily at dawn.</p>				
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a warlock that knows the hex spell or has a warlock feature that curses">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+		<stat name="warlock:spellcasting:attack" value="3" bonus="hexer's rod" />
+		<grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock"/>
+		</rules>
+	</element>
+
+	<element name="Quickcurse Rod, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_QUICKCURSE_ROD_2">
+		<description>
+		<p>While holding this rod, you always know the hex spell as a warlock spell, and you gain a +2 bonus to spell attack rolls.</p>
+		<p class="indent">This rod has 2 charges. While you hold this rod, you can expend 1 charge to cast the hex spell without using a spell slot. When you use your action to cast a spell that requires you to make a spell attack, if the spell attack hits a creature, you can instantly expend 2 charges to cast the hex spell without using a bonus action or a spell slot.</p>
+		<p class="indent">The rod regains all expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a warlock">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+		<stat name="warlock:spellcasting:attack" value="2" bonus="quickcurse rod" />
+		<grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock"/>
+		</rules>
+	</element>
+
+	<element name="Rod of Deadly Casting, +1" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ROD_OF_DEADLY_CASTING_1">
+		<description>
+		<p>While holding this rod you gain a bonus to spell attack rolls and to the saving throw DCs of your spells. The bonus is determined by the rod’s rarity.</p>
+		<p class="indent">In addition, when you score a critical hit with a spell attack for a  spell that deals damage, you can roll 1d6 add it to the extra damage of the critical hit, and after rolling all the damage, you can choose to reroll one or two of the critical  hit’s damage dice. You must use the second roll.</p>
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" bonus="rod of deadly casting" />
+			<stat name="spellcasting:dc" value="1" bonus="rod of deadly casting" />
+		</rules>
+	</element>
+
+	<element name="Rod of Deadly Casting, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ROD_OF_DEADLY_CASTING_2">
+		<description>
+		<p>While holding this rod you gain a bonus to spell attack rolls and to the saving throw DCs of your spells. The bonus is determined by the rod’s rarity.</p>
+		<p class="indent">In addition, when you score a critical hit with a spell attack for a  spell that deals damage, you can roll 1d6 add it to the extra damage of the critical hit, and after rolling all the damage, you can choose to reroll one or two of the critical  hit’s damage dice. You must use the second roll.</p>
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" bonus="rod of deadly casting" />
+			<stat name="spellcasting:dc" value="2" bonus="rod of deadly casting" />
+		</rules>
+	</element>
+
+	<element name="Rod of Deadly Casting, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ROD_OF_DEADLY_CASTING_3">
+		<description>
+		<p>While holding this rod you gain a bonus to spell attack rolls and to the saving throw DCs of your spells. The bonus is determined by the rod’s rarity.</p>
+		<p class="indent">In addition, when you score a critical hit with a spell attack for a  spell that deals damage, you can roll 1d6 add it to the extra damage of the critical hit, and after rolling all the damage, you can choose to reroll one or two of the critical  hit’s damage dice. You must use the second roll.</p>
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" bonus="rod of deadly casting" />
+			<stat name="spellcasting:dc" value="3" bonus="rod of deadly casting" />
+		</rules>
+	</element>
+
+	<element name="Rod of Flaying, +1" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ROD_OF_FLAYING_1">
+		<description>
+		<p>While holding this rod you gain a bonus to spell attack rolls and to the saving throw DCs of your spells. The bonus is determined by the rod’s rarity.</p>
+		<p class="indent">When you deal necrotic damage to a creature, you can force the target to make a Constitution saving throw against your own spell save DC. On a failure, the target takes 2d8 necrotic damage and is stunned for 1 minute. If the target is stunned, at the start of each of its turns it repeats the Constitution saving throw, taking another 2d8 necrotic damage on a failure or ending this effect on a success.</p>
+		<p class="indent">This rod has 2 charges. While you hold this rod, you can expend 1 charge to cast the hex spell without using a spell slot. When you use your action to cast a spell that requires you to make a spell attack, if the spell attack hits a creature, you can instantly expend 2 charges to cast the hex spell without using a bonus action or a spell slot.</p>
+		<p class="indent">The rod regains all expended charges daily at dawn.</p>		
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">2</set>				
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" bonus="rod of flaying" />
+			<stat name="spellcasting:dc" value="1" bonus="rod of flaying" />
+		</rules>
+	</element>
+
+	<element name="Rod of Flaying, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ROD_OF_FLAYING_2">
+		<description>
+		<p>While holding this rod you gain a bonus to spell attack rolls and to the saving throw DCs of your spells. The bonus is determined by the rod’s rarity.</p>
+		<p class="indent">When you deal necrotic damage to a creature, you can force the target to make a Constitution saving throw against your own spell save DC. On a failure, the target takes 2d8 necrotic damage and is stunned for 1 minute. If the target is stunned, at the start of each of its turns it repeats the Constitution saving throw, taking another 2d8 necrotic damage on a failure or ending this effect on a success.</p>
+		<p class="indent">This rod has 2 charges. While you hold this rod, you can expend 1 charge to cast the hex spell without using a spell slot. When you use your action to cast a spell that requires you to make a spell attack, if the spell attack hits a creature, you can instantly expend 2 charges to cast the hex spell without using a bonus action or a spell slot.</p>
+		<p class="indent">The rod regains all expended charges daily at dawn.</p>		
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="charges">2</set>				
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" bonus="rod of flaying" />
+			<stat name="spellcasting:dc" value="2" bonus="rod of flaying" />
+		</rules>
+	</element>
+
+	<element name="Rod of Flaying, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ROD_OF_FLAYING_3">
+		<description>
+		<p>While holding this rod you gain a bonus to spell attack rolls and to the saving throw DCs of your spells. The bonus is determined by the rod’s rarity.</p>
+		<p class="indent">When you deal necrotic damage to a creature, you can force the target to make a Constitution saving throw against your own spell save DC. On a failure, the target takes 2d8 necrotic damage and is stunned for 1 minute. If the target is stunned, at the start of each of its turns it repeats the Constitution saving throw, taking another 2d8 necrotic damage on a failure or ending this effect on a success.</p>
+		<p class="indent">This rod has 2 charges. While you hold this rod, you can expend 1 charge to cast the hex spell without using a spell slot. When you use your action to cast a spell that requires you to make a spell attack, if the spell attack hits a creature, you can instantly expend 2 charges to cast the hex spell without using a bonus action or a spell slot.</p>
+		<p class="indent">The rod regains all expended charges daily at dawn.</p>		
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="charges">2</set>				
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" bonus="rod of flaying" />
+			<stat name="spellcasting:dc" value="3" bonus="rod of flaying" />
+		</rules>
+	</element>
+
+	<element name="Swordmage’s Rod" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_SWORDMAGE'S_ROD">
+		<description>
+		<p>While holding this rod in either of its two forms, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells.</p>
+		<p class="indent">This rod has 7 charges. As a bonus action, you can expend 1 charge to transform the rod into a longsword +1. It changes back immediately if you let go of the sword, if you are incapacitated, or if you revert the sword into a rod as a bonus action.</p>
+		<p class="indent">While the rod is in its sword form, you can cast any of the following cantrips at will: <i>booming blade</i>, <i>caustic blade</i>, <i>challenger’s mark</i>, <i>fell strike</i>, <i>Feywild guardian</i>, <i>frostwind blade</i>, <i>greenflame blade</i>, <i>lightning lure</i>, or <i>sword burst</i>.</p>
+		<p class="indent">While holding the rod in either of its two forms, you can use your reaction (as per the casting time description of each spell) to expend 1 charge and cast one of the following spells, using your own spell save DC and spellcasting ability modifier: <i>aegis of assault</i>, <i>aegis of ensnarement</i>, or <i>aegis of shielding</i>.</p>	
+		<p class="indent">The rod regains all expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">warlock</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">7</set>			
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+		<stat name="spellcasting:attack" value="1" bonus="swordmage's rod" />
+		<stat name="spellcasting:dc" value="1" bonus="swordmage's rod" />		
+		<grant type="Spell" id="ID_TBC_SPELL_CAUSTIC_BLADE" />
+		<grant type="Spell" id="ID_TBC_SPELL_CHALLENGER'S_MARK" />
+		<grant type="Spell" id="ID_TBC_SPELL_FELL_STRIKE" />
+		<grant type="Spell" id="ID_TBC_SPELL_FEYWILD_GUARDIAN" />
+		<grant type="Spell" id="ID_TBC_SPELL_FROSTWIND_BLADE" />
+		<grant type="Spell" id="ID_SCAG_SPELL_BOOMING_BLADE" />
+		<grant type="Spell" id="ID_SCAG_SPELL_GREEN_FLAME_BLADE" />
+		<grant type="Spell" id="ID_SCAG_SPELL_LIGHTNING_LURE" />
+		<grant type="Spell" id="ID_SCAG_SPELL_SWORD_BURST" />
+		<grant type="Spell" id="ID_TBC_SPELL_AEGIS_OF_ASSAULT" />
+		<grant type="Spell" id="ID_TBC_SPELL_AEGIS_OF_ENSNAREMENT" />
+		<grant type="Spell" id="ID_TBC_SPELL_AEGIS_OF_SHIELDING" />			
+		</rules>
+	</element>
+
+<!-- Staffs -->
+
+	<element name="Blasting Staff" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_BLASTING_STAFF">
+		<description>
+		<p>The staff has 10 charges. While holding it you can use an action to expend 1 or more of its charges to create a fiery blast. Make a ranged spell attack against a target you can see within 30 feet. If you hit, you inflict 2d6 fire damage for every charge you expended. You can also expend charges to modify the blast, choosing one of the following options:</p>
+		<ul>
+		<li>Instead of a ranged spell attack the fiery blast is a 10-foot cone. Creatures within the cone must make a Dexterity saving throw against your spell save DC, taking full damage on a failed save or half as much damage on a successful one. <i>(2 charges)</i></li>
+		<li>Instead of a ranged spell attack, choose a point you can see within 50 feet. Every creature within 10 feet of that point must make a Dexterity saving throw against your spell save DC, taking full damage on a failed save or half as much damage on a successful one. <i>(2 charges)</i></li>
+		<li>You change the damage type from fire to cold, electricity, acid, or poison. <i>(1 charge)</i></li>
+		</ul>
+		<p class="indent">The staff regains 1d6+4 charges every day at dawn. If you expend the last charge roll a d 20. On a 1, the staff crumbles into a pile of ash and is destroyed.</p>
+		</description>
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">10</set>
+		</setters>
+	</element>
+
+	<element name="Staff of Conjuration" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_STAFF_OF_CONJURATION">
+		<description>
+		<p>The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: <i>grease (1 charge)</i>, <i>Melf’s acid arrow (2 charges)</i>, or <i>web (2 charges)</i>.</p>
+		<p class="indent">You can use 5 charges to grow a pair of black tentacles from your shoulders. As an action, you can use the tentacles to make a melee spell attack against any creature within 10 feet. On a hit, you deal magical bludgeoning damage equal to 1d8 plus your spellcasting ability modifier, plus an additional 1d8 acid damage. These tentacles last for 1 minute before they fade away.</p>
+		<p class="indent">The staff regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff disintegrates into a fine powder and is destroyed.</p>		
+		</description>
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">10</set>
+		</setters>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_GREASE" />
+		<grant type="Spell" id="ID_PHB_SPELL_MELFS_ACID_ARROW" />
+		<grant type="Spell" id="ID_PHB_SPELL_WEB" />		
+		</rules>
+	</element>
+
+<!-- Wands -->
+
+	<element name="Bonewand" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_BONEWAND">
+		<description>
+		<p>This wand carved of humanoid bone has 7 charges. While holding it, you can use an action during your turn to speak its command word and expend 1 or more charges.</p>
+		<p class="indent">If you expend 1 charge, you create a 20-foot cone of razor sharp bone shards. Creatures caught in the cone must make Dexterity saving throw (DC 18), taking 4d6 piercing damage on a failed save, or half as much on a successful one. Creatures that failed the save take 2d6 piercing damage at the start of your next turn as the bone shards splinter into their victim’s skin.</p>
+		<p class="indent">You can also expend 1 or more charges to target an animated humanoid skeleton within 30 feet and force it to make a Constitution saving throw (DC 18). The skeleton takes 1d10 force damage for every charge you expend on failed save, or half as much damage on a successful one. If the skeleton is reduced to 0 hit points, it explodes. Any creature within 10 feet of an exploding skeleton must make a Dexterity saving throw (DC 18), taking 4d8 piercing damage on a failed save, or half as much on a successful one.</p>
+		<p class="indent">The wand regains 1d6+1 charges at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ash and is destroyed.</p>						
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">7</set>
+		</setters>
+	</element>
+
+
+	<element name="Wand of Aiming" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_WAND_OF_AIMING">
+		<description>
+		<p>While holding this thin, tapering wand wrought from heart of pine, you gain a +1 bonus to ranged spell attack rolls, and your ranged spell attacks score a critical hit on a roll of 19 or 20. The wand has 6 charges. When you hit with a spell attack, you can expend 1 of the wand’s charges as a bonus action to force one of the targets you hit to make a saving throw (DC equals your spellcasting DC) against one of the following effects of your choice:</p>
+	  	<ul>			
+		<li>The target must succeed on a Strength saving throw or drop one item of your choice that it is holding.</li>
+		<li>The target must succeed on an Intelligence saving throw or it can’t take reactions until after the end of your next turn.</li>
+		<li>The target must succeed on a Charisma saving throw, or it has disadvantage on Wisdom and Charisma checks for 1 minute.</li>
+		</ul>
+		<p>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>										
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="attunement" addition="by a spellcaster">true</set>			
+			<set name="rarity">Very Rare</set>
+			<set name="charges">6</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+		</rules>			
+	</element>
+
+	<element name="Wand of Salt" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_WAND_OF_SALT">
+		<description>
+		<p>This wand has 7 charges. While holding it, you can use an action to speak its command word and expend 1 charge. When you do so, you choose a 50-foot square of land within 100 feet. Any natural plants in that area die. Any magical plants or plant creature in that area must make a Constitution saving throw (DC 15), taking 4d8 necrotic damage on a failed save, or half as much on a successful one.</p>
+		<p class="indent">When you expend a charge, instead of choosing an area, you can instead target one nonplant creature within 100 feet, commanding the wand to drain and dessicate it. That creature must make a Dexterity saving throw (DC 15). On a failure, it takes 2d8 necrotic damage and is blinded until the end of its next turn. On a success, the creature takes half as much damage and is not blinded.</p>			<p class="indent">The wand regains 1d6+1 charges at dawn. If you expend the wand's last charge roll a d20. On a 1, the wand crumbles into salt and is destroyed.</p>							
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="attunement">true</set>			
+			<set name="rarity">Rare</set>
+			<set name="charges">7</set>
+		</setters>
+	</element>
+
+	<element name="Wand of Tereth" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_WAND_OF_TERETH">
+		<description>
+		<p>This wand has 7 charges. While holding it you can use an action to speak its command word and expend 1 charge. When you do so, the wand fires a “tooth” of pure magical force at a target of your choice within 100 feet of you. You make a ranged spell attack against the target, using your choice of Dexterity, Intelligence, Wisdom, or Charisma as your spellcasting ability and including your proficiency bonus.</p>
+		<p class="indent">Armored targets are easier to strike with this attack. If the target is wearing armor or wielding a shield, roll a d4, and reduce the target’s Armor Class against this attack by the result. If the target is both wearing armor and wielding a shield, you roll a d8 instead of a d4. If the target is wearing medium armor, you increase the penalty by 2; if it is wearing heavy armor, you instead increase the penalty by 5.</p>
+		<p class="indent">On a hit, the target takes force damage equal to 2d8 + your spellcasting ability modifier for the attack. In addition, if a target takes 5 or more damage from this attack, one shield it is using or suit of armor it is wearing (your choice) takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed.</p>
+		<p class="indent">The wand regains 1d6+1 charges at dawn. If you expend the wand’s last charge roll a d20. On a 1, the wands crumbles into a pile of human teeth and is destroyed.</p>					
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="attunement">true</set>			
+			<set name="rarity">Rare</set>
+			<set name="charges">7</set>
+		</setters>
+	</element>
+</elements>

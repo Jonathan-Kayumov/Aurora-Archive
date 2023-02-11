@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Spells</name>
+		<author url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex">By Jeremy Forbing, Heath Harris and Scott Bean</author>    
+    <description>Spells from The Blackstaff's Codex.</description>
+        <update version="0.4.4">
+      <file name="the-blackstaff-warlock-codex-spells.xml" url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex" />
+    </update>
+  </info>
+
+<element name="Aegis of Assault" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_AEGIS_OF_ASSAULT">
+    <supports>Warlock, Wizard, Paladin</supports>
+    <description>
+<p>With a flash of light, you bring instant vengeance to the attacking enemy. As part of the reaction used to cast this spell, you choose to do either one or both of the following:</p>
+			<ul>
+	<li>Teleport to an unoccupied space, as long as that space is not farther away than you are now from the creature that made the triggering attack.</li>
+  <li>Make one melee weapon attack against the attacker if it is within reach. You can use your spellcasting ability instead of Strength for the attack and damage rolls of this attack if you choose. If that attack hits, it deals an extra 1d4 radiant damage.</li>
+			</ul>   
+<p>If you are unable to do either one, the spell ends. Otherwise, after the triggering attack is resolved, you mark the creature who made that attack until the end of your next turn. While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you. This spell ends early if you are incapacitated or you die, or if someone else marks the creature.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 4th level or higher, the range increases to 60 feet, and the extra radiant damage inflicted with the melee weapon attack increases by 1d4 for each slot level above 3rd.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 reaction, which you take when a creature within range succeeds on a melee attack roll that would hit one of your allies.</set>
+      <set name="duration">1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Aegis of Ensnarement" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_AEGIS_OF_ENSNAREMENT">
+    <supports>Ranger, Wizard, Paladin, Sorcerer</supports>
+    <description>
+<p>Your magic ensnares an attacking enemy, movingit so its attack targets you instead of your ally. The creature that made the triggering attack roll must roll a Charisma saving throw, which happens before the attack’s damage is resolved. On a failed save, you teleport it to an unoccupied space within 5 feet of you. It then makes the triggering attack against you instead, comparing the same attack roll to your Armor Class to determine whether it hits or misses you.</p>
+<p class="indent">Whether the saving throw succeeds or fails, after the triggering attack is resolved, the attacking creature takes 1d4 psychic damage and you mark it until the end of your next turn. While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you. This spell ends early if you are incapacitated or you die, or if someone else marks the creature.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 4th level or higher, the range increases to 60 feet, and the psychic damage increases by 1d4 for each slot level above 3rd.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 reaction, which you take when a creature within range succeeds on a melee attack roll that would hit one of your allies.</set>
+      <set name="duration">1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Aegis of Shielding" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_AEGIS_OF_SHIELDING">
+    <supports>Paladin, Wizard, Artificer</supports>
+    <description>
+<p>You protect your ally with a barrier of invisible force. Until the end of the turn, the target of the triggering attack gains resistance to bludgeoning, piercing, and slashing damage and a +5 bonus to AC, including against the triggering attack.</p>
+<p class="indent">After the triggering attack is resolved (whether it hits or misses), the creature that made the attack takes 1d4 force damage and and you mark it until the end of your next turn. While it is within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you. This spell ends early if you are incapacitated or you die, or if someone else marks the creature.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 4th level or higher, the range increases to 60 feet, and the force damage increases by 1d4 for each slot level above 3rd.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 reaction, which you take when a creature within range succeeds on a melee attack roll that would hit one of your allies.</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Align Weapon" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_ALIGN_WEAPON">
+    <supports>Paladin, Cleric, Artificer</supports>
+    <description>
+      <p>You infuse a weapon you touch with the energies of one of the Outer Planes, energies which correspond strongly to certain ethical or moral alignments and inflict extra damage against certain types of creatures. When you cast this spell, choose one of these four planes:</p>
+			<ul>
+	<li><b>Elysium (Good):</b> Aberrations, chromatic dragons, elementals, fiends, or undead.</li>
+	<li><b>Hades (Evil):</b> Beasts, celestials, metallic dragons, humanoids, or plants.</li>
+	<li><b>Limbo (Chaos):</b> Constructs, angels, dragons, devils, or giants.</li>
+	<li><b>Mechanus (Law):</b> Aberrations, demons, fey, monstrosities, oozes, or undead.</li>
+			</ul>         
+<p>Until the spell ends, the weapon inflicts an additional 2d6 force damage against the types of creatures listed for the chosen plane. Your alignment may limit your choice of planar energies when you cast this spell. If you are evilaligned, you cannot choose Elysium; if you are good-aligned, you cannot choose Hades, if you are lawful in alignment, you cannot choose Limbo; if your alignment is chaotic, you cannot choose Mechanus.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">one weapon or fifty projectiles</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+
+<element name="Alter Time" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_ALTER_TIME">
+    <supports>Bard, Wizard, Sorcerer</supports>
+    <description>
+<p>You alter the flow of time around you, granting yourself and your allies a crucial moment to reposition yourselves. As part of the bonus action used to cast this spell, you can immediately take the Dash action. If you move at least 10 feet, any ally within 5 feet of you when you end your movement can immediately use its reaction to move up to its speed. Movement granted by this spell does not provoke opportunity attacks.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Astral Seal" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_ASTRAL_SEAL">
+    <supports>Cleric</supports>
+    <description>
+<p>A flash of silver light streaks toward a creature of your choice you can see within range. Make a ranged spell attack against the target. On a hit, the target suffers 1d6 radiant damage, and you outline your enemy with the silver glow of the Astral Plane, exuding an energizing light that may aid an ally. The next time an ally hits the target with an attack roll before the end of your next turn, that ally gains temporary hit points equal to half the radiant damage this spell Page 57 inflicted. Creatures with 0 hit points and inanimate objects do not grant temporary hit points from this spell when they are struck.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>This spell's radiant damage increases when you reach higher levels, becoming 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a silver mirror</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Blade of Black Wind" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_BLADE_OF_BLACK_WIND">
+    <supports>Paladin, Ranger, Wizard, Artificer, Warlock</supports>
+    <description>
+<p>You assume a supernatural combat stance that channels terror through your weapon in the form of a howling wind. Until the spell ends, whenever you hit a creature with a melee weapon attack, it takes an additional 3d4 psychic damage and must make a Wisdom saving throw. On a failure, the next attack roll made against this target before the end of your next turn has advantage, and you can push the target up to 5 feet away from you.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a melee weapon worth at least 1 sp</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Blade of Dark Whispers" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_BLADE_OF_DARK_WHISPERS">
+    <supports>Warlock, Wizard, Artificer, Bard, Paladin</supports>
+    <description>
+<p>As you wield your weapon in a sweeping strike, it whispers menacingly, filling your foes' minds with despair. Choose any number of creatures you can see within range. Make a melee spell attack against each target. On hit, a target takes psychic damage equal to 2d6 + your spellcasting ability modifier and suffers disadvantage on the next saving throw it makes before the end of your next turn.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a melee weapon worth at least 1 sp</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Blade of Flickering Shadows" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_BLADE_OF_FLICKERING_SHADOWS">
+    <supports>Warlock, Wizard, Artificer</supports>
+    <description>
+<p>You temporarily become a creature of shadow, flickering in and out of a demiplane on the borders of the Shadowfell as your weapon ripples with dark magic. Until the spell ends, you have resistance to necrotic damage, you inflict 3d4 additional necrotic damage whenever you hit a creature with a melee weapon attack.</p>
+<p class="indent">For the duration, you roll a d20 at the end of each of your turns. On a roll of 11 or higher, you vanish from your current plane of existence and appear in a shadowy reflection of it, which lies somewhere on the planar boundary between your current location and the Shadowfell. (If you are already in the Shadowfell when you cast this spell, the spell fails and the casting is wasted.) At the start of you next turn, and when the spell ends if you are in the shadowy reflection, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.</p>
+<p class="indent">While in the shadowy reflection, you can see and hear the plane you originated from, but everything is lightly obscured, and you can't see anything more than 30 feet away. You are not truly in the Shadowfell nor in your previous location during that time, but somewhere in between the planes. Whenever you are in the shadowy reflection, only other creatures with resistance or immunity to necrotic damage can
+see you or affect you, or be affected by you.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a melee weapon worth at least 1 sp</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element> 
+
+<element name="Blade of Nightmares" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_BLADE_OF_NIGHTMARES">
+    <supports>Warlock, Paladin, Wizard, Artificer</supports>
+    <description>
+<p>The next time you hit a creature with a we apon attack before this spell ends, your weapon is weathed in dark energy that freezes your foe in terror. The attack deals an extra 1d6 psychic damage, and if the target is not immune to the frightened condition, its speed is reduced to 0 until the end of its next turn. If the attack was an opportunity attack, the target is also frightened until the end of its next turn.</p>
+    <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.                         
+    </p>    
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Blazing Starfall" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_BLAZING_STARFELL">
+    <supports>Warlock, Wizard, Sorcerer, Cleric</supports>
+    <description>
+<p>A shower of radiance falls upon your enemies and then bursts out, creating a cage of burning embers that are painful to pass through. Choose a 10-foot cube within range. Each creature in the cube must make a Dexterity saving throw, taking 1d4 radiant damage if it fails. Until the start of your next turn, the area of the cube is lightly obscured, and the next time a creature leaves the area, it takes 1d4 fire damage and the spell ends.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>This spell's radiant damage and fire damage both increase at 5th level to 2d4, both damage rolls increase to 3d4 at 11th level, and 4d4 at 17th level.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Blood Curse" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_BLOOD_CURSE">
+    <supports>Warlock, Wizard, Cleric</supports>
+    <description>
+<p>You gamble some of your own life force on a curse that bedevils your enemy but may empower you. You can not cast this spell if you currently have less than 5 hit points. Choose a conscious living creature within range that can see or hear you. The target makes a Wisdom saving throw. If it fails, the target takes 1d4 psychic damage. You also take the same amount of psychic damage, which cannot be reduced or redirected in any way.</p>
+<p class="indent">Before the beginning of your next turn, if the target is hit with an attack, it takes an additional 1d4 necrotic damage, and the spell ends. When this happens, you also gain temporary hit points equal to your  spellcasting ability modifier plus the amount of necrotic damage the creature took.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>The necrotic damage increases by an extra 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Caging Glaive" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_CAGING_GLAIVE">
+    <supports>Warlock, Cleric, Paladin, Wizard, Artificer</supports>
+    <description>
+<p>Both your hands must be empty when you cast this spell, which causes an otherworldly polearm made of smoldering green iron to appear in your two free hands. This magic polearm lasts until the spell ends. It counts as a martial melee weapon with which you are proficient, and you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon. It deals 4d10 necrotic damage on hit and has the heavy, reach, and two-handed properties.</p>
+<p class="indent">In addition, when you hit a creature with the polearm, the target’s speed is reduced by half, you pull it 5 feet closer to you, and all melee attacks against the target are made with advantage until it starts its turn further than 5 feet away from you.</p>
+<p class="indent">If you drop the weapon, it dissipates at the end of the turn. Thereafter, while the spell persists, you can use a bonus action to cause the polearm to reappear in your hand.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 7th level or higher, the damage increases to 5d10.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>  
+
+<element name="Caustic Blade" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_CAUSTIC_BLADE">
+    <supports>Warlock, Wizard</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a melee weapon attack against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and magically conjured acid traces the path your weapon cut through the air.</p>
+<p class="indent">If the target ends its next turn within 5 feet of one or more other creatures you can see, you can inflict acid damage equal to your spellcasting ability modifier on your choice of one of those creatures. Whether or not this happens, at the end of the target’s next turn, the spell ends.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d10 acid damage to the target, and the acid damage to the second creature increases to 1d10 + your spellcasting ability modifier. Both damage rolls increase by 1d10 at 11th level and 17th level.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Chains of Levistus" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_CHAINS_OF_LEVISTUS">
+    <supports>Warlock</supports>
+    <description>
+<p>Make a ranged spell attack against a target within range. On a hit, the target takes 3d6 cold damage, and spectral chains of ice leap from your hands and lash around it, pulsing with cold whenever it moves. If the target willingly moves before the start of your next turn, it immediately takes an additional 2d6 cold damage, and the spell ends.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 2nd level or higher, the initial cold damage and the additional cold damage the target takes for moving both increase by 1d6 for each slot level above 1st.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a length of chain</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Challenger's Mark" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_CHALLENGER'S_MARK">
+    <supports>Warlock, Wizard, Cleric, Sorcerer</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a melee weapon attack against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and you mark the creature until the end of your next turn, bellowing a magical challenge it cannot ignore. This spell ends early if you are incapacitated or you die, or if someone else marks the creature.</p>
+<p class="indent">The next time a creature marked by you with this spell makes an attack roll that doesn’t target you while it is within 5 feet of you, it has disadvantage on the attack.</p>
+<p class="indent">If a creature marked by you with this spell willingly moves more than 30 feet away from you, or if makes an attack that suffers disadvantage from this spell, it immediately takes 1d8 psychic damage, and the spell ends.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>At 5th level, the melee attack deals an extra 1d8 psychic damage to the
+target, and you add an additional 1d8 to the damage a creature you marked with this spell suffers for moving more than 30 feet away from you or attacking you with the disadvantage imposed by this spell. Both damage rolls increase by 1d8 at 11th level and 17th level.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Choose Future" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_CHOOSE_FUTURE">
+    <supports>Wizard</supports>
+    <description>
+<p>You alter the luck of a creature you touch. The creature gains three d20 luck dice to use before the duration expires. The creature can roll a luck die after rolling a d20 for an attack roll, ability check, or saving throw, but before the Dungeon Master says whether the result was successful or not; the creature can choose which result to use. Only one luck die can be used per attack roll, ability check, or saving throw.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">two grains of sand and a rose petal</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Clutch of the Mire" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_CLUTCH_OF_THE_MIRE">
+    <supports>Ranger, Warlock, Druid</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell’s range, otherwise the spell fails. On a hit, the target suffers the attack’s normal effects, and its speed is reduced by half until the end of your next turn. Whether or not the attack hits, your weapon strikes the ground, opening up a shallow bog which hinders movement. A 15-foot cube that includes the space occupied by the target of your attack becomes difficult terrain until the end of your next turn.</p>
+<p class="indent">Whenever a creature ends its turn within difficult terrain created by this spell, it must make a Strength saving throw. Creatures wearing medium or heavy armor have disadvantage on this save. On a failure, until the end of the creature's next turn its speed is reduced by 10 feet and it cannot take reactions or bonus actions. On a success, the creature's speed is reduced by 10 feet until the end of its next turn, but it suffers no other effects.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Clutch of Orcus" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_CLUTCH_OF_ORCUS">
+    <supports>Warlock</supports>
+    <description>
+<p>Spectral hands grab the heart of one humanoid you can see within range, and start to squeeze. The target must make a Constitution saving
+throw. On a successful save, the target takes 1d12 necrotic damage and the spell ends.</p>
+<p class="indent">On a failed save, the target is paralyzed for the duration and takes 1d12 necrotic damage at the start of each of its turns. At the end of each of its turns, the target can make another Constitution saving throw. If it succeeds on the saving throw, the spell ends.</p>
+<p class="indent">If the target dies during this spell, its smoking heart appears in your hand.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a heart that has been set on fire</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Command Minor Beast" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_CLOMMAND_MINOR_BEAST">
+    <supports>Cleric, Bard, Ranger, Druid</supports>
+    <description>
+<p>You target a Medium or smaller beast within range and force it to make a Wisdom saving throw. The creature you target must have a Challenge rating of 3 or less. On a failure, the creature is charmed by you for the duration.</p>
+<p class="indent">So long as the beast is charmed, you have a telepathic link with it and can issue it simple commands. If the beast receives no commands from you, it waits and defends itself if attacked.</p>
+<p class="indent">Any time the beast takes damage, it is allowed a new Wisdom saving throw. If the save is successful, the spell ends. A Medim or smaller creature that is another creature’s familiar and has a Challenge rating of 3 or less is always a valid target for this spell, even if it is not a beast.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Decelerating Slash" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_DECELERATING_SLASH">
+    <supports>Warlock, Wizard, Bard, Sorcerer</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell’s range, otherwise the spell fails. On a hit, the target suffers the attack’s normal effects, its speed is reduced by 5 feet for the duration, and it cannot take reactions until the start of its next turn. On a miss, the target takes psychic damage equal to your spellcasting ability modifier, and the spell ends. This spell also ends early if you are incapacitated or you die.</p>
+<p class="indent">For the duration, the target you hit with the melee weapon attack for this spell must make an Intelligence saving throw at the start of each of its turns, ending the spell on a success. If it fails the save, until the spell ends, the creature cannot take reactions, bonus actions, or the Dash action.</p>
+<p class="indent">In addition, each time a creature fails its saving throw against this spell, its speed is reduced by an additional 5 feet (which is cumulative with previous reductions to its speed from this spell), and one ally of your choice that you can see within 10 feet of you or the target can move up to 5 feet without provoking opportunity attacks.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Dire Radiance" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_DIRE_RADIANCE">
+    <supports>Warlock, Wizard,</supports>
+    <description>
+<p>Make a spell attack against a creature within range. On a hit, the target takes 1d8 radiant damage, and shaft of brilliant, cold starlight
+lances down from above, bathing your foe in excruciating light that grows brighter and deadlier if it approaches you. Until the start of your next turn, if the target willingly moves closer to you, it immediately takes an additional 1d8 radiant damage, and the spell ends.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>This spell's damage increases when you reach higher levels. At 5th level, both radiant damage rolls increase to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Ego Lash" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_EGO_LASH">
+    <supports>Sorcerer</supports>
+    <description>
+<p>You lash out with mental energy against a creature within range. Make a melee spell attack against the target. If the attack hits, the creature
+takes 3d8 psychic damage, and it must make an Intelligence saving throw. If it fails, it cannot take reactions until the end of your next turn.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Elonia's Glamour" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_ELONIA'S_GLAMOUR">
+    <supports>Bard, Wizard, Sorcerer</supports>
+    <description>
+<p>The target of this spell becomes very physically beautiful, with a subtle glow surrounding it in shadows, and tiny motes of light clinging to it in sunlight. The target gains advantage on all Charisma checks until the spelle ends.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a pinch of ruby dust</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Fell Strike" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_FELL_STRIKE">
+    <supports>Druid, Wizard, Warlock, Cleric, Sorcerer</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise, the spell fails. On a hit, the target suffers the attack's normal effects, and the towering fury you display commands your foe to kneel. You can use your bonus action this turn to force the target you hit to roll a Wisdom saving throw. On a failure, the target takes 1d6 psychic damage, and if it is Large or smaller, it falls prone.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>At 5th level, the melee attack deals an extra 1d6 force damage to the target, and the psychic damage the target takes on a failed save increases to 2d6. Both damage rolls increase by 1d6 at 11th level and 17th level.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Feywild Guardian" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_FEYWILD_GUARDIAN">
+    <supports>Druid, Wizard, Sorcerer, Warlock</supports>
+    <description>
+<p>You draw on magic of the Feywild to quickly teleport in order to punish an enemy who ignores you. When you use your reaction to cast this
+spell, you can teleport up to 10 feet to any unoccupied space where the triggering creature would be within the reach of your melee weapon.
+As part of the same reaction, you can immediately make one melee weapon attack against the triggering creature. The amount of damage inflicted by this attack cannot be higher than your spellcasting ability modifier.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>The damage of attacks you make with this spell increases when you reach higher levels. At 5th
+level, the melee attack deals an extra 1d4 radiant damage to the target. This extra radiant damage increases to 2d4 at 11th level and 3d4 at 17th level. Whenever you add this radiant damage to the damage of your weapon attack, the maximum amount of damage the attack can inflict is equal
+to the amount of radiant damage + your spellcasting ability modifier.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 reaction, which you take when a hostile creature you can see within 10 feet of you takes the Disengage action or makes an attack that does not target you.</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a melee weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Fire and Brimstone" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_FIRE_AND_BRIMSTONE">
+    <supports>Warlock, Wizard, Sorcerer</supports>
+    <description>
+<p>Your opponent bursts into sickening yellow flame, unleashing an unbearable stench. The target must make a Constitution saving throw. On a failure, it takes 8d10 fire damage and is poisoned for 1 minute. On a success, it takes half as much damage and is not poisoned. A poisoned
+target can repeat the Constitution saving throw at the end of each their turns, ending the effect on a success.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of sulfur</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Frostwind Blade" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_FROSTWIND_BLADE">
+    <supports>Druid, Wizard, Sorcerer, Warlock</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a melee weapon attack against one creature within the spell's range, otherwise the
+spell fails. On a hit, the target suffers the attack's normal effects, and your weapon’s blow inflicts winter’s wrath, leaving a frosty trail as it cuts through the air. The next time the target you hit makes an attack before the end of your next turn, it must choose either to make the attack with disadvantage or to take 1d6 cold damage and make the attack roll normally. A creature within 5 feet of you that takes cold damage from this spell reduces its speed by half until the end of your next turn.</p>
+<span class="feature">At Higher Levels.</span>This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals
+an extra 1d6 cold damage to the target, and the damage the target suffers for not taking disadvantage on its next attack increases to 2d6.
+Both damage rolls increase by 1d6 at 11th level and 17th level.                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Fumbling Curse" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_FUMBLING_CURSE">
+    <supports>Bard, Sorcerer, Cleric, Wizard</supports>
+    <description>
+<p>Choose an area the size of a 30-foot cube within range. Creatures of your choice within the area must make a Wisdom saving throw or suffer
+disadvantage on Dexterity ability checks and saving throws for the duration. In addition, when an affected creature makes an attack roll with a
+hand-held weapon and misses the attack by 5 or more, it drops the weapon in a space of its choice other than its own within 5 feet of it.</p>
+<p class="indent">An affected creature can try a new saving throw at the end of each of its turns, ending the effect early on itself with a success.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a small portion of solidified milk fat</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Gift to Avernus" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_GIFT_TO_AVERNUS">
+    <supports>Warlock</supports>
+    <description>
+<p>You release part of your own vitality into the Nine Hells to ensure that your magic sends a portion of your foe’s life force with it. You take
+necrotic damage equal to your level, which cannot be reduced or prevented by any means, and then you reroll the triggering attack. You must use the second roll.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Mecromancy</set>
+      <set name="time">1 reaction, which you take when you miss with a spell attack</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Glamour Blade" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_BLADE_OF_GLAMOUR_BLADE">
+    <supports>Bard, Warlock, Wizard, Sorcerer, Artificer</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against a creature within range, otherwise the spell fails. On a miss, the spell ends. On a hit, the target suffers the attack's normal effects, and the air shimmers around you as an illusory duplicate of you appears in an unoccupied space of your choice within 5 feet of the target. If no such space exists, the spell fails.</p>
+<p class="indent">Until the spell ends, the duplicate persists, appearing to be a living, breathing, active version of you. If the target ends its turn more than 60 feet away from the duplicate, or if you end your turn more than 60 feet away from the duplicate, the spell ends. The duplicate mimics your actions to a degree, but no matter where you are, it seeks to remain close to the target.</p>
+<p class="indent">If the target ends its turn more than 5 feet away from the duplicate, the duplicate moves up to 60 feet to an unoccupied space within 5 feet of the target. If no such space exists, the duplicate moves to the unoccupied space closest to the target.</p>
+<p class="indent">While the duplicate is within 5 feet of the target, you can make melee attacks against the target as if it were within 5 feet of you, just as if you were attacking from the space the duplicate is occupying. If you hit the target with a melee attack roll while it is within 5 feet of the duplicate, the attack inflicts additional psychic damage equal to 1d6 + your spellcasting ability modifier.</p>
+<p class="indent">While you are within 5 feet of your duplicate, whenever an attack roll is made against you, you can use your reaction to roll a d20. If you roll an 11 or higher on the die, the attack targets the duplicate instead of you.</p>
+<p class="indent">The duplicate’s AC equals your spellcasting DC. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. If the duplicate is destroyed, the spell ends.</p>
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Glasya's Stride" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_GLASYA'S_STRIDE">
+    <supports>Warlock</supports>
+    <description>
+<p>You summon the strength and horrific majesty of a terrifying princess of the Nine Hells to wreak havoc upon your enemies. As part of the action
+used to cast this spell, you can move up to 30 feet. For each 5 feet you move, you can choose one creature within 5 feet that you haven’t attacked as a part of this spell, and make a melee spell attack against that creature. On a hit, the target takes 8d6 necrotic damage, and you push it 5 feet away from you.</p>
+    <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 8th level or higher, the number of feet you move as part of this spell is increased by 10 feet for each slot level above 7th.
+    </p>                     
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">7</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Glimmering Blade" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_GLIMMERING_BLADE">
+    <supports>Warlock, Druid, Wizard, Artificer, Sorcerer</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range,otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and you can teleport to an unoccupied space of your choice within 10 feet of you. If you teleport to a space within 5 feet of the target, the target cannot take reactions until the end of your next turn.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>The damage of attacks you make with this spell increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d6 radiant damage to the target. This extra radiant damage increases to 2d6 at 11th level and 3d6 at 17th level.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Greater Water to Poison" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_GREATER_WATER_TO_POISON">
+    <supports>Warlock, Druid, Bard, Sorcerer, Ranger, Wizard, Artificer</supports>
+    <description>
+<p>You transform any large quantity of water within a 10-foot cube centered on a point you choose into a deadly poison. This spell only affects
+bodies of water of at least 10 gallons or more within the affected area, not separate smaller quantities of water. It can also be liquid that is
+mostly water (such as blood, sewage, or wine), but a living creature’s vital fluids cannot be affected. Any creature with its head or one of its
+breathing passages (such as a humanoid’s nose or mouth) currently submerged into water you have transformed with this spell must make a make a
+Constitution saving throw at the beginning of any turn in which they are so submerged.</p>
+<p class="indent">On a failure, the creature is poisoned for the duration, and they take 4d8 poison damage. If the creature fails the saving throw by 5 or more, its Constitution score is reduced by 1d4. On a success, the creature can choose to spit the water out and take no damage, or continue to swallow it and take half damage. If the creature failed its save, at the start of each of the creature's turns before the spell ends, it must succeed on a Constitution saving throw or take 3d10 poison damage. On a successful save, the spell ends.</p>
+<p class="indent">Creatures who do not need to save against the spell but who are within 5 feet of the transformed water can use an action to apply poison to one weapon, piece of ammunition, or portion of food or drink. Once applied, the poison retains potency for the duration of the spell or until someone must save against it. If a creature is struck with the poisoned weapon or ammunition, or if it ingests the poisoned food or drink, it must make a Constitution save or be poisoned for the duration and take 1d8 poison damage, or 2d8 if the poison is ingested. If the creature fails the saving throw by 5 or more, its Constitution score is reduced by 1d4. Creatures that succeed on their save take half damage, but suffer no other effects.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 6th level or higher, you can affect one additional creature who is drinking at the same time, and the damage increases by 1d8 for each slot level above 5th.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a serpent’s tooth</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Guilt Lash" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_GUILT_LASH">
+    <supports>Warlock, Wizard, Druid</supports>
+    <description>
+<p>You coalesce your own feelings of guilt into a strand of psychic power that lashes out and forces a nearby creature to relive the moments of
+its life it feels guiltiest about. You choose one humanoid creature within range and force it to make a Charisma saving throw. On a failure, until
+the spell ends, the target’s speed is reduced by 10 feet, and it has disadvantage on all attack rolls, Wisdom and Charisma saving throws, and
+Wisdom and Charisma ability checks.</p>
+<p class="indent">At the end of each of the target’s turns, it must make another Charisma saving throw. After it fails three of these saving throws, these guilt effects last for the duration, and the creature stops making these saves. After the target succeeds on three of these saving throws, it snaps out of its guilt-driven flashbacks, and the spell ends.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 8th level or higher, the duration increases to 10 minutes.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+	<element name="Guilt Lash- Learning Guilt Lash" type="Information" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_INFORMATION_GUILT_LASH">
+		<description>
+		<p>The <i>guilt lash</i> spell does not appear on any class's spell list. The only way known to learn it (besides finding it in a spellbook somewhere) is by visiting the Domain of Dread known as Sithicus, a neighbor of Barovia. Since a cataclysmic event there known as the Hours of Screaming Shadows, the deathknight Lord Soth who once ruled that domain has not been seen, and a miasma of overpowering guilt lingers over the land. One side-effect of this guild is that any spellcasting creature that finishes a long rest in Sithicus will, from that point, treat the <i>guild lash</i> spell as if it were on all of the spell lists from which it can learn spells. They can learn the spell whenever they would normally be able to learn a 5th-level spell, even after the leave that domain. Wizards of 9th level or higher who have finished a long rest in Sithicus can scribe <i>guilt lash</i> in their spellbooks at any time after that, for the usual cost in gold and time.</p>
+		</description>
+	</element>
+
+<element name="Hand of Radiance" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_HAND_OF_RADIANCE">
+    <supports>Cleric</supports>
+    <description>
+<p>Sparks of holy light streak from your fingertips to strike your enemies. Choose up to three creatures within range, none of whom can be more than 10 feet apart. Each target must succeed on a Dexterity saving throw or take 1d4 radiant damage.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th
+level (4d4).
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Conjuration</set>
+      <set name="time">Concentration, up to 1 minute</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a holy symbol</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Hellfire Harrowing" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_HELLFIRE_HARROWING">
+    <supports>Warlock, Wizard, Sorcerer</supports>
+    <description>
+<p>You summon the very fires of Nine Hells to scourge your enemy, burning the soul as well as the flesh. Choose one target within range. That
+target must make a Dexterity saving throw. It takes 10d6 fire damage on failed save, and half as much on a success. This damage treats immunity
+to fire damage as resistance and ignores resistance.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 5th level or higher, the fire damage increases by 1d6 for each slot level above 4th.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">50 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">ashes from a burned bone</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Hellfire Burst" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_HELLFIRE_BURST">
+    <supports>Warlock, Wizard, Sorcerer</supports>
+    <description>
+<p>Choose a point within range. Every creature within 20 feet of that point is engulfed in flames from Hell itself and must make a Dexterity saving throw. They take 12d6 fire damage on a failed save and half as much on a successful saving throw. This fire damage treats immunity as resistance and ignores resistance.</p>
+      <p>
+<span class="feature">At Higher Levels.</span>You can cast this spell using a 8th level or higher spell slot, and it inflicts plus 1d6 damage for every spell slot above 7th.
+      </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">7</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">the ashes of a burned human</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Hellfire Fury" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_HELLFIRE_FURY">
+    <supports>Warlock</supports>
+    <description>
+<p>For a split-second, the hellmouth opens, unleashing a gout of hellfire that will not be sated until it has seared its victim-- whether that is
+your enemy, your ally, or even you. Make a ranged spell attack against one creature of your choice within range that is not a fiend. On a hit,
+the target takes 10d10 + 40 fire damage.</p>
+<p class="indent">On a miss, and again every subsequent time you miss, you must immediately reroll the ranged spell attack against a new non-fiend target of your choice within range. Each time, you add a bonus to your attack roll equal to twice the number of times you have previously missed with the attack roll for this casting of the spell. The spell does not end until you hit.</p>
+<p class="indent">If you either run out of targets that are not fiends or simply wish to stop rolling, you can also end this spell by inflicting the fire damage on yourself. This fire damage equals 10 + your proficiency bonus + your spellcasting ability modifier, and it cannot be reduced or prevented by any means.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">8</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Hell's Own Blade" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_HELL'S_OWN_BLADE">
+    <supports>Warlock, Wizard</supports>
+    <description>
+<p>You hurl the weapon in your hand, which is then animated to bury itself in the flesh of a distant foe before exploding in flame. Make a melee spell attack against a target you can see within range. On a hit, the target takes 8d6 magical damage of the same type that the weapon would inflict, and the weapon erupts, forcing the target and every creature within 10 feet of it to make a Dexterity saving throw. A creature takes 6d8 fire damage if it fails the saving throw, or half as much on a success.</p>
+<p class="indent">The weapon appears to be destroyed in the explosion, but whether you hit or miss, it immediately reappears your hand.</p>
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bladed weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Jinx Shot" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_JINX_SHOT">
+    <supports>Bard, Warlock, Artificer</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a ranged weapon attack against a creature within range, otherwise the spell fails.
+On a hit, the target suffers the attack's normal effects, and your enchanted shot renders your foe unaccountably clumsy. It has disadvantage on the next attack roll it makes before the start of your next turn. If that attack misses, it falls prone and the spell ends.</p>
+    <p>  
+<span class="feature">At Higher Levels.</span>This spell's damage increases when you reach higher levels. At 5th level, the attack deals an extra 1d4 psychic damage to the target. This extra damage increases to 2d4 at 11th level and 3d4 at 17th level.
+    </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a ranged weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Lesser Water to Poison" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_LESSER_WATER_TO_POISON">
+    <supports>Ranger, Wizard, Artificer, Sorcerer, Warlock, Bard, Druid</supports>
+    <description>
+<p>Waiting for just the right moment, you transform the water someone is drinking into deadly poison. The quantity of water does not matter, just that the target drinks more than a sip. It can also be a beverage that is partially water (such as wine, beer, or juice).</p>
+<p class="indent">The creature who drinks makes a Constitution saving throw. On a failure, the creature is poisoned for the duration, and they take 4d8 poison damage. If the creature fails the saving throw by 5 or more, its Constitution score is reduced by 1d4. On a success, the creature can choose to spit the water out and take no damage, or continue to swallow it and take half damage. If the creature failed its save, at the start of each of the creature's turns before the spell ends, it must succeed on a Constitution saving throw or take
+4d8 poison damage. On a successful save, the spell ends.</p>
+    <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature who is drinking at the same time, and the damage increases by 1d8 for each slot level above  4th.
+    </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction, which you take when a creature within 30 feet drinks</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a vessel of water or a beverage which is partially water, with which you make a toasting gesture to the target as you both drink</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Magnetism" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_MAGNETISM">
+    <supports>Wizard, Artificer</supports>
+    <description>
+<p>This spell allows you to draw iron or steel objects to yourself by projecting a magnetic ray. Choose one object within range that is nonmagical and made of ferrous metal. This object must weigh less than 40 lbs. If the object isn’t being worn or carried, it immediately flies into your space, where you can either catch it with your hand (requiring no action) or let it fall at your feet.</p>
+<p class="indent">Using an action each round, you can target one object you can see within range of the spell with this effect.</p>
+<p class="indent">If an object you target with this spell is being held or carried by a creature, that creature must roll a Strength saving throw. On a failure, the creature drops the object, and it flies to your space, where you either catch it with your hand or let it fall at your feet. If the object is being worn by a creature (like a helm or a chain shirt), the creature makes the same Strength saving
+throw but has advantage on the roll. On a failure, the creature is pulled up to 60 feet towards you if it is Medium-size or smaller.</p>
+<p class="indent">If the item is secured in some way (such as being chained to a wall or tied down with a rope), but not being held or worn, you make an ability check to break the restraint, as if you were making a Strength check to break or burst whatever is securing it with your own hands. Instead of making a Strength check, you make a check with your spellcasting ability score (adding your proficiency bonus). If the check succeeds, you free the item and it flies to your space as described above.</p>
+<p class="indent">You can also attempt to move a metal creature that weighs less than your limit for this spell (such as a Tiny construct). The creature makes a Strength saving throw with advantage against this effect. If the save fails, you can move the creature toward you just as you would any other metal object.</p>
+<p class="indent">Until this spell ends, your ability to carry, lift, push, or drag any objects you have moved to your space with this spell is calculated as if you had a Strength score of 20 (giving you a carrying capacity of 300 pounds and allowing you to push, lift, or drag up to 600 pounds, if you are Small or Medium sized), unless your Strength if higher.</p>
+<p class="indent">If you move during the spell’s duration, you can choose any object that you moved to your space with this spell which you are not carrying, lifting, pushing, dragging, or wearing to either move with you as you go (levitating just above the level of your feet) or remain in the square you moved it to.</p>
+<p class="indent">Once you move an object to your space with this spell, you have advantage on saving throws and opposed rolls against dropping it, and creatures seeking to move the item from your space have disadvantage on rolls to do so. When the spell ends, if you are holding, wearing, or carrying an object that is too heavy for you, it falls softly to the ground, landing harmlessly at your feet.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 4th level or higher, the weight limit of objects you can move with this spell increases by 10 pounds for each slot level above 3rd. When you cast this spell using a spell slot of
+5th or 6th level, you can choose up to two objects within range each time you use your action for this spell, instead of just one. If the spell slot is 7th level or higher, you can choose up to three objects instead.
+   </p>   
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a lodestone</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Marshal's Pursuit" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_MARSHAL'S_Pursuit">
+    <supports>Ranger, Wizard, Paladin</supports>
+    <description>
+<p>You focus you mind and body on the relentless pursuit of your foe. Choose a creature you can see within range. Until this spell ends, you gain the following benefits whenever you can see the target:</p>
+			<ul>
+	<li>Your speed increases by 15 feet.</li>
+  <li>Your movement does not provoke opportunity attacks.</li>
+  <li>When you hit a creature with an attack roll, you deal an extra 1d6 psychic damage. This damage is increased to 1d12 if the creature is the target of this spell.</li>
+  <li>When you hit the target of this spell with a weapon attack, you can mark that creature until the end of your next turn. While it is
+within 5 feet of you, a creature marked by you has disadvantage on any attack roll that doesn't target you.</li>
+			</ul>   
+      <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 5th or 6th level, you can concentrate on the spell for up to 8 hours. With a slot that's 7th level or higher, you can concentrate for up to 24 hours.
+   </p>   
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Misdirected Mark" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_MISDIRECTED_MARK">
+    <supports>Bard</supports>
+    <description>
+<p>You conceal your arcane attack, mentally influencing your foe into both believing the attack came from one of your allies and focusing
+on that ally obsessively. Make a ranged spell attack against a target within range. On a hit, the target takes 4d6 psychic damage, and you choose one creature friendly to you who is within 30 feet of both you and the target. That friendly creature marks the target until the end of your next turn.</p>
+<p class="indent">While a creature marked with this spell is within 5 feet of you of the friendly creature that marked it, it has disadvantage on any attack roll that doesn't target that friendly creature. This spell ends early if the friendly creature dies or is
+incapacitated, or if the target marked with this spell is marked by a creature besides the friendly creature.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+   </p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Moment Reading" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_MOMENT_READING">
+    <supports>Cleric</supports>
+    <description>
+<p>You roll a set of bone dice marked with runes, allowing you to interpret the random roll to read the circumstances of the moment. The Dungeon Master will tell you in no more than two words the situation’s current conditions. Some examples of replies could be “pit trap",
+“impending danger” or “double cross".</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a set of bone dice marked with runes</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Prescient Sense" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_PRESCIENT_SENSE">
+    <supports>Ranger, Wizard, Druid, Bard, Sorcerer</supports>
+    <description>
+<p>You extend your senses to perceive the near future. For the duration of the spell, you gain the following benefits:</p>
+			<ul>
+	<li>You have advantage on all Wisdom checks and Dexterity checks for initiative.</li>
+  <li>Once per round, when you hit a creature that has not yet acted in this combat with an attack roll, that attack deals an extra 1d8
+damage.</li>
+  <li>If you are surprised, you can end this spell immediately to no longer be surprised.</li>
+  <li>If you are attacked, you can use your reaction to end this spell immediately and give yourself a +5 to AC, including against the
+triggering attack, until the start of your next turn.</li>
+  <li>If you roll a Dexterity save, you can use your reaction to end this spell immediately and give yourself advantage on that Dexterity save and all other Dexterity saves until the beginning of your next turn.</li>
+			</ul>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Prime Shot" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_PRIME_SHOT">
+    <supports>Ranger, Warlock</supports>
+    <description>
+<p>When you cast this spell, you curse the target of the triggering attack roll for the duration. Until the spell ends, whenever you make an attack roll against that creature (including the triggering attack) while none of your allies are closer to that creature than you are, you can roll a d4 and add the result to your attack roll.</p>
+<p class="indent">If you use a spell slot to cast this spell and deal damage to the target, as part of the magic of this spell, you  immediately regain the spell slot you used to cast it.
+  </p>                          
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
+      <set name="time">1 reaction, which you take when you make an attack roll against a creature and none of your allies are closer to that creature than you are.</set>
+      <set name="duration">1 minute</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Prophesied Strike" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_PIROPHESIED_STRIKE">
+    <supports>Bard, Cleric</supports>
+    <description>
+<p>You cast your mind's eye forward a split second, predicting the best moment for a telling blow. As part of the action used to cast this spell, you must make a melee weapon attack against a creature within range, otherwise the spell fails. You can use your spellcasting ability instead of Strength for the attack and damage bonus for this attack. If the attack hits, it inflicts an additional 2d6 damage of the weapon’s type, and the next attack roll made against the target before the end of your next turn is made with advantage.</p>
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a melee weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Shadow Sight" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_SHADOW_SIGHT">
+    <supports>Bard, Wizard</supports>
+    <description>
+<p>An inner light flares in your eyes, allowing you to briefly see hidden things and gaze into even the deepest darkness. Until the end of your next turn, you can see normally in darkness, both magical and non-magical, to a distance of 60 feet. For the same duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear
+ghostly and translucent.</p>
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a lens of black glass</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Skulking Spy" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_SKULKING_SPY">
+    <supports>Ranger, Wizard</supports>
+    <description>
+<p>At the moment hostilities begin, you can immediately seek to evade your foes' notice. As part of the reaction used to cast this spell, you can move up to your speed without provoking opportunity attacks, before initiative is resolved. If you have any cover or concealment at the end of this movement, you can take the Hide action as part of the same reaction, and you can even attempt to hide from creatures who saw you move.</p>
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 reaction, which you take when you would make a Dexterity check for initiative.</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Spidersilk Slash" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_SPIDERSILK_SLASH">
+    <supports>Ranger, Warlock, Artificer</supports>
+    <description>
+<p>You spin your blade impossibly fast, creating silvery strands of silk that bind nearby enemies. Choose up to five creatures you can see within range. Make a melee spell attack against every creature within 5 feet of you. On a hit, a target takes 5d8 force damage and until the start of your next turn, its speed is reduced to zero and it cannot benefit from any bonus to its speed.</p>
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a melee weapon worth at least 1 sp</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Spiteful Glamour" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_SPITEFUL_GLAMOUR">
+    <supports>Bard, Warlock, Artificer</supports>
+    <description>
+<p>For a moment, you cause the mere sight of you to be painful to an enemy. Choose one creature you can see within range that can also see you. The target must succeed on a Charisma saving throw or take 1d8 psychic damage. If the target is not missing any of its hit points, it instead takes 1d12 psychic damage.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
+   </p>   
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Staggering Note" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_STAGGERING_NOTE">
+    <supports>Bard</supports>
+    <description>
+<p>As part of the action used to cast this spell, you must make a Charisma (Performance) check, otherwise the spell fails. Choose one target within the spell’s range when you make this Charisma check. If the result of your check or exceeds the target’s Armor Class, the target takes thunder damage equal to your spellcasting ability modifier and you can push it up to 10 feet away from you. This forced movement does not provoke opportunity attacks unless you choose one creature to receive an intuitive premonition when you cast this spell. If you do so, the forced movement provokes an opportunity attack from that creature only.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>This spell’s damage increases when you reach higher levels. At 5th level, the thunder damage
+increases to 1d6 + your spellcasting ability modifier. This damage roll increases by an additional 1d6 at 11th level and again at 17th level.
+   </p>   
+  </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a musical instrument</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Storm Shield" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_STORM_SHIELD">
+    <supports>Cleric, Druid</supports>
+    <description>
+<p>You conjure a small area of whirling air that occupies a 5-foot radius sphere centered on a point you choose within range. The swirling air forms a shield that blocks acid, cold, fire, lightning, and thunder damage. The shield attracts all elemental discharges and neutralizes them, granting all creatures within a 30-foot radius from its center immunity to the listed damage types. However, the shield's immunity is limited. If the shield reduces damage a creature would take to 0, the spell ends if it is not the first time that the shield has reduced damage that particular creature would have taken to 0 since this spell was cast.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Summons of Khirad" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_SUMMONS_OF_KHIRAD">
+    <supports>Warlock</supports>
+    <description>
+<p>You shoot a bolt of blue flame at your enemy, who shimmers for a second before teleporting to a place of your choosing. Make a ranged spell check. On a hit, you deal 5d6 psychic damage to the target and it must make a Wisdom saving throw. On a failure, you can teleport it to any empty space you can see within 30 feet of it where it would be on solid ground that can support its weight. Once the target is  teleported, it immediately provokes opportunity attacks from all creatures within 5 feet of it.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">70 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Swordshun" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_SWORDSHUN">
+    <supports>Cleric, Paladin, Artificer</supports>
+    <description>
+<p>As you cast this spell, you plunge the short sword into the side of your own body. You or any other creature within 5 feet of you can end this spell instantly by removing this short sword from your side, which requires only a DC 5 Strength (Atheltics) check. Until the spell ends, you take 1d6 magical piercing that cannot be reduced by any means at the start of each of your turns, and you cannot regain hit points, but you are immune to nonmagical bludgeoning, piercing, and slashing damage.</p>                         
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Until dispelled</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bejeweled short sword worth at least 50gp</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Tearing Claws" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_TEARING_CLAWS">
+    <supports>Druid, Artificer, Wizard, Sorcerer</supports>
+    <description>
+<p>Spectral draconic claws strike out from your body, slashing at your foes and shoving them backward. Each creature in a 15-foot cone
+emanating from you must make a Dexterity saving throw. On a failed save, a creature takes 2d10 magical slashing damage and is pushed 5
+feet away from you. On a successful save, the creature takes half damage and isn't pushed.</p>
+<p class="indent">Creatures that only have hit points equal to half their hit point maximum or fewer have disadvantage on the saving throw, and are pushed back 15 feet on a failed saving throw.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by a 1d10 for each slot level above 1st.  
+   </p>                       
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self (15-foot cone)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Tendrils of Thuban" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_TENDRILS_OF_THUBAN">
+    <supports>Warlock</supports>
+    <description>
+<p>The ice seems to freeze in your lungs as an emerald green star appears in the sky, and tendrils the same color reach down from inside
+that frozen star and lift your opponents into the air, squeezing the life out of them. Choose a number of targets within range that and within 30 feet of each other equal to your spellcasting ability modifier. They take 2d10 cold damage and 2d10 bludgeoning damage and are restrained 10 feet in the air on a failed save. They take half damage and are not restrained on a successful saving throw. Targets restrained by the tendrils take 2d10 cold damage and 2d10 bludgeoning damage at the start of their turns. A restrained target may make a Strength check against your spell save DC to escape the tendrils.</p>                       
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">90 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a mind flayer’s tendril</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Voice of Battle" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_VOICE_OF_BATTLE">
+    <supports>Cleric, Bard, Artificer</supports>
+    <description>
+<p>You emit a powerful battle cry that hammers your enemy, distracting it from a nearby ally. Choose a creature within range that is adjacent to one of your allies. That target must make a Wisdom saving throw. If the target fails the saving throw, it takes 1d6 thunder damage and you can choose one ally that is within 5 feet of the target. That ally can use its reaction to move up to 10 feet without provoking an opportunity attack from the target. The sound of the battle cry can be heard up to 100 feet away.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>This spell's damage increases when you reach higher levels, dealing 2d6 thunder damage at 5th level, 3d6 at 11th level, and 4d6 at 17th level.  
+   </p>                        
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Warning Shot" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_WARNING_SHOT">
+    <supports>Warlock, Ranger</supports>
+    <description>
+<p>With an aggressive strike, you threaten punishment of any creature that dares enter the space you claim as yours. Until this spell ends,
+whenever you hit one or more creatures with a ranged attack, you can psychically claim an unoccupied space of your choice within 5 feet of
+one target that attack.</p>
+<p class="indent">If any creature willing enters the claimed space, you can immediately use your reaction to either make a ranged weapon attack against that creature or to cast a cantrip targeting only that creature that requires a ranged spell attack. If you cast a cantrip as a reaction with this spell, it must normally have a casting time of 1 action, which you change to 1 reaction for this casting.</p>
+<p class="indent">If you hit the creature with a ranged weapon attack or cantrip made as a reaction with this spell, it deals an extra 1d8 psychic damage to the creature.</p>
+<p class="indent">A space you claim with your <i>warning shot</i> remains claimed until the spell ends. A space stops being claimed early if it is occupied at the end of any creature’s turn or if you use this spell to claim a different space.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>If you cast this spell using a spell slot of 3rd level or higher, the psychic damage inflicted by your special reaction from this spell increases by 1d8 for every two levels above 1st.</p>
+   <p>
+<p class="indent">If you cast this spell using a spell slot of 4th level or higher, you can have up to two spaces claimed at once. When you claim a third space, the space you’ve had claimed longest stops being claimed.</p>  
+   </p>                        
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a ranged weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Warning Shout" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_WARNING_SHOUT">
+    <supports>Ranger, Paladin, Cleric, Druid, Artificer</supports>
+    <description>
+<p>You can speak 5 words which are magically amplified so that every creature within a half a mile can hear them. Deaf creatures cannot hear the words. Sleeping creatures are automatically awakened by the words. These words cannot be used to perform an attack based on sound (a banshee’s wail, for example). Although the words become incredibly loud, they do not damage nearby creatures.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self (half a mile)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Warp Stone" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_WARP_STONE">
+    <supports>Ranger, Cleric, Druid, Artificer</supports>
+    <description>
+<p>You twist and warp stone. If this spell is cast on a stone door, or a door in a stone frame, the door opens and cannot be closed. If the target is a stone wall, the next attack to that section of the wall will deal double damage. If the target is a stone statue, the statue becomes a leering grotesque.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a chisel</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Winged Horde" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_WINGED_HORDE">
+    <supports>Sorcerer, Wizard</supports>
+    <description>
+<p>Swatting at your illusory horde of flesh-devouring sprites or other creatures distracts your enemies from your allies' maneuvers. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Wisdom saving throw or it takes 1d4 psychic damage and it can't take reactions until the start of its next turn.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>The spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+   </p>   
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Wrath of the Iron City" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_WRATH_OF_THE_IRON_CITY">
+    <supports>Warlock</supports>
+    <description>
+<p>A crushing hand of iron appears, barely under your control, and as you attempt to unleash it against your foe and protect yourself, you risk grinding your own flesh. One target of your choice within range must make a Strength saving throw. On a failure, the target takes 2d12 magical bludgeoning damage and can’t willingly move closer to you until the start of your next turn, and you gain resistance to all damage except necrotic and psychic damage until the start of your next turn.</p>
+<p class="indent">On a success, you take half as much damage as the target would have taken, and you can choose one other creature within range, which must make a Strength saving throw. On a failure, this second creature can’t willingly move closer to you until the start of your next turn and it takes the same amount of magical bludgeoning damage you took.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
+   </p>   
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">an iron effigy of the archdevil Dispater</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Your Delicious Weakness" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_YOUR_DELICIOUS_WEAKNESS">
+    <supports>Warlock</supports>
+    <description>
+<p>Your choice of one creature within range must make an Intelligence saving throw. The target takes 4d6 psychic damage, or half as much on a success. If the target is vulnerable to any damage types, it also becomes vulnerable to the psychic damage from this spell.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 3rd level or higher, the psychic damage increases by 1d6 for each slot level above 2nd.
+   </p>   
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+<element name="Your Glorious Sacrifice" type="Spell" source="The Blackstaff's Codex" id="ID_TBC_SPELL_YOUR_GLORIOUS_SACRIFICE">
+    <supports>Warlock</supports>
+    <description>
+<p>Make a ranged spell attack against a target within range. If the attack hits, the target takes 5d4 necrotic damage and its speed is reduced by half until the end of your next turn.</p>
+<p class="indent">As part of the same action used to cast this spell, before you make the ranged spell attack, you may choose to inflict necrotic damage equal to 1d4 plus your spellcasting ability modifier on a willing ally within 5 feet of you. This damage cannot be reduced or prevented in any way. If you inflict this damage on an ally, you gain advantage on the ranged spell attack roll against your main target. In addition, if the ranged spell attack hits, your target takes additional poison damage equal to the necrotic damage you dealt
+to your ally.</p>
+   <p>
+<span class="feature">At Higher Levels.</span>When you cast this spell using a spell slot of 2nd level or higher, the necrotic damage you inflict on your target and your ally both increase by 1d4 for each slot level above 1st.
+   </p>   
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  </elements>

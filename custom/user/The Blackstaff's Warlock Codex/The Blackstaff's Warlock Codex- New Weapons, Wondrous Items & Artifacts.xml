@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons, Wondrous Items and Artifacts</name>
+		<author url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex">By Jeremy Forbing, Heath Harris and Scott Bean</author>		
+		<description></description>
+		<author url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex">The Blackstaff's Codex</author>
+		<update version="0.0.6">
+			<file name="the-blackstaff-codex-weapons-wondrous-items-artifacts.xml" url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex" />
+		</update>
+	</info>
+
+<!-- Weapons -->
+
+	<element name="Acidic Weapon" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ACIDIC_WEAPON">
+		<description>
+		<p>You gain a +2 bonus to attack and damage rolls made with this weapon. You can use a bonus action to speak this magic weapon's command word, coating the part that would strike an enemy to become covered in corrosive oil. While the weapon has this acidic coating, it deals an extra 1d6 acid damage to any target it hits, and it emits a sharp, overpowering smell, giving everyone within 15 feet of the weapon disadvantage on Wisdom (Perception) checks related to scent. The acid lasts until you use a bonus action to speak the command word again or until you drop or stow the weapon, at which point the acid vanishes, along with the smell.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>			
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+		</setters>
+	</element>
+
+	<element name="The Foxblade" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_FOXBLADE">
+		<description>
+		<p>This shortsword appears rusted at first glance, but that is due to the unique crimson-orange color of the metal. Combined with this color, a triangular white mother-of-pearl inlay near the hilt causes the blade to resemble the coloring of a fox’s tail. The crossguard is made of the same unique crimson metal, set with round yellow and black stones made to resemble vulpine eyes. This description matches that of a magical weapon lost during the destruction of the town of Ylraphon when it was destroyed by the Rage of Dragons in the 14th century. Said to have been crafted by forest gnomes, it was known as the Foxblade.</p>
+		<p class="indent">This weapon grants you a +1 bonus to attack and damage rolls made with it, and while you are in any forest, you gain advantage on all Wisdom (Perception) checks you make while hidden.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Shortsword</set>
+		</setters>
+	</element>
+
+	<element name="The Greater Foxblade" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_GREATER_FOXBLADE">
+		<description>
+		<p>This longsword appears rusted at first glance, but that is due to the unique crimson-orange color of the metal. Combined with this color, a triangular white mother-of-pearl inlay near the hilt causes the blade to resemble the coloring of a fox’s tail. The crossguard is made of the same unique crimson metal, set with round yellow and black stones made to resemble vulpine eyes. This description matches that of a magical weapon lost during the destruction of the town of Ylraphon when it was destroyed by the Rage of Dragons in the 14th century. Said to have been crafted by forest gnomes, it was known as the Foxblade.</p>
+		<p class="indent">This weapon grants you a bonus to attack and damage rolls equal to half your proficiency bonus. While you are in any forest, you gain advantage on all Wisdom (Perception) checks you make while hidden. In addition, while you carry this greater blade, you recieve the same magical bonus to all of your Dexterity checks.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+
+	<element name="Mage’s Weapon, +1" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_MAGE'S_WEAPON_1">
+		<description>
+		<p>You can use this weapon as a spellcasting focus for your spells, and you add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. You add the same bonus to your spell attack rolls and to the saving throw DCs of your spells.</p>
+		<p class="indent">In addition, while you wield this weapon, you know two maneuvers from among those available to the Battle Master archetype in the fighter class. You choose these manuevers when you attune to the weapon. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). If you wish, you can instead choose for the DC to be your spell save DC (including the bonus gained from this item).</p>
+		<p class="indent">To fuel these maneuvers, the weapon provides one superiority die, which is a d6 (this die is added to any superiority dice you have from another source, no matter when you gain them). A superiority die is expended when you use it. As long as you have the weapon on your person, you regain your expended superiority dice when you finish a short or long rest. If you wish, you can regain an expended superiority die by expending a spell slot while wielding this weapon.</p>				
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">!ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>			
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by spellcaster proficient with the weapon">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" bonus="mage’s weapon" />
+			<stat name="spellcasting:dc" value="1" bonus="mage’s weapon" />
+			<select type="Archetype Feature" name="Mage's Weapon, +1" supports="Maneuver,Battle Master" number="2" />			
+		</rules>
+	</element>
+
+	<element name="Mage’s Weapon, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_MAGE'S_WEAPON_2">
+		<description>
+		<p>You can use this weapon as a spellcasting focus for your spells, and you add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. You add the same bonus to your spell attack rolls and to the saving throw DCs of your spells.</p>
+		<p class="indent">In addition, while you wield this weapon, you know two maneuvers from among those available to the Battle Master archetype in the fighter class. You choose these manuevers when you attune to the weapon. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). If you wish, you can instead choose for the DC to be your spell save DC (including the bonus gained from this item).</p>
+		<p class="indent">To fuel these maneuvers, the weapon provides one superiority die, which is a d6 (this die is added to any superiority dice you have from another source, no matter when you gain them). A superiority die is expended when you use it. As long as you have the weapon on your person, you regain your expended superiority dice when you finish a short or long rest. If you wish, you can regain an expended superiority die by expending a spell slot while wielding this weapon.</p>				
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">!ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>				
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by spellcaster proficient with the weapon">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" bonus="mage’s weapon" />
+			<stat name="spellcasting:dc" value="2" bonus="mage’s weapon" />
+			<select type="Archetype Feature" name="Mage's Weapon, +2" supports="Maneuver,Battle Master" number="2" />			
+		</rules>
+	</element>
+
+	<element name="Mage’s Weapon, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_MAGE'S_WEAPON_3">
+		<description>
+		<p>You can use this weapon as a spellcasting focus for your spells, and you add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. You add the same bonus to your spell attack rolls and to the saving throw DCs of your spells.</p>
+		<p class="indent">In addition, while you wield this weapon, you know two maneuvers from among those available to the Battle Master archetype in the fighter class. You choose these manuevers when you attune to the weapon. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). If you wish, you can instead choose for the DC to be your spell save DC (including the bonus gained from this item).</p>
+		<p class="indent">To fuel these maneuvers, the weapon provides one superiority die, which is a d6 (this die is added to any superiority dice you have from another source, no matter when you gain them). A superiority die is expended when you use it. As long as you have the weapon on your person, you regain your expended superiority dice when you finish a short or long rest. If you wish, you can regain an expended superiority die by expending a spell slot while wielding this weapon.</p>				
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">!ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>				
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by spellcaster proficient with the weapon">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" bonus="mage’s weapon" />
+			<stat name="spellcasting:dc" value="3" bonus="mage’s weapon" />
+			<select type="Archetype Feature" name="Mage's Weapon, +3" supports="Maneuver,Battle Master" number="2" />			
+		</rules>
+	</element>
+
+	<element name="Spellsoul Blade, +1" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_SPELLSOUKD_BLADE_1">
+		<description>
+		<p>You can use this weapon as a spellcasting focus for your spells, and you add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. You add the same bonus to your spell attack rolls and to the saving throw DCs of your spells.</p>
+		<p class="indent">In addition, whenever you finish a short rest while attuned to this weapon, choose one of the following damage types: acid, cold, fire, lightning, necrotic, or radiant. Until the next time you finish a short or long rest, the weapon inflicts damage of the chosen type instead of its normal damage, and you gain resistance to damage of the chosen type. This effect ends early if you die.</p>
+		<p class="indent">Finally, you can dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you use a bonus action to summon it again thereafter. The weapon appears at your feet if it is in the extradimensional space when you die or if you stop being attuned it.</p>				
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>			
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by spellcaster proficient with the weapon">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" bonus="spellsoul blade" />
+			<stat name="spellcasting:dc" value="1" bonus="spellsoul blade" />
+		</rules>
+	</element>
+
+	<element name="Spellsoul Blade, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_SPELLSOUKD_BLADE_2">
+		<description>
+		<p>You can use this weapon as a spellcasting focus for your spells, and you add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. You add the same bonus to your spell attack rolls and to the saving throw DCs of your spells.</p>
+		<p class="indent">In addition, whenever you finish a short rest while attuned to this weapon, choose one of the following damage types: acid, cold, fire, lightning, necrotic, or radiant. Until the next time you finish a short or long rest, the weapon inflicts damage of the chosen type instead of its normal damage, and you gain resistance to damage of the chosen type. This effect ends early if you die.</p>
+		<p class="indent">Finally, you can dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you use a bonus action to summon it again thereafter. The weapon appears at your feet if it is in the extradimensional space when you die or if you stop being attuned it.</p>				
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>				
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by spellcaster proficient with the weapon">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" bonus="spellsoul blade" />
+			<stat name="spellcasting:dc" value="2" bonus="spellsoul blade" />
+		</rules>
+	</element>
+
+	<element name="Spellsoul Blade, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_SPELLSOUKD_BLADE_3">
+		<description>
+		<p>You can use this weapon as a spellcasting focus for your spells, and you add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. You add the same bonus to your spell attack rolls and to the saving throw DCs of your spells.</p>
+		<p class="indent">In addition, whenever you finish a short rest while attuned to this weapon, choose one of the following damage types: acid, cold, fire, lightning, necrotic, or radiant. Until the next time you finish a short or long rest, the weapon inflicts damage of the chosen type instead of its normal damage, and you gain resistance to damage of the chosen type. This effect ends early if you die.</p>
+		<p class="indent">Finally, you can dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you use a bonus action to summon it again thereafter. The weapon appears at your feet if it is in the extradimensional space when you die or if you stop being attuned it.</p>				
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>				
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by spellcaster proficient with the weapon">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" bonus="spellsoul blade" />
+			<stat name="spellcasting:dc" value="3" bonus="spellsoul blade" />
+		</rules>
+	</element>
+
+	<element name="Spiderkissed Weapon, +1" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_SPIDERKISSED_WEAPON_1">
+		<description>
+		<p>This drow-wrought magic weapon is enchanted to poison foes. You add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. Whenever you hit with a melee attack using this weapon, you can choose to inflict poison damage instead of the weapon’s normal damage. On a critical hit, this weapon inflicts an additional 1d4 necrotic damage.</p>
+		<p class="indent">In addition, when you deal poison damage with this weapon, you can force the target to roll a Constitution saving throw (DC equals 14 + this weapon’s magical bonus to attack and damage rolls). A creature in sunlight has advantage on this saving throw. On a failed save, for 1 minute the target is poisoned and its speed is reduced by half. The target can repeat the saving throw at the end of each of its turns, ending the effects on a success. Once you force a creature to make this saving throw, you can’t do so again until you finish a long rest.</p>					
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">!ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>			
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+
+	<element name="Spiderkissed Weapon, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_SPIDERKISSED_WEAPON_2">
+		<description>
+		<p>This drow-wrought magic weapon is enchanted to poison foes. You add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. Whenever you hit with a melee attack using this weapon, you can choose to inflict poison damage instead of the weapon’s normal damage. On a critical hit, this weapon inflicts an additional 1d4 necrotic damage.</p>
+		<p class="indent">In addition, when you deal poison damage with this weapon, you can force the target to roll a Constitution saving throw (DC equals 14 + this weapon’s magical bonus to attack and damage rolls). A creature in sunlight has advantage on this saving throw. On a failed save, for 1 minute the target is poisoned and its speed is reduced by half. The target can repeat the saving throw at the end of each of its turns, ending the effects on a success. Once you force a creature to make this saving throw, you can’t do so again until you finish a long rest.</p>				
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">!ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>				
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+		</setters>
+	</element>
+
+	<element name="Spiderkissed Weapon, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_SPIDERKISSED_WEAPON_3">
+		<description>
+		<p>This drow-wrought magic weapon is enchanted to poison foes. You add a bonus determined by this magical weapon's rarity to attack and damage rolls you make with it. Whenever you hit with a melee attack using this weapon, you can choose to inflict poison damage instead of the weapon’s normal damage. On a critical hit, this weapon inflicts an additional 1d4 necrotic damage.</p>
+		<p class="indent">In addition, when you deal poison damage with this weapon, you can force the target to roll a Constitution saving throw (DC equals 14 + this weapon’s magical bonus to attack and damage rolls). A creature in sunlight has advantage on this saving throw. On a failed save, for 1 minute the target is poisoned and its speed is reduced by half. The target can repeat the saving throw at the end of each of its turns, ending the effects on a success. Once you force a creature to make this saving throw, you can’t do so again until you finish a long rest.</p>				
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Weapon</set>
+			<set name="weapon">!ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>				
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+		</setters>
+	</element>
+
+<!-- Sentient Items -->
+
+	<element name="The Ravenblade" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_RAVENBLADE">
+		<description>
+		<p>Though this longsword appears to be carved from a single large shard of black glass, from its rounded pommel to the tip of its razor-sharp blade, it is as hard as adamantine. On further examination, the glass is actually transparent, like a window, and through it you can see the stormy expanse of a dark and alien night sky. You gain a +2 bonus to attack and damage rolls made with this magical weapon, and you can use it as a spellcasting focus. It also grants its wielder a +2 bonus to spell attack rolls.</p>
+		<p class="indent"><strong><em>Sentience.</em></strong> The <i>Ravenblade</i> is a sentient lawful neutral weapon with an Intelligence of 18, a Wisdom of 20, and a Charisma of 17. It has hearing and truesight out to a range of 60 feet, but almost never communicates with its wielder about things it perceives.</p>
+		<p class="indent">The weapon can read and understand (and write) Common, Abyssal, Celestial, Draconic, Deep Speech, Elven, Infernal, Primordial, Qualith, Sylvan, and Undercommon, but it never speaks any language but Elvish, and communicates telepathically only with wielders that are also fluent in Elvish.</p>
+		<p class="indent"><strong><em>Writing.</em></strong> While the blade does not seem overly eager to help those attuned to it, it does offer a unique benefit: if the wielder wants a letter written, it can leave an appropriate amount of unmarked paper (no ink required) within 5 feet of the Ravenblade. On request, the weapon will magically inscribe the appropriate words on the blank pages. Exactly 8 hours later after the request is made, the blank paper instantly becomes filled with the desired writing. It all appears in a very distinct and practical calligraphic script. The <i>Ravenblade</i> can only write in languages it knows.</p>
+		<p class="indent">Occasionally, the <i>Ravenblade</i> will want a favour of its own. It will ask its wielder for some paper, and then compose a letter of its own, which it will then need handed off to a courier or delivered to its proper recipient. The blade’s personal letters always appear written in a coded script of sigils indecipherable to all but the intended recipient.</p>
+		<p class="indent"><strong><em>Personality.</em></strong> The <i>Ravenblade</i> has little interest in its mortal wielders; they are only means to an end. The Ravenblade uses its wielder as a mystical channel for  communication, on behalf of its mysterious mistress. Somehow, being attuned by a warlock allows it to magically contact that warlock’s otherworldly patron. Once in contact it negotiates complicated agreements on its mistress’s behalf with the patron, usually related to banal details of extraplanar politics.</p>
+		<p class="indent">Despite its indifference, it wants worthy wielders, and quickly determines whether or not a warlock attuned to it is useful. It likes ambition, attention to detail, precision, skill, and selfcontrol in its wielders, and hopes to grow such warlocks into truly valuable assets.</p>
+		<p class="indent">If the Ravenblade finds its wielder’s behaviour reckless, lazy, careless, or sloppy, or if a request related to its letters (either for paper or for delivery) is not honored, a conflict between the <i>Ravenblade</i> and its wielder occurs at the next sunset. While it is displeased with its wielder, it will neither write requested letters nor allow the wielder to expend its charges to cast spells.</p>
+		<p class="indent"><strong><em>Spellcasting.</em></strong> The <i>Ravenblade</i> has 6 charges. While holding it, you can expend 1 or more of its charges to cast one of the following spells from it, just as if it you were casting one of your warlock spells but without using a spell slot: <i>blade of black wind</i> (3 charges), <i>blade of dark whispers</i> (2 charges), <i>blade of flickering shadows</i> (4 charges), <i>blade of nightmares</i> (1 charge), <i>hex</i> (1 charge), <i>modify memory</i> (5 charges) or <i>steel wind strike</i> (5 charges). Spells cast in this way require the normal casting time and components. The blade regains all expended charges each day at sunset.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a warlock of a non-chaotic alignment">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Longsword</set>
+			<set name="charges">6</set>						
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" bonus="the ravenblade" />
+		    <grant type="Spell" id="ID_TBC_SPELL_BLADE_OF_BLACK_WIND" spellcasting="Warlock"/>
+		    <grant type="Spell" id="ID_TBC_SPELL_BLADE_OF_DARK_WHISPERS" spellcasting="Warlock"/>
+		    <grant type="Spell" id="ID_TBC_SPELL_BLADE_OF_FLICKERING_SHADOWS" spellcasting="Warlock"/>
+		    <grant type="Spell" id="ID_TBC_SPELL_BLADE_OF_NIGHTMARES" spellcasting="Warlock"/>
+		    <grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock"/>
+		    <grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORIES" spellcasting="Warlock"/>
+		    <grant type="Spell" id="ID_XGTE_SPELL_STEEL_WIND_STRIKE" spellcasting="Warlock"/>												
+		</rules>
+	</element>
+
+	<element name="Thorn" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THORN">
+		<description>
+		<p>When found, this shining shortsword is brightly polished and bears a keen edge, as if it had been maintained by a very fastidious owner until very recently. A large green feather hangs from a silver cord tied around the pommel, alongside a tiny crystalline magnifying glass. You gain a +2 bonus to attack and damage rolls made with this magical weapon.</p>
+		<p class="indent"><strong><em>Sentience.</em></strong> Thorn is a sentient lawful good weapon with an Intelligence of 14, a Wisdom of 15, and a Charisma of 12. It has hearing and darkvision out to a range of 120 feet.</p>
+		<p class="indent">The weapon can speak, read, and understand Common and Halfling, and can communicate with its wielder telepathically.</p>
+		<p class="indent"><strong><em>Perceptive.</em></strong> When you hold the shortsword, you hear a telepathic voice whispering about various clues and signs it notices, granting you advantage on Wisdom (Perception) checks.</p>
+		<p class="indent"><strong><em>Personality.</em></strong> Thorn is a detail-oriented stickler for rules, laws, etiquette, safety, proper behaviour, and finding clues to wrongdoing. It insists that its wielder must behave correctly according to the prevailing social standards of the local culture. Thorn’s ideal scenario is being wielded to bring lawbreakers to justice, and it constantly points out “evidence” that it believes could help catch criminals.</p>
+		<p class="indent">If <i>Thorn's</i> wielder indulges in egregious rulebreaking or breaches of etiquette, it gives the wielder 24 hours to redress the situation appropriately. If the wielder fails to do so, a conflict between <i>Thorn</i> and its wielder occurs at the next sunrise. While it is displeased with its wielder, it insists on loudly apologizing for the wielder’s behaviour, especially in moments of misbehaviour, imposing disadvantage on Dexterity (Stealth or Sleight of Hand) checks and Charisma (Deception) checks.</p>				
+		<p class="indent"><strong><em>Nettle?</em></strong> Rumors state that <i>Thorn</i> was created alongside another sentient weapon, a magical hand crossbow +2 called <i>Nettle</i>. This crossbow is as greedy, impetuous, and obnoxious as Thorn is careful, lawful, and polite. The two argue like siblings, but also work well together in stressful situations. If you attune to both, you gain a +2 bonus to your Armor Class while both are on your person.</p>							
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a creature of a non-chaotic alignment">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Shortsword</set>			
+		</setters>
+		<rules>
+		<stat name="ac:misc" value="2" bonus="item-bonus" requirements="ID_DMSG_TBWC_MAGIC_ITEM_THORN,ID_DMSG_TBWC_MAGIC_ITEM_NETTLE" alt="Thorn and Nettle"/>
+		</rules>
+	</element>
+
+	<element name="Nettle" type="Magic Item" source="The Blackstaff's Codex" id="ID_WOTC_AL_MAGIC_ITEM_NETTLE">
+		<description>
+		<p>This hand crossbow looks to have seen better times. The wood is cracked and splintered and the string is heavily-frayed. A large, blue feather hangs from the handgrip alongside a couple green, glass baubles. The crossbow whispers warnings to its bearer, granting a +2 bonus to initiative if the bearer isn't incapacitated.</p>
+		<p class="indent"><strong><em>Sentience.</em></strong> Nettle is a sentient chaotic neutral weapon with an Intelligence of 15, a Wisdom of 10 and a Charisma of 14. It has has hearing and darkvision out to a range of 120 feet. Nettle speaks Common and Halfling.</p>
+		<p class="indent"><strong><em>Personality.</em></strong> Nettle is greedy and impetunous, and prefers that its wielder share these ideals. She demands to be better taken care of than its previous owners did. If its bearer is lawfully-aligned, or if its bearer does not spend at least an hour each day tending to it (polishing or applying resin to the string), Nettle denies its bonuses to attack and damage rolls and initiative checks. It also shouts out insults to those nearby, imposing disadvantage on any Charisma (Deception or Persuasion) checks or Dexterity (Stealth) check that its wielder makes to move silently.</p>
+		<p class="indent"><strong><em>Thorn?</em></strong> Rumors state that <i>Nettle</i> was created alongside another sentient weapon, a magical shortsword +2 called <i>Thorn</i>. This shortsword is as careful, lawful, and polite as Nettle is greedy, impetuous, and obnoxious. The two argue like siblings, but also work well together in stressful situations. If you attune to both, you gain a +2 bonus to your Armor Class while both are on your person.</p>							
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="hand crossbow">Weapon</set>
+			<set name="slot">onehand</set>
+			<set name="attunement" addition="by a creature of non-lawful alignment">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">!ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,!ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</set>			
+		</setters>
+		<rules>
+		<stat name="ac:misc" value="2" bonus="item-bonus" requirements="ID_DMSG_TBWC_MAGIC_ITEM_THORN,ID_WOTC_AL_MAGIC_ITEM_NETTLE" alt="Thorn and Nettle"/>
+		<stat name="initiative" value="2" />		
+		</rules>
+	</element>
+
+<!-- Wondrous Items -->
+
+	<element name="Abyssal Adornment" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ABYSSALY_ADORNMENT">
+		<description>
+		<p>This heavy chain, made of charred and twisted black metal, broods with barely bridled hate. It grants a +1 bonus to all saving throws made by any creature wearing it as a necklace.</p>
+		<p class="indent">When you would take acid, cold, fire, lightning, or thunder damage, you can use your reaction to gain resistance to the triggering damage and to all damage of the same type until the end of your next turn. Once you use your reaction to activate this property, you cannot do so again until the next dawn.</p>			
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">Neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="strength:save:misc" value="1" />
+			<stat name="dexterity:save:misc" value="1" />
+			<stat name="constitution:save:misc" value="1" />
+			<stat name="intelligence:save:misc" value="1" />
+			<stat name="wisdom:save:misc" value="1" />
+			<stat name="charisma:save:misc" value="1" />
+		</rules>		
+	</element>
+
+	<element name="Amulet of the Demodragon" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_AMULET_OF_THE_DEMODRAGON">
+		<description>
+		<p>This amulet is adorned with the sculpted heads of five dragons, each a different chromatic breed. If you cast a spell that inflicts fire damage during your turn, or if you have seen a creature within 120 feet of you take fire damage inflicted by a dragon since the end of your last turn, you can use a bonus action during your turn to activate this amulet. The amulet immediately copies the spell, attack, or other effect which inflicted that fire damage. This copied effect has the same attack modifier or saving throw DC as the original effect being copied, as well as the same range or area of effect, and affects only the same targets as the original. However, any fire damage dealt by the original effect is converted to cold damage when the amulet duplicates, and any damage that was not fire damage is not duplicated at all.</p>
+		<p class="indent">Once the amulet is used, you cannot use it again until after the next dawn.</p>			
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.3">0.3 lb.</set>
+			<set name="slot">Neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+
+	<element name="Flensing Gloves" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_FLENSING_GLOVES">
+		<description>
+		<p>These gloves appear to be made of soft, black leather. Once you put them on and attune to them your hands become covered in inky blackness and your fingers end in razor sharp claws that seem to stretch of their own accord. While you are wearing both of these gloves, you can make a special unarmed strike. This unarmed strike deals an additional 1d6 magical slashing damage on top of any other damage inflicted, and such an attack has a reach of 10 feet.</p>
+		<p class="indent">A creature hit twice or more in the same turn by attacks with the same set of flensing gloves takes an additional 1d12 slashing damage from the second attack, as your claws slice off a devastatingly large chunk of its flesh.</p>
+		<p class="indent">While you are wearing one or both of these gloves, and for 1 minute after you remove them, you cannot hold anything in your hands.</p>					
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.2">0.2 lb.</set>
+			<set name="slot">Hands</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<element name="Garter of the Silver Tongue" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_GARTER_OF_THE_SILVER_TONGUE">
+		<description>
+		<p>While you wear this garter, you are preternaturally glib and well-spoken, speaking with precise diction while choosing the most effective words to influence others. Whenever you roll a Charisma check that involves speaking, you can roll 1d4 and add the number rolled to your check result.</p>
+		<p class="indent">In addition, whenever you cast a spell with verbal components, you can choose one of the following benefits and apply it to that casting of the spell:</p>
+		<ul>
+		<li>If the spell requires concentration, whenever you make a Constitution save to maintain your concentration on it, you can roll 1d4 and add the number rolled to your saving throw.</li>
+		<li>If the spell forces one or more creatures to make a saving throw, you can roll 1d4 and add the number rolled to the DC for one target's save.</li>
+		<li>If the spell inflicts damage on one or more creatures, you can choose one target and inflict 1d4 extra thunder damage on it.</li>
+		</ul>					
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.05">0.05 lb.</set>
+			<set name="slot">Arm</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<element name="Mouse Cart" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_MOUSE_CART">
+		<description>
+			<p>A mouse cart resembles a miniature wooden cart with two wooden wheels and a tiny leather harness. When you secure a normal mouse or other Tiny beast that has four legs in the harness, the cart expands to the size of a normal cart (roughly 5 square feet). The Tiny beast retains its normal size, but it increases its Strength to 16 and its Constitution to 12, allowing it to pull the cart plus its cargo. The beast’s speed also increases to 60 feet.</p>
+			<p class="indent">As long as the mouse or other beast remains in the harness, it understands your words and obeys all your verbal commands, as if it were under the effects of a dominate monster spell.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.05">0.05 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Orb of Crystalline Terror, +1" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ORB_OF_CRYSTALLINE_TERROR_1">
+		<description>
+		<p>This rough-edged sphere of green crystal saps courage and willpower from creatures who gaze upon it. If you’re a spellcaster, you can use this orb as a spellcasting focus. When you do, it grants a bonus to your spell attack rolls and the saving throw DCs of your spells. The bonus is determined by the orb’s rarity.</p>
+		<p class="indent">In addition, the orb has 3 charges. You can spend 1 charge to cast the spell <i>cause fear</i> or 2 charges to cast the spell <i>fear</i>, using your spell save DC and spellcasting ability modifier for either spell.</p>
+		<p class="indent">Also, when a creature would make a saving throw against a spell you cast, you can expend 3 charges. When you do so, you roll 1d6, adding the numer rolled to the DC of the saving throw.</p>	<p class="indent">This orb regains 3 charges each day at dawn.</p>				
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">misc</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">3</set>			
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" bonus="orb of crystalline terror" />
+			<stat name="spellcasting:dc" value="1" bonus="orb of crystalline terror" />
+		    <grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" spellcasting="spellcasting"/>
+		    <grant type="Spell" id="ID_PHB_SPELL_FEAR" spellcasting="spellcasting"/>
+		</rules>
+	</element>
+
+	<element name="Orb of Crystalline Terror, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ORB_OF_CRYSTALLINE_TERROR_2">
+		<description>
+		<p>This rough-edged sphere of green crystal saps courage and willpower from creatures who gaze upon it. If you’re a spellcaster, you can use this orb as a spellcasting focus. When you do, it grants a bonus to your spell attack rolls and the saving throw DCs of your spells. The bonus is determined by the orb’s rarity.</p>
+		<p class="indent">In addition, the orb has 3 charges. You can spend 1 charge to cast the spell <i>cause fear</i> or 2 charges to cast the spell <i>fear</i>, using your spell save DC and spellcasting ability modifier for either spell.</p>
+		<p class="indent">Also, when a creature would make a saving throw against a spell you cast, you can expend 3 charges. When you do so, you roll 1d6, adding the numer rolled to the DC of the saving throw.</p>	<p class="indent">This orb regains 3 charges each day at dawn.</p>				
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">misc</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="charges">3</set>			
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" bonus="orb of crystalline terror" />
+			<stat name="spellcasting:dc" value="2" bonus="orb of crystalline terror" />
+		    <grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" spellcasting="spellcasting" />
+		    <grant type="Spell" id="ID_PHB_SPELL_FEAR" spellcasting="spellcasting"/>
+		</rules>
+	</element>
+
+	<element name="Orb of Crystalline Terror, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ORB_OF_CRYSTALLINE_TERROR_3">
+		<description>
+		<p>This rough-edged sphere of green crystal saps courage and willpower from creatures who gaze upon it. If you’re a spellcaster, you can use this orb as a spellcasting focus. When you do, it grants a bonus to your spell attack rolls and the saving throw DCs of your spells. The bonus is determined by the orb’s rarity.</p>
+		<p class="indent">In addition, the orb has 3 charges. You can spend 1 charge to cast the spell <i>cause fear</i> or 2 charges to cast the spell <i>fear</i>, using your spell save DC and spellcasting ability modifier for either spell.</p>
+		<p class="indent">Also, when a creature would make a saving throw against a spell you cast, you can expend 3 charges. When you do so, you roll 1d6, adding the numer rolled to the DC of the saving throw.</p>	<p class="indent">This orb regains 3 charges each day at dawn.</p>				
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">misc</set>
+			<set name="attunement" addition="by an arcane spellcaster">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="charges">3</set>			
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="3" bonus="orb of crystalline terror" />
+			<stat name="spellcasting:dc" value="3" bonus="orb of crystalline terror" />
+		    <grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" spellcasting="spellcasting"/>
+		    <grant type="Spell" id="ID_PHB_SPELL_FEAR" spellcasting="spellcasting"/>
+		</rules>
+	</element>
+
+	<element name="Orb of Holiness" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ORB_OF_HOLINESS">
+		<description>
+		<p>While holding one of these rare crystalline spheres—usually found at the heart of a temple, shrine, sacred grove, or other special location dedicated to a particular faith—you can use this orb as a spellcasting focus. While holding this orb, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells.</p>
+		<p class="indent">Each orb has 12 charges, and regains 1d8 + 4 expended charges daily at dawn. While holding one, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: <i>cure wounds</i> (1 charge per spell level, up to 4th), <i>purify food and drink</i> (1 charge), <i>sleep</i> (1 charge), <i>calm emotions</i> (2 charges), or <i>regenerate</i> (7 charges).</p>
+		<p class="indent">An orb of holiness has an alignment, and is always neutral good, neutral evil, or neutral. The DM can choose one of these alignment based on the faith to which the orb is consecrated, or a d20. On a roll of 1-6, the orb is neutral evil, on a roll of 7-14 the orb is neutal good, on a roll of 15- 20 the orb is neutral.</p>
+		<p class="indent">When an orb is touched by a creature of an alignment to which the orb is opposed (any evil for a neutral good orb, good for a neutral evil orb, and any good or evil for a neutral orb), that creature must roll a DC 17 Intelligence saving throw. On a failure, it takes 4d6 psychic damage and is affected as if it had failed its save against a feeblemind spell. On a success, it takes 2d6 psychic damage and is stunned until the end of its next turn. Any undead creature that takes this damage also takes extra radiant damage equal to the psyhic damage. Only a spellcaster that can touch the orb without having to make this saving throw can attune to it.</p>						
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">misc</set>
+			<set name="attunement" addition="by a spellcaster of a certain alignment">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="charges">12</set>			
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" bonus="Orb of holiness" />
+			<stat name="spellcasting:dc" value="2" bonus="Orb of holiness" />
+		    <grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" />
+		    <grant type="Spell" id="ID_PHB_SPELL_FEAR" />
+		</rules>
+	</element>
+
+	<element name="Storm’s Garter" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_STORM'S_GARTER">
+		<description>
+		<p>This simple band of black silk is sewn to three long, flat tie cords, and it changes size to fit the upper arm, upper thigh, or neck of the creature wearing it. While wearing a Storm's garter, you gain darkvision out to 60 feet (or increase the range of your darkvision by 60 feet if you already have it), and you increase your Dexterity score by 1 (to a maximum of 20). If you fall more than 10 feet while you wear a Storm's garter, the item immediately casts feather fall on you without any action or reaction on your part.</p>
+		<p class="indent">A Storm's garter has 3 charges. You can expend 1 charge as an action to cast one of the following spells: <i>jump</i>, <i>silence</i>, or <i>spider climb</i>. The garter regains all expended charges each day at dawn.</p>
+		<p class="indent">These items originate from the Forgotten Realms, where they are always originally made for Harpers, of any gender, but often come into the hands of other folk of Faerûn after being taken from slain or injured Harpers.</p>						
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">Arm</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="charges">3</set>			
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="2" bonus="Orb of holiness" />
+			<stat name="spellcasting:dc" value="2" bonus="Orb of holiness" />
+		    <grant type="Spell" id="ID_PHB_SPELL_JUMP" />
+		    <grant type="Spell" id="ID_PHB_SPELL_SILENCE" />
+		    <grant type="Spell" id="ID_PHB_SPELL_SPIDER_CLIMB" />			
+			<stat name="dexterity" value="1" />			
+		</rules>
+	</element>
+
+<!-- Artifcats -->
+
+	<element name="The Memory Mirror (Shard)" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_MEMORY_MIRROR_SHARD">
+		<description>
+		<p>Once the indulgence of the dreaded death knight Lord Soth, this 6-foot-long by 3-foot-wide mirror was shattered into twelve fragments. The bulk of the mirror’s power lies in a single central piece held by a mysterious paladin who wanders the domain of Sithicus, a hero known as the Blessed Knight who is attuned to this <i>key memory mirror shard</i> when he is first encountered. However, the other shards have powers of their own, each serving to empower the key shard and help unlock its greater abilities.</p>
+		<p class="indent">Each <i>memory mirror shard</i> reflects images of a character’s past innocence when gazed into for more than a few seconds. The <i>key memory mirror shard</i> held by the Blessed Knight reflects not only the past, but shows each person who looks into it an image of the most idealized version of themselves that they could be in the present. This key memory mirror shard glows with soft white radiance when within 100 feet of another piece, and Mirror Shards held touching it bond with it seamlessly.</p>
+		<p class="indent"><strong><em>Random Properties.</em></strong> Each of the memory mirror shards has 1 random minor beneficial property.</p>
+		<p class="indent">The <i>key memory mirror shard</i> held by the Blessed Knight has the following random properties:</p>	
+		<ul>
+		<li>1 minor beneficial property</li>
+		<li>1 major beneficial property</li>
+		</ul>
+		<p class="indent">When fully assembled, the complete <i>memory mirror</i> has the following random properties:</p>
+		<ul>
+		<li>12 minor beneficial properties</li>
+		<li>2 major beneficial properties</li>
+		</ul>
+		<p class="indent"><strong><em>Properties of each Memory Mirror Shard.</em></strong> If you attune to one of the twelve memory mirror shards that is in your possession, you gain the following benefits:</p>
+		<ul>
+		<li>You have advantage on all Wisdom saving throws against being charmed or frightened, or against having your emotions or moods affected by magic (including the Guilt of Sithicus effect).</li>
+		<li>Whether you are attuned or not, when you finish a long rest while carrying this item, you are unaffected by any Flaws you may have dealing with guilt or regret until the next time you finish a long rest.</li>
+		<li>Each <i>memory mirror shard</i> melds seamlessly to the <i>key memory mirror shard</i> if held against it, regardless of whether anyone is attuned to either item. Attunement to the <i>memory mirror shard</i> ends when it melds with the <i>key memory mirror shard</i>.</li>		
+		</ul>			
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="slot">misc</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+	<element name="The Memory Mirror (Shard)- The Guilt of Sithicus" type="Information" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_INFORMATION_THE_MEMORY_MIRROR_SHARD">
+		<description>
+			<p>The Memory Mirror and the Nedragaard Chalice are both tied to Sithicus, a Domain of Dread that borders Barovia. Any sentient being who passes through the borders of Sithicus and enters this dismal realm is afflicted by its atmosphere of crippling guilt. An intelligent creature entering Sithicus gains the following Flaw while within the bounds of that domain of Dread: "I am haunted by the guild of my worst misdeeds, which I can never forget."</p>
+			<p class="indent">In addition, a character that finishes a long rest in Sithicus must make a DC 15 Charisma saving throw. On a failure, the character is afflicted with overwhelming guilt. This effect reduces walking speed by 5 feet and imposes disadvantage on Wisdom and Charisma check due to feelings of apathy and unworthness. Every time a character finishes a long rest in Sithicus, this saving throw is repeated, with failure imposing the guilt effect, and success providing respite from it.</p>
+			<p class="indent">Spells below 6th level seem useless to permanently end this effect (though <i>calm emotions</i> can suppress it for a brief duration). However, the locals whisper rumors of a shatterd relic tied to the vanished darklord, the pieces of which can lessen the guilt's effects</p>
+		</description>
+	</element>
+
+	<element name="The Memory Mirror (Key)" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_MEMORY_MIRROR_KEY">
+		<description>
+		<p>Once the indulgence of the dreaded death knight Lord Soth, this 6-foot-long by 3-foot-wide mirror was shattered into twelve fragments. The bulk of the mirror’s power lies in a single central piece held by a mysterious paladin who wanders the domain of Sithicus, a hero known as the Blessed Knight who is attuned to this <i>key memory mirror shard</i> when he is first encountered. However, the other shards have powers of their own, each serving to empower the key shard and help unlock its greater abilities.</p>
+		<p class="indent">Each <i>memory mirror shard</i> reflects images of a character’s past innocence when gazed into for more than a few seconds. The <i>key memory mirror shard</i> held by the Blessed Knight reflects not only the past, but shows each person who looks into it an image of the most idealized version of themselves that they could be in the present. This key memory mirror shard glows with soft white radiance when within 100 feet of another piece, and Mirror Shards held touching it bond with it seamlessly.</p>
+		<p class="indent"><strong><em>Random Properties.</em></strong> Each of the memory mirror shards has 1 random minor beneficial property.</p>
+		<p class="indent">The <i>key memory mirror shard</i> held by the Blessed Knight has the following random properties:</p>	
+		<ul>
+		<li>1 minor beneficial property</li>
+		<li>1 major beneficial property</li>
+		</ul>
+		<p class="indent">When fully assembled, the complete <i>memory mirror</i> has the following random properties:</p>
+		<ul>
+		<li>12 minor beneficial properties</li>
+		<li>2 major beneficial properties</li>
+		</ul>
+		<p class="indent"><strong><em>Properties of each Memory Mirror Shard.</em></strong> If you attune to one of the twelve memory mirror shards that is in your possession, you gain the following benefits:</p>
+		<ul>
+		<li>You have advantage on all Wisdom saving throws against being charmed or frightened, or against having your emotions or moods affected by magic (including the Guilt of Sithicus effect).</li>
+		<li>Whether you are attuned or not, when you finish a long rest while carrying this item, you are unaffected by any Flaws you may have dealing with guilt or regret until the next time you finish a long rest.</li>
+		<li>Each <i>memory mirror shard</i> melds seamlessly to the <i>key memory mirror shard</i> if held against it, regardless of whether anyone is attuned to either item. Attunement to the <i>memory mirror shard</i> ends when it melds with the <i>key memory mirror shard</i>.</li>		
+		</ul>
+		<p class="indent"><strong><em>Properties of the Key Memory Mirror Shard (currently held by the Blessed Knight).</em></strong> The Blessed Knight is attuned to the <i>key memory mirror shard</i>. If you become attuned to it instead, you gain the same benefits from it that he does:</p>
+		<ul>
+		<li>You have advantage on all Wisdom saving throws against being charmed or frightened, or against having your emotions or moods affected by magic.</li>
+		<li>You are immune to the Guilt of Sithicus effect and the <i>guilt lash</i> spell.</li>
+		<li>You gain an additional Ideal: “I strive to be the best possible version of myself.”</li>
+		<li>When you finish a long rest, any Flaws you may have dealing with guilt or regret are permanently removed. (If this means you have no Flaws, consult with your DM about adding a new Flaw.)</li>
+		<li>Anyone looking into the <i>key memory mirror shard</i>, whether it is attuned or not, gains immunity to the Guilt of Sithicus effect and to any other guilt-based magical effects (such as the <i>guilt lash</i> spell) for a number of weeks equal to 1 plus the number of <i>memory mirror shards</i> to which the <i>key memory mirror shard</i> is melded.</li>
+		<li>Each <i>memory mirror shard</i> melds seamlessly to the <i>key memory mirror shard</i> if held against it, regardless of whether anyone is attuned to either item. Any attunement to that <i>memory mirror shard</i> ends when it is melded, but you remain attuned to the <i>key memory mirror shard</i> no manner how many other shards to which it bonds.</li>
+		<li>Whether it is attuned or not, the <i>key memory mirror shard</i> glows with white light when within 100 feet of another Mirror Shard.</li>
+		<li>If the <i>key memory mirror shard</i> is melded to all of the eleven other mirror shards, it transforms into the complete <i>memory mirror</i>, as if it had never been broken. If you are attuned to the <i>key memory mirror shard</i> when this happens, you are automatically attuned to the complete <i>memory mirror</i> it becomes.</li>								
+		</ul>					
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="slot">misc</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+	<element name="The Memory Mirror (Key)- The Guilt of Sithicus" type="Information" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_INFORMATION_THE_MEMORY_MIRROR_KEY">
+		<description>
+			<p>The Memory Mirror and the Nedragaard Chalice are both tied to Sithicus, a Domain of Dread that borders Barovia. Any sentient being who passes through the borders of Sithicus and enters this dismal realm is afflicted by its atmosphere of crippling guilt. An intelligent creature entering Sithicus gains the following Flaw while within the bounds of that domain of Dread: "I am haunted by the guild of my worst misdeeds, which I can never forget."</p>
+			<p class="indent">In addition, a character that finishes a long rest in Sithicus must make a DC 15 Charisma saving throw. On a failure, the character is afflicted with overwhelming guilt. This effect reduces walking speed by 5 feet and imposes disadvantage on Wisdom and Charisma check due to feelings of apathy and unworthness. Every time a character finishes a long rest in Sithicus, this saving throw is repeated, with failure imposing the guilt effect, and success providing respite from it.</p>
+			<p class="indent">Spells below 6th level seem useless to permanently end this effect (though <i>calm emotions</i> can suppress it for a brief duration). However, the locals whisper rumors of a shatterd relic tied to the vanished darklord, the pieces of which can lessen the guilt's effects</p>
+		</description>
+	</element>
+
+	<element name="The Memory Mirror (Complete)" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_MEMORY_MIRROR_COMPLETE">
+		<description>
+		<p>Once the indulgence of the dreaded death knight Lord Soth, this 6-foot-long by 3-foot-wide mirror was shattered into twelve fragments. The bulk of the mirror’s power lies in a single central piece held by a mysterious paladin who wanders the domain of Sithicus, a hero known as the Blessed Knight who is attuned to this <i>key memory mirror shard</i> when he is first encountered. However, the other shards have powers of their own, each serving to empower the key shard and help unlock its greater abilities.</p>
+		<p class="indent">Each <i>memory mirror shard</i> reflects images of a character’s past innocence when gazed into for more than a few seconds. The <i>key memory mirror shard</i> held by the Blessed Knight reflects not only the past, but shows each person who looks into it an image of the most idealized version of themselves that they could be in the present. This key memory mirror shard glows with soft white radiance when within 100 feet of another piece, and Mirror Shards held touching it bond with it seamlessly.</p>
+		<p class="indent"><strong><em>Random Properties.</em></strong> Each of the memory mirror shards has 1 random minor beneficial property.</p>
+		<p class="indent">The <i>key memory mirror shard</i> held by the Blessed Knight has the following random properties:</p>	
+		<ul>
+		<li>1 minor beneficial property</li>
+		<li>1 major beneficial property</li>
+		</ul>
+		<p class="indent">When fully assembled, the complete <i>memory mirror</i> has the following random properties:</p>
+		<ul>
+		<li>12 minor beneficial properties</li>
+		<li>2 major beneficial properties</li>
+		</ul>
+		<p class="indent"><strong><em>Properties of each Memory Mirror Shard.</em></strong> If you attune to one of the twelve memory mirror shards that is in your possession, you gain the following benefits:</p>
+		<ul>
+		<li>You have advantage on all Wisdom saving throws against being charmed or frightened, or against having your emotions or moods affected by magic (including the Guilt of Sithicus effect).</li>
+		<li>Whether you are attuned or not, when you finish a long rest while carrying this item, you are unaffected by any Flaws you may have dealing with guilt or regret until the next time you finish a long rest.</li>
+		<li>Each <i>memory mirror shard</i> melds seamlessly to the <i>key memory mirror shard</i> if held against it, regardless of whether anyone is attuned to either item. Attunement to the <i>memory mirror shard</i> ends when it melds with the <i>key memory mirror shard</i>.</li>		
+		</ul>
+		<p class="indent"><strong><em>Properties of the Key Memory Mirror Shard (currently held by the Blessed Knight).</em></strong> The Blessed Knight is attuned to the <i>key memory mirror shard</i>. If you become attuned to it instead, you gain the same benefits from it that he does:</p>
+		<ul>
+		<li>You have advantage on all Wisdom saving throws against being charmed or frightened, or against having your emotions or moods affected by magic.</li>
+		<li>You are immune to the Guilt of Sithicus effect and the <i>guilt lash</i> spell.</li>
+		<li>You gain an additional Ideal: “I strive to be the best possible version of myself.”</li>
+		<li>When you finish a long rest, any Flaws you may have dealing with guilt or regret are permanently removed. (If this means you have no Flaws, consult with your DM about adding a new Flaw.)</li>
+		<li>Anyone looking into the <i>key memory mirror shard</i>, whether it is attuned or not, gains immunity to the Guilt of Sithicus effect and to any other guilt-based magical effects (such as the <i>guilt lash</i> spell) for a number of weeks equal to 1 plus the number of <i>memory mirror shards</i> to which the <i>key memory mirror shard</i> is melded.</li>
+		<li>Each <i>memory mirror shard</i> melds seamlessly to the <i>key memory mirror shard</i> if held against it, regardless of whether anyone is attuned to either item. Any attunement to that <i>memory mirror shard</i> ends when it is melded, but you remain attuned to the <i>key memory mirror shard</i> no manner how many other shards to which it bonds.</li>
+		<li>Whether it is attuned or not, the <i>key memory mirror shard</i> glows with white light when within 100 feet of another Mirror Shard.</li>
+		<li>If the <i>key memory mirror shard</i> is melded to all of the eleven other mirror shards, it transforms into the complete <i>memory mirror</i>, as if it had never been broken. If you are attuned to the <i>key memory mirror shard</i> when this happens, you are automatically attuned to the complete <i>memory mirror</i> it becomes.</li>								
+		</ul>
+		<p class="indent"><strong><em>Properties of the complete memory mirror when fully assembled.</em></strong> If you are attuned to the completed memory mirror, your alignment changes to lawful good, and you gain the following benefits:</p>
+		<ul>
+		<li>You are immune to the charmed and frightened conditions.</li>
+		<li>You have advantage on all saving throws against having your emotions or moods affected by magic.</li>
+		<li>You are immune to the Guilt of Sithicus effect and the <i>guilt lash</i> spell.</li>
+		<li>You gain an additional Ideal: “I strive to be the best possible version of myself, and I am succeeding.”</li>
+		<li>When you finish a long rest, any Flaws you may have dealing with guilt or regret are permanently removed. (If this means you have no Flaws, consult with your DM about adding a new Flaw.)</li>
+		<li>A creature looking into the <i>memory mirror</i>, whether it is attuned or not, gains permanent immunity to the Guilt of Sithicus effect described in this section. It is also gains immunity to any other guilt-based magical effects (such as the <i>guilt lash</i> spell) until the next time it leaves Sithicus.</li>
+		<li>When a darklord looks into the <i>memory mirror</i> while a creature is attuned to it, that darklord sees their own true nature reflected back at them. As a result, for 1 hour, that darklord is both frightened of the <i>memory mirror</i> and poisoned, and cannot regain hit points or change form (via effects such as polymorph spells, the shapechange spell, or any other effect that transforms the darklord into something else). This effect ignores immunities. If the darklord of Sithicus is reduced to 0 hit points while under this effect, this destroys that darklord permanently.</li>
+		<li>If a darklord under the effect of the attuned <i>memory mirror</i> is destroyed, you can immediately end your attunement to this artifact, causing it to cast the <i>gate</i> spell. The <i>gate</i> remains open for 1 minute. It leads to a relatively peaceful area in any one of the Domains of Dread you choose (or, if the DM chooses to permit it, this <i>gate</i> may instead allow you to travel out of Ravenloft entirely, and into an alternate plane of your choice).</li>								
+		</ul>							
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="slot">misc</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+	<element name="The Memory Mirror (Complete)- The Guilt of Sithicus" type="Information" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_INFORMATION_THE_MEMORY_MIRROR_COMPLETE">
+		<description>
+		<p>The Memory Mirror and the Nedragaard Chalice are both tied to Sithicus, a Domain of Dread that borders Barovia. Any sentient being who passes through the borders of Sithicus and enters this dismal realm is afflicted by its atmosphere of crippling guilt. An intelligent creature entering Sithicus gains the following Flaw while within the bounds of that domain of Dread: "I am haunted by the guild of my worst misdeeds, which I can never forget."</p>
+		<p class="indent">In addition, a character that finishes a long rest in Sithicus must make a DC 15 Charisma saving throw. On a failure, the character is afflicted with overwhelming guilt. This effect reduces walking speed by 5 feet and imposes disadvantage on Wisdom and Charisma check due to feelings of apathy and unworthness. Every time a character finishes a long rest in Sithicus, this saving throw is repeated, with failure imposing the guilt effect, and success providing respite from it.</p>
+		<p class="indent">Spells below 6th level seem useless to permanently end this effect (though <i>calm emotions</i> can suppress it for a brief duration). However, the locals whisper rumors of a shatterd relic tied to the vanished darklord, the pieces of which can lessen the guilt's effects</p>
+		</description>
+	</element>
+
+	<element name="The Nedragaard Chalice" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_NEDRAGAARD_CHALICE">
+		<description>
+		<p>This exquisite cup is made of an unknown goldlike metal and is cold to the touch. It originated in the domain of Sithicus, a neighbor of Barovia. The chalice seems to bear a powerful curse connected to Lord Soth, the death knight who once ruled Sithicus from the cold halls of Nedragaard Keep—and who rumors say may yet rule it still, from some hidden place within the domain.</p>
+		<p class="indent"><strong><em>The Black Blood.</em></strong> Each morning at dawn, black blood appears in the bottom of the chalice. If you dare drink from the chalice, it infuses you and your worn equipment with an eerie power, at the cost of some of your own life force. When you drink from the chalice you immediately lose 2 Hit Dice. If you do not have two Hit Dice, you suffer 2d4 necrotic damage if you have only 1 Hit Die to lose, or 4d4 necrotic damage if you have none. However, drinking the black blood also grants you the following benefits until the next time you finish a long rest:</p>	
+		<ul>
+		<li>The suit of armor you are wearing when you drink (if any) grants you a magical +2 bonus to Armor Class, unless it already provides a magical AC bonus</li>
+		<li>You can speak and read Abyssal</li>
+		<li>When you hit a creature that has fewer than half its hit points remaining with an attack roll, it takes an extra 1d8 necrotic damage from that attack, and you gain temporary hit points equal to the necrotic damage inflicted</li>		
+		</ul>
+		<p class="indent"><strong><em>Keening Dreams.</em></strong> The hours that should be most restful for you instead bring visions of a chorus of banshees, singing of the sins of the death knight Lord Soth—and occasionally weaving in references to your own sins as well. While horrific, these visions also grant unearthly insights, and whenever you finish a long rest while attuned to the chalice, you gain the following benefits until the next time you finish a long rest:</p>
+		<ul>
+		<li>You have advantage on all Intelligence (Arcana, History, and Religion) checks</li>
+		<li>Undead cannot benefit from advantage when making attack rolls against you</li>
+		<li>Whenever you make a Wisdom saving throw, you can roll 1d4 and add the result to your roll.</li>		
+		</ul>
+		<p class="indent"><strong><em>Necromantic Gifts.</em></strong> The chalice has 8 charges. While holding it, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 20) from it: <i>animate dead</i> (2 charges), <i>armor of Agathys</i> (1 charge), <i>blade of flickering shadows</i> (2 charges), <i>chains of Levistus</i> (1 charge), <i>fear</i> (2 charges), or <i>finger of death</i> (5 charges). The chalice regains 1d4 + 4 expended charges daily at dawn. Each time you cast a spell from the chalice, your features take on an unnatural, deathly pallor and your eyes smolder with a dim inner fire, giving you disadvantage on Charisma (Deception or Persuasion) checks for 1 hour.</p>
+		<p class="indent"><strong><em>Power Over Undead.</em></strong> Undead creatures stand in fear and awe of the bearer of the chalice. While holding the chalice, you can target one undead creature you can see within 30 feet. The target must make a Wisdom saving throw against a DC equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, the target must obey your commands for the next 24 hours, as if affected by a <i>dominate monster</i> spell. An undead whose challenge rating is equal to or greater your level is immune to this effect.</p>
+		<p class="indent"><strong><em>Destroying the Nedragaard Chalice.</em></strong> In order to be rid of this artifiact, you must assemble another: the <i>memory mirror</i> that once stood in Nedragaard Keep. When Nedragaard was destroyed, the mirror was shattered into twelve shards, which are hidden in various locations across Sithicus. Rumors say a knight errant seeks the shards, believing the assembled mirror can destroy the darklord who rules the domain. The chalice itself has no reflection in the mirror or its shards.</p>
+		<p class="indent">Once the <i>memory mirror</i> is reassembled, it must be returned to the ruins of Nedragaard. This is no easy feat. The ruins of Nedragaard Keep now jut from the earth like blackened teeth, atop a black spire that stands in the center of the Great Chasm, a massive canyon that nearly splits the domain in two. Gaping in the heart of Sithicus like an open, festering wound, the chasm runs for dozens of miles north to south, and is up to five miles wide in places.</p>
+		<p class="indent">Sections are said to be bottomless, although few explorers have been foolish enough to test those claims. Fearsome creatures lurk within the Great Chasm, creeping forth when the sun sets. The elves of Sithicus say a larger shadowy presence seethes in this chasm, and they avoid it at all costs. Ravens wheel forlornly about the towering shards of the keep, and some elves swear they have glimpsed mournful shades drifting around the ruins at night. The stone bridge that once spanned the rift is gone, so reaching the ruins is all but impossible.</p>
+		<p class="indent">If somehow the <i>memory mirror</i> is made whole again and returned to the still intact chamber within the ruins where the death knight used to gaze into it for hours, a character attuned to the chalice can raise it there in a toast to their own reflection. When the character’s reflected self in the mirror lifts an empty hand (since the chalice itself is never reflected in the <i>memory mirror)</i>, they can reach into the mirror as if it had no substance, handing the chalice to their reflection. Once this is done, the chalice is effectively destroyed, existing only as an empty illusion in the mirror.</p>													
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="charges">8</set>			
+			<set name="slot">misc</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_ABYSSAL" />		    
+			<grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" />			
+			<grant type="Spell" id="ID_TBC_SPELL_CHAINS_OF_LEVISTUS" />
+		    <grant type="Spell" id="ID_TBC_SPELL_BLADE_OF_FLICKERING_SHADOWS" />
+		    <grant type="Spell" id="ID_PHB_SPELL_FEAR" />			
+			<grant type="Spell" id="ID_PHB_SPELL_FINGER_OF_DEATH" />		
+		</rules>		
+	</element>
+
+	<element name="The Staff of the Lower Planes" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_STAFF_OF_THE_LOWER_PLANES">
+		<description>
+		<p>This unassuming staff appears to be a piece of twisted driftwood. Interesting to look at, but not sturdy enough to serve as a spell focus or to be used in crafting. Thousands of unsuspecting people have used the staff as a walking stick without realizing they were carrying one of the most powerful weapons in the multiverse. The staff is sentient, and seems to only end up in the hands of wielders it chooses.</p>
+		<p class="indent">Once a creature attunes to the <i>Staff</i>, some of its true nature shows. The ends of the staff emit a sickly, yellow smoke that causes nonmagical plants within 10 feet that are not creatures to wither away and die. Leering demonic faces appear in the wood, seemingly pleading for release before something drags them back into the <i>Staff</i>.</p>	
+		<p class="indent"><strong><em>Random Properties.</em></strong> The Staff of the Lower Planes has the following random properties:</p>		
+		<ul>
+		<li>2 minor beneficial properties</li>
+		<li>1 major beneficial property</li>
+		<li>2 minor detrimental properties</li>
+		<li>1 major detrimental property</li>					
+		</ul>
+		<p class="indent"><strong><em>Sentient.</em></strong> The Staff can communicate with its wielder. It has an Intelligence of 20, a Wisdom of 18, and a Charisma of 24.</p>
+		<p class="indent"><strong><em>Magic Spells.</em></strong> The <i>Staff of the Lower Planes</i> has 5 charges. While holding it, you can expend 1 charge to cast one of the following spells:</p>		
+		<ul>
+		<li><i>Mass suggestion</i> (as a 6th level spell)</li>
+		<li>Contagion</li>
+		<li><i>Hold person</i> (as a 6th level spell)</li>		
+		<li>Eyebite</li>		
+		</ul>
+		<p class="indent"><strong><em>Hidden Master.</em></strong> A creature attuned to the <i>Staff of the Lower Planes</i> gains all the benefits of a <i>nondetection</i> spell while the <i>Staff</i> is on its person. Casting <i>identify</i> or <i>detect magic</i> on the <i>Staff</i> only reveals information the staff chooses to reveal.</p>
+		<p class="indent"><strong><em>Demotion.</em></strong> Any fiend struck by the staff must make a Constitution saving throw (DC 15). On a failure, the fiend’s body is wracked with horrible pain. It is  incapacitated until the start of its next turn. At the start of that turn, the fiend must make a second Constitution saving throw (DC 15). On a failure, the fiend’s former body dissolves into a puddle of sticky goo as it is transformed into a larva (a lowly form of fiend described in the <i>Monster Manual</i>). Most intelligent fiends will have a plan to quickly (within a few years or a decade) reclaim their former power and glory, but they will be enraged at having been reduced to a larva, viewing it as the ultimate insult.</p>													
+		</description>
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Quarterstaff</set>
+			<set name="rarity">Artifact</set>
+			<set name="charges">5</set>			
+			<set name="attunement" addition="by an evil creature">true</set>
+			<set name="damage" type="bludgeoning">1d6</set>
+			<set name="versatile">1d8</set>			
+		</setters>
+		<rules>  
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" />
+			<grant type="Spell" id="ID_PHB_SPELL_NONDETECTION" />			
+			<grant type="Spell" id="ID_PHB_SPELL_CONTAGION" />
+		    <grant type="Spell" id="ID_PHB_SPELL_MASS_SUGGESTION" />
+		    <grant type="Spell" id="ID_PHB_SPELL_EYEBITE" />			
+		</rules>		
+	</element>
+
+	<element name="The Staff of Ruin" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_THE_STAFF_OF_RUIN">
+		<description>
+		<p>Seeing the <i>Staff of Ruin</i> for the first time is unforgettable. The staff is six feet tall and made of a strange black metal that seems to drink in the light. At the top of the <i>Staff</i> sits a demonic skull with massive ram’s horns. When an arcane caster channels energy into the <i>Staff</i>, the eyes glow red and the skull laughs, sings, or screams gibberish.</p>
+		<p class="indent">The first recorded use of the staff was during the endless battles of the Blood War. Accounts vary as to who was actually wielding the staff, but most agree the first wielder was betrayed in the middle of the battle by their own minions. The staff next appeared in the possession of the Blood Dawn Coven, a trio of night hags known to raise armies of the dead to use as expendable troops in the Blood War. The hags’ lieutenant, the lich Keloton, used their own undead against them and stole the <i>Staff</i>. Keloton carried the <i>Staff</i> for years in his quest for godhood before he mysteriously vanished. The Blood Dawn Coven survived Keloton’s betrayal, and they seek revenge as well as the return of the staff. Any sighting of it is sure to gain their attention and the ire of their horde of demons.</p>	
+		<p class="indent"><strong><em>Random Properties.</em></strong> The Staff of Ruin has the following random properties:</p>		
+		<ul>
+		<li>2 minor beneficial properties</li>
+		<li>1 major beneficial property</li>
+		<li>2 minor detrimental properties</li>
+		<li>1 major detrimental property</li>					
+		</ul>
+		<p class="indent"><strong><em>Arcane Focus.</em></strong> You can use the <i>Staff of Ruin</i> as a spellcasting focus, and spells cast through it do not require any material component that is worth 50 gp or less. The <i>Staff of Ruin</i> is not consumed by the spell, even if the spell normally destroys the material component.</p>
+		<p class="indent"><strong><em>Eldritch Barrage.</em></strong> As an action, you can cast <i>eldritch blast</i> with the staff, using your choice of Intelligence or Charisma as your spellcasting ability. If you cast <i>eldritch blast</i> and target the same creature with more than one beam, once you hit the target with a ranged spell attack for one beam, any attack rolls for subsequent beams from the same casting against that target automatically hit. Any creature hit with more than one beam takes the normal damage for those beams, and also takes an extra 2d10 force damage.</p>		
+		<p class="indent"><strong><em>Crystal Ball.</em></strong> The crystal ball embedded in the demon’s skull allows you to cast the <i>scrying</i> spell once, regaining the ability to do so each day at midinight. Whenever you cast the <i>scrying</i> spell while using the staff as a spellcasting focus, it makes your <i>scrying</i> spell more effective. Any Wisdom saving throw made against a <i>scrying</i> spell you cast through the staff is made with disadvantage. Furthermore, as long as you are gazing into the crystal ball, <i>nondetection</i> does not block your <i>scrying</i> spells.</p>					
+		</description>
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Staff</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a spellcaster of 5th level or higher">true</set>	
+		</setters>
+		<rules>  
+			<grant type="Spell" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
+		</rules>		
+	</element>
+</elements>

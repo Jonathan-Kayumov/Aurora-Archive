@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Warlock</name>
+		<description>The Blackstaff's Warlock Codex- New Otherwroldly Patrons</description>
+		<author url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex">By Jeremy Forbing, Heath Harris and Scott Bean</author>
+		<update version="0.3.7">
+		<file name="the-blackstaff-warlock-codex-new-otherwroldly-patrons" url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex" />
+		</update>
+	</info>
+
+	<element name="The Architect of Order" type="Archetype" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_OTHERWORLDLY_PATRON_ARCHITECT_OF_ORDER">
+		<supports>Otherworldly Patron</supports>
+		<description>
+		<p>The consciousness that holds your pact is an entity (or group of entities) devoted to perfect absolutes of order, logic, or law that no being of flesh could ever attain. Such beings often manifest as masters of clockwork hierarchies, creators of wondrous devices, or even as transcendent machines themselves. Your pact grants innate understanding of the machinery that drives the multiverse, and intertwines your destiny with an otherworldly plane of law, such as Daanvi the Perfect Order or the Clockwork Nirvana of Mechanus.</p>
+		<p class="indent">Your patron pursues its aims according to rigid and unyielding principles, but its agenda is often indecipherable. You may not share your patron’s goals or even its alignment, but it grants you power because it believes you will serve a larger purpose. Beings of this sort include Primus, lord and creator of the modrons on the lawful plane of Mechanus; Zaerith Menyar Ag-Gith, the immortal, self-proclaimed god-king of the githzerai; celestials more devoted to order than moral good, such as the Arcadian Avengers; the most powerful of the extraplanar magical constructs known as the inevitables; and the legendary Wind Dukes of Aaqa, who created the famed Rod of Seven Parts.</p>
+		
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_EXPANDED_SPELL_LIST"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_DEFENSIVE_TELEPATHY"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_AXIOMATIC_HIERARCHY"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_MODRON_SERVANT"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_PARTIAL_CONSTRUCT"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_MIND_OF_METAL_AND_WHEEL"/>
+		</description>
+		<sheet display="false">
+		<description>You have made a pact with an entity (or entities) from the higher planes of existence.</description>
+		</sheet>
+		<rules>
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_EXPANDED_SPELL_LIST" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_DEFENSIVE_TELEPATHY" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_AXIOMATIC_HIERARCHY" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_MODRON_SERVANT" level="6" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_PARTIAL_CONSTRUCT" level="10" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_MIND_OF_METAL_AND_WHEEL" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_EXPANDED_SPELL_LIST">
+		<description>
+		<p>The Architect of Order allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+		<h5 class="caption">ARCHITECT OF ORDER EXPANDED SPELLS</h5>
+		<table>
+		<thead>
+		<tr><td>Spell Level</td><td>Spells</td></tr>
+		</thead>
+		<tr><td>1st</td><td><em>command, detect thoughts</em></td></tr>
+		<tr><td>2nd</td><td><em>align weapon, calm emotions</em></td></tr>
+		<tr><td>3rd</td><td><em>magnetism, tiny servant</em></td></tr>
+		<tr><td>4th</td><td><em>compulsion, fabricate</em></td></tr>
+		<tr><td>5th</td><td><em>animate objects, modify memory</em></td></tr>
+		</table>
+		</description>
+		<sheet display="false">
+		<description>The Architect of Order lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+		<extend>ID_PHB_SPELL_DETECT_THOUGHTS</extend>
+		<extend>ID_PHB_SPELL_COMMAND</extend>
+		<extend>ID_PHB_SPELL_CALM_EMOTIONS</extend>
+		<extend>ID_TBC_SPELL_ALIGN_WEAPON</extend>
+		<extend>ID_TBC_SPELL_MEGNETISM</extend>
+		<extend>ID_TBC_SPELL_TINY_SERVANT</extend>
+		<extend>ID_PHB_SPELL_COMPULSION</extend>
+		<extend>ID_PHB_SPELL_FABRICATE</extend>
+		<extend>ID_PHB_SPELL_ANIMATE_OBJECTS</extend>
+		<extend>ID_PHB_SPELL_MODIFY_MEMORY</extend>
+		</spellcasting>
+	</element>
+	<element name="Defensive Telepathy" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_DEFENSIVE_TELEPATHY">
+		<description>
+		<p>At 1st level, your patron grants you insight into others’ thoughts you can use to predict their actions. While you’re not in combat or concentrating on a spell, you can communicate telepathically with any creature within 30 feet of you, provided that creature shares a language with you. You can speak telepathically in this way to one creature at a time.</p>
+		<p class="indent">In addition, if an attack hits you while you are concentrating on a spell, as a reaction you can force the attacker to reroll the attack, using the lower of the two rolls. Until the end of your next turn, all attack rolls that creature makes against you have disadvantage. Once you force the reroll of an attack roll with this feature, you cannot do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet alt="Defensive Telepathy" action="Reaction" usage="1/Short orLong Rest">
+		<description>If an attack hits you while you are concentrating on a spell, you can force the attacker to reroll the attack, using the lower of the two rolls. Until the end of your next turn, all attack rolls that creature makes against you have disadvantage.</description>
+	</sheet>
+	</element>
+	<element name="Axiomatic Hierarchy" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_AXIOMATIC_HIERARCHY">
+		<description>
+		<p>Also at 1st level, you gain insight into creatures of the planes, especially those tied to the nature of your patron. You learn the Modron language. Also, whenever the target of a concentration spell you are maintaining (such as the <i>hex</i> spell) is an aberration, celestial, construct, elemental, fey, or fiend, you can deal extra damage to that creature once per turn when you hit with an attack roll. The extra damage is psychic damage equal to your proficiency bonus.</p>
+		</description>
+		<sheet>		
+		<description>Whenever the target of a concentration spell you are maintaining (such as the hex spell) is an aberration, celestial, construct, elemental, fey, or fiend, you can deal extra damage to that creature once per turn when you hit with an attack roll. The extra damage is psychic and equals {{proficiency}}.</description>
+		</sheet>
+		<rules>
+        <grant type="Language" id="ID_LANGUAGE_MODRON"/>
+		</rules>		
+	</element>
+	<element name="Modron Servant" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_MODRON_SERVANT">
+		<description>
+		<p>At 6th level, a unique construct is sent by your patron to serve you. You learn the <i>find familiar</i> spell as a warlock spell, if you don’t already know it. But when you cast it you can choose one of the normal forms for your familiar or summon it as a pentadrone, a five-armed construct that is one of the most advanced forms of modron (as described in the Monster Manual). A pentadrone you summon as your familiar in this way has the following modifications:</p>
+	  	<ul>			
+		<li>It can magically disguise itself as a Large beast of your choice with a Challenge rating of 2 or lower (such as warhorse), physically rearranging its form to appear to be the new creature, but not gaining any of its traits or abilities.</li>
+		<li>It does not have the truesight sense, or the Multiattack or Paralysis Gas actions, but it has darkvision with a range of 120 feet that is not impeded by magical darkness. When you reach 11th level as a warlock, this becomes truesight with a range of 120 feet.</li>
+		<li>If you are the target of a melee attack and your modron familiar is within 5 feet of the attacker, you can use your reaction to command the servant to respond, using its reaction to make one Arm attack against the attacker.</li>
+		<li>The pentadrone adds a bonus equal to your proficiency bonus to its AC, saving throws, attack rolls, and damage rolls, and its Arm attacks inflict force damage instead of bludgeoning damage.</li>	</ul>
+		<p>If you have the Pact of the Chain feature, you gain an additional advantage when you choose to summon a pentadone as your familiar; whenever you cast a spell with a casting time of 1 action during your turn, your modron familiar can use its reaction to make one Arm attack.</p>
+		<p class="indent">Once you reach 11th level as a warlock, when your modron familiar uses its reaction to make an Arm attack, it can make two Arm attacks instead.</p>			 							
+		</description>
+		<sheet>		
+		<description>You learn the find familiar spell. When you cast it you can choose one of the normal forms for your familiar or summon it as a pentadrone. A pentadrone you summon as your familiar in this way has the following modifications: It can magically disguise itself as a Large beast of your choice. It has darkvision with a range of 120 feet that is not impeded by magical darkness. If you are the target of a melee attack and your modron familiar is within 5 feet of the attacker, you can use your reaction to command the servant to respond, using its reaction to make one Arm attack against the attacker. The pentadrone adds a bonus equal to your {{proficiency}} to its AC, saving throws, attack rolls, and damage rolls, and its Arm attacks inflict force damage instead of bludgeoning damage. If you have the Pact of the Chain feature, you gain an additional advantage when you choose to summon a pentadone as your familiar; whenever you cast a spell with a casting time of 1 action during your turn, your modron familiar can use its reaction to make one Arm attack. When you reach 11th level as a warlock, this becomes truesight with a range of 120 feet, and it can also it's reaction to make two Arm attacks instead of one.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" spellcasting="Warlock"/>
+		</rules>		
+	</element>
+	<element name="Partial Construct" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_PARTIAL_CONSTRUCT">
+		<description>
+		<p>At 10th level, parts of your body have been replaced by eldritch machinery, enabling it to function more efficiently. You no longer need to breathe, eat, or drink, and you gain resistance to poison damage as well as nonmagical bludgeoning, piercing, or slashing damage that is not adamantine.</p>
+		</description>
+		<sheet>
+		<description>You no longer need to breathe, eat, or drink, and you gain resistance to poison damage as well as nonmagical bludgeoning, piercing, or slashing damage that is not adamantine.</description>
+		</sheet>
+        <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON"/>
+		</rules>		
+	</element>
+	<element name="Mind of Metal and Wheels" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_ARCHITECT_OF_ORDER_MIND_OF_METAL_AND_WHEEL">
+		<description>
+		<p>Starting at 14th level, you can temporarily allow the influence of your patron to alter your mind and body, giving you the perfect and emotionless logic of a construct and the ability to project this way of being into the minds of those around you. As a bonus action, you can enter this unique mental state, gaining the following traits:</p>
+	  	<ul>			
+		<li>You are immune to psychic damage and to the charmed and frightened conditions.</li>
+		<li>You gain a +2 bonus to AC.</li>
+		<li>Once during your turn, if you move at least 20 feet in a straight line towards a target before making an attack roll against it, you gain advantage on that attack roll.</li>
+		<li>While in this state, you can cast the <i>calm emotions</i> spell at will, without expending a spell slot or material components. When you cast calm emotions in this way, it is not considered a concentration spell for that casting, but the duration is decreased to 1 round, with the spell lasting only until the end of your next turn.</li>
+		<li>You have advantage on all Intelligence checks, but disadvantage on all Wisdom and Charisma checks.</li>
+		</ul>
+		<p>This state lasts for one minute or until you end it with a bonus action. You can use this feature once, regaining all expended uses when you finish a short or long rest.</p>
+		</description>
+		<sheet alt="Mind of Metal and Wheels" action="Bonus Action" usage="1/Short or Long Rest">
+		<description>You can enter a unique mental state, gaining the following traits: You gain immunity to psychic damage and to the charmed and frightened condition. You gain a +2 bonus to AC. Once during your turn, if you move at least 20 feet in a straight line towards a target before making an attack roll against it, you gain advantage on that attack roll. You can cast the calm emotions spell at will, without expending a spell slot or material components. When you cast it in this way, it is not considered a concentration spell for that casting, but the duration is decreased to 1 round, with the spell lasting only until the end of your next turn. Additionally, you have advantage on all Intelligence checks, but disadvantage on all Wisdom and Charisma checks.</description>
+		</sheet>
+	</element>
+	
+	<element name="The Benighted City" type="Archetype" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_OTHERWORLDLY_PATRON_BENIGHTED_CITY">
+		<supports>Otherworldly Patron</supports>
+		<description>
+		<p>In recent years, certain would-be mages dream of walking the precincts of an ancient city, its streets shrouded in darkness—and that those streets whisper secrets. In Eberron, many claim it is Metrol or one of the other lost cities of Cyre, blighted from the world on the Day of Mourning. In Faerûn, most claim it is the City of Shade, also known as Thultanthar, a Netherese flying city that returned from millennia in the Shadowfell before crashing upon Myth Drannor. Others speak of different lost cities, or of Shadowfell settlements such as Gloomwrought, Evernight (the umbral twin of Neverwinter) or Ikemmu, a legendary metropolis said to exist in both the Underdark and the Shadowfell at the same time. Whether it is one of these cities, or if more than one has become such patron, it has a conscious will of its own—and that will wishes to bargain.</p>
+		<p class="indent">This patron’s warlocks not only gain insight into darkness, but into the secret life of cities everywhere. They hear the whispers of elemental spirits in chimney-smoke and cobblestones, foresee the ebb and flow of urban commerce like a sailor knows the changing of the tides, and feel the hope and despair of multitudes rise like heat from avenues beneath their feet.</p>
+		<p class="indent">In the Realms, the phenomenon of cities infused with Shadowfell magic making pacts with warlocks has prompted some sages to wonder if other enchanted cities—such as Silverymoon or Evereska, both sites of mythals, or even Waterdeep, which sprawls atop the spell-haunted expanse of Undermountain—could also have awakened, and whether they have warlocks of their own active in Faerûn.</p>
+		
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_EXPANDED_SPELL_LIST"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_CLOAKED_SNIPER"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_SHADOW_DWELLER"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_UMBRAL_JAUNT"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_SPIRIT_OF_SHADOW_SMOKE_AND_STONE"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_GLOAMING_CITY"/>
+		</description>
+		<sheet display="false">
+		<description>You have made a pact with an ancient city that has it's own mind and will to bargain.</description>
+		</sheet>
+		<rules>
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_EXPANDED_SPELL_LIST" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_CLOAKED_SNIPER" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_SHADOW_DWELLER" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_UMBRAL_JAUNT" level="6" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_SPIRIT_OF_SHADOW_SMOKE_AND_STONE" level="10" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_GLOAMING_CITY" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_EXPANDED_SPELL_LIST">
+		<description>
+		<p>The Benighted City allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+		<h5 class="caption">BENIGHTED CITY EXPANDED SPELLS</h5>
+		<table>
+		<thead>
+		<tr><td>Spell Level</td><td>Spells</td></tr>
+		</thead>
+		<tr><td>1st</td><td><em>grease, skulking spy</em></td></tr>
+		<tr><td>2nd</td><td><em>alter self, shadow sight</em></td></tr>
+		<tr><td>3rd</td><td><em>conjure barrage, meld into stone</em></td></tr>
+		<tr><td>4th</td><td><em>locate creature, mordenkainen's private sanctum</em></td></tr>
+		<tr><td>5th</td><td><em>creation, mislead</em></td></tr>
+		</table>
+		</description>
+		<sheet display="false">
+		<description>The Benighted City lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+		<extend>ID_PHB_SPELL_GREASE</extend>
+		<extend>ID_TBC_SPELL_SKULKING_SPY</extend>
+		<extend>ID_PHB_SPELL_ALTER_SELF</extend>
+		<extend>ID_TBC_SPELL_SHADOW_SIGHT</extend>
+		<extend>ID_PHB_SPELL_CONJURE_BARRAGE</extend>
+		<extend>ID_PHB_SPELL_MELD_INTO_STONE</extend>
+		<extend>ID_PHB_SPELL_LOCATE_CREATURE</extend>
+		<extend>ID_PHB_SPELL_MORDENKAINENS_PRIVATE_SANCTUM</extend>
+		<extend>ID_PHB_SPELL_CREATION</extend>
+		<extend>ID_PHB_SPELL_MISLEAD</extend>
+		</spellcasting>
+	</element>
+	<element name="Cloaked Sniper" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_CLOAKED_SNIPER">
+		<description>
+		<p>Starting at 1st level when you choose this Otherworldly Patron, you can use your Charisma modifier instead of your Dexterity modifier for your attack and damage rolls with ranged weapons. When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.</p>
+		</description>
+		<sheet>		
+		<description>You can use your Charisma modifier instead of your Dexterity modifier for your attack and damage rolls with ranged weapons. Also, when you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.</description>
+	</sheet>
+	</element>
+	<element name="Shadow Dweller" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_SHADOW_DWELLER">
+		<description>
+		<p>Also at 1st level, you can see normally in darkness, both magical and nonmagical, to a distance of 30 feet. If you are within the confines of a settlement with a population of 100 or more—or within the ruins of a place that once boasted such a population—the distance of this effect is increased to 90 feet, and you can move through the space of any non-hostile creature that is of your size or smaller.</p>
+		<p class="indent">In addition, while you are not in direct sunlight, if you have not taken radiant damage since the end of your last turn, you have advantage on death saving throws.</p>			
+		</description>
+		<sheet>		
+		<description>You can see normally in both magical and nonmagical darkness up to a distance of 30 feet. Also, while you are not in direct sunlight, if you have not taken radiant damage since the end of your last turn, you have advantage on death saving throws.</description>
+		</sheet>
+	</element>
+	<element name="Umbral Jaunt" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_UMBRAL_JAUNT">
+		<description>
+		<p>At 6th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 30 feet (or 60 feet if you are within a city with a population of 100 more or the ruins of such a city) to an unoccupied space you can see that is also in dim light or darkness.</p>
+		<p class="indent">When you take damage that is not radiant, you can use your reaction to teleport in the same way, but you may only do so once, regaining the ability to do so when you finish a short or long rest.</p>	
+		</description>
+		<sheet alt="Umbral Jaunt" action="Bonus Action or Reaction" usage="1/Short or Long Rest">
+		<description>When you are in dim light or darkness, you can teleport up to 30 feet (or 60 feet if you are within a city with a population of 100 more or the ruins of such a city) to an unoccupied space you can see that is also in dim light or darkness. Alternatively, When you take damage that is not radiant, you can use your reaction to teleport in the same way.</description>
+		</sheet>					
+	</element>
+	<element name="Spirit of Shadow, Smoke, and Stone" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_SPIRIT_OF_SHADOW_SMOKE_AND_STONE">
+		<description>
+		<p>At 10th level, you have become jaded by gazing too long into both the depths of the Shadowfell and the darkness all great cities hide. You gain advantage on saving throws against the frightened and charmed conditions, and resistance to necrotic and psychic damage.</p>
+		</description>
+		<sheet>
+		<description>You gain advantage on saving throws against the frightened and charmed conditions, and resistance to necrotic and psychic damage.</description>
+		</sheet>
+        <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC"/>			
+		</rules>		
+	</element>
+	<element name="Gloaming City" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_BENIGHTED_CITY_GLOAMING_CITY">
+		<description>
+		<p>At 14th level, you can temporarily exile a foe into the dark city that is your patron. Choose a creature within 60 feet. It must make a Charisma saving throw against your warlock spell save DC. On a failure, it takes 3d12 psychic damage and is banished to wander a faraway demiplane, a shadowy, empty cityscape where distant voices beckon and furtive lights flicker in the distance.</p>
+		<p class="indent">The target remains there for 1 minute or until it escapes. At the end of each of its turns, if it has moved at least 15 feet away from the space it was in at the start of the turn, it can use an action to escape by rolling a Wisdom save against your warlock save DC. On a success, the effect ends. On a failure, it takes 3d12 psychic damage. A creature that doesn’t bother trying to escape doesn’t need to roll the saving throw, but at the end of its turn it instead takes 1d12 psychic damage.</p>
+		<p class="indent">When the effect ends, the target reappears in the same space it left (or the nearest unoccupied space if that space is occupied), unless it chooses not to return. If the target chooses to remain on the streets of the benighted city, the DM decides its fate.</p>
+		<p class="indent">Once you use this feature, you can't use it again until you finish a long rest.</p>					
+		</description>
+		<sheet alt="Gloaming City" action="Action" usage="1/Long Rest">
+		<description>Choose a creature within 60 feet. It must make a Charisma saving throw against your warlock spell save DC. On a failure, it takes 3d12 psychic damage and is banished. The target remains banished for 1 minute or until it escapes. At the end of each of its turns, if it has moved at least 15 feet away from the space it was in at the start of the turn, it can use an action to escape by rolling a Wisdom save against your warlock save DC. On a success, the effect ends. On a failure, it takes 3d12 psychic damage. A creature that doesn’t bother trying to escape doesn’t need to roll the saving throw, but at the end of its turn it instead takes 1d12 psychic damage. When the effect ends, the target reappears in the same space it left (or the nearest unoccupied space if that space is occupied), unless it chooses not to return.</description>
+		</sheet>
+	</element>
+
+	<element name="The Dark" type="Archetype" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_OTHERWORLDLY_PATRON_DARK">
+		<supports>Otherworldly Patron</supports>
+		<description>
+		<p>You have bound yourself to a being of the endless darkness surrounding the underground cities of the drow and other subterranean races. Your patron gifts you with powers of darkness, betrayal, poison, spite, and malice. Such patrons constantly try to entice you with more power, at the cost of harming your friends.</p>
+		<p class="indent">In a world with an Underdark where societies revolve around dark entities such as Lolth, these patrons might include: Bloqroth the Yochlol, Laveth the Daughter of Lolth, Ragnorra the Mother of Monsters, Rallaster, Scahrossar the Mistress of Exquisite Pain, The Patient One, the vast demonic snake Sertrous, and the mightiest illithid Elder Brains (like Io, the converted Elder Brain that now serves the duergar of Duerradin).</p>
+		<p class="indent">In Eberron, those beings of Khyber most connected to poisonous creatures or to cultures of endless feuding and betrayal are such patrons, including the Overlord Sakinnirot the Scar that Abides, or certain daelkyr such as the Kyrzin the Prince of Slime, the Master of Silence, and Valaara, the Crawling Queen. Other examples of the Dark patrons in Eberron include the entity the Umbragen drow call the Umbra and certain shadowy beings serving the two different aspects of the drow god Vulkoor worshipped by the tribal Hantarkul and the scorrow, respectively.</p>
+		
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_EXPANDED_SPELL_LIST"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_GIFTS_OF_THE_ENDLESS_NIGHT"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_TRUSTING_ALLY"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_INSIDIOUS_STING"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_INVOLUNTARY_SACRIFICE"/>			
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_DARKEST_MIRROR"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_PASSIONATE_BETRAYAL"/>
+		</description>
+		<sheet display="false">
+		<description>You have bound yourself to a being of the endless darkness surrounding the underground cities of the drow and other subterranean races.</description>
+		</sheet>
+		<rules>
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_EXPANDED_SPELL_LIST" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_GIFTS_OF_THE_ENDLESS_NIGHT" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_TRUSTING_ALLY" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_INSIDIOUS_STING" level="6" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_INVOLUNTARY_SACRIFICE" level="6" />			
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_DARKEST_MIRROR" level="10" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_PASSIONATE_BETRAYAL" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_EXPANDED_SPELL_LIST">
+		<description>
+		<p>The Dark allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+		<h5 class="caption">DARK EXPANDED SPELLS</h5>
+		<table>
+		<thead>
+		<tr><td>Spell Level</td><td>Spells</td></tr>
+		</thead>
+		<tr><td>1st</td><td><em>ego lash, ray of sickness</em></td></tr>
+		<tr><td>2nd</td><td><em>elonia's glamour, protection from poison</em></td></tr>
+		<tr><td>3rd</td><td><em>bestow curse, stinking cloud</em></td></tr>
+		<tr><td>4th</td><td><em>evard's black tentacles, phantasmal killer</em></td></tr>
+		<tr><td>5th</td><td><em>cloudkill, spidersilk slash</em></td></tr>
+		</table>
+		</description>
+		<sheet display="false">
+		<description>The Dark lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+		<extend>ID_TBC_SPELL_EGO_LASH</extend>
+		<extend>ID_PHB_SPELL_RAY_OF_SICKNESS</extend>
+		<extend>ID_TBC_SPELL_ELONIA'S_GLAMOUR</extend>
+		<extend>ID_PHB_SPELL_PROTECTION_FROM_POISON</extend>
+		<extend>ID_PHB_SPELL_BESTOW_CURSE</extend>
+		<extend>ID_PHB_SPELL_STINKING_CLOUD</extend>
+		<extend>ID_PHB_SPELL_EVARDS_BLACK_TENTACLES</extend>
+		<extend>ID_PHB_SPELL_PHANTASMAL_KILLER</extend>
+		<extend>ID_PHB_SPELL_CLOUDKILL</extend>
+		<extend>ID_TBC_SPELL_SPIDERSILK_SLASH</extend>
+		</spellcasting>
+	</element>
+	<element name="Gifts of the Endless Night" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_GIFTS_OF_THE_ENDLESS_NIGHT">
+		<description>
+		<p>At 1st level you learn the <i>spiteful glamour</i> cantrip and the spell <i>your glorious sacrifice</i> as warlock spells, though they do not count against the number of cantrips you know.</p>
+		<p class="indent">At 3rd level, you also gain your choice of one the following eldritch invocations, ignoring all prerequisites: <i>Bonded Ally</i> or <i>Darkspiral Aura</i>. This does not count against the number of eldritch invocations you can have as a warlock.</p>			
+		</description>
+		<sheet display="false"/>
+		<rules>
+		<select type="Class Feature" name="Gifts of the Endless Night" supports="Eldritch Invocation" level="3" number="1"/>
+		<grant type="Spell" id="ID_TBC_SPELL_YOUR_GLORIOUS_SACRIFICE" level="1" spellcasting="Warlock"/>		
+		<grant type="Spell" id="ID_TBC_SPELL_SPITEFUL_GLAMOUR" level="1" spellcasting="Warlock"/>
+		</rules>		
+	</element>
+	<element name="Trusting Ally" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_TRUSTING_ALLY">
+		<description>
+		<p>Also At 1st level, if a creature places its trust in you, your magic grants it special benefits. When you finish a short or long rest, you can choose one willing creature that you can see within 30 feet of you to become your <i>trusting ally</i>. While a creature that is your trusting ally can see you, if you are conscious and within 10 feet of that ally, it gains a special benefit: once per turn when that ally makes an ability check or saving throw that does not include its proficiency bonus, it can roll a d4 and add the result to the ability check or saving throw. The trusting ally can wait until after it rolls the d20 before deciding to use this benefit, but must decide before the DM says whether the roll succeeds or fails.</p>
+		<p class="indent">You can have a number of trusting allies equal to your Charisma modifier. Once a creature is your trusting ally, it remains so until you go more than 24 hours without seeing each other or until either one of you uses an action to end this effect.</p>
+		<p class="indent">The die a trusting ally rolls for this feature changes when you reach certain levels in this class. The die becomes a d6 at 5th level, a d8 at 10th level, and a d10 at 15th level.</p>	<p>However, a trusting ally becomes less resilient against your magic. When your trusting ally rolls a saving throw against a spell you cast, that ally has disadvantage on the saving throw.</p>	
+		</description>
+		<sheet>		
+		<description>Choose a friendly creature that you can see within 30 feet of you to become your trusting ally. While a creature that is your trusting ally can see you, if you are conscious and within 10 feet of that ally, it gains a special benefit: once per turn when that ally makes an ability check or saving throw that does not include its proficiency bonus, it can roll a d4 and add the result to the ability check or saving throw. The ally can make the throw before or after the roll, but before the DM says whether the throw succeeded or failed. You can have a number of trusting allies equal to your Charisma modifier. However, whenever your trusting ally has to roll a saving throw from a spell you cast, that ally does so with disadvantage.</description>
+		</sheet>
+	</element>
+	<element name="Insidious Sting" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_INSIDIOUS_STING">
+		<description>
+		<p>At 6th level, once per turn, when one or more creatures take poison or psychic damage from a spell you cast, you can choose one of the creatures taking that damage. You add your proficiency bonus to the poison or psychic damage dealt to that creature.</p>			 							
+		</description>
+		<sheet>
+		<description>Once per turn, when one or more creatures take poison or psychic damage from a spell you cast, you can choose one of the creatures taking that damage. You add {{proficiency}} to the poison or psychic damage dealt to that creature.</description>
+		</sheet>					
+	</element>
+	<element name="Involuntary Sacrifice" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_INVOLUNTARY_SACRIFICE">
+		<description>
+		<p>Also at 6th level, when you would inflict your Insidious Sting damage, if at least one creature on the same plane of existence as you is your trusting ally, you can use your reaction to choose one such creature and force it to roll the die from your Trusting Ally feature. The trusting ally takes necrotic damage equal to the result of the roll or your Charisma modifier, whichever is higher.</p>
+		<p class="indent">If you damage your trusting ally with this feature, the extra damage you inflict with your <i>Insidious Sting</i> damage is equal to your proficiency bonus + twice the necrotic damage your ally took from this feature, instead of the normal amount. This increased damage is calculated based on the amount of necrotic damage your ally actually took from this feature, after any immunities, resistances, or other forms of damage reduction.</p>
+		</description>
+		<sheet action="Reaction">
+		<description>If at least one creature on the same plane of existence as you is your trusting ally, you can choose one such creature and force it to roll the die from your Trusting Ally feature. The trusting ally takes necrotic damage equal to the result of the roll or {{Charisma:modifier}}, whichever is higher. If you damage your trusting ally with this feature, the extra damage you inflict with your Insidious Sting damage is equal to {{proficiency}} + twice the necrotic damage your ally took from this feature, instead of the normal amount.</description>
+		</sheet>
+	</element>
+	<element name="Darkest Mirror" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_DARKEST_MIRROR">
+		<description>
+		<p>Starting at 10th level, you can use a bonus action to close lids of the darkest night over your eyes, allowing you to see invisible creatures as well as into the Ethereal Plane. When you do so, you can see into the Ethereal Plane for up to 1 hour, and for the same duration you see all invisible creatures on both your current plane and in the Ethereal Plane. You see the area immediately around you, out to your normal range of vision.</p>
+		<p class="indent">If you have a specialized type of vision (such as darkvision) then it functions as normal. You do not gain any special forms of vision, nor any immunity to attacks that depend on eye sight (such as the gaze of a medusa).</p>
+		<p class="indent">While you are using this feature, you cannot see the plane where you are currently located, nor any creature on that plane (including your allies) unless it is invisible. Unless you use a bonus action to end your use of this feature early, for the duration you can only see invisible creatures and the Ethereal Plane.</p>
+		<p class="indent">You can use this feature twice, regaining all expended uses when you finish a short or long rest. When you reach 14th level in your warlock class, your number of uses for this feature increases from two to three.</p>		
+		</description>
+		<sheet alt="Darkest Mirror" action="Bonus Action" usage="{{Darkest Mirror:count}}/Short or Long Rest">
+		<description>You can see invisible creatures as well as into the Ethereal Plane for up to 1 hour, and for the same duration you see all invisible creatures on both your current plane and in the Ethereal Plane. You see the area around you, up to your normal range of vision. If you have a specialized type of vision (such as darkvision) then it functions as normal. While you are using this feature, you cannot see the plane where you are currently located, nor any creature on that plane (including your allies) unless it is invisible. Unless you use a bonus action to end your use of this feature early, for the duration you can only see invisible creatures and the Ethereal Plane.</description>
+		</sheet>		
+		<rules>
+        <stat name="Darkest Mirror:count" value="2" level="10" bonus="base"/>
+        <stat name="Darkest Mirror:count" value="3" level="14" bonus="base"/>													
+		</rules>			
+	</element>
+	<element name="Passionate Betrayal" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DARK_PASSIONATE_BETRAYAL">
+		<description>
+		<p>Starting at 14th level, as an action, you can whisper dark promises to a hostile creature of your choice within 60 feet, causing it to confuse friends with enemies and vice-versa. You can cast <i>dominate monster</i> on the target as a warlock spell without using a spell slot. While charmed by this spell, the target considers any creature hostile to you to be a threat to itself, and any creature friendly to you as a friend, so if the creature completes an order from you and doesn’t receive further direction, it continues attacking creatures hostile to you as best it can.</p>
+		<p class="indent">This power carries a price. When you cast dominate monster with this feature, you must choose at least one creature on the same plane of existence as you that is your trusting ally, otherwise the spell fails. For the spell’s duration, whenever the chosen trusting ally makes an attack roll or forces another creature to make a saving throw, it must roll the die from your Trusting Ally feature and subtract the result from its attack roll or from the DC of the saving throw.</p>						
+		</description>
+		<sheet action="Action">
+		<description>You can cast dominate monster on the target as a warlock spell without using a spell slot. When you cast dominate monster with this feature, you must choose at least one creature on the same plane of existence as you that is your trusting ally, otherwise the spell fails. For the spell’s duration, whenever the chosen trusting ally makes an attack roll or forces another creature to make a saving throw, it must roll the die from your Trusting Ally feature and subtract the result from its attack roll or from the DC of the saving throw.</description>
+		</sheet>
+		<rules>		
+		<grant type="Spell" id="ID_PHB_SPELL_DOMINATE_MONSTER" level="14" spellcasting="Warlock"/>
+		</rules>		
+	</element>	
+
+	<element name="The Drowned One" type="Archetype" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_OTHERWORLDLY_PATRON_DROWNED_ONE">
+		<supports>Otherworldly Patron</supports>
+		<description>
+		<p>In ancient times, the undersea progenitors of the half-human hybrids known as the Deep Ones passed both lineage and lore to the mortals with whom they had dealings. They taught of ancient, god-like beings, perhaps their ancestors, who lay dead yet dreaming beneath the sea. Those so chosen, or so cursed, shared in these dreams. Sages today disagree on the nature of these legends: is there only one being called the Drowned One, or two, or many? Does the name refer to a powerful aberration like a kraken or aboleth, a primordial god, or something older, perhaps an alien presence from the Far Realm?</p>
+		<p class="indent">Having either experienced such visions yourself or learned the rites by oral tradition, you are marked by the power of the Drowned One. Whether by accident or as part of a rite, you drowned and nearly died. While unconscious, you made your pact. Since then, you are most comfortable close to the ocean and have an affinity for things in their primal, unrefined forms. Most who make such a pact find that afterwards they prefer iron over steel, foraged food over fine cuisine, and instinctive cunning over civilized ways.</p>
+		<p class="indent">Eschewing the finery some spellcasters enjoy, warlocks of the Drowned One are of a humble appearance, marked by mottled sealskin clothes, wild hair braided with seaweed, and driftwood cudgels. They favor colors of the sea, and are said to be touched by both madness and prophecy.</p>
+		
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_EXPANDED_SPELL_LIST"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_GIFT_OF_THE_SALTY_DEPTHS"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_DRIFTWOOD_CUDGEL"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_WHAT_IS_DEAD_MAY_RISE"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_BY_SEAWATER_REBORN"/>			
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_FORESEEN_VENGEANCE"/>
+		</description>
+		<sheet display="false">
+		<description>You have made a pact with an ancient, god-like creature that resides in the deep seas of the world.</description>
+		</sheet>
+		<rules>
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_EXPANDED_SPELL_LIST" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_GIFT_OF_THE_SALTY_DEPTHS" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_DRIFTWOOD_CUDGEL" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_WHAT_IS_DEAD_MAY_RISE" level="6" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_BY_SEAWATER_REBORN" level="10" />		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_FORESEEN_VENGEANCE" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_EXPANDED_SPELL_LIST">
+		<description>
+		<p>The Drowned One allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+		<h5 class="caption">DARK EXPANDED SPELLS</h5>
+		<table>
+		<thead>
+		<tr><td>Spell Level</td><td>Spells</td></tr>
+		</thead>
+		<tr><td>1st</td><td><em>absorb elements, create or destroy water</em></td></tr>
+		<tr><td>2nd</td><td><em>alter self, augury</em></td></tr>
+		<tr><td>3rd</td><td><em>revivify, storm shield</em></td></tr>
+		<tr><td>4th</td><td><em>lesser water to poison, watery sphere</em></td></tr>
+		<tr><td>5th</td><td><em>greater water to poison, raise dead</em></td></tr>
+		</table>
+		</description>
+		<sheet display="false">
+		<description>The Drowned One lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+		<extend>ID_XGTE_SPELL_ABSORB_ELEMENTS</extend>
+		<extend>ID_PHB_SPELL_CREATE_OR_DESTROY_WATER</extend>
+		<extend>ID_PHB_SPELL_ALTER_SELF</extend>
+		<extend>ID_PHB_SPELL_AUGURY</extend>
+		<extend>ID_PHB_SPELL_REVIVIFY</extend>
+		<extend>ID_TBC_SPELL_STORM_SHIELD</extend>
+		<extend>ID_TBC_SPELL_LESSER_WATER_TO_POISON</extend>
+		<extend>ID_XGTE_SPELL_WATERY_SPHERE</extend>
+		<extend>ID_TBC_SPELL_GREATER_WATER_TO_POISON</extend>
+		<extend>ID_PHB_SPELL_RAISE_DEAD</extend>
+		</spellcasting>
+	</element>
+	<element name="Gift of the Salty Depths" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_GIFT_OF_THE_SALTY_DEPTHS">
+		<description>
+		<p>Starting at 1st level, you gain a swim speed equal to your walking speed, and you treat your Constitution score as if it were 5 higher to determinine how long you can hold your breath or survive without breathing. Also, you add your proficiency bonus to death saving throws. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20.</p>		
+		</description>
+		<sheet>
+		<description>Treat your Constitution score as if it were 5 higher to determinine how long you can hold your breath or survive without breathing. Also, you add {{proficiency}} to death saving throws. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20.</description>
+		</sheet>		
+		<rules>
+        <stat name="speed:swim" value="speed" bonus="base"/>
+		</rules>		
+	</element>
+	<element name="Driftwood Cudgel" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_DRIFTWOOD_CUDGEL">
+<description>
+        <p>Also at 1st level, while you have a wooden staff or club in hand that has been immersed in saltwater, you gain the following benefits:</p>
+        <ul>
+        <li>You can cast the <i>shillelagh</i> cantrip as a warlock spell without using components. When you cast it in this way, the duration of your shillelagh spell is increased to 1 hour.</li>
+        <li>You can spend 1 Hit Die as a bonus action to cast the <i>hex</i> spell as a 1st-level spell without using a spell slot. You do not regain any hit points from spending a Hit Die in this way.</li>
+        <li>When you hit with a weapon attack roll using a wooden staff or club against a target that is cursed by either your <i>hex</i> spell or a warlock feature of yours that curses (such as the warlock invocation Sign of Ill Omen), the target cannot regain hit points or take reactions until the end of its next turn.</li>
+        </ul>
+        </description>
+        <sheet>
+        <description>While you have a wooden staff or club in hand that has been immersed in saltwater, you gain the following benefits: You can cast the shillelagh cantrip as a warlock spell without using components, and it's duration increases to 1 hour. You can spend 1 Hit Die as a bonus action to cast hex without using a spell slot. You do not regain any hit points from spending a Hit Die in this way. When you hit with a weapon attack roll using a wooden staff or club against a target that is cursed by either your hex spell or a warlock feature of yours that curses, the target cannot regain hit points or take reactions until the end of its next turn.</description>
+        </sheet>
+	</element>
+	<element name="What is Dead May Rise" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_WHAT_IS_DEAD_MAY_RISE">
+		<description>
+		<p>Starting at 6th level, when you are reduced to 0 hit points, you can use your reaction to instead be reduced to 1 hit point. When you use your reaction on this feature, each hostile creature within 10 feet of you takes psychic damage equal to half your warlock level + your Charisma modifier. If a creature that takes this damage is cursed by either your hex spell or a warlock ceature of yours that curses, it takes an additional 1d10 psychic damage.</p>
+		<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>		
+		</description>
+		<sheet alt="What is Dead May Rise" action="Reaction" usage="1/Long Rest">
+		<description>When you are reduced to 0 hit points, you can use your reaction to instead be reduced to 1 hit point. When you use your reaction on this feature, each hostile creature within 10 feet of you takes psychic damage equal to half your warlock level + {{Charisma:modifier}}. If a creature that takes this damage is cursed by either your hex spell or a warlock ceature of yours that curses, it takes an dditional 1d10 psychic damage.</description>
+		</sheet>					
+	</element>
+	<element name="By Seawater Reborn" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_BY_SEAWATER_REBORN">
+		<description>
+		<p>Starting at 10th level, when you finish a long rest, you can perform a 1-minute ritual, anointing yourself with seawater. When you do so, you choose one of the following damage types: acid, cold, necrotic, poison, or psychic. You gain resistance to that damage type until the next time you finish a long rest.</p>
+		<p class="indent">Once per turn, when you deal damage of the type you chose during the ritual, you can select one target of that damage. That target takes an amount of extra damage of the chosen type equal to half your warlock level.</p>
+		</description>
+		<sheet>
+		<description>When you finish a long rest, you can perform a 1-minute ritual, gaining resistance to one of the following damage types: acid, cold, necrotic, poison, or psychic. That resistance remain until the next long rest. In addition, once per turn, when you deal damage of the type you chose during the ritual, you can select one target of that damage. That target takes an amount of extra damage of the chosen type equal to half your warlock level.</description>
+		</sheet>
+	</element>
+	<element name="Foreseen Vengeance" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_DROWNED_ONE_FORESEEN_VENGEANCE">
+		<description>
+		<p>Starting at 14th level, prophetic dreams allow you to prepare eldritch reciprocity for enemies who would harm you. When you take damage from a creature that is within 5 feet of you, you can use your reaction to cast a spell at the creature. The spell must have a casting time of 1 action and must target only that creature. The casting time changes to 1 reaction for this casting. If a spell you cast in this way requires a ranged attack roll, being within 5 feet of a hostile creature doesn't impose disadvantage on the attack.</p>			
+		</description>
+		<sheet action="Reaction">
+		<description>When you take damage from a creature that is within 5 feet of you, you can use your reaction to cast a spell at the creature. The spell must have a casting time of 1 action and must target only that creature. The casting time changes to 1 reaction for this casting. If a spell you cast in this way requires a ranged attack roll, being within 5 feet of a hostile creature doesn't impose disadvantage on the attack.</description>
+		</sheet>	
+	</element>
+
+	<element name="The Foretold" type="Archetype" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_OTHERWORLDLY_PATRON_FORETOLD">
+		<supports>Otherworldly Patron</supports>
+		<description>
+		<p>Your patron is a being of astonishing power… who does not yet exist. Somehow, its power reaches backwards in time, and it communicates with you from the future.</p>
+		<p class="indent">Little is known of those patrons who negotiate their pacts from later eras. Rumors speak of a great war near the end of time itself, with many sides vying for control of the outcome. These beings hold secrets about the destinies of individuals, called “the Fated Ones,” who play important roles in shaping future events. For many Foretold patrons, it seems their strategy is to help guide the destinies of the Fated Ones by bestowing them with  nowledge, visions, and magic to aid them in achieving important milestones that profoundly influence the future.</p>
+		<p class="indent">As a Fated One, you have abstract visions that help guide you toward your destiny. Though you haven’t seen or heard directly from your patron, you know there is incredible power behind the source of your visions—they help to establish a conduit providing you with insights and magical powers. You must fulfill your destiny by interpreting your visions and using your granted powers to the best of your abilities.</p>
+		
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_EXPANDED_SPELL_LIST"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_BONUS_CANTRIPS"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_FORETOLD_INSPIRATION"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_RETALIATORY_STRIKE"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_FATED_REPERCUSSIONS"/>			
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_BEHOLD_DESTINY"/>
+		</description>
+		<sheet display="false">
+		<description>You have made a pact with a powerful being that has yet come to existence.</description>
+		</sheet>
+		<rules>
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_EXPANDED_SPELL_LIST" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_BONUS_CANTRIPS" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_FORETOLD_INSPIRATION" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_RETALIATORY_STRIKE" level="6" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_FATED_REPERCUSSIONS" level="10" />			
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_BEHOLD_DESTINY" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_EXPANDED_SPELL_LIST">
+		<description>
+		<p>The Foretold allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+		<h5 class="caption">FORETOLD EXPANDED SPELLS</h5>
+		<table>
+		<thead>
+		<tr><td>Spell Level</td><td>Spells</td></tr>
+		</thead>
+		<tr><td>1st</td><td><em>guiding bolt, prophesied strike</em></td></tr>
+		<tr><td>2nd</td><td><em>alter time, augury</em></td></tr>
+		<tr><td>3rd</td><td><em>choose future, moment reading</em></td></tr>
+		<tr><td>4th</td><td><em>divination, prescient sense</em></td></tr>
+		<tr><td>5th</td><td><em>contact other plane, legend lore</em></td></tr>
+		</table>
+		</description>
+		<sheet display="false">
+		<description>The Foretold lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+		<extend>ID_PHB_SPELL_GUIDING_BOLT</extend>
+		<extend>ID_TBC_SPELL_PIROPHESIED_STRIKE</extend>
+		<extend>ID_PHB_SPELL_ALTER_TIME</extend>
+		<extend>ID_PHB_SPELL_AUGURY</extend>
+		<extend>ID_TBC_SPELL_CHOOSE_FUTURE</extend>
+		<extend>ID_TBC_SPELL_MOMENT_READING</extend>
+		<extend>ID_PHB_SPELL_DIVINATION</extend>
+		<extend>ID_TBC_SPELL_PRESCIENT_SENSE</extend>
+		<extend>ID_PHB_SPELL_CONTACT_OTHER_PLANE</extend>
+		<extend>ID_PHB_SPELL_LEGEND_LORE</extend>
+		</spellcasting>
+	</element>
+	<element name="Bonus Cantrips" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_BONUS_CANTRIPS">
+		<description>
+		<p>At 1st level, you learn the <i>guidance</i> and <i>true strike</i> cantrips. These cantrips are warlock spells for you, but don’t count against the number of warlock cantrips you know.</p>			
+		</description>
+		<sheet display="false"/>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" level="1" spellcasting="Warlock"/>		
+		<grant type="Spell" id="ID_PHB_SPELL_TRUE_STRIKE" level="1" spellcasting="Warlock"/>
+		</rules>		
+	</element>
+	<element name="Foretold Inspiration" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_FORETOLD_INSPIRATION">
+<description>
+        <p>At 1st level, you gain the ability to tap into the conduit of power provided by your visions to help shape your destiny. When you finish a long rest, you gain a number of d6s equal to your Charisma modifier—these are your <i>Foretold Inspiration</i> dice. You can roll one of the d6s and add the result to one attack roll, saving throw, or ability check you make. You can wait until after you roll a d20, but before the DM tells you whether the roll succeeds or fails, before deciding to use one of your Foretold Inspiration dice.</p>
+		<p class="indent">Once a Foretold Inspiration die is rolled, it is lost. The dice change from d6s to d8s at 5th level,becoming d10s at 10th level, and d12s at 15th level.</p>
+        </description>
+		<sheet usage="{{charisma:modifier}}/Long Rest">
+        <description>When you finish a long rest, you get a number of dice that equals your Charisma-modifer- these are your Foretold Inspiration dice. You can roll one of the d6s and add the result to one attack roll, saving throw, or ability check you make. You can wait until after you roll a d20, but before the DM tells you whether the roll succeeds or fails, before deciding to use one of your Foretold Inspiration dice. The dice change from d6s to d8s at 5th level,becoming d10s at 10th level, and d12s at 15th level.</description>
+        </sheet>
+	</element>
+	<element name="Retaliatory Strike" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_RETALIATORY_STRIKE">
+		<description>
+		<p>At 6th level, you gain an edge against those who seek to hinder your destiny by causing you harm. Whenever a creature within 5 feet of you deals damage to you, you can use your reaction to make a melee weapon attack against that creature. On a hit, you deal normal damage for the attack, and the creature has disadvantage on its saving throws against your spells and warlock features until the end of your next turn.</p>
+		<p class="indent">You can use this feature a number of times equal to your Charisma modifier, regaining all expended uses when you finish a short or long rest.</p>		
+		</description>
+		<sheet alt="Retaliatory Strike" action="Reaction" usage="{{charisma:modifier}}/Short or Long Rest">
+		<description>Whenever a creature within 5 feet of you deals damage to you, you can use your reaction to make a melee weapon attack against that creature. On a hit, you deal normal damage for the attack, and the creature has disadvantage on its saving throws against your spells and warlock features until the end of your next turn.</description>
+		</sheet>					
+	</element>
+	<element name="Fated Repercussions" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_FATED_REPERCUSSIONS">
+		<description>
+		<p>Beginning at 10th level, creatures seeking to interfere with your destiny must face the consequences. When a creature you can see within 60 feet of you hits you with an attack that deals damage, you can use your reaction to force it to make a Wisdom saving throw against your warlock save DC. On a failed save, the creature takes psychic damage equal to your Charisma modifier + your warlock level, or half as much on a successful one.</p>
+		<p class="indent">You can use this feature a number of times equal to your Charisma modifier, regaining all uses at the end of a short or long rest.</p>
+		</description>
+		<sheet alt="Fated Repercussions" action="Reaction" usage="{{charisma:modifier}}/Short or Long Rest">
+		<description>When a creature you can see within 60 feet of you hits you with an attack that deals damage, you can use your reaction to force it to make a Wisdom saving throw against your warlock save DC. On a failed save, the creature takes psychic damage equal to {{charisma:modifier}} + {{level:warlock}}, or half as much on a successful one.</description>
+		</sheet>
+	</element>
+	<element name="Behold Destiny" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_FORETOLD_BEHOLD_DESTINY">
+		<description>
+		<p>By 14th level, your power to fulfill destiny through your connection to the Foretold is strong. When you hit a creature with an attack roll, you can use this feature to force the target to experience unsettling visions of its past, present, and future. In addition to the attack’s normal damage, the creature takes 5d10 psychic damage, and it is paralyzed until the end of your next turn as it is totally captivated by its visions.</p>
+		<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>		
+		</description>
+		<sheet usage="1/Long Rest">
+		<description>When you hit a creature with an attack roll, you can force the target to experience unsettling visions of its past, present, and future. In addition to the attack’s normal damage, the creature takes 5d10 psychic damage, and it is paralyzed until the end of your next turn as it is totally captivated by its visions.</description>
+		</sheet>	
+	</element>
+
+	<element name="The Monarch of Beasts" type="Archetype" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_OTHERWORLDLY_PATRON_MONARCH_OF_BEASTS">
+		<supports>Otherworldly Patron</supports>
+		<description>
+		<p>You have made a pact with a legendary demigod-like being that rules over a certain type or group of animals. Such entities hold their own realms or territories on the wild and beautiful Outer Plane known as the Beastlands. Most are known as Animal Lords, and they are indifferent to nearly everything, except those creatures and events which affect the beasts they consider their subjects.</p>
+		<p class="indent">Your patron is bestial and instinctive, yet more intelligent than all but the most brilliant mortals. As cunning as fiends and as unpredictable as the Archfey, it takes on both humanoid and beast forms at will. Such beings are not ignorant of civilization, though they take little interest unless their subjects often dwell in civilized lands.</p>
+		<p class="indent">The most famous of the Animal Lords is the Cat Lord, worshipped by the tabaxi, who rules over cats of all species and sizes, from housecats to sabretooth tigers to tressym. A related but lesser being, the King of Cats, seems to have dominion over only domesticated breeds, and is a housecat elevated to that position upon the previous king’s death. Legends of an imprisoned Tiger King are yet to be confirmed.</p>
+		<p class="indent">More obscure tales of the Beastlands name other semi-mythical Animal Lords such as the Sage of Bears, the Lady of Foxes, the Lord of the Apes, the Rat King, the sorcerous Raven King (whose relationship to the Raven Queen is not precisely understood), the Horse Princes, the Baroness of Sharks, Ghondaur the Wolf-King, the Great Ram Brothers, and the elusive Mulwë, Prince of Hares. However, it is likely many more of these beings exist, with each holding dominion over a different part of the animal kingdom.</p>
+				
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_EXPANDED_SPELL_LIST"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_BEASTLANDS_LORE"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_OMEN_OF_TOOTH_AND_CLAW"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_BEASTIAL_FURY"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_INSTINCTIVE_CURSE"/>			
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_TRANSFORMING_RECIPROCITY"/>
+		</description>
+		<sheet display="false">
+		<description>You have bound yourself to a legendary, demigod-like beast from the Outer Planes.</description>
+		</sheet>
+		<rules>
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_EXPANDED_SPELL_LIST" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_BEASTLANDS_LORE" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_OMEN_OF_TOOTH_AND_CLAW" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_BEASTIAL_FURY" level="6" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_INSTINCTIVE_CURSE" level="10" />			
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_TRANSFORMING_RECIPROCITY" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_EXPANDED_SPELL_LIST">
+		<description>
+		<p>The Animal Lord lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+		<h5 class="caption">MONARCH_OF_BEASTS EXPANDED SPELLS</h5>
+		<table>
+		<thead>
+		<tr><td>Spell Level</td><td>Spells</td></tr>
+		</thead>
+		<tr><td>1st</td><td><em>sleep, tearing claws</em></td></tr>
+		<tr><td>2nd</td><td><em>animal messenger, command minor beast</em></td></tr>
+		<tr><td>3rd</td><td><em>conjure animals, catnap</em></td></tr>
+		<tr><td>4th</td><td><em>dominate beast, guardian of nature</em></td></tr>
+		<tr><td>5th</td><td><em>awaken, steel wind strike</em></td></tr>
+		</table>
+		</description>
+		<sheet display="false">
+		<description>The Foretold lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+		<extend>ID_PHB_SPELL_SLEEP</extend>
+		<extend>ID_TBC_SPELL_TEARING_CLAWS</extend>
+		<extend>ID_PHB_SPELL_ANIMAL_MESSENGER</extend>
+		<extend>ID_TBC_SPELL_COMMAND_MINOR_BEAST</extend>
+		<extend>ID_PHB_SPELL_CONJURE_ANIMALS</extend>
+		<extend>ID_TBC_SPELL_CATNAP</extend>
+		<extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
+		<extend>ID_XGTE_SPELL_GUARDIAN_OF_NATURE</extend>
+		<extend>ID_PHB_SPELL_AWAKEN</extend>
+		<extend>ID_XGTE_SPELL_STEEL_WIND_STRIKE</extend>
+		</spellcasting>
+	</element>
+	<element name="Beastlands Lore" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_BEASTLANDS_LORE">
+		<description>
+		<p>When you choose this Otherworldly Patron at 1st level, the wisdom and power that the Monarch of Beasts shares with you grants you several benefits:</p>
+        <ul>
+        <li>You learn to speak, read, and write Sylvan.</li>
+        <li>You gain proficiency in your choice of one of the following skills: Animal Handling, Athletics, Insight, Nature, Perception, or Survival.</li>
+        <li>You can substitute your Charisma modifier for your Wisdom modifier when making Wisdom (Animal Handling, Perception, or Survival) checks.</li>
+        <li>Beasts understand your speech as if they spoke your language, and you gain the ability to decipher their noises and motions. Most beasts only have the intelligence to communicate the kinds of information described under the speak with animals spell. This does not necessarily earn you the friendship of beasts, but you can interact with them the way you would any non-player character, and when you meet new beasts of the type represented by your patron, their initial attitude towards you is always friendly.</li>		
+        </ul>					
+		</description>
+		<sheet display="false"/>
+        <rules>
+        <select type="Proficiency" name="Skill Proficiency, Beastlands Lore" supports="ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERCEPTION"/>
+		<grant type="Language" id="ID_LANGUAGE_SYLVAN"/>						
+        </rules>		
+	</element>
+	<element name="Omen of Tooth and Claw" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_OMEN_OF_TOOTH_AND_CLAW">
+<description>
+        <p>Starting at 1st level, when you use the magic granted by your patron, you can also call upon your patron to display its power. When you use a warlock spell slot to cast a spell, you can magically channel energies of the Beastlands, placing your choice of either a Beastlands Boon or a Beastlands Curse on a creature of your choice within 30 feet of you that is not behind total cover.</p>
+		<p class="indent">If you choose a <i>Beastlands Boon</i>, the chosen target gains temporary hit points equal to your proficiency bonus + your warlock level, and it has advantage on Wisdom checks and Wisdom saving throws while it still retains temporary hit points gained from this feature.</p>
+		<p class="indent">If you choose a <i>Beastlands Curse</i>, you gain advantage on opposed ability checks against the chosen target, and the first time you inflict damage on the cursed target during each of your turns, you can either deal additional damage to it equal to your proficiency bonus or reduce its speed by 10 feet.</p>
+		<p class="indent">All effects of this feature (including any temporary hit points gained) end after 1 minute. They end early if you are incapacitated or if you use this feature again.</p>	
+        </description>
+		<sheet>
+        <description>When you use a warlock spell slot to cast a spell, you can magically channel energies of the Beastlands, placing your choice of either a Beastlands Boon or a Beastlands Curse on a creature of your choice within 30 feet of you that is not behind total cover. If you choose a Beastlands Boon, the chosen target gains temporary hit points equal to {{proficiency}} + {{level:warlock}}, and it has advantage on Wisdom checks and Wisdom saving throws while it still retains temporary hit points gained from this feature. If you choose a Beastlands Curse, you gain advantage on opposed ability checks against the chosen target, and the first time you inflict damage on the cursed target during each of your turns, you can either deal additional damage to it equal {{proficiency}} or reduce its speed by 10 feet.</description>
+        </sheet>
+	</element>
+	<element name="Bestial Fury" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_BEASTIAL_FURY">
+		<description>
+		<p>At 6th level, your patron allows you or your familiar to lash out with spectral claws, fangs, horns, spikes, or other natural weapons possessed by beasts of your patron’s type. As a bonus action, you can target a creature within 5 feet of you (or within 5 feet of your familiar, if you have one) that you have hit with an attack roll since the end of your previous turn. That creature must make a Dexterity saving throw against your warlock spell save DC. On a failure, the target takes psychic damage equal to 1d6 + your Charisma bonus. If it fails by 5 or more, it falls prone in addition to taking the damage. If this damage reduces a creature to 0 hit points, you gain temporary hit points equal to your Charisma bonus + half your warlock level.</p>		
+		</description>
+		<sheet usage="Bonus Action">
+		<description>You can target a creature within 5 feet of you (or within 5 feet of your familiar, if you have one) that you have hit with an attack roll since the end of your previous turn. That creature must make a Dexterity saving throw against your warlock spell save DC. On a failure, the target takes psychic damage equal to 1d6 + {{charisma:modifier}}. If it fails by 5 or more, it falls prone in addition to taking the damage. If this damage reduces a creature to 0 hit points, you gain temporary hit points equal {{charisma:modifier}} + {{level:warlock:half}}.</description>
+		</sheet>					
+	</element>
+	<element name="Instinctive Curse" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_INSTINCTIVE_CURSE">
+		<description>
+		<p>Starting at 10th level, when a creature is the target of your <i>hex</i> spell or a warlock feature you have that curses (such as the <i>Sign of Ill Omen</i> eldritch evocation or the <i>Beastlands Curse</i> use of your Omen of Tooth and Claw feature), you gain certain benefits against that creature:</p>
+        <ul>
+        <li>When damage dealt by that that creature forces you to make a Constitution saving throw to maintain concentration on a spell, you automatically succeed on that saving throw.</li>
+        <li>When that creature makes a melee attack against you, you can use your reaction to cast a cantrip targeting only yourself or targeting only that creature. The cantrip must have a casting time of 1 action, which is changed to 1 reaction for this casting. If the cantrip requires a ranged  attack, being within 5 feet of a hostile creature doesn’t impose disadvantage on your attack roll.</li>		
+        </ul>		
+		<p class="indent">You also gain these benefits against any creature that has taken psychic damage from your Bestial Fury feature since the start of your last turn.</p>
+		</description>
+		<sheet usage="Reaction">
+		<description>When a creature is the target of your hex spell or a warlock feature you have that curses (such as the Sign of Ill Omen eldritch evocation or the Beastlands Curse use of your Omen of Tooth and Claw feature), you gain certain benefits against that creature: When damage dealt by that that creature forces you to make a Constitution saving throw to maintain concentration on a spell, you automatically succeed. In addition, when that creature makes a melee attack against you, you can use your reaction to cast a cantrip targeting only yourself or targeting only that creature. The cantrip must have a casting time of 1 action, which is changed to 1 reaction for this casting. If the cantrip requires a ranged  attack, being within 5 feet of a hostile creature doesn’t impose disadvantage on your attack roll.</description>
+		</sheet>
+	</element>
+	<element name="Transforming Reciprocity" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_MONARCH_OF_BEASTS_TRANSFORMING_RECIPROCITY">
+		<description>
+		<p>Starting at 14th level, you can use your reaction to cast the <i>polymorph</i> spell without using a spell slot or any components whenever a creature you can see does any of the following things:</p>
+        <ul>
+        <li>It moves to a space within 5 feet of you.</li>
+        <li>It enters your reach.</li>
+        <li>It reduces a beast you can see within 60 feet of you to 0 hit points.</li>				
+        </ul>		
+		<p class="indent">You can only target yourself or the creature that triggered this reaction with this polymorph spell, and it is cast as if using a 7th-level spell slot. The casting time is changed to 1 reaction for this casting. Otherwise, the spell works normally.</p>
+		<p class="indent">If you have the Pact of the Chain option for your Pact Boon feature, you can also use this reaction when a creature attacks your familiar.</p>
+		<p class="indent">Once you use this feature, you cannot do so again until you finish a long rest.</p>						
+		</description>
+		<sheet usage="1/Long Rest">
+		<description>You can cast the Polymorph spell without using a spell slot or any components whenever a creature you can see does any of the following things: It moves to a space within 5 feet of you. It enters your reach. It reduces a beast you can see within 60 feet of you to 0 hit points. You can only target yourself or the creature that triggered this reaction with this polymorph spell, and it is cast as if using a 7th-level spell slot. If you have the Pact of the Chain option for your Pact Boon feature, you can also use this reaction when a creature attacks your familiar.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH" level="14" spellcasting="Warlock"/>		
+		</rules>			
+	</element>
+
+	<element name="The Realmbound Tyrant" type="Archetype" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_OTHERWORLDLY_PATRON_REALMBOUND_TYRANT">
+		<supports>Otherworldly Patron</supports>
+		<description>
+		<p>The immortal entity you made your pact with does not watch you from some distant realm, but physically dwells with and rules over the people of your homeland. If you hail from the Domains of Dread, your patron is likely a darklord; it could be an undead ruler like Strahd von Zarovich of Barovia or Lord Soth of Sithicus, or an undying sorcerer-king draining arcane energies from the dwindling life of the city-state around him, like Kalid-ma of Kalidnay. In Eberron, your patron could be one of the Inspired governors who rule the provinces of Riedra and channel greater power might from the Plane of Dreams. In a Forgotten Realms campaign, you might draw arcane might from a pact with Gilgeam the God-King of Unther, or the all-powerful lich Szass Tam, ruler of Thay.</p>
+		<p class="indent">No rebellion against your patron has ever succeeded, for its worldly power is matched by supernatural might. You know your patron has even greater ambitions—perhaps seeking to ascend to deity or some greater state of arcane power, or to escape a curse binding them to the land—and one way or another, your pact furthers those ambitions. You may willingly act as your pact-holder’s agent or templar, helping keep the peace among their subjects and enforce laws, or you might have fled your homeland for a freer life elsewhere. Perhaps you are even secretly connected to a clandestine resistance.</p>
+		
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_EXPANDED_SPELL_LIST"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_EXPANSIVE_MIND"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_VIGILANCE_OF_FEAR"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_IMPACABLE_PURSUER"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_INTIMIDATING_PRESENCE"/>			
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_DEFILING_DRAIN"/>
+		</description>
+		<sheet display="false">
+		<description>You have bound yourself to an immortal entity, who physically dwells and rules over your homeland.</description>
+		</sheet>
+		<rules>
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_EXPANDED_SPELL_LIST" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_EXPANSIVE_MIND" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_VIGILANCE_OF_FEAR" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_IMPACABLE_PURSUER" level="6" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_INTIMIDATING_PRESENCE" level="10" />			
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_DEFILING_DRAIN" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_EXPANDED_SPELL_LIST">
+		<description>
+		<p>The Realmbound Tyrant allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+		<h5 class="caption">REALMBOUND_TYRANT EXPANDED SPELLS</h5>
+		<table>
+		<thead>
+		<tr><td>Spell Level</td><td>Spells</td></tr>
+		</thead>
+		<tr><td>1st</td><td><em>command, ego lash</em></td></tr>
+		<tr><td>2nd</td><td><em>calm emotions, detect thoughts</em></td></tr>
+		<tr><td>3rd</td><td><em>clairvoyance, marshal's pursuit</em></td></tr>
+		<tr><td>4th</td><td><em>fumbling curse, locate creature</em></td></tr>
+		<tr><td>5th</td><td><em>modify memory, telekinesis</em></td></tr>
+		</table>
+		</description>
+		<sheet display="false">
+		<description>The Realmbound Tyrant lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+		<extend>ID_PHB_SPELL_COMMAND</extend>
+		<extend>ID_TBC_SPELL_EGO_LASH</extend>
+		<extend>ID_PHB_SPELL_CALM_EMOTIONS</extend>
+		<extend>ID_PHB_SPELL_DETECT_THOUGHTS</extend>
+		<extend>ID_PHB_SPELL_CALIRVOYANCE</extend>
+		<extend>ID_TBC_SPELL_MARSHAL'S_PURSUIT</extend>
+		<extend>ID_TBC_SPELL_FUMBLING_CURSE</extend>
+		<extend>ID_PHB_SPELL_LOCATE_CREATURE</extend>
+		<extend>ID_PHB_SPELL_MODIFY_MEMORY</extend>
+		<extend>ID_PHB_SPELL_TELEKINESIS</extend>
+		</spellcasting>
+	</element>
+	<element name="Expansive Mind" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_EXPANSIVE_MIND">
+		<description>
+		<p>Starting at 1st level, the power you draw from your pact extends your mental faculties outside of your own body, allowing you to protect your own thoughts and probe other minds like your own. You are immune to being charmed, and while a humanoid you share a language with is within 60 feet of you, you can communicate with it telepathically. The creature can respond telepathically as well, until you are out or range or you use this feature to communicate with a different creature. In your patron’s worldly realm, your telepathy’s range increases to 300 feet.</p>				
+		</description>
+		<sheet>
+		<description>You are immune to being charmed, and while a humanoid you share a language with is within 60 feet of you, you can communicate with it telepathically. The creature can respond telepathically as well, until you are out or range or you use this feature to communicate with a different creature.</description>
+		</sheet>				
+	</element>
+	<element name="Vigilance of Fear" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_VIGILANCE_OF_FEAR">
+<description>
+        <p>At 1st level, since you live in constant fear of both your patron and your patron’s enemies, you are always wary of a sudden attack. You can substitute your Dexterity modifier for your Charisma modifier when rolling initiative. Also, when you are surprised, you can still take a single action during your first turn of the combat, but it must be one of the following actions: Dash, Disengage, Dodge, Hide, or Use an Object.</p>	
+        </description>
+		<sheet>
+        <description>You can substitute your Dexterity modifier for your Charisma modifier when rolling initiative. Also, when you are surprised, you can still take a single action during your first turn of the combat, but it must be one of the following actions: Dash, Disengage, Dodge, Hide, or Use an Object.</description>
+        </sheet>
+	</element>
+	<element name="Implacable Pursuer" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_IMPACABLE_PURSUER">
+		<description>
+		<p>At 6th level, you are highly adept at apprehending those who defy your authority. When you hit a creature with an attack roll, until the end of your next turn, the target’s speed is reduced by 10 feet and your opportunity attacks against it are made at advantage. Also, whenever your attack reduces a creature to 0 hit points, you can choose to knock it unconscious  instead of killing it, even if the attack was a spell attack or ranged attack.</p>		
+		</description>
+		<sheet>
+		<description>When you hit a creature with an attack roll, until the end of your next turn, the target’s speed is reduced by 10 feet and your opportunity attacks against it are made at advantage. Also, whenever your attack reduces a creature to 0 hit points, you can choose to knock it unconscious  instead of killing it, even if the attack was a spell attack or ranged attack.</description>
+		</sheet>					
+	</element>
+	<element name="Intimidating Presence" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_INTIMIDATING_PRESENCE">
+		<description>
+		<p>Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.</p>	
+		<p class="indent">If the creature succeeds on its saving throw, you can’t use this feature on that creature again for 24 hours.</p>
+		</description>
+		<sheet usage="Action">
+		<description>You can use your action to frighten someone with you menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you. Creatures that succeed on that saving throw are immune to this effect for 24 hours.</description>
+		</sheet>
+	</element>
+	<element name="Defiling Drain" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_REALMBOUND_TYRANT_DEFILING_DRAIN">
+		<description>
+		<p>Starting at 14th level, when you cast a spell of 1st level or higher, you can empower it by draining life energy from a nearby creature. When you gain this feature, choose two of the Metamagic options from a sorcerer’s Metamagic feature. Whenever you gain a warlock level, you can select one of these Metamagic options and replace it with a new one of your choice. You can use these Metamagic options, but you do not fuel them with sorcery points.</p>
+		<p class="indent">Instead, whenever you use your action to cast a spell, you can use a bonus action to attempt to apply one of your two chosen Metamagic features to that by forcing a creature you can see within 30 feet to make a Constitution saving throw. Constructs and undead automatically succeed, and plants and water elementals make this saving throw with disadvantage. On a success, nothing happens. On a failure, the target takes 6d8 necrotic damage, you apply the chosen Metamagic option to the spell as if you spent any required sorcery points, and all nonmagical plants that are within 30 feet of both you and the target that are not  creatures, such as trees and shrubs, wither and die instantly.</p>
+		<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>						
+		</description>
+		<sheet usage="1/Short or Long Rest">
+		<description>You gain access to two Metamegic options from the sorcerer’s Metamegic feature but do not gain sorcery points. Instead, you can use a bonus action whenever you use your action to cast a spell to apply one of your Metamegic options by forcing a creature you can see within 30 feet to make a Constitution saving throw. Constructs and undead automatically succeed, and plants and water elementals make this saving throw with disadvantage. On a success, nothing happens. On a failure, the target takes 6d8 necrotic damage, you apply the chosen Metamagic option to the spell as if you spent any required sorcery points, and all nonmagical plants that are within 30 feet of you die instantly.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Metamagic" supports="Metamagic" level="14" number="2"/>
+		</rules>			
+	</element>
+
+	<element name="The Wyrd Coven" type="Archetype" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_OTHERWORLDLY_PATRON_WYRD_COVEN">
+		<supports>Otherworldly Patron</supports>
+		<description>
+		<p>Hags come in many varieties. Most are fey or fiends, but some covens transcend the normal types, unifying to become otherworldly powers unto themselves. Often connected to goddesses of dark sorcery, these covens exist outside of time itself, appearing when they wish to interfere in mortal events with threats and prophecies.</p>
+		<p class="indent">No one seeks a pact with these all-seeing hags—their dealings occur only in times and places of their own choosing, at moments in time when great destinies intertwine or unravel. Just as covens combine fey and fiendish entities into one circle of horror, the Pact of the Wyrd Coven combines abilities from the Pacts of the Archfey and the Fiend with the near-omniscient prescience of these greater hags.</p>
+		<p class="indent">Most of Eberron’s Wyrd Coven warlocks make their pacts with Droaam’s Daughters of Sora Kell.</p>
+
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_EXPANDED_SPELL_LIST"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_ELDRITCH_MALEDICTION"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_WYRD_CONCOCTION"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_MISTS_OF_TIME"/>
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_DEATHLESS"/>			
+		<div element="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_CAULDRON_OF_FATE"/>
+		</description>
+		<sheet display="false">
+		<description>You have made a pact with an otherworldly coven, consisting of hags that exist outside the bounds of time itself.</description>
+		</sheet>
+		<rules>
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_EXPANDED_SPELL_LIST" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_ELDRITCH_MALEDICTION" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_WYRD_CONCOCTION" level="1" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_MISTS_OF_TIME" level="6" />
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_DEATHLESS" level="10" />			
+		<grant type="Archetype Feature" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_CAULDRON_OF_FATE" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_EXPANDED_SPELL_LIST">
+		<description>
+		<p>The hags of the Wyrd Coven allow you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+		<h5 class="caption">WYRD_COVEN EXPANDED SPELLS</h5>
+		<table>
+		<thead>
+		<tr><td>Spell Level</td><td>Spells</td></tr>
+		</thead>
+		<tr><td>1st</td><td><em>fog cloud, prophesied strike</em></td></tr>
+		<tr><td>2nd</td><td><em>augury, bestow curse</em></td></tr>
+		<tr><td>3rd</td><td><em>clairvoyance, protection from energy</em></td></tr>
+		<tr><td>4th</td><td><em>divination, swordshun</em></td></tr>
+		<tr><td>5th</td><td><em>legend lore, mislead</em></td></tr>
+		</table>
+		</description>
+		<sheet display="false">
+		<description>The Realmbound Tyrant lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+		<extend>ID_PHB_SPELL_FOG_CLOUD</extend>
+		<extend>ID_TBC_SPELL_PIROPHESIED_STRIKE</extend>
+		<extend>ID_PHB_SPELL_AUGURY</extend>
+		<extend>ID_PHB_SPELL_BESTOW_CURSE</extend>
+		<extend>ID_PHB_SPELL_CALIRVOYANCE</extend>
+		<extend>ID_PHB_SPELL_PROTECTION_FROM_ENERGY</extend>
+		<extend>ID_PHB_SPELL_DIVINATION</extend>
+		<extend>ID_TBC_SPELL_SWORDSHUN</extend>
+		<extend>ID_PHB_SPELL_LEGEND_LORE</extend>
+		<extend>ID_PHB_SPELL_MISLEAD</extend>
+		</spellcasting>
+	</element>
+	<element name="Eldritch Malediction" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_ELDRITCH_MALEDICTION">
+		<description>
+		<p>At 1st level, greater forces hasten the doom of those you curse. When you inflict damage with an attack against one or more creatures who are currently the target of a concentration spell you cast, you can inflict additional psychic damage equal to your proficiency bonus against one of the damaged creatures.</p>				
+		</description>
+		<sheet>
+		<description> When you inflict damage with an attack against one or more creatures who are currently the target of a concentration spell you cast, you can inflict additional psychic damage equal to your {{proficiency}} against one of the damaged creatures.</description>
+		</sheet>				
+	</element>
+	<element name="Wyrd Concoction" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_WYRD_CONCOCTION">
+<description>
+        <p>Starting at 1st level, you gain the ability to boil eldritch ingredients in a special cauldron-like vessel provided by your patron, creating a wyrd concoction. You also gain proficiency with alchemists’ supplies, and if you have them on your person you can use them to create this wyrd concoction in your vessel. If you do not have your vessel, you can conjure a new one with a 10- minute ritual. Creating the concoction takes one hour, which can be part of a short or long rest. It remains sealed in your vessel until you expend it or finish a short or long rest, in which case it vaporizes at once. It has the following uses:</p>
+        <ul>
+        <li>When you use a warlock spell slot to cast a divination or enchantment spell of 5th-level or lower, you can immediately expend your wyrd concoction as a reaction to regain that spell slot.</li>
+        <li>When the current target of a concentration spell you cast is reduced to 0 hit points, you can expend your wyrd concoction to regain hit points equal to your warlock level + your Charisma modifier.</li>
+        <li>When an attack against the current target of a concentration spell you cast scores a critical hit, you can expend your wyrd concoction as a reaction to force creatures within 5 feet of the slain creature to roll a Wisdom saving throw against your warlock spellcasting DC or become frightened of you until the end of your next turn.</li>	
+        </ul>			
+        </description>
+		<sheet alt="Wyrd Concoction" action="Reaction" usage="{{Wyrd Concoction:count}}/Short or Long Rest">
+        <description>You gain the ability to create a wyrd concoction in a special vessel given to you by your patron. creating that concoction takes 1 hour, which can be made during a short or long rest. It remains sealed in your vessel until you expend it or finish a short or long rest, in which case it vaporizes at once. It has the following uses: When you use a warlock spell slot to cast a divination or enchantment spell of 5th-level or lower, you can immediately expend your wyrd concoction as a reaction to regain that spell slot. When the current target of a concentration spell you cast is reduced to 0 hit points, you can expend your wyrd concoction to regain hit points equal to your {{level:warlock}} + {{Charisma:modifier}}. When an attack against the current target of a concentration spell you cast scores a critical hit, you can expend your wyrd concoction as a reaction to force creatures within 5 feet of the slain creature to roll a Wisdom saving throw against your warlock spellcasting DC or become frightened of you until the end of your next turn.</description>
+        </sheet>
+		<rules>
+        <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES"/>
+        <stat name="Wyrd Concoction:count" value="1" level="1" bonus="base"/>
+        <stat name="Wyrd Concoction:count" value="2" level="14" bonus="base"/>													
+		</rules>
+	</element>
+	<element name="Mists of Time" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_MISTS_OF_TIME">
+		<description>
+		<p>At 6th level, you can avoid harm by hiding yourself within a veil of otherworldly mist. As a reaction when you would take bludgeoning, piercing, or slashing damage, you can reduce that damage by an amount equal to your warlock level plus your Charisma score, and then cause a 10-foot cube centered on you to fill with mist, becoming heavily obscured. The mist lasts until the beginning of your next turn, during which time you do not provoke opportunity attacks from the creature that dealt the triggering damage (if any). You can see through this mist as if it weren’t there.</p>
+		<p class="indent">Once you use this feature, you cannot do so again until you finish a short or long rest.</p>				
+		</description>
+		<sheet alt="Mists of Time" action="Reaction" usage="1/Short or Long Rest">
+		<description>When you would take bludgeoning, piercing, or slashing damage, you can reduce that damage by an amount equal to your {{level:warlock}} + {{charisma:score}}, and then cause a 10-foot cube centered on you to fill with mist, becoming heavily obscured. The mist lasts until the beginning of your next turn, during which time you do not provoke opportunity attacks from the creature that dealt the triggering damage (if any). You can see through this mist as if it weren’t there.</description>
+		</sheet>					
+	</element>
+	<element name="Deathless" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_DEATHLESS">
+		<description>
+		<p>Beginning at 10th level, visions of your patron coven appear to you each night, warning you of deadly harm you may face in the coming day. Whenever you finish a long rest, you gain the benefits of a <i>death ward</i> spell. The duration of this version of the spell is extended to 24 hours.</p>	
+		</description>
+		<sheet>
+		<description>Whenever you finish a long rest, you gain the benefits of a death ward spell. The duration of this version of the spell is extended to 24 hours.</description>
+		</sheet>
+		<rules>
+		<grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="10" spellcasting="Warlock"/>				
+		</rules>		
+	</element>
+	<element name="Cauldron of Fate" type="Archetype Feature" source="The Blackstaff's Warlock Codex" id="ID_DMSG_TBWC_ARCHETYPE_FEATURE_WYRD_COVEN_CAULDRON_OF_FATE">
+		<description>
+		<p>Starting at 14th level, your wyrd concoction grows more powerful, and breathing its fumes grants you visions of future threats. Whenever you create your wyrd concoction, you gain advantage on death saving throws, immunity to the frightened condition, and resistance to necrotic damage until the next time you finish a short or long rest.</p>
+		<p class="indent">In addition, when your wyrd concoction would normally be expended, you can instead use it again once more. After the second use, it’s expended normally.</p>		
+		</description>
+		<sheet>
+		<description>Whenever you create your wyrd concoction, you gain advantage on death saving throws, immunity to the frightened condition, and resistance to necrotic damage until the next time you finish a short or long rest. In addition, when your wyrd concoction would normally be expended, you can instead use it again once more. After the second use, it’s expended normally.</description>
+		</sheet>
+        <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
+		</rules>			
+	</element>
+</elements>			

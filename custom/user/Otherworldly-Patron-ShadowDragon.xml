@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements><element name="Shadow Dragon" type="Archetype" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_OTHERWORLDLY_PATRON_SHADOW_DRAGON">
+		<supports>Otherworldly Patron</supports>
+		<description>
+			<p>Your patron is an entity that resides in the deepest darkness, remaining where it is the most powerful and the most feared. 
+				Physically seeming insubstantial, their scales are dark and translucent, yes, your patron is one of the most powerful and feared creature of the Shadowfell, a Shadow Dragon.
+				No matter how, the dragon has decide to chose you as a servant on the primary plane.</p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_EXPANDED_SPELL_LIST"/>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_ROLLING_MIST"/>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_SHADOW_RESILIENCE"/>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_SOUL_DRINKER"/>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_BOTTOMLESS_DARKNESS"/>
+		</description>
+		<sheet display="false">
+			<description>You have made a pact with a Shadow Dragon from one the darkest plane, the Shadowfell.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_EXPANDED_SPELL_LIST" level="1" />
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_ROLLING_MIST" level="1" />
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_SHADOW_RESILIENCE" level="6" />
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_SOUL_DRINKER" level="10" />
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_BOTTOMLESS_DARKNESS" level="14" />
+		</rules>
+	</element>
+	<element name="Expanded Spell List" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_EXPANDED_SPELL_LIST">
+		<description>
+			<p>Shadow Dragon lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+			<h5 class="caption">SHADOW DRAGON EXPANDED SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>chromatic orb, command</em></td></tr>
+				<tr><td>2nd</td><td><em>blindness/deafness, shatter</em></td></tr>
+				<tr><td>3rd</td><td><em>blink, summon shadow spirit</em></td></tr>
+				<tr><td>4th</td><td><em>confusion, dominate beast</em></td></tr>
+				<tr><td>5th</td><td><em>maelstrom, animate objects</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>Shadow Dragon lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			
+			<extend>ID_PHB_SPELL_CHROMATIC_ORB</extend>
+			<extend>ID_PHB_SPELL_COMMAND</extend>
+			<extend>ID_PHB_SPELL_BLINDNESS_DEAFNESS</extend>
+			<extend>ID_PHB_SPELL_SHATTER</extend>
+			<extend>ID_PHB_SPELL_BLINK</extend>
+			<extend>ID_WOTC_UA20200326_SPELL_SUMMON_SHADOW_SPIRIT</extend>
+			<extend>ID_PHB_SPELL_CONFUSION</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
+			<extend>ID_PHB_SPELL_ANIMATE_OBJECTS</extend>
+			<extend>ID_XGTE_SPELL_MAELSTROM</extend>
+		</spellcasting>
+	</element>
+	<element name="Rolling Mist" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_ROLLING_MIST">
+		<description>
+			<p>At 1st level, you may use your action to turn into a cloud of thick, black mist for 1 minute. 
+				While in this form, you do not leave footprints, are not hindered by difficult terrain, gain Advantage on Stealth checks, and are considered heavily obscured. 
+				If you choose to make an attack, cast a spell, or if you take damage, you immediately revert to your normal form.
+				You may use this ability once and regain the ability to do so after a short or long rest.
+				When you reach 10th level, you may do this as many times as you want.</p>
+		</description>
+			<sheet action="Action" usage="1/Short Rest until lvl 10">
+			<description>You may use your action to turn into a cloud of thick, black mist for 1 minute.</description>
+		</sheet>
+	</element>
+
+	<element name="Shadow Resilience" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_SHADOW_RESILIENCE">
+		<description>
+			<p>Starting at 6th level, you can call upon your patron to bring you back from the brink of death. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead.
+				Once you use this feature, you can’t use it again until you complete a short or long rest.</p>
+			<p class="indent">Once you use this feature, you can’t use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead.</description>
+		</sheet>
+	</element>
+
+	<element name="Soul Drinker" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_SOUL_DRINKER">
+		<description>
+			<p>Starting at 10th level, you learn to make the soul of those who meets their fate joins you for a short time. Each time you reduce a creature to 0 hit points, you regain one expended spell slot. You may use this feature twice, and you regain any expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="2/Long Rest">
+			<description>Each time you reduce a creature to 0 hit points, you regain one expended spell slot. You may use this feature twice, and you regain any expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+	
+	<element name="Bottomless Darkness" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SHADOW_DRAGON_BOTTOMLESS_DARKNESS">
+		<description>
+			<p>Starting at 14th level, you can use an action to create a 60 foot radius sphere of pure, dark energy centered on a point you can see within 60 feet. 
+				This darkness spreads around corners, no creature can see in this darkness except you, not even with true sight, and this darkness also spreads into every plane at this location including the ethereal plane. 
+				Creatures inside this sphere cannot use magic to teleport out of this darkness for as long as it remains. 
+				This sphere lasts for 10 minutes or until you dismiss the darkness (no action required). 
+				This darkness can only be illuminated by a spell of 6th level or higher that creates bright light and even then, the radius of this bright light is halved. Dim light cannot be seen in this darkness. 
+				You must finish a long rest before you can use this feature again.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You create a 60 foot radius sphere of pure, dark energy centered on a point you can see within 60 feet that last 10min.</description>
+		</sheet>
+	</element>
+	</elements>

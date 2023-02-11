@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="_Generic Background" type="Background" source="Terraism" id="ID_TERRAISM_BACKGROUND_GENERIC">
+		<description>
+			<p>You lived a past unique to you, and will write your own future. (This background is for full customization per the custom background rules in the <i>Player's Handbook</i>.)</p>
+			<ul>
+				<li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient with</li>
+				<li><strong>Tools and Languages:</strong> Choose any combination of two tool proficiencies or languages.</li>
+				<li><strong>Equipment:</strong> You start with no equipment, and gold based on your class.</li>
+				<li><strong>Feature:</strong> Choose a feature from any background. A list is provided, but you may override it on the character details tab.</li>
+			</ul>
+		</description>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Background)" supports="Skill" number="2" />
+			<select type="Background Feature" name="Background Lesser Proficiencies" supports="ID_TERRAISM_BACKGROUND_FEATURE_GENERIC_PROF_TOOLS|ID_TERRAISM_BACKGROUND_FEATURE_GENERIC_PROF_LANGUAGES|ID_TERRAISM_BACKGROUND_FEATURE_GENERIC_PROF_SPLIT"/>
+			<select type="Background Feature" name="Background Feature" supports="Background Feature" optional="true"/>
+		</rules>
+	</element>
+	<element name="Proficiencies: Tools" type="Background Feature" source="Terraism" id="ID_TERRAISM_BACKGROUND_FEATURE_GENERIC_PROF_TOOLS">
+		<description>
+			<p>You have chosen to be proficient in two tools.</p>
+		</description>
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency (Background)" supports="Tool" number="2"/>
+		</rules>
+	</element>
+	<element name="Proficiencies: Languages" type="Background Feature" source="Terraism" id="ID_TERRAISM_BACKGROUND_FEATURE_GENERIC_PROF_LANGUAGES">
+		<description>
+			<p>You have chosen to learn two languages.</p>
+		</description>
+		<rules>
+			<select type="Language" name="Language (Background)" number="2"/>
+		</rules>
+	</element>
+	<element name="Proficiencies: Split" type="Background Feature" source="Terraism" id="ID_TERRAISM_BACKGROUND_FEATURE_GENERIC_PROF_SPLIT">
+		<description>
+			<p>You have chosen to learn one language and become proficient in a single tool.</p>
+		</description>
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency (Background)" supports="Tool"/>
+			<select type="Language" name="Language (Background)"/>
+		</rules>
+	</element>
+	<!-- Custom Spell List features -->
+	<append id="ID_WOTC_GGTR_BACKGROUND_AZORIUS_FUNCTIONARY">
+		<supports>Background Feature</supports>
+	</append>
+	<append id="ID_WOTC_GGTR_BACKGROUND_FEATURE_BOROS_LEGIONNAIRE_BOROS_GUILD_SPELLS">
+		<supports>Background Feature</supports>
+	</append>
+	<append id="ID_WOTC_GGTR_BACKGROUND_FEATURE_DIMIR_OPERATIVE_DIMIR_GUILD_SPELLS">
+		<supports>Background Feature</supports>
+	</append>
+	<append id="ID_WOTC_GGTR_BACKGROUND_FEATURE_GOLGARI_AGENT_GOLGARI_GUILD_SPELLS">
+		<supports>Background Feature</supports>
+	</append>
+	<append id="ID_WOTC_GGTR_BACKGROUND_FEATURE_IZZET_ENGINEER_IZZET_GUILD_SPELLS">
+		<supports>Background Feature</supports>
+	</append>
+	<append id="ID_WOTC_GGTR_BACKGROUND_FEATURE_ORZHOV_REPRESENTATIVE_ORZHOV_GUILD_SPELLS">
+		<supports>Background Feature</supports>
+	</append>
+	<append id="ID_WOTC_GGTR_BACKGROUND_FEATURE_RAKDOS_CULTIST_RAKDOS_GUILD_SPELLS">
+		<supports>Background Feature</supports>
+	</append>
+	<append id="ID_WOTC_GGTR_BACKGROUND_FEATURE_SELESNYA_INITIATE_SELESNYA_GUILD_SPELLS">
+		<supports>Background Feature</supports>
+	</append>
+	<append id="ID_WOTC_GGTR_BACKGROUND_FEATURE_SIMIC_SCIENTIST_SIMIC_GUILD_SPELLS">
+		<supports>Background Feature</supports>
+	</append>
+</elements>

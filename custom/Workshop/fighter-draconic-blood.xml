@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<!-- Draconic Blood Fighter Archetype -->
+	<element name="Draconic Blood Fighter" type="Archetype" source="DND Spirits" id="ID_DNDSP_ARCHETYPE_DRACONIC_BLOOD_FIGHTER">
+		<supports>Martial Archetype</supports>
+		<description>
+			<p>Your Draconic bloodline allows you to use sorcerry along with martial fighting to empower your strikes. Draconic Blood Fighters use magical techniques similar to those practiced by sorcerers. They take pride in their draconic heritage and use the power flowing through their veins to desimate all who dare to stand in their way. Tending to focus equaly on magic casting and martial fighting, they learn a comparitavly small number of spells comapred to sorcerers.</p>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_SPELLCASTING"/>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_FONT_OF_MAGIC"/>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_METAMAGIC"/>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_ANCESTORY"/>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_RESILIENCE"/>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_ELEMENTAL_AFFINITY"/>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_SURGE"/>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRAGON_SENSE"/> 
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_FURY"/> 
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_HEALTH"/>
+			<div element="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_RELENTLESS_FURY"/>
+		</description>
+		<sheet display="false">
+			<description>Your Draconic bloodline allows you to use sorcerry along with martial fighting to empower your strikes.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_SPELLCASTING" level="3"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_FONT_OF_MAGIC" level="3"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_METAMAGIC" level="3"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_ANCESTORY" level="3"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_RESILIENCE" level="3"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_ELEMENTAL_AFFINITY" level="3"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_SURGE" level="7"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRAGON_SENSE" level="7"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_FURY" level="10"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_HEALTH" level="15"/>
+			<grant type="Archetype Feature" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_RELENTLESS_FURY" level="18"/>
+		</rules>
+	</element>
+	<element name="Spellcasting" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_SPELLCASTING">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_SPELLCASTING</requirements>
+		<description>
+			<p>When you reach 3rd level, you augment your martial prowess with the abilities of your draconic heratige. You can now cast spells from the sorcerer spell list.</p>
+			<p class="indent"><strong><em>Cantrips.</em></strong> you learn two cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Draconic Blood Fighter table.</p>
+			<p class="indent"><strong><em>Spell Slots.</em></strong> The Draconic Blood Fighter table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot.</p>
+			<p class="indent"><strong><em>Spells Known of 1st-Level and Higher.</em></strong> You know two 1st-level spells of your choice from the sorcerer spell list.</p>
+			<p class="indent">The Spells Known column of the Draconic Blood Fighter table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this subclass, you can learn two new spell of 1st, 2nd, or 3rd level.</p>
+			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</p>
+			<p class="indent"><strong><em>Spellcasting Ability.</em></strong> Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one..</p>
+			<p class="indent"><strong><em>Sorcerer Points.</em></strong> You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+			</center>
+			<h5 class="caption">DRACONIC BLOOD FIGHTER SPELLCASTING</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Fighter Level</td><td class="col-10">Sorcerer Points</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+				<tr><td> 3rd</td><td> 2</td><td>2</td><td> 4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td> 3</td><td>2</td><td> 5</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td> 4</td><td>2</td><td> 6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td> 5</td><td>3</td><td> 7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td> 6</td><td>3</td><td> 8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td> 8th</td><td> 7</td><td>3</td><td> 9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td> 9th</td><td> 8</td><td>4</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>10th</td><td> 9</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>11th</td><td>10</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>12th</td><td>11</td><td>5</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>13th</td><td>12</td><td>5</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>14th</td><td>13</td><td>5</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>15th</td><td>14</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>16th</td><td>15</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>17th</td><td>16</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>18th</td><td>17</td><td>7</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td></tr>
+				<tr><td>19th</td><td>18</td><td>7</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>You augment your martial prowess with the ability to cast spells.</description>
+		</sheet>
+		<spellcasting name="Draconic Blood Fighter" ability="Charisma" prepare="false" allowReplace="true">
+			<list>Sorcerer</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_DNDSP_GRANT_MULTICLASS_SPELLCASTING_SLOTS_THIRD" requirements="ID_DNDSP_GRANT_MULTICLASS"/>
+			<stat name="Draconic Blood Fighter:spellcasting:slots:1" value="2" level="3" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:2" value="2" level="3" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:1" value="1" level="4" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:2" value="1" level="4" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:1" value="1" level="5" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:3" value="2" level="5" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:3" value="1" level="6" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:4" value="1" level="7" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:4" value="1" level="8" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:4" value="1" level="9" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:5" value="1" level="9" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:5" value="1" level="10" />
+			<stat name="Draconic Blood Fighter:spellcasting:slots:5" value="1" level="18" />
+			 
+			<select type="Spell" name="Cantrip (Draconic Blood Fighter)" supports="Sorcerer, 0" level="3" number="2" spellcasting="Draconic Blood Fighter" />
+			<select type="Spell" name="Cantrip (Draconic Blood Fighter)" supports="Sorcerer, 0" level="6" number="1" spellcasting="Draconic Blood Fighter" />
+			<select type="Spell" name="Cantrip (Draconic Blood Fighter)" supports="Sorcerer, 0" level="9" number="1" spellcasting="Draconic Blood Fighter" />
+			<select type="Spell" name="Cantrip (Draconic Blood Fighter)" supports="Sorcerer, 0" level="12" number="1" spellcasting="Draconic Blood Fighter" />
+			<select type="Spell" name="Cantrip (Draconic Blood Fighter)" supports="Sorcerer, 0" level="15" number="1" spellcasting="Draconic Blood Fighter" />
+			<select type="Spell" name="Cantrip (Draconic Blood Fighter)" supports="Sorcerer, 0" level="18" number="1" spellcasting="Draconic Blood Fighter" />
+			
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" number="4" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Draconic Blood Fighter"/>
+			<select type="Spell" name="Spell (Sorcerer)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Draconic Blood Fighter"/>
+
+		</rules>
+	</element>
+
+<element name="Font of Magic" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_FONT_OF_MAGIC">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_FONT_OF_MAGIC</requirements>
+		<description>
+			<p>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p>
+			<h5>SORCERY POINTS</h5>
+			<p>You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</p>
+			<h5>FLEXIBLE CASTING</h5>
+			<p>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.</p>
+			<p class="indent"><strong><em>Creating Spell Slots.</em></strong> You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</p>
+			<p class="indent">Any spell slot you create with this feature vanishes when you finish a long rest.</p>
+			<h5 class="caption">CREATING SPELLSLOTS</h5>
+			<table>
+				<thead>
+					<tr><td class="col-20">Spell Slot Level</td><td>Sorcery Point Cost</td></tr>
+				</thead>
+				<tr><td>1st</td><td>2</td></tr>
+				<tr><td>2nd</td><td>3</td></tr>
+				<tr><td>3rd</td><td>5</td></tr>
+				<tr><td>4th</td><td>6</td></tr>
+				<tr><td>5th</td><td>7</td></tr>
+			</table>
+			<p class="indent"><strong><em>Converting a Spell Slot to Sorcery Points.</em></strong> As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot’s level.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You have {{sorcery-points}} Sorcery Points. You can transform unexpended sorcery points into one spell slot (2 > 1st, 3 > 2nd, 5 > 3rd, 6 > 4th, 7 > 5th) on your turn or you can expend one spell slot and gain a number of sorcery points equal to the slot’s level.</description>
+		</sheet>
+		<rules>
+			<stat name="sorcery-points" value="level:fighter" />
+		</rules>
+	</element>
+
+	<element name="Metamagic" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_METAMAGIC">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_METAMAGIC</requirements>
+		<description>
+			<p>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</p>
+			<p class="indent">You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</p>
+		</description>
+		<sheet>
+			<description>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Metamagic" supports="Metamagic" level="3" number="2"/>
+			<select type="Class Feature" name="Metamagic" supports="Metamagic" level="10"/>
+			<select type="Class Feature" name="Metamagic" supports="Metamagic" level="17"/>
+		</rules>
+	</element>
+
+	<element name="Draconic Ancestory" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_ANCESTORY">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_ANCESTORY</requirements>
+		<supports>Draconic Blood Fighter</supports>
+		<description>
+			<p>At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.</p>
+			<h5 class="caption">DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Lightning</td></tr>
+				<tr><td>Brass</td><td>Fire</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td></tr>
+				<tr><td>Copper</td><td>Acid</td></tr>
+				<tr><td>Gold</td><td>Fire</td></tr>
+				<tr><td>Green</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Fire</td></tr>
+				<tr><td>Silver</td><td>Cold</td></tr>
+				<tr><td>White</td><td>Cold</td></tr>
+			</table>
+			<p>You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<select type="Archetype Feature" name="Draconic Ancestory (Draconic Blood Fighter)" supports="Draconic Ancestory" />
+		</rules>
+	</element>
+
+	<element name="Draconic Resilience" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_RESILIENCE">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_RESILIENCE</requirements>
+		<description>
+			<p class="indent" >As magic flows through your body, it causes physical characteristics of your dragon ancestors to emerge.</p>
+			<p>At 3rd level, your hit point maximum increases by 3 and increases by 1 again whenever you gain a level in this class.</p>
+			<p class="indent">Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren’t wearing armor, your AC equals 13 + your Dexterity modifier.</p>
+		</description>
+		<sheet>
+			<description>Your max HP is also increased by {{hp:draconic resilience}}</description>
+		</sheet>
+		<rules>
+			<stat name="hp:draconic resilience" value="level:fighter" />
+			<stat name="ac:draconic resilience" value="13" />
+			<stat name="ac:draconic resilience" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:draconic resilience" bonus="calculation" equipped="[armor:none]" alt="Draconic Resilience (Fighter)" />
+			<stat name="hp" value="hp:draconic resilience" />
+		</rules>
+	</element>
+
+	<element name="ELEMENTAL AFFINITY" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_ELEMENTAL_AFFINITY">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_ELEMENTAL_AFFINITY</requirements>
+		<description>
+			<p class="indent">The draconic essence inside of you grants you the power to enhance your strikes with the power of your draconic abilities.</p>
+			<p>Starting at 3rd level, when you use your attack action, you can add your Charisma modifier to the damage rolls of that attack action. The damage will be the type associated with your draconic ancestry.</p>
+			<p class="indent">Additionally, you can choose to gain resistance to the damage type associated with your draconic ancestory for 1 hour. You can use this feature once per long rest.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You gain resistance to the damage type associated with your draconic heratige for one hour. You can do this once / long rest.</description>
+		</sheet>
+	</element>
+
+	<element name="DRACONIC SURGE" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_SURGE">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_SURGE</requirements>
+		<description>
+			<p class="indent">You feel the power of your draconic ancestors flow through your veins as you maneuver in battle.</p>
+			<p>Starting at 7th level, when you make an action surge you regain half of your total sorcery points, rounded down.</p>
+			<p class="indent">You also  gain an additional bonus action with an action surge.</p>
+		</description>
+		<sheet>
+			<description>When you use your action surge ability, you regain {{level:fighter:half}} sorcery points.</description>
+		</sheet>
+	</element>
+
+	<element name="DRAGON SENSE" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRAGON_SENSE">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRAGON_SENSE</requirements>
+		<description>
+			<p class="indent">Starting at 7th level, your body begins to sense and react to the presence of nearby dragons.</p>
+			<p>When you use your action to channel dragon sense, you are able to discern if any draconic entities are within 60 feet of you. You can use this feature a number of times per day = to your charisma modifier.</p>
+			<p class="indent">You also have advantage to all charisma (persuasion) and intelligence (history) checks involving dragons.</p>
+		</description>
+		<sheet>
+			<description>
+				<p class="indent">you know the location and type of any draconic entity within 60 ft of you until the end of your next turn. You do not know the allignment nor the identity of anything you percieve with this ability. You can use this ability {{charisma:modifier}} times per long rest.</p>
+				<p class="indent">You have advantage on all persuasion and history checks involving dragons.</p>
+			</description>
+		</sheet>
+	</element>
+
+	<element name="DRACONIC FURY" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_FURY">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_FURY</requirements>
+		<description>
+			<p>Starting at 10th level, you channel the power of your draconic blood to vanquish your enemies. You spend 7 sorcerer points and your attacks deal and additional 3d8 damage of the type associated with your draconic ancestry for 2 minutes. You can only use this feature once per long rest.</p>
+		</description>
+		<sheet>
+			<description>You spend 7 sorcerer points and your attacks deal and additional 3d8 damage of the type associated with your draconic ancestry for 2 minutes. You can only use this feature once per long rest.</description>
+		</sheet>
+	</element>
+
+	<element name="Draconic Health" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_DRACONIC_HEALTH">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_HEALTH</requirements>
+		<description>
+			<p>Starting at 15th level, your draconic blood allows you to heal yourself more consistently throughout your battles.You can now use your second wind ability an additional amount of times equal to your charisma modifier. (minimum of 1)</p>
+		</description>
+		<sheet>
+			<description>You can now use your second wind features {{charisma:modifier}} times per long rest.</description>
+		</sheet>
+	</element>
+
+	<element name="Relentless Fury" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_BLOOD_FIGHTER_RELENTLESS_FURY">
+		<requirements>!ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_RELENTLESS_FURY</requirements>
+		<description>
+			<p>You have mastered the ability to channel the presence and fury of your draconic ancestors to push your body beyond its normal capabilities. Starting at 18th level, when you are dropped to 0 HP but not killed outright, You can choose to instead consume all of your sorcerer points and enter draconic fury, even if you have used it earlier. You heal 1d10 for every sorcerer point you have consumed. If you have no sorcery points when you hit 0 HP, you fall unconcious. You can use this feature once every short rest. Additionally, when you enter draconic fury, you emanate a 60 foot aura of awe or dread. Each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.</p>
+		</description>
+		<sheet>
+			<description>when you are dropped to 0 HP but not killed outright, You can choose to instead consume all of your sorcerer points and enter draconic fury, even if you have used it earlier. You heal 1d10 for every sorcerer point you have consumed. If you have no sorcery points when you hit 0 HP, you fall unconcious. You can use this feature once every short rest. Additionally, when you enter draconic fury, you emanate a 60 foot aura of awe or dread. Each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.</description>
+		</sheet>
+	</element>
+
+
+
+
+
+
+
+
+	<element name="Black Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_BLACK">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the black dragon as your ancestor. The acid damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The black dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Black Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Acid" />
+		</rules>
+	</element>
+
+	<element name="Blue Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_BLUE">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the blue dragon as your ancestor. The lightning damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The blue dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Blue Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Lightning" />
+		</rules>
+	</element>
+
+	<element name="Brass Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_BRASS">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the brass dragon as your ancestor. The fire damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The brass dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Brass Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Fire" />
+		</rules>
+	</element>
+
+	<element name="Bronze Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_BRONZE">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the bronze dragon as your ancestor. The lightning damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The bronze dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Bronze Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Lightning" />
+		</rules>
+	</element>
+
+	<element name="Copper Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_COPPER">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the copper dragon as your ancestor. The acid damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The copper dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Copper Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Acid" />
+		</rules>
+	</element>
+
+	<element name="Gold Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_GOLD">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the gold dragon as your ancestor. The fire damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The gold dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Gold Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Fire" />
+		</rules>
+	</element>
+
+	<element name="Green Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_GREEN">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the green dragon as your ancestor. The poison damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The green dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Green Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Poison" />
+		</rules>
+	</element>
+
+	<element name="Red Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_RED">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the red dragon as your ancestor. The fire damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The red dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Red Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Fire" />
+		</rules>
+	</element>
+
+	<element name="Silver Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_SILVER">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the silver dragon as your ancestor. The cold damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The silver dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Silver Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Cold" />
+		</rules>
+	</element>
+
+	<element name="White Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_WHITE">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the white dragon as your ancestor. The cold damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The white dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="White Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Radiant" />
+		</rules>
+	</element>
+
+	<element name="Platinum Dragon" type="Archetype Feature" source="Player’s Handbook" id="ID_DNDSP_ARCHETYPE_FEATURE_DRACONIC_ANCESTORY_Platinum">
+		<supports>Draconic Ancestory</supports>
+		<description>
+			<p>You choose the platinum dragon as your ancestor. The radiant damage type is used by features you gain later.</p>
+		</description>
+		<sheet>
+			<description>The platinum dragon as your ancestor.</description>
+		</sheet>
+		<rules>
+			<!-- <stat inline="true" name="Draconic Ancestory" value="Platinum Dragon" /> -->
+			<stat inline="true" name="Draconic Ancestory damage type" value="Radiant" />
+		</rules>
+
+	</element>
+
+
+	<!--Feature Replacement Grants-->
+	<element name="Spellcasting Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_SPELLCASTING" />
+	<element name="Font of Magic Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_FONT_OF_MAGIC" />
+	<element name="Metamagic Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_METAMAGIC" />
+	<element name="Metamagic Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_ANCESTORY" />
+	<element name="Draconic Resilience Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_RESILIENCE" />
+	<element name="Elemental Affinity Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_ELEMENTAL_AFFINITY" />
+	<element name="Draconic Surge Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_SURGE" />
+	<element name="Dragon Sense Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRAGON_SENSE" />
+	<element name="Draconic Fury Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_FURY" />
+	<element name="Draconic Health Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_DRACONIC_HEALTH" />
+	<element name="Relentless Fury Feature Replacement" type="Grants" source="DNDSP" id="ID_DNDSP_FEATURE_REPLACEMENT_DRACONIC_BLOOD_FIGHTER_RELENTLESS_FURY" />
+</elements>

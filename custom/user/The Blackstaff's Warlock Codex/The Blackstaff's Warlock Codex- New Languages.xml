@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.1">
+			<file name="the-blackstaff-codex-new-languages.xml" url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex" />
+		</update>
+	</info>
+
+	<!-- exotic -->
+	<element name="Modron" type="Language" source="Monster Manual" id="ID_LANGUAGE_MODRON">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by Modrons. It sounds like a series of "clicks and whirs".</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Modrons</set>
+			<set name="script">Modron</set>
+		</setters>
+	</element>
+</elements>

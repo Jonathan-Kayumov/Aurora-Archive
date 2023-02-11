@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Nocturne From The Shadowfell</name>
+        <author url="https://drive.google.com/file/d/1Kr3ZKYy3Me0ZFOhOQAmKBZlB9JUauhW5/view?usp=sharing">Homebrew</author>
+        <update version="1.0">
+            <file name="race-Nocturne-from-shadowfell.xml" url="https://www.dandwiki.com/wiki/Nocturne_(5e_Race)" />
+        </update>
+    </info>
+    
+    <element name="Nocturne From The Shadowfell" type="Race" source="Dark Arts Player’s Companion" id="ID_JONOMAN3000_DAPC_RACE_SHADARKAI">
+        <description>
+            <p>When creatures not native to the Shadowfell give birth within its gloomy domain, there is a chance that their souls are marked with the essence of Shadowfell otherwise known as, shadowstuff. While not initially showing it, as they grow they take on the characteristics of the creatures native to the plane. Elves born here are cursed to become new shadar-kai, while other humanoids become nocturnes. Such features include an overall darker complexion, enhanced vision in darkness, and a largely nocturnal lifestyle. These traits make them adapt to the perpetual darkness of the Shadowfell and natural hunters of the night, taking down prey with swift and efficient movements as they move through the shadow like a ripple across an otherwise still lake.</p>
+            <p class="indent">While it is thought the first nocturnes were born this way, few are born so in recent times with the arrival of the Raven Queen making travel to the Shadowfell an even more foreboding venture. They instead are created normally through procreation as they spread through the Shadowfell, generally maintaining a mutual relationship with the cursed shadar-kai and often learning Elvish to better communicate with their fell brethren.</p>
+            <h4>PHYSICAL DESCRIPTION</h4>
+            <p>Living breathing shadows, nocturnes dark, almost drow like tones, lack of pupils and the way their skin reacts to the absence of light, sets them apart from the other humanoid races. When in shadow, a nocturnes already dark skin darkens or brightens to match the darkness that obscures them. Their skin tones range from a dusky purple or white to a muddy grey or black. Similarly, their hair and eye colors range from black to a dusty grey or murky white, however, their eyes give off a peculiar luminous glow when in areas of dim light and vanish as the darkness mounts. Though these are the most notable features of nocturnes, other less notable features may include slender builds, long fingers and, a lack of facial and body hair.</p>
+            <h4>SOCIETY</h4>
+            <p>Within the Shadowfell, nocturnes are always awake and do not sleep or experience fatigue while they remain there. However, when outside of the Shadowfell, nocturne experience fatigue as normal and must deal with the brightness of the outside world. Nocture that leave the Shadowfell often come to despise the sun and may even come to loathe those that can walk freely within the light. Most nocturne will sleep through most the day or stay as far from the light as they can manage, only becoming active from about 5 pm until 5 am depending on the season. Nocturnes, while they don't necessarily prefer the colder climates, gravitate to parts of the world where the days are brief, and the nights are drawn out. A traveling group of nocturne may move with the shifting of the season up and down a vast geographical area in a largely migratory fashion.</p>
+            <p class="indent">While the themes of light and dark are prominent within nocturnian culture, so is the theme of stimulus or more, a lack of stimulus. A nocturne is said to able to stare for days without moving at even the most seemingly mundane scene. This is due to nocturnes coming from a world that is stagnant and unchanging, devoid of color to the point where nocturnes themselves have become colorblind. Often a shout cannot be heard from over a dozen feet in the Shadowfell so nocturnes are not usually individuals of many words and when they do speak it is soft, quiet, and to the point. Nocturnes that have never been to the Material Plane are often plagued by headaches, lethargy, and sickness, describing their minds as being overloaded by the comparatively fast paced, action packed lifestyle of the Material Plane.</p>
+
+            <h4>Nocturne From The Shadowfell Names</h4>
+            <p>Nocturnes commonly have very short names rarely longer than 4 letters, consisting of simple and soft-spoken pronunciations. Sometimes their names are in part based on shadar-kai (Elvish) names due to their interaction and proximity but are far shorter keeping to the typical nocturnian scheme.</p>
+            <p>
+                <span class="emphasis">Male names:</span> Ara, Aust, Bak, Dway, Gal, Jesh, Kav, Lu, Mor, Ne, Nox, Qill, Rean, See, Val.<br />
+                <span class="emphasis">Female names:</span> Adri, Alth, Bir, Cra, Dol, Ean, Gwen, Keir, Lail, Lia, Loon, Mel, Sha, Sila, Nyx, Xana.<br />
+            </p>
+            <h4>Nocturne From The Shadowfell Taits</h4>
+            <p>Humanoids of the Shadowfell, infused with shadowstuff.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span> Your Dexterity score increases by 2, and your Charisma score increases by 1.<br />
+                <span class="feature">Age.</span> The Nocturne From The Shadowfell reach physical maturity at the same rate as humans, but they generally live far longer. A Nocturne From The Shadowfell may live up to 800 years.<br />
+                <span class="feature">Alignment.</span> Nocturnes are normally neutral in alignment, tending towards lawfulness or chaos due to personal circumstances rather than nature.<br />
+                <span class="feature">Size.</span> Ranging from 5 to 6 feet tall, nocturnes are rarely are ever greater than 6 foot or less than 5. Ordinarily slim in build and nimble in their movements, they weigh less than they seem. Your size is Medium.<br />
+                <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
+                <span class="feature">Fellvision.</span> You can't discern color, only shades of gray, and are effectively colorblind. However, you can see in dim light and darkness within 120 feet of you as if it were bright light.<br />
+                <span class="feature">Gloom.</span> For many, stealth is a skill, learned, practiced and then mastered. For a nocturne, whose skin clouds and blends with whatever darkness is available, it is a natural ability. You are proficient in the Stealth skill.<br />
+                <span class="feature">Shadow Jaunt.</span> On your turn, when you reduce a creature to 0 hit points, you can use your bonus action to teleport up to 15 feet.<br />
+                <span class="feature">Languages.</span> You can speak, read, and write Common and one other language of your choice.<br />
+            </p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <setters>
+            <set name="names" type="male">Ara, Aust, Bak, Dway, Gal, Jesh, Kav, Lu, Mor, Ne, Nox, Qill, Rean, See, Val</set>
+            <set name="names" type="female">Adri, Alth, Bir, Cra, Dol, Ean, Gwen, Keir, Lail, Lia, Loon, Mel, Sha, Sila, Nyx, Xana</set>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="3d4">4’6"</set>
+            <set name="weight" modifier="1d4">85 lb.</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="charisma" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_ELVISH" />
+
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_NOCTURNE_FROM_THE_SHADOWFELL_FELLVISION" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_NOCTURNE_FROM_THE_SHADOWFELL_GLOOM" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_NOCTURNE_FROM_THE_SHADOWFELL_SHADOWFELL_METABOLISM" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_NOCTURNE_FROM_THE_SHADOWFELL_SUNLIGHT_SENSITIVITY" />
+        </rules>
+    </element>
+    
+    <element name="Fellvision" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_NOCTURNE_FROM_THE_SHADOWFELL_FELLVISION">
+        <description>
+            <p>You can't discern color, only shades of gray, and are effectively colorblind. However, you can see in dim light and darkness within 120 feet of you as if it were bright light.</p>
+        </description>
+        <sheet>
+            <description>You can't discern color, only shades of gray, and are effectively colorblind. However, you can see in dim light and darkness within 120 feet of you as if it were bright light.</description>
+        </sheet>
+    </element>
+
+    <element name="Gloom" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_NOCTURNE_FROM_THE_SHADOWFELL_GLOOM">
+        <description>
+            <p>For many, stealth is a skill, learned, practiced and then mastered. For a nocturne, whose skin clouds and blends with whatever darkness is available, it is a natural ability. You are proficient in the Stealth skill.</p>
+        </description>
+        <sheet>
+            <description>You are proficient in the Stealth skill.</description>
+        </sheet>
+    </element>
+
+    <element name="Shadowfell Metabolism" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_NOCTURNE_FROM_THE_SHADOWFELL_SHADOWFELL_METABOLISM">
+        <description>
+            <p>You, like the Shadowfell are slow to change with your long drawn out metabolism. You can go without food and drink for twice as long as a normal Medium-sized creature and when affected by a potion or poison, the effects take twice as long to leave your system, doubling the duration.</p>
+        </description>
+        <sheet>
+            <description>You can go without food and drink for twice as long as a normal Medium-sized creature and when affected by a potion or poison, the effects take twice as long to leave your system, doubling the duration.</description>
+        </sheet>
+    </element>
+
+    <element name="Sunlight Sensitivity" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_NOCTURNE_FROM_THE_SHADOWFELL_SUNLIGHT_SENSITIVITY">
+        <description>
+            <p>Being so accustomed and attuned to the darkness of the Shadowfell has its drawbacks. You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+        </description>
+        <sheet>
+            <description>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+        </sheet>
+    </element>
+
+</elements>

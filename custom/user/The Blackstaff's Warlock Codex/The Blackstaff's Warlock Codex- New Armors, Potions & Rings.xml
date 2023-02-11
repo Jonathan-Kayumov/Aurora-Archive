@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Armors, Potions and Rings</name>
+		<author url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex">By Jeremy Forbing, Heath Harris and Scott Bean</author>
+		<update version="0.0.6">
+			<file name="the-blackstaff-codex-new-armor-potions-rings.xml" url="https://www.dmsguild.com/product/308482/The-Blackstaffs-Warlock-Codex" />
+		</update>
+	</info>
+
+<!-- Armors & Shields -->
+
+	<element name="Armor of Dark Majesty, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ARMOR_OF_DARK_MAJESTY_+2">
+		<description>
+		<p>While wearing this black armor, studded with gleaming, brass studs that flicker with hellish energies when you cast a spell, you always know the hex spell as a warlock spell, and you have a bonus to AC determined by the armor’s rarity. This bonus is in addition to the armor’s normal bonus to AC. You add the same bonus to all Charisma (Deception or Intimidate) checks you make while wearing the armor, and to all saving throws that a creature forces you to make while it is the current target of your hex spell.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="11">11 lb.</set>			
+			<set name="slot">body</set>
+			<set name="type" addition="light or medium">Armor</set>
+			<set name="attunement" addition="by a warlock">true</set>			
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM</set>
+		</setters>
+		<rules>
+		<stat name="ac:armored:enhancement" value="2" bonus="enhancement"/>
+		<grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock"/>
+		</rules>
+	</element>
+	<element name="Armor of Dark Majesty, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ARMOR_OF_DARK_MAJESTY_+3">
+		<description>
+		<p>While wearing this black armor, studded with gleaming, brass studs that flicker with hellish energies when you cast a spell, you always know the hex spell as a warlock spell, and you have a bonus to AC determined by the armor’s rarity. This bonus is in addition to the armor’s normal bonus to AC. You add the same bonus to all Charisma (Deception or Intimidate) checks you make while wearing the armor, and to all saving throws that a creature forces you to make while it is the current target of your hex spell.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="11">11 lb.</set>				
+			<set name="slot">body</set>
+			<set name="type" addition="light or medium">Armor</set>
+			<set name="attunement" addition="by a warlock">true</set>			
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM</set>
+		</setters>
+		<rules>
+		<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
+		<grant type="Spell" id="ID_PHB_SPELL_HEX" spellcasting="Warlock"/>			
+		</rules>
+	</element>
+
+	<element name="Pouncing Armor, +1" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_POUNCING_ARMOR_+1">
+		<description>
+		<p>When you wear this armor, bound with the spirit of a predatory beast, you have bonus to AC determined by the armor’s rarity. This bonus is in addition to the armor’s normal bonus to AC. Whenever you jump while wearing this armor, you do so as if you had a running start, and your jumping distance is doubled.</p>
+		<p class="indent">While wearing this armor, if you move at least 15 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you knock the target prone on a hit. Once this property of the armor is used to knock a target prone, it can't be used to do so again until the next dawn.</p>		
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="10">10 lb.</set>				
+			<set name="slot">body</set>
+			<set name="type" addition="light">Armor</set>
+			<set name="attunement">false</set>			
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+		</setters>
+		<rules>
+		<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+	</element>
+
+	<element name="Pouncing Armor, +2" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_POUNCING_ARMOR_+2">
+		<description>
+		<p>When you wear this armor, bound with the spirit of a predatory beast, you have bonus to AC determined by the armor’s rarity. This bonus is in addition to the armor’s normal bonus to AC. Whenever you jump while wearing this armor, you do so as if you had a running start, and your jumping distance is doubled.</p>
+		<p class="indent">While wearing this armor, if you move at least 15 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you knock the target prone on a hit. Once this property of the armor is used to knock a target prone, it can't be used to do so again until the next dawn.</p>		
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="10">10 lb.</set>				
+			<set name="slot">body</set>
+			<set name="type" addition="light">Armor</set>
+			<set name="attunement">false</set>			
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+		</setters>
+		<rules>
+		<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+		</rules>
+	</element>
+
+	<element name="Pouncing Armor, +3" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_POUNCING_ARMOR_+3">
+		<description>
+		<p>When you wear this armor, bound with the spirit of a predatory beast, you have bonus to AC determined by the armor’s rarity. This bonus is in addition to the armor’s normal bonus to AC. Whenever you jump while wearing this armor, you do so as if you had a running start, and your jumping distance is doubled.</p>
+		<p class="indent">While wearing this armor, if you move at least 15 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you knock the target prone on a hit. Once this property of the armor is used to knock a target prone, it can't be used to do so again until the next dawn.</p>		
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="10">10 lb.</set>				
+			<set name="slot">body</set>
+			<set name="type" addition="light">Armor</set>
+			<set name="attunement">false</set>			
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT</set>
+		</setters>
+		<rules>
+		<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
+		</rules>
+	</element>
+
+	<element name="Shield of the Silver Flame" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_SHIELD_OF_THE_SILVER_FLAME">
+		<description>
+		<p>While holding this silver-plated shield, you have a bonus to AC determined by the shield’s rarity. This bonus is in addition to the shield’s normal bonus to AC.</p>
+		<p class="indent">Also, when you inflict bludgeoning, fire, or radiant damage on a creature during your turn, you can use a bonus action to make a melee attack with the shield. For this attack, the shield is considered to be a melee weapon  with which you are proficient, with a damage die of d4, and the attack deals magical bludgeoning damage. If the shield attack hits, the target creature has disadvantage on the next Wisdom or Charisma saving throw it makes before the end of your next turn.</p>		
+		</description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="6">6 lb.</set>				
+			<set name="type" addition="shield">Armor</set>
+			<set name="attunement" addition="by a spellcaster">true</set>			
+			<set name="rarity">Very Rare</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+		</setters>
+	</element>
+
+<!-- Potionss & Elixirs -->
+
+	<element name="Gravespawn Potion" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_GRAVESPAWN_POTION">
+		<description>
+		<p>You gain 2d4+10 temporary hit points when you drink this potion. While you still have these temporary hit points, you also have resistance to poison and necrotic damage and advanatage on saving throws against disease. The gravespawn potion is purple and thick with a putrescent smell, while the deathspawn potion is thin, odorless, and colorless, and the cryptspawn potion is halfway between the two.</p>
+		</description>
+		<setters>
+			<set name="keywords">healing</set>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Gravespawn Potion" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_GRAVESPAWN_POTION">
+		<description>
+		<p>You gain 4d4+15 temporary hit points when you drink this potion. While you still have these temporary hit points, you also have resistance to poison and necrotic damage and advanatage on saving throws against disease. The gravespawn potion is purple and thick with a putrescent smell, while the deathspawn potion is thin, odorless, and colorless, and the cryptspawn potion is halfway between the two.</p>
+		</description>
+		<setters>
+			<set name="keywords">healing</set>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Gravespawn Potion" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_GRAVESPAWN_POTION">
+		<description>
+		<p>You gain 6d4+20 temporary hit points when you drink this potion. While you still have these temporary hit points, you also have resistance to poison and necrotic damage and advanatage on saving throws against disease. The gravespawn potion is purple and thick with a putrescent smell, while the deathspawn potion is thin, odorless, and colorless, and the cryptspawn potion is halfway between the two.</p>
+		</description>
+		<setters>
+			<set name="keywords">healing</set>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Very Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Lifeshield Potion" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_LIFESHIELD_POTION">
+		<description>
+		<p>When you drink this lemony potion, you become the subject of a death ward spell, but the spell’s duration is reduced to 1 hour. Until the spell ends, you gain an additional benefit: any necrotic damage you take is reduced by 5.</p>
+		</description>
+		<setters>
+			<set name="keywords">healing</set>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Potion of Spirit" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_POTION_OF_SPIRIT">
+		<description>
+		<p>When you drink this lavender-scented potion, you gain advantage on death saving throws for 1 hour.</p>
+		</description>
+		<setters>
+			<set name="keywords">healing</set>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Elixir of Accuracy" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_ELIXIR_OF_ACCURACY">		
+		<description>
+			<p>When you drink this potion, once during the next hour, when you make an attack roll and dislike the result, you can reroll that attack with advantage. You choose to do so after the roll is made but before the DM declares whether it hit or missed. This sour, azure liquid gives you a feeling of alertness and energy.</p>
+		</description>
+		<setters>
+			<set name="keywords">disease</set>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Hadar’s Abominable Elixir" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_HADAR'S_ABOMINABLE_ELIXIR">		
+		<description>
+			<p>When you drink this elixir, your arms turn into long, slimy tentacles. Your unarmed strikes gain a reach of 10 feet and inflict 2d8 acid damage in place of your normal damage. Until this effect ends, you cannot hold anything in your hands, and you cannot cast spells with somatic components. The effect lasts for 1 hour. When it is due to expire, roll a d20. On a 1, the effect becomes permanent.</p>
+		</description>
+		<setters>
+			<set name="keywords">disease</set>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Very Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Rings -->
+
+	<element name="Fashion Ring" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_FASHION_RING">
+		<description>
+			<p>While wearing this ring, you can use an action to say its command word. In a flash of light, your clothing appears to be the height of fashion. You appear to be incredibly wealthy or a low-ranking member of local aristocracy. This gives you aadvantage on Charisma (Persuasion) and Charisma (Intimidate) checks with humanoid creatures.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+	<element name="Ring of Sustenance" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_RING_OF_SUSTENANCE">
+		<description>
+			<p>While wearing this ring, you do not need to eat or drink, and if you spend 30 minutes doing nothing more strenuous than eating, drinking, reading, and tending to wounds, you gain all the benefits of finishing a short rest.</p>
+			<p class="indent">In addition, you can spend one or more Hit Dice as a bonus action, as if you had just completed a short rest. Once you use this property of the ring, you cannot do so agin until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+	<element name="Wandslinger’s Ring" type="Magic Item" source="The Blackstaff's Codex" id="ID_DMSG_TBWC_MAGIC_ITEM_WANDSLINGER'S_RING">
+		<description>
+			<p>While you are attuned to this ring, the first time each turn that you hit with a ranged spell attack that inflicts damage, you can deal an extra 2d4 force damage to one target you hit. You must be using a wand as your spellcasting focus to inflict this extra damage.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+</elements>			
+	

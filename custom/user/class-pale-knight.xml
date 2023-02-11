@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Pale Knight</name>
+		<description>Pale Knight from Pimplup</description>
+		<author url="https://www.gmbinder.com/share/-MF6TXmvDAQA4oVG65uc">PDF on GMBinder</author>
+        <update version="0.2.8">
+			<file name="class-pale-knight.xml" url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+		</update>
+	</info>
+
+	<element name="Pale Knight" type="Class" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_PALEKNIGHT">
+		<description>
+			<p><em>In wilds beyond they speak your name with reverence and regret,</em></p>
+			<p><em>For none could tame our savage souls yet you the challenge met,</em></p>
+			<p><em>Under palest watch, you taught, we changed, base instincts were redeemed,</em></p>
+            <p><em>A world you gave to bug and beast as they had never dreamed.</em></p>
+			<p class="indent">– From 'Elegy for Hallownest' by Monomon the Teacher</p>
+			<h4>A PURE VESSEL</h4>
+			<p>Born of wyrm and root, of soul and void, you are a pale knight. You rescue the world's vulnerable populations from terrible fiends and evil deities.</p>
+			<p class="indent">Traditionally, pale knights do not speak and show no emotion. However, in the context of roleplaying games, feel free to break this precedent.</p>
+			<h4>CREATING A PALE KNIGHT</h4>
+			<p>As you build your Pale Knight, think about the origin of their abilities. Were they born with combat capability, or was it gained through years of difficult training?</p>
+			<p class="indent">It's also important to consider what combination of charms you will be using. They are similar to Eldritch Invocations but can be equipped and unequipped each short or long rest.</p>
+			<p class="indent">It is generally best to have both a high Dexterity and a high Wisdom score, but you can lean more into one or the other via your choice of charms and ASI/feats.</p>
+            <p class="indent">Additionally, bear in mind that your main class resource, Soul, is not recovered by resting, but rather by striking enemies. You will have to engage in melee combat in order to use your powerful ranged attacks.</p>
+            <h5>QUICK BUILD</h5>
+			<p>You can make a Pale Knight quickly by following these suggestions. First, your highest ability score should be Dexterity, followed by Wisdom and then Constitution. Second, choose the Outlander background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a Pale Knight, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per Pale Knight level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Pale Knight level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light</li>
+                <li><strong>Weapons:</strong> Simple weapons, shortswords</li>
+                <li><strong>Tools:</strong> Cartographer's tools</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Strength, Dexterity</li>
+                <li><strong>Skills:</strong> Choose two from Acrobatics, Arcana, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>A shortsword</li>
+				<li>Leather armor</li>
+				<li><i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
+			</ul>
+			<h5 class="caption">THE PALE KNIGHT</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-15">Features</td><td class="col-5">Soul Points</td><td class="col-5">Charm Notches</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Pale Nail, Soul, Focus</td><td>3</td><td>-</td></tr>
+				<tr><td> 2nd</td><td class="left">Charms</td><td>3</td><td>2</td></tr>
+				<tr><td> 3rd</td><td class="left">Vengeful Spirit, Mothwing Cloak</td><td>3</td><td>3</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack, Desolate Dive</td><td>5</td><td>4</td></tr>
+				<tr><td> 6th</td><td class="left">Dream Nail</td><td>6</td><td>4</td></tr>
+				<tr><td> 7th</td><td class="left">Mantis Claw</td><td>7</td><td>5</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>8</td><td>5</td></tr>
+				<tr><td> 9th</td><td class="left">Howling Wraiths, Crystal Heart</td><td>9</td><td>6</td></tr>
+				<tr><td>10th</td><td class="left">Monarch Wings</td><td>10</td><td>6</td></tr>
+				<tr><td>11th</td><td class="left">Shade Soul</td><td>11</td><td>7</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>12</td><td>7</td></tr>
+				<tr><td>13th</td><td class="left">Descending Dark</td><td>13</td><td>8</td></tr>
+				<tr><td>14th</td><td class="left">Isma's Tear</td><td>14</td><td>8</td></tr>
+				<tr><td>15th</td><td class="left">Dreamgate</td><td>15</td><td>9</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>16</td><td>9</td></tr>
+				<tr><td>17th</td><td class="left">Awoken Dream Nail, Abyss Shriek</td><td>17</td><td>10</td></tr>
+				<tr><td>18th</td><td class="left">Shade Cloak</td><td>18</td><td>10</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>19</td><td>11</td></tr>
+				<tr><td>20th</td><td class="left">Salubra's Blessing</td><td>20</td><td>11</td></tr>
+			</table>
+			<div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_PALE_NAIL" />
+			<div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SOUL" />
+			<div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_CHARMS" />
+			<div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_VENGEFUL_SPIRIT" />
+			<div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MOTHWING_CLOAK" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ABILITY_SCORE_IMPROVEMENT_PALEKNIGHT" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_EXTRA_ATTACK" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DESOLATE_DIVE" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DREAM_NAIL" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MANTIS_CLAW" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_HOWLING_WRAITHS" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_CRYSTAL_HEART" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MONARCH_WINGS" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SHADE_SOUL" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DESCENDING_DARK" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ISMAS_TEAR" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DREAMGATE" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_AWOKEN_DREAM_NAIL" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ABYSS_SHRIEK" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SHADE_CLOAK" />
+            <div element="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SALUBRAS_BLESSING" />
+		</description>
+		<sheet display="false">
+			<description>A vessel born of wyrm and root, wielder of nail and soul.</description>
+		</sheet>
+		<setters>
+			<set name="short">A vessel born of wyrm and root, wielder of nail and soul.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_PIMPLUP_GMBINDER_MULTICLASS_PALEKNIGHT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_PIMPLUP_GMBINDER_MULTICLASS_PALEKNIGHT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_PIMPLUP_GMBINDER_MULTICLASS_PALEKNIGHT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_PIMPLUP_GMBINDER_MULTICLASS_PALEKNIGHT"/>
+			<select type="Proficiency" name="Skill Proficiency (Pale Knight)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_PIMPLUP_GMBINDER_MULTICLASS_PALEKNIGHT"/>
+			<grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_PALE_NAIL" level="1" />
+			<grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SOUL" level="1"/>
+			<grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_CHARMS" level="2" />
+			<grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_VENGEFUL_SPIRIT" level="3" />
+			<grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MOTHWING_CLOAK" level="3" />
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ABILITY_SCORE_IMPROVEMENT_PALEKNIGHT" level="4"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_EXTRA_ATTACK" level="5"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DESOLATE_DIVE" level="5"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DREAM_NAIL" level="6"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MANTIS_CLAW" level="7"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_HOWLING_WRAITHS" level="9"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_CRYSTAL_HEART" level="9"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MONARCH_WINGS" level="10"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SHADE_SOUL" level="11"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DESCENDING_DARK" level="13"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ISMAS_TEAR" level="14"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DREAMGATE" level="15"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_AWOKEN_DREAM_NAIL" level="17"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ABYSS_SHRIEK" level="17"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SHADE_CLOAK" level="18"/>
+            <grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SALUBRAS_BLESSING" level="20"/>
+        </rules>
+		<multiclass id="ID_PIMPLUP_GMBINDER_MULTICLASS_PALEKNIGHT">
+			<prerequisite>Dexterity 13, Wisdom 13</prerequisite>
+			<requirements>[dex:13],[wis:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">—</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Pale Nail" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_PALE_NAIL">
+		<description>
+			<p>Pale Knights are trained to strike fiercely with small objects. You can attack with a shortsword using two hands; when you do so, you deal slashing damage and its damage die increases to 2d6.</p>
+			<p class="indent">Your shortsword (or alternatively any other melee weapon you wield that you are proficient in) is referred to as your Nail in other class features.</p>
+		</description>
+		<sheet>
+			<description>Your Nail's damage increases to 2d6 when wielded with two hands.</description>
+		</sheet>
+	</element>
+	<element name="Soul" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SOUL">
+		<description>
+			<p>Your pale heritage allows you to harness the mystic power of Soul, the energy filling the universe with life. Your ability to gather and make use of this energy is represented by a number of Soul points. Your pale knight level determines the maximum number of Soul points you can have, as shown in the Pale Knight table.</p>
+			<p class="indent">You can spend these points to fuel various Soul features. You start knowing one such feature: Focus. You learn more Soul features as you gain levels in this class.</p>
+            <h5>GAINING SOUL</h5>
+            <p>You gain Soul by successfully striking a hostile creature with your Nail. (Whether a creature is "hostile" is determined by your DM.) Doing so restores 1 Soul point. Additionally, all of your Soul points are restored whenever your character level increases.</p>
+            <p><strong><em>Optional: Ancient Wonders.</em></strong> Your DM may allow you to find statues, magical springs, or other ancient wonders throughout the world that can replenish your Soul points.</p>
+			<h5>SOUL ATTACKS</h5>
+			<p>As you gain levels in this class, you will learn Soul-fueled attacks. Wisdom is your Soul attack ability, since your Soul power derives from your attunement to its energy. You use your Wisdom modifier whenever a feature refers to your Soul modifier. In addition, you use your Wisdom modifier when setting the saving throw DC for a Charm or Soul feature you use and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Soul save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Soul attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+			<h6>FOCUS</h6>
+			<p>You have the ability to use the Soul you collect to restore your own vitality. You can choose to do so at the start of your turn by spending 3 Soul points if you aren't incapacitated. Until the start of your next turn, you are incapacitated and your speed is 0.</p>
+			<p class="indent">If by the start of your next turn you have not taken damage, you regain hit points equal to 1d10 + your Pale Knight level. If you do take damage, 2 of the 3 Soul points you used are restored and you are no longer incapacitated, but you do not recover hit points.</p>
+		</description>
+		<sheet>
+			<description>You have {{soul:points}} Soul Points and your Soul DC is {{soul:dc}}. When you strike a hostile creature with your Nail, you regain 1 Soul point.</description>
+		</sheet>
+		<spellcasting name="Pale Knight" ability="Wisdom" allowReplace="true">
+			<list>Pale Knight</list>
+		</spellcasting>
+		<rules>
+			<stat name="soul:points" value="level:pale knight" level="3"/>
+			<stat name="soul:dc" value="8" />
+			<stat name="soul:dc" value="proficiency" />
+			<stat name="soul:dc" value="wisdom:modifier" />
+			<stat name="soul:modifier" value="proficiency" />
+			<stat name="soul:modifier" value="wisdom:modifier" />
+			<grant type="Class Feature" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_FOCUS" />
+			<grant type="Spell" id="ID_PIMPLUP_SPELL_VENGEFUL_SPIRIT" level="3" spellcasting="Pale Knight" />
+			<grant type="Spell" id="ID_PIMPLUP_SPELL_DESOLATE_DIVE" level="5" spellcasting="Pale Knight" />
+			<grant type="Spell" id="ID_PIMPLUP_SPELL_DREAM_NAIL" level="6" spellcasting="Pale Knight" />
+			<grant type="Spell" id="ID_PIMPLUP_SPELL_HOWLING_WRAITHS" level="9" spellcasting="Pale Knight" />
+			<grant type="Spell" id="ID_PIMPLUP_SPELL_SHADE_SOUL" level="11" spellcasting="Pale Knight" />
+			<grant type="Spell" id="ID_PIMPLUP_SPELL_DESCENDING_DARK" level="13" spellcasting="Pale Knight" />
+			<grant type="Spell" id="ID_PIMPLUP_SPELL_ABYSS_SHRIEK" level="17" spellcasting="Pale Knight" />
+		</rules>
+	</element>
+	<element name="Focus" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_FOCUS">
+		<description>
+			<p>You have the ability to use the Soul you collect to restore your own vitality. You can choose to do so at the start of your turn by spending 3 Soul points if you aren't incapacitated. Until the start of your next turn, you are incapacitated and your speed is 0.</p>
+			<p class="indent">If by the start of your next turn you have not taken damage, you regain hit points equal to 1d10 + your Pale Knight level. If you do take damage, 2 of the 3 Soul points you used are restored and you are no longer incapacitated, but you do not recover hit points.</p>
+		</description>
+		<sheet>
+			<description>You can begin healing at the start of your turn by spending 3 Soul points. You become incapacitated and your speed drops to 0. If by the start of your next turn you have not taken damage, gain 1d10 + {{level:Pale Knight}} hit points. Otherwise, gain 2 Soul points and you are no longer incapacitated.</description>
+		</sheet>
+	</element>
+	<element name="Charms" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_CHARMS">
+		<description>
+			<p>At 2nd level, you gain the ability to augment your power by equipping magical relics known as charms. You have two charm notches, and you gain more as you gain levels in this class, as shown in the Pale Knight table.</p>
+			<p class="indent">You may equip any number of charms, so long as you meet the charm's prerequisite level, and the total notch cost of your charms does not exceed the number of notches you have.</p>
+			<p class="indent">You are able to equip and unequip charms at the end of a short or long rest.</p>
+			<p class="indent"><strong><em>Optional: Gathering Charms.</em></strong> Your DM may require some or all of your charms to be found somewhere in the world before you can equip them. If you find a charm this way, you do not need to meet its level requirement to equip it.</p>
+			<h5>FRAGILE CHARMS</h5>
+			<p>You can equip "unbreakable" charms before reaching their level requirement. If you are reduced to 0 hit points while one of these charms is equipped, it becomes "broken", and you cannot equip it again until you meet its level requirement.</p>
+			<h5>OVERCHARM</h5>
+			<p>If you have at least one free charm notch, you can equip a charm that costs more notches than the number of free notches you have. If you do this, all damage you take is doubled until you are no longer overcharmed.</p>
+			</description>
+		<sheet>
+			<description>You have {{charm-notches}} charm notches. You can change charms on a short or long rest. If you have at least one free charm notch, you can overcharm by equipping a charm that costs more notches than the number of free notches you have. If you do this, all damage you take is doubled until you are no longer overcharmed. You have {{charm-number}} notches filled.</description>
+		</sheet>
+		<rules>
+			<stat name="charm-number" value="0" level="1" />
+			<stat name="charm-notches" value="2" level="2" />
+			<stat name="charm-notches" value="1" level="3" />
+			<stat name="charm-notches" value="1" level="5" />
+			<stat name="charm-notches" value="1" level="7" />
+			<stat name="charm-notches" value="1" level="9" />
+			<stat name="charm-notches" value="1" level="11" />
+			<stat name="charm-notches" value="1" level="13" />
+			<stat name="charm-notches" value="1" level="15" />
+			<stat name="charm-notches" value="1" level="17" />
+			<stat name="charm-notches" value="1" level="19" />
+		</rules>
+	</element>
+	<element name="Vengeful Spirit" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_VENGEFUL_SPIRIT">
+		<description>
+			<p>By 3rd level, you’ve learned to weaponize your power over Soul. As an action, you can spend 3 Soul points to direct a blast of white energy at a target within 60 feet. Make a ranged Soul attack. On a hit, the target takes 4d8 radiant damage.</p>
+		</description>
+		<sheet display="false">
+			<description>Spend 3 Soul points to blast a target within 60 feet. On a hit, the target takes 4d8 radiant damage.</description>
+		</sheet>
+	</element>
+	<element name="Mothwing Cloak" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MOTHWING_CLOAK">
+		<description>
+			<p>Starting at 3rd level, you gain the following benefits if you aren't wearing medium or heavy armor or using a shield:</p>
+			<ul>
+				<li>You can use a bonus action to rush up to 10 feet in any direction. This movement does not provoke opportunity attacks.</li>
+				<li>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>If a Dexterity saving throw would allow you to take half damage, you instead take no damage if you succeed, and can use a bonus action to rush 10 feet in any direction without provoking an opportunity attack</description>
+		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ABILITY_SCORE_IMPROVEMENT_PALEKNIGHT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Pale Knight 4)" supports="Improvement Option,Pale Knight,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Pale Knight 8)" supports="Improvement Option,Pale Knight,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Pale Knight 12)" supports="Improvement Option,Pale Knight,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Pale Knight 16)" supports="Improvement Option,Pale Knight,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Pale Knight 19)" supports="Improvement Option,Pale Knight,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+	</element>
+	<element name="Desolate Dive" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DESOLATE_DIVE">
+		<description>
+			<p>At 5th level, you develop a new Soul attack. As an action, you can spend 4 Soul points to strike the ground with a concentrated force of Soul, creating a shockwave of white energy in a 10-foot radius centered on yourself. All other creatures in this area must make a Constitution saving throw, taking 5d10 radiant damage on a failed save, or half as much damage on a successful one. Inanimate objects that aren’t being worn or carried take double damage from this attack.</p>
+			<p class="indent">If you use this feature in the air, you shoot downwards at a speed of 500 feet per round, creating the shockwave the moment you stop falling. While falling, you are incapacitated and immune to all damage, and you take no damage from falling.</p>
+		</description>
+		<sheet display="false">
+			<description>Spend 4 Soul points to make creatures in a 10 foot radius make a DC {{soul:dc}} Constitution saving throw. They take 5d6 radiant damage on a failed save, or half as much on a success.</description>
+		</sheet>
+	</element>
+	<element name="Dream Nail" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DREAM_NAIL">
+		<description>
+			<p>Beginning at 6th level, you gain the ability to conjure an astral Nail, which you can use to cut through the veil between dreams and waking. As an action, you can make a melee Soul attack against a creature within 5 feet of you. On a hit, the target takes no damage, but you learn the surface thoughts of the creature as if you had cast detect thoughts. The target can make a Wisdom (Insight) check against your Soul save DC to become aware of your intrusion into its mind.</p>
+			<p class="indent">Additionally, when your Dream Nail hits a creature that is hostile to you and not affected by any conditions (grappled, poisoned, etc.), you can use a bonus action to recover 3 Soul points.</p>
+			<p class="indent">You must have two free hands in order to use your Dream Nail. (You may sheath your Nail as part of the action used to perform a Dream Nail attack.)</p>
+		</description>
+		<sheet display="false">
+			<description>You can make a melee Soul attack against a creature within 5 feet of you. On a hit, you learn the surface thoughts of the target as though you had cast detect thoughts. The target can make a DC {{soul:dc}} Wisdom (Insight) check to become aware of your intrusion into its mind. </description>
+		</sheet>
+	</element>
+	<element name="Mantis Claw" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MANTIS_CLAW">
+		<description>
+			<p>Starting at 7th level, you gain a climbing speed equal to your walking speed. You have advantage on Strength (Athletics) checks made to climb a surface with few handholds.</p>
+		</description>
+		<sheet>
+			<description>You gain a {{speed}} ft. climbing speed. You have advantage on Strength (Athletics) checks made to climb a surface with few handholds.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:climb" value="speed" bonus="base" />
+		</rules>
+	</element>
+	<element name="Howling Wraiths" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_HOWLING_WRAITHS">
+		<description>
+			<p>At 9th level, you gain the ability to blast foes with screaming Soul. As an action, you can spend 5 Soul points to release howling energy in a 15-foot cone. Each creature in range must make a Constitution saving throw, taking 3d12 radiant damage and 3d12 thunder damage on a failed save, or half as much damage on a successful one.</p>
+		</description>
+		<sheet display="false">
+			<description>Spend 5 Soul points to make creatures in a 15 foot cone make a DC {{soul:dc}} Constitution saving throw. They take 3d12 radiant and thunder damage on a failed save, or half as much on a success.</description>
+		</sheet>
+	</element>
+	<element name="Crystal Heart" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_CRYSTAL_HEART">
+		<description>
+			<p>Starting at 9th level, you can launch yourself at dangerous speeds. As an action while on the ground or holding onto a wall, you can begin a super dash. This causes you to move 120 feet per round in a horizontal direction of your choice. Once the super dash begins, you cannot change your direction of travel, and the only action you can take is a reaction to stop dashing. When the dash stops, you fall to the ground if you are airborne.</p>
+		</description>
+		<sheet action="Action">
+			<description>While on the ground or holding onto a wall, you can begin a super dash. You move 120 feet per round in a straight line until you use a reaction to stop dashing.</description>
+		</sheet>
+	</element>
+	<element name="Monarch Wings" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_MONARCH_WINGS">
+		<description>
+			<p>At 10th level, you gain a flying speed of 20 feet. You fall if you end your turn in the air while using this feature (and nothing else is holding you aloft).</p>
+		</description>
+		<sheet>
+			<description>You gain a flying speed of 20 feet. You fall if you end your turn in the air while using this feature.</description>
+		</sheet>
+	</element>
+	<element name="Shade Soul" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SHADE_SOUL">
+		<description>
+			<p>At 11th level, you gain the ability to conjure a shadow that will fly forward and burn foes in its path. As an action, you can spend 6 Soul points to release a bolt of Soul energy in a line 60 feet long and 5 feet wide. Each creature in the line must make a Dexterity saving throw. A target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. Targets gain no benefit from half or three-quarters cover for this saving throw.</p>
+		</description>
+		<sheet display="false">
+			<description>Spend 6 Soul points to release a bolt of Soul energy in a line 60 feet long and 5 feet wide. Enemies caught in the bolt must make a DC{{soul:dc}} Dexterity saving throw. They take 8d8 necrotic damage on a failed save, or half as much on a success.</description>
+		</sheet>
+	</element>
+	<element name="Descending Dark" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DESCENDING_DARK">
+		<description>
+			<p>From 13th level onward, you are capable of striking the ground with a concentrated force of Soul and Shadow. You develop a new Soul attack, which is similar to your Desolate Dive feature.</p>
+			<p class="indent">As an action, you can spend 7 Soul points to create a shockwave of dark energy in a 15-foot radius centered on yourself. All other creatures in this area must make a Constitution saving throw. On a failed save, a creature takes 5d10 radiant damage and 5d10 necrotic damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. Inanimate objects that aren’t being worn or carried take double damage from this attack.</p>
+			<p class="indent">If you use this feature in the air, you shoot downwards at a speed of 500 feet per round, creating the shockwave the moment you stop falling. While falling, you are incapacitated and immune to damage, and you take no damage from falling.</p>
+		</description>
+		<sheet display="false">
+			<description>Spend 7 Soul points to make creatures in a 15 foot radius make a DC {{soul:dc}} Constitution saving throw. They take 5d10 radiant and necrotic damage and are pushed 10 feet away from you on a failed save, or half as much and are not pushed on a success.</description>
+		</sheet>
+	</element>
+	<element name="Isma's Tear" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ISMAS_TEAR">
+		<description>
+			<p>At 14th level, you gain immunity to acid damage and proficiency in Constitution saving throws.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain immunity to acid damage and proficiency in Constitution saving throws.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_ACID" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+		</rules>
+	</element>
+	<element name="Dreamgate" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_DREAMGATE">
+		<description>
+			<p>Starting at 15th level, you can traverse the world via the currents of dream energy. You may place a Dreamgate by standing still and concentrating your Dream Nail's power for a minute, as if you were concentrating on a spell.</p>
+			<p class="indent">From then on, you can spend 1 Soul point and perform another minute-long concentration of dream energy to teleport to the location you placed the Dreamgate. You can take a number of willing creatures up to your Soul modifier with you if they are within 10 feet of you, and any objects you are wearing or carrying are teleported with you.</p>
+			<p class="indent">You can only have one Dreamgate at a time. If you place a new Dreamgate, the previous one vanishes.</p>
+		</description>
+		<sheet>
+			<description>You can concentrate for 1 minute to place a Dreamgate. From then on, you can spend 1 Soul point and concentrate for another minute to teleport to the location of the Dreamgate. You can take up to {{soul:modifier}} willing creatures within 10 feet with you. </description>
+		</sheet>
+	</element>
+	<element name="Awoken Dream Nail" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_AWOKEN_DREAM_NAIL">
+		<description>
+			<p>At 17th level, you fully awaken your mind to the essence of dreams. When you hit a creature with your Dream Nail, you can enter the dreams of the target if it is sleeping, as if you had cast dream.</p>
+		</description>
+		<sheet>
+			<description>When you hit a sleeping creature with your Dream Nail, you can enter the dreams of the target.</description>
+		</sheet>
+	</element>
+	<element name="Abyss Shriek" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_ABYSS_SHRIEK">
+		<description>
+			<p>At 17th level, you develop your most powerful Soul attack, which blasts foes with screaming Soul and Shadow. As an action, you can spend 8 Soul points and release a powerful screech in a 30-foot cone. Each creature in this area must make a Constitution saving throw. On a failed save, a creature takes 4d12 necrotic damage, 4d12 radiant damage, and 4d12 thunder damage and is deafened until the start of your next turn. On a successful save, the creature takes half as much damage and isn't deafened.</p>
+		</description>
+		<sheet display="false">
+			<description>Spend 8 Soul points to make creatures in a 15 foot radius make a DC {{soul:dc}} Constitution saving throw. They take 4d12 necrotic, radiant, and thunder damage, and are deafened until the start of your next turn on a failed save, or half as much and are not deafened on a success.</description>
+		</sheet>
+	</element>
+	<element name="Shade Cloak" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SHADE_CLOAK">
+		<description>
+			<p>At 18th level, you gain new mobility by absorbing power from the Abyss. As a bonus action, or as a reaction when a creature targets you with an attack, you can teleport up to 15 feet to a location you can see.</p>
+			<p class="indent"> Once you use this feature, you cannot use it again until the start of your next turn. </p>
+		</description>
+		<sheet>
+			<description>As a bonus action on your turn or a reaction when targeted by an attack, you can teleport up to 15 feet to a location you can see. You cannot use this feature again until the start of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Salubra's Blessing" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_GMBINDER_CLASS_FEATURE_PALEKNIGHT_SALUBRAS_BLESSING">
+		<description>
+			<p>At 20th level, your accomplishments have attracted the favor of a benevolent spirit. You regain all expended Soul points whenever you complete a short or long rest.</p>
+		</description>
+		<sheet>
+			<description>You regain all expended Soul points whenever you complete a short or long rest.</description>
+		</sheet>
+	</element>
+	<element name="Vengeful Spirit" type="Spell" source="Pimplup" id="ID_PIMPLUP_SPELL_VENGEFUL_SPIRIT">
+    <supports>Pale Knight</supports>
+    <description>
+      <p>As an action, you can spend 3 Soul points to direct a blast of white energy at a target within 60 feet. Make a ranged Soul attack. On a hit, the target takes 4d8 radiant damage.</p>
+    </description>
+    <setters>
+      <set name="keywords">soul</set>
+      <set name="level">3</set>
+      <set name="school">Soul attack</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Desolate Dive" type="Spell" source="Pimplup" id="ID_PIMPLUP_SPELL_DESOLATE_DIVE">
+    <supports>Pale Knight</supports>
+    <description>
+      <p>As an action, you can spend 4 Soul points to strike the ground with a concentrated force of Soul, creating a shockwave of white energy in a 10-foot radius centered on yourself. All other creatures in this area must make a Constitution saving throw, taking 5d10 radiant damage on a failed save, or half as much damage on a successful one. Inanimate objects that aren’t being worn or carried take double damage from this attack.</p>
+			<p class="indent">If you use this feature in the air, you shoot downwards at a speed of 500 feet per round, creating the shockwave the moment you stop falling. While falling, you are incapacitated and immune to all damage, and you take no damage from falling.</p>
+    </description>
+    <setters>
+      <set name="keywords">soul</set>
+      <set name="level">4</set>
+      <set name="school">Soul attack</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Dream Nail" type="Spell" source="Pimplup" id="ID_PIMPLUP_SPELL_DREAM_NAIL">
+    <supports>Pale Knight</supports>
+    <description>
+			<p>You gain the ability to conjure an astral Nail, which you can use to cut through the veil between dreams and waking. As an action, you can make a melee Soul attack against a creature within 5 feet of you. On a hit, the target takes no damage, but you learn the surface thoughts of the creature as if you had cast detect thoughts. The target can make a Wisdom (Insight) check against your Soul save DC to become aware of your intrusion into its mind.</p>
+			<p class="indent">Additionally, when your Dream Nail hits a creature that is hostile to you and not affected by any conditions (grappled, poisoned, etc.), you can use a bonus action to recover 3 Soul points.</p>
+			<p class="indent">You must have two free hands in order to use your Dream Nail. (You may sheath your Nail as part of the action used to perform a Dream Nail attack.)</p>
+		</description>
+    <setters>
+      <set name="keywords">soul</set>
+      <set name="level">0</set>
+      <set name="school">Soul attack</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Howling Wraiths" type="Spell" source="Pimplup" id="ID_PIMPLUP_SPELL_HOWLING_WRAITHS">
+    <supports>Pale Knight</supports>
+    <description>
+      <p>As an action, you can spend 5 Soul points to release howling energy in a 15-foot cone. Each creature in range must make a Constitution saving throw, taking 3d12 radiant damage and 3d12 thunder damage on a failed save, or half as much damage on a successful one.</p>
+    </description>
+    <setters>
+      <set name="keywords">soul</set>
+      <set name="level">5</set>
+      <set name="school">Soul attack</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self (15 foot cone)</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Shade Soul" type="Spell" source="Pimplup" id="ID_PIMPLUP_SPELL_SHADE_SOUL">
+    <supports>Pale Knight</supports>
+    <description>
+      <p>You gain the ability to conjure a shadow that will fly forward and burn foes in its path. As an action, you can spend 6 Soul points to release a bolt of Soul energy in a line 60 feet long and 5 feet wide. Each creature in the line must make a Dexterity saving throw. A target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. Targets gain no benefit from half or three-quarters cover for this saving throw.</p>
+    </description>
+    <setters>
+      <set name="keywords">soul</set>
+      <set name="level">6</set>
+      <set name="school">Soul attack</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self (60 foot line)</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Descending Dark" type="Spell" source="Pimplup" id="ID_PIMPLUP_SPELL_DESCENDING_DARK">
+    <supports>Pale Knight</supports>
+    <description>
+      <p>You are capable of striking the ground with a concentrated force of Soul and Shadow. You develop a new Soul attack, which is similar to your Desolate Dive feature.</p>
+			<p class="indent">As an action, you can spend 7 Soul points to create a shockwave of dark energy in a 15-foot radius centered on yourself. All other creatures in this area must make a Constitution saving throw. On a failed save, a creature takes 5d10 radiant damage and 5d10 necrotic damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. Inanimate objects that aren’t being worn or carried take double damage from this attack.</p>
+			<p class="indent">If you use this feature in the air, you shoot downwards at a speed of 500 feet per round, creating the shockwave the moment you stop falling. While falling, you are incapacitated and immune to damage, and you take no damage from falling.</p>
+    </description>
+    <setters>
+      <set name="keywords">soul</set>
+      <set name="level">7</set>
+      <set name="school">Soul attack</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">15 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Abyss Shriek" type="Spell" source="Pimplup" id="ID_PIMPLUP_SPELL_ABYSS_SHRIEK">
+    <supports>Pale Knight</supports>
+    <description>
+      <p>you develop your most powerful Soul attack, which blasts foes with screaming Soul and Shadow. As an action, you can spend 8 Soul points and release a powerful screech in a 30-foot cone. Each creature in this area must make a Constitution saving throw. On a failed save, a creature takes 4d12 necrotic damage, 4d12 radiant damage, and 4d12 thunder damage and is deafened until the start of your next turn. On a successful save, the creature takes half as much damage and isn't deafened.</p>
+    </description>
+    <setters>
+      <set name="keywords">soul</set>
+      <set name="level">8</set>
+      <set name="school">Soul attack</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self (30 foot cone)</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Arthropod Vessel" type="Race" source="Pimplup" id="ID_RACE_ARTHROPOD_VESSEL">
+    <description>
+      <h4>ARTHROPOD VESSEL TRAITS</h4>
+      <p>Your Arthropod Vessel character has a number of traits in common with all other Arthropod Vessels.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Increase one ability score by 2, and a different score by 1.<br/>
+        <span class="feature">Age.</span>Little is known about how arthropod vessels age. They are assumed to have lifespans similar to a human's.<br/>
+        <span class="feature">Alignment.</span>These vessels were created for a very specific purpose. In general, they adhere to lawful alignments.<br/>
+        <span class="feature">Size.</span>Arthropod vessels find themselves to be shorter than most creatures they meet. Your size is Small.<br/>
+        <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br/>
+        <span class="feature">Natural Armor.</span>You are equipped with a protective exoskeleton. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.<br/>
+        <span class="feature">Arthropod Leaps.</span>Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.<br/>
+        <span class="feature">Hollow Body</span>You don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests. You are immune to disease.<br/>
+        <span class="feature">Born of Void.</span>Whenever you are reduced to zero hit points, you summon a shadowy doppelganger known as a Shade, as if you had cast simulacrum. The Shade is permanently under the effects of the slow spell and can fly (hover) at its reduced walking speed, and it has illusory copies of all your equipment. It acts immediately after each of your turns, attacking whichever creature within 30 feet of your body is closest to your body (choosing randomly at a tie, and choosing you if you are conscious), and it will continue to exist until it drops to zero hit points, even if you die. The Shade will not attack constructs or creatures that do not age. While it is summoned, you gain a level of exhaustion that lasts until it is defeated. If you drop to zero hit points again before it's defeated, the Shade's hit points are fully restored.<br/>
+        <span class="feature">Languages.</span>You can speak, read, and write Common, Undercommon, and Abyssal.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="innate speed" value="25" bonus="base" />
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+      <grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURAL_ARMOR" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARTHROPOD_LEAPS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HOLLOW_BODY" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BORN_OF_VOID" />
+      <select type="Sub Race" name="Arthropod Vessel +2 Ability" supports="Arthropod Vessel" />
+    </rules>
+  </element>
+
+  <element name="Natural Armor" type="Racial Trait" source="Pimplup" id="ID_RACIAL_TRAIT_NATURAL_ARMOR">
+    <description>
+      <p>You are equipped with a protective exoskeleton. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+    </description>
+    <sheet>
+      <description>When you aren't wearing armor, your AC is {{ac:natural armor}}.</description>
+    </sheet>
+    <rules>
+			<stat name="ac:natural armor" value="13" />
+			<stat name="ac:natural armor" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:natural armor" bonus="calculation" equipped="[armor:none]" />
+		</rules>
+  </element>
+  <element name="Arthropod Leaps" type="Racial Trait" source="Pimplup" id="ID_RACIAL_TRAIT_ARTHROPOD_LEAPS">
+    <description>
+      <p>Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.</p>
+    </description>
+    <sheet>
+      <description>Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover.</description>
+    </sheet>
+  </element>
+  <element name="Hollow Body" type="Racial Trait" source="Pimplup" id="ID_RACIAL_TRAIT_HOLLOW_BODY">
+    <description>
+      <p>You don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests. You are immune to disease.</p>
+    </description>
+    <sheet>
+      <description>You don't require food, water, or sleep, and are immune to disease.</description>
+    </sheet>
+  </element>
+  <element name="Born of Void" type="Racial Trait" source="Pimplup" id="ID_RACIAL_TRAIT_BORN_OF_VOID">
+    <description>
+      <p>Whenever you are reduced to zero hit points, you summon a shadowy doppelganger known as a Shade, as if you had cast simulacrum. The Shade is permanently under the effects of the slow spell and can fly (hover) at its reduced walking speed, and it has illusory copies of all your equipment. It acts immediately after each of your turns, attacking whichever creature within 30 feet of your body is closest to your body (choosing randomly at a tie, and choosing you if you are conscious), and it will continue to exist until it drops to zero hit points, even if you die. The Shade will not attack constructs or creatures that do not age. While it is summoned, you gain a level of exhaustion that lasts until it is defeated. If you drop to zero hit points again before it's defeated, the Shade's hit points are fully restored.</p>
+    </description>
+    <sheet>
+      <description>When you are reduced to zero hit points, you summon a Shade. The Shade is permanently under the effects of the slow spell, and can hover. It will attack any creature within 30 feet of your body, including you if you are conscious. You gain a level of exhaustion until it is destroyed.</description>
+    </sheet>
+  </element>
+
+  <element name="Arthropod Vessel (Strength)" type="Sub Race" source="Pimplup" id="ID_SUB_RACE_ARTHROPOD_VESSEL_STRENGTH">
+    <supports>Arthropod Vessel</supports>
+    <description>
+      <p>Your Strength score increases by 2</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="strength" value="2" />
+      <select type="Ability Score Improvement" name="Ability Score Increase, Arthropod Vessel" supports="ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+    </rules>
+  </element>
+  <element name="Arthropod Vessel (Dexterity)" type="Sub Race" source="Pimplup" id="ID_SUB_RACE_ARTHROPOD_VESSEL_DEXTERITY">
+    <supports>Arthropod Vessel</supports>
+    <description>
+      <p>Your Dexterity score increases by 2</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="dexterity" value="2" />
+      <select type="Ability Score Improvement" name="Ability Score Increase, Arthropod Vessel" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+    </rules>
+  </element>
+  <element name="Arthropod Vessel (Constitution)" type="Sub Race" source="Pimplup" id="ID_SUB_RACE_ARTHROPOD_VESSEL_CONSTITUTION">
+    <supports>Arthropod Vessel</supports>
+    <description>
+      <p>Your Constitution score increases by 2</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="2" />
+      <select type="Ability Score Improvement" name="Ability Score Increase, Arthropod Vessel" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+    </rules>
+  </element>
+  <element name="Arthropod Vessel (Intelligence)" type="Sub Race" source="Pimplup" id="ID_SUB_RACE_ARTHROPOD_VESSEL_INTELLIGENCE">
+    <supports>Arthropod Vessel</supports>
+    <description>
+      <p>Your Intelligence score increases by 2</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="intelligence" value="2" />
+      <select type="Ability Score Improvement" name="Ability Score Increase, Arthropod Vessel" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />
+    </rules>
+  </element>
+  <element name="Arthropod Vessel (Wisdom)" type="Sub Race" source="Pimplup" id="ID_SUB_RACE_ARTHROPOD_VESSEL_WISDOM">
+    <supports>Arthropod Vessel</supports>
+    <description>
+      <p>Your Wisdom score increases by 2</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="wisdom" value="2" />
+      <select type="Ability Score Improvement" name="Ability Score Increase, Arthropod Vessel" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_CHARISMA" />
+    </rules>
+  </element>
+  <element name="Arthropod Vessel (Charisma)" type="Sub Race" source="Pimplup" id="ID_SUB_RACE_ARTHROPOD_VESSEL_CHARISMA">
+    <supports>Arthropod Vessel</supports>
+    <description>
+      <p>Your Charisma score increases by 2</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="2" />
+      <select type="Ability Score Improvement" name="Ability Score Increase, Arthropod Vessel" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM" />
+    </rules>
+  </element>
+  <element name="Steel Soul" type="Feat" source="Pimplup" id="ID_FEAT_STEEL_SOUL">
+        <prerequisite>Arthropod Vessel</prerequisite>
+        <requirements>ID_RACE_ARTHROPOD_VESSEL</requirements>
+        <description>
+            <p><i>Prerequisite: Arthropod Vessel</i></p>
+            <p>Increase your Constitution or Wisdom score by 1, to a maximum of 20.</p>
+            <p class="indent">You can perceive through the Shade's senses and control its actions, but you cannot willingly move it more than 30 feet from your body. When you are stabilized or have any hit points restored, the Shade disappears.</p>
+        </description>
+        <sheet>
+            <description>You can perceive through the Shade's senses and control its actions, but you cannot willingly move it more than 30 feet from your body. When you are stabilized or have any hit points restored, the Shade disappears.</description>
+        </sheet>
+    </element>
+
+	<!--oh look what a reasonable length for an xml file to be, thank goodn-HAHA SUCKERS IT'S CHARM TIME-->
+
+	<element name="Baldur Shell" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_BALDUR_SHELL">
+		<description>
+			<p><i>2 notches</i></p>
+			<p>The first time you take damage while using Focus, the damage is reduced by 1d10 + your Soul modifier + your pale knight level. This can reduce the damage to zero, but it still interrupts your Focus feature.</p>
+			<p class="indent"><i>Stalwart Shell</i> and <i>Thorns of Agony</i> can still be triggered even if this charm reduces damage to zero.</p>
+			<p class="indent">Starting at 11th level, if you are using Focus and a friendly creature within your Nail's reach is the target of an attack, the attack roll has disadvantage.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Gathering Swarm" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_GATHERING_SWARM">
+		<description>
+			<p><i>1 notch</i></p>
+			<p>You can cast <i>unseen servant</i> at will without providing material components. You can have a number of servants up to your Soul modifier active at one time.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_UNSEEN_SERVANT" spellcasting="Pale Knight" />
+		</rules>
+	</element>
+	<element name="Longnail" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_LONGNAIL">
+		<description>
+			<p><i>2 notches</i></p>
+			<p>The reach of your Nail increases by 5 feet.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Glowing Womb" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_GLOWING_WOMB">
+		<description>
+			<p><i>2 notches</i></p>
+			<p>At the start of each of your turns, you lose 1 Soul point and magically summon a hatchling servant. This effect does not activate if you have 4 hatchlings currently summoned or if you have no Soul points remaining.</p>
+			<p class="indent">Whenever you see one or more hostile creatures within 30 feet of you, all hatchlings immediately fly into the closest creature's space and explode, each dealing 1d4 thunder damage. If multiple creatures are the same distance away, you choose which target the hatchlings fly to. Like <i>magic missile</i>, this damage is automatic unless the <i>shield</i> spell is cast.</p>
+			<p class="indent">Starting at 11th level, this charm activates twice at the start of your turn, allowing you to summon up to 2 hatchlings.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Spore Shroom" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_SPORE_SHROOM">
+		<description>
+			<p><i>1 notch</i></p>
+			<p>When you recover hit points via your Focus feature, you release a cloud of toxic yellow spores around you in a sphere with a radius of 15 feet. This cloud lasts until the end of your next turn. Any other creature that enters this sphere for the first time on a turn or begins its turn there must succeed on a Constitution saving throw or take 1d12 poison damage.</p>
+			<p class="indent">If <i>Deep Focus</i> is also equipped, the radius of the aura of spores increases to 30 feet.</p>
+			<p class="indent">This charm's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+		</rules>
+	</element>
+	<element name="Sprintmaster" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_SPRINTMASTER">
+		<description>
+			<p><i>1 notch</i></p>
+			<p>Your walking speed increases by 15 feet.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+			<stat name="innate speed" value="15" bonus="Sprintmaster" />
+		</rules>
+	</element>
+	<element name="Steady Body" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_STEADY_BODY">
+		<description>
+			<p><i>1 notch</i></p>
+			<p>You automatically succeed any ability check or saving throw you make to resist being moved or knocked prone.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+		</rules>
+	</element>
+	<element name="Thorns of Agony" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_THORNS_OF_AGONY">
+		<description>
+			<p><i>1 notch</i></p>
+			<p>As a reaction when you take damage, you can cause thorns to lash out of your body in all directions. Each creature within 5 feet of you must succeed on a Dexterity saving throw or take 1d4 piercing damage.</p>
+			<p class="indent">This charm's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+		</rules>
+	</element>
+	<element name="Wayward Compass" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_WAYWARD_COMPASS">
+		<description>
+			<p><i>1 notch</i></p>
+			<p>You cannot become lost by nonmagical means. You always know which way is north and what time of day it is.</p>
+			<p class="indent">You can pinpoint your exact location if it is represented on a map you are viewing.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+		</rules>
+	</element>
+	<element name="Dashmaster" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_DASHMASTER">
+		<description>
+			<p><i>3rd level, 2 notches</i></p>
+			<p>You can take the Dash action as a bonus action.</p>
+			<p class="indent">Additionally, once on each of your turns, you can use the movement provided by your Mothwing Cloak without using a bonus action.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Grimmchild" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_GRIMMCHILD">
+		<description>
+			<p><i>5th level, 2 notches</i></p>
+			<p>You summon the Grimmchild, a flying companion who is immune to damage and moves with you. As a bonus action, you can command the Grimmchild to attack a creature that you can see within 30 feet of you. This attack uses your Soul attack modifier and deals 1d8 fire damage on a hit.</p>
+			<p class="indent">The Grimmchild's damage increases to 2d8 when you reach 11th level, and 3d8 at 17th level.</p>
+			<p class="indent">You cannot equip <i>Carefree Melody</i> while this charm is equipped.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Heavy Blow" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_HEAVY_BLOW">
+		<description>
+			<p><i>5th level, 2 notches</i></p>
+			<p>When you strike a creature with your Nail (including when you make the ranged attack provided by <i>Grubberfly's Elegy</i>), you can push the target up to 10 feet if it is Huge or smaller.</p>
+			<p class="indent">If <i>Steady Body</i> is also equipped, instead of pushing the creature, you can force it to make a Strength saving throw or be knocked prone.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Lifeblood Heart" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_LIFEBLOOD_HEART">
+		<description>
+			<p><i>5th level, 2 notches</i></p>
+			<p>If you have this charm equipped at the end of a short or long rest, you gain temporary hit points equal to twice your character level.</p>
+			<p class="indent">If you gain temporary hit points from multiple charms, you may add them together.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Shape of Unn" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_SHAPE_OF_UNN">
+		<description>
+			<p><i>5th level, 2 notches</i></p>
+			<p>While you are using Focus, you have a speed of 15 feet, you gain the benefits of the Disengage action, and ranged attack rolls against you have disadvantage.</p>
+			<p class="indent">If you also have <i>Quick Focus</i> equipped, using Focus increases your speed by 15 feet for the rest of your turn.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Soul Catcher" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_SOUL_CATCHER">
+		<description>
+			<p><i>5th level, 2 notches</i></p>
+			<p>The first time you strike a hostile creature with your Nail on each of your turns, you gain an extra Soul point.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Stalwart Shell" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_STALWART_SHELL">
+		<description>
+			<p><i>5th level, 2 notches</i></p>
+			<p>As a reaction when you take damage from a hostile creature, you can grant yourself immunity to the next attack against you before the start of your next turn.</p>
+			<p class="indent"><i>Fury of the Fallen</i>, <i>Grubsong</i>, <i>Stalwart Shell</i>, and <i>Thorns of Agony</i> can each be activated using the same reaction.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Dream Wielder" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_DREAM_WIELDER">
+		<description>
+			<p><i>6th level, 1 notch</i></p>
+			<p>You can recover Soul with your Dream Nail without using a bonus action, and you gain an extra Soul point when doing so.</p>
+			<p class="indent">When you reach 9th level, you instead gain an extra 1d4 Soul points. The extra Soul points increase to 1d6 when you reach 13th level, and 1d8 at 17th level.</p>
+			<p class="indent">When you reach 15th level, you can use Dreamgate as an action, rather than over the course of a minute.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+		</rules>
+	</element>
+	<element name="Dreamshield" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_DREAMSHIELD">
+		<description>
+			<p><i>6th level, 3 notches</i></p>
+			<p>Your AC increases by 2. If <i>Dream Wielder</i> is also equipped, your AC instead increases by 3.</p>
+			<p class="indent">You gain an additional +2 bonus to AC against ranged attacks. Whenever an attacker makes a ranged attack against a target within 5 feet of you, you can choose to become the target of the attack instead.</p>
+			<p class="indent">You cannot wield a shield while this charm is equipped.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+			<stat name="ac:misc" value="2" />
+			<grant type="Class Feature" id="ID_PIMPLUP_DREAM_COMBO" />
+		</rules>
+	</element>
+	<element name="Dreamshield + Dream Wielder" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_DREAM_COMBO">
+		<requirements>ID_PIMPLUP_DREAM_WIELDER</requirements>
+		<description>
+			<p>When you equip Dream Wielder and Dreamshield simultaneously, get an additional +1 AC</p>
+		</description>
+		<sheet display="false">
+			<description>When you equip Dream Wielder and Dreamshield simultaneously, get an additional +1 AC</description>
+		</sheet>
+		<rules>
+		<stat name="ac:misc" value="1" />
+		</rules>
+	</element>
+	<element name="Flukenest" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_FLUKENEST">
+		<description>
+			<p><i>7th level, 3 notches</i></p>
+			<p>When you use your Vengeful Spirit or Shade Soul attack, it takes the form of a horde of volatile baby flukes that spew from your body. They cover an area of the ground adjacent to you in a 30-foot cone. Each creature in the cone must make a Dexterity saving throw, taking the attack's normal damage on a failed save, or half damage on a successful one.</p>
+			<p class="indent">The flukes stay in this area until the start of your next turn. This area is difficult terrain, and any creature that moves into the area for the first time on a turn or starts its turn there must make a Dexterity saving throw, taking 4d6 radiant damage (or 8d6 necrotic damage if Shade Soul was used) on a failed save, or half damage on a successful one.</p>
+			<p class="indent">When you reach 17th level, the extra damage increases to 4d8 radiant damage (or 8d8 necrotic damage if Shade Soul was used).</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Fury of the Fallen" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_FURY_OF_THE_FALLEN">
+		<description>
+			<p><i>7th level, 3 notches</i></p>
+			<p>As a reaction when you are reduced to 0 hit points, you can instead drop to 1 hit point.</p>
+			<p class="indent">Until you are no longer at 1 hit point (or begin taking a short rest), any Nail attack you make that hits becomes a critical hit, and attacks made with <i>Glowing Womb</i> and <i>Grubberfly's Elegy</i> become critical hits as well.</p>
+			<p class="indent">Once this benefit ends, you must complete a short or long rest before you can benefit from this charm again.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Grubsong" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_GRUBSONG">
+		<description>
+			<p><i>7th level, 1 notch</i></p>
+			<p>As a reaction when you take damage from a hostile creature, you can regain 1 Soul point. You regain 2 Soul points if <i>Grubberfly’s Elegy</i> is also equipped.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+		</rules>
+	</element>
+	<element name="Nailmaster's Glory" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_NAILMASTERS_GLORY">
+		<description>
+			<p><i>7th level, 1 notch</i></p>
+			<p>As an action, you can choose to make a special melee attack. These are known as Nail Arts. You have 3 options when performing Nail Arts:</p>
+			<p class="indent"><i>Cyclone Slash</i>. You make an attack against every creature in your Nail's reach. Each attack that hits deals extra damage equal to your proficiency bonus.</p>
+			<p class="indent"><i>Dash Slash</i>. You must use the movement provided by your Mothwing Cloak immediately before making this attack. If it hits, the attack deals extra damage equal to four times your proficiency bonus.</p>
+			<p class="indent"><i>Great Slash</i>. You make an attack against a creature in your Nail's reach. The attack roll has advantage, deals extra damage equal to your proficiency bonus, and scores a critical hit on a d20 roll of 18 or higher. This attack counts as two strikes for the purpose of recovering Soul points.</p>
+			<p class="indent">When you perform Nail Arts, you cannot hit a second target using <i>Mark of Pride</i>, and you cannot make the ranged attack provided by <i>Grubberfly's Elegy</i>. (Nail Arts do not use the Attack action, so they cannot benefit from features such as Extra Attack.)</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+		</rules>
+	</element>
+	<element name="Shaman Stone" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_SHAMAN_STONE">
+		<description>
+			<p><i>7th level, 3 notches</i></p>
+			<p>When you roll damage for a Soul attack, you may reroll a number of damage dice up to your Soul modifier. You must use the new rolls.</p>
+			<p class="indent">This benefit applies to damage from <i>Flukenest</i>, but not to damage caused by any other charm.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Unbreakable Greed" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_UNBREAKABLE_GREED">
+		<description>
+			<p><i>7th level, 2 notches</i></p>
+			<p>Whenever you kill a hostile creature, all of that creature's currency is magically duplicated.</p>
+			<p class="indent">You can designate a number of friendly companions up to your Soul modifier to also receive this benefit.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Unbreakable Heart" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_UNBREAKABLE_HEART">
+		<description>
+			<p><i>7th level, 2 notches</i></p>
+			<p>Your Constitution score increases by 2 (to a maximum of 22) while this charm is equipped.</p>
+			<p class="indent">When you reach 20th level, your Constitution score instead increases by 4 (to a maximum of 24).</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+			<stat name="constitution" value="2" />
+			<grant type="Class Feature" id="ID_PIMPLUP_HEART_CAPSTONE" />
+		</rules>
+	</element>
+	<element name="Heart Capstone" type="Class Feature" source="Pimplup" id="ID_PIMPLUP_HEART_CAPSTONE">
+		<requirements>ID_PIMPLUP_UNBREAKABLE_HEART,[level:20]</requirements>
+		<description>
+			<p>When you reach 20th level, Unbreakable Heart grants an additional +2 Constitution</p>
+		</description>
+		<sheet display="false">
+			<description>When you reach 20th level, Unbreakable Heart grants an additional +2 Constitution</description>
+		</sheet>
+		<rules>
+		<stat name="constitution" value="2" />
+		</rules>
+	</element>
+	<element name="Weaversong" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_WEAVERSONG">
+		<description>
+			<p><i>7th level, 2 notches</i></p>
+			<p>You summon a group of tiny spiders that provide you with companionship and protection. You and all friendly creatures within 5 feet of you (or within 15 feet if you have <i>Sprintmaster</i> equipped) are immune to becoming frightened. Any hostile creature that moves into this area for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw or take piercing damage equal to 1d4 + your proficiency bonus.</p>
+			<p class="indent">You have proficiency in <i>Weaver's Tools</i> while this charm is equipped. If <i>Grubsong</i> is also equipped, each time you roll a 4 when dealing damage with this feature, you regain 1 Soul point.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Deep Focus" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_DEEP_FOCUS">
+		<description>
+			<p><i>9th level, 4 notches</i></p>
+			<p>Any time you recover hit points, you can choose to double the number of hit points restored. When you use Focus, you are incapacitated for 2 rounds instead of 1.</p>
+			<p class="indent">If <i>Quick Focus</i> is also equipped, Focus takes the normal amount of time to execute.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="4" />
+		</rules>
+	</element>
+	<element name="Quick Focus" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_QUICK_FOCUS">
+		<description>
+			<p><i>9th level, 3 notches</i></p>
+			<p>You can use Focus as an action. Doing so does not affect your speed nor cause you to become incapacitated.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Defender's Crest" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_DEFENDERS_CREST">
+		<description>
+			<p><i>9th level, 1 notch</i></p>
+			<p>You emit a heroic odor. Any creature that moves to a space within 5 feet of you for the first time on a turn or starts its turn there must succeed on a Constitution saving throw or take 1d4 poison damage. You have disadvantage on Charisma checks made to interact with creatures who have a sense of smell.</p>
+			<p class="indent">When you damage a creature with <i>Flukenest</i>, <i>Glowing Womb</i>, or <i>Spore Shroom</i>, you deal an extra 1d4 poison damage.</p>
+			<p class="indent">This charm's damage increases to 1d6 when you reach 13th level, and 1d8 at 17th level.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="1" />
+		</rules>
+	</element>
+	<element name="Mark of Pride" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_MARK_OF_PRIDE">
+		<description>
+			<p><i>9th level, 3 notches</i></p>
+			<p>The reach of your Nail increases by 5 feet. Additionally, you can choose to have your attacks hit a second target in your Nail's reach, if your attack roll matches or exceeds the Armor Class of the other creature.</p>
+			<p class="indent">Hitting the second creature does not give you another Soul point, and you don't add your ability modifier to the damage inflicted on the second creature, unless that modifier is negative.</p>
+			<p class="indent">This charm's effects apply to the ranged attack provided by Grubberfly's Elegy, allowing you to hit another creature within 5 feet of the main target.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Spell Twister" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_SPELL_TWISTER">
+		<description>
+			<p><i>9th level, 2 notches</i></p>
+			<p>The price of Soul attacks is reduced by 1 Soul point.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Grubberfly's Elegy" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_GRUBBERFLYS_ELEGY">
+		<description>
+			<p><i>10th level, 3 notches</i></p>
+			<p>Your Nail gains the ability to create glistening blades of Soul energy. You gain a new attack option that you can use with the Attack action. This special attack is a ranged Soul attack with a range of 30 feet. You are proficient with it, and you add your Soul modifier to its attack and damage rolls. Its damage is radiant, and its damage die is 3d10. This special attack can be used for any of the attacks you make as part of the Attack action.</p>
+			<p class="indent">This attack does not cost Soul but does not allow you to recover it. You can only use this attack if you are at your hit point maximum (meaning you can still use it after taking damage if you only lose temporary hit points) or when you are benefitting from <i>Fury of the Fallen</i>.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Quick Slash" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_QUICK_SLASH">
+		<description>
+			<p><i>11th level, 3 notches</i></p>
+			<p>When you take the Attack action on your turn, you can make an additional attack as part of the same action.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Unbreakable Strength" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_UNBREAKABLE_STRENGTH">
+		<description>
+			<p><i>12th level, 3 notches</i></p>
+			<p>You have advantage on Strength checks and Strength saving throws, and your Nail attacks deal an extra 1d4 damage.</p>
+			<p class="indent">This includes the ranged attack provided by <i>Grubberfly’s Elegy</i>.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Joni's Blessing" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_JONIS_BLESSING">
+		<description>
+			<p><i>13th level, 4 notches</i></p>
+			<p>If you have this charm equipped at the end of a long rest, you gain temporary hit points equal to 8 times your character level. Your hit points cannot be restored through any means other than long rests or the <i>Hiveblood</i> charm, and you cannot unequip this charm until you take another long rest.</p>
+			<p class="indent">If you gain temporary hit points from multiple charms, you may add them together.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="4" />
+		</rules>
+	</element>
+	<element name="Hiveblood" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_HIVEBLOOD">
+		<description>
+			<p><i>14th level, 4 notches</i></p>
+			<p>If at the start of your turn you aren't incapacitated and have not taken damage since the start of your last turn, you regain hit points as if you had used your Focus feature. Once you do so, you cannot benefit from this charm again until you take damage from a hostile creature.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="4" />
+		</rules>
+	</element>
+	<element name="Soul Eater" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_SOUL_EATER">
+		<description>
+			<p><i>15th level, 4 notches</i></p>
+			<p>Each time you strike a hostile creature with your Nail, you gain an extra Soul point.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="4" />
+		</rules>
+	</element>
+	<element name="Lifeblood Core" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_LIFEBLOOD_CORE">
+		<description>
+			<p><i>16th level, 3 notches</i></p>
+			<p>If you have this charm equipped at the end of a short or long rest, you gain temporary hit points equal to 4 times your character level.</p>
+			<p class="indent">If you gain temporary hit points from multiple charms, you may add them together.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Kingsoul" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_KINGSOUL">
+		<description>
+			<p><i>17th level, 5 notches</i></p>
+			<p>At the the start of each of your turns, you regain 2 Soul points.</p>
+			<p class="indent">You cannot equip <i>Void Heart</i> while this charm is equipped.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="5" />
+		</rules>
+	</element>
+	<element name="Sharp Shadow" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_SHARP_SHADOW">
+		<description>
+			<p><i>18th level, 2 notches</i></p>
+			<p>When you teleport using your Shade Cloak feature, the distance you can teleport increases to 25 feet. All creatures in a line between your original position and your destination must succeed on a Dexterity saving throw or take 4d8 force damage.</p>
+			<p class="indent">If you also have <i>Dashmaster equipped</i>, this charm's damage increases to 6d8.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="2" />
+		</rules>
+	</element>
+	<element name="Carefree Melody" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_CAREFREE_MELODY">
+		<description>
+			<p><i>19th level, 3 notches</i></p>
+			<p>Attack rolls against you are made with disadvantage.</p>
+			<p class="indent">You cannot equip <i>Grimmchild</i> while this charm is equipped.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="3" />
+		</rules>
+	</element>
+	<element name="Void Heart" type="Magic Item" source="Pimplup" id="ID_PIMPLUP_VOID_HEART">
+		<description>
+			<p><i>20th level, 0 notches</i></p>
+			<p>You have proficiency in Intelligence, Wisdom, and Charisma saving throws while this charm is equipped, and your body stops aging.</p>
+			<p class="indent">Additionally, otherworldly creatures recognize you as a prominent member of their eternal community. You have advantage on Charisma checks made to interact with celestials, fey, fiends, dragons, and undead.</p>
+			<p class="indent">You cannot equip <i>Kingsoul</i> while this charm is equipped.</p>
+		</description>
+		<setters>
+			<set name="category">Charms</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">charm</set>
+			<set name="type">Charms</set>
+			<set name="rarity">Rare</set>
+		</setters>
+		<rules>
+			<stat name="charm-number" value="0" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+		</rules>
+	</element>
+</elements>

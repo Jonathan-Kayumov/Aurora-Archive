@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Originator" type="Class" source="Smol's Subsidiary" id="ID_SMOL_CLASS_ORIGINATOR">
+		<description>
+			<p>An elf watches the goblin troop from afar. Aiming for the patrolling eagle high up in the air, she shrouds her dagger in electrical energy before throwing it with immense precision. The moment the dagger touches the eagle, it cries out as the electricity fries it, and it plummets toward the ground.</p>
+			<p class="indent">Seeing the destruction of the forest, a halfling places his hands on the charred ground, pouring natural power into it. Green light spreads outward from his palms, and the halfling smiles as the forest begins to regain its color.</p>
+			<p class="indent">A tiefling blocks the incoming arrows with a wall of stone, before thrusting the wall forward. It hits the soldiers before breaking apart and pelting them with small shards of stone. The tiefling sends one last volley of rocks at the militia before climbing to the top of a nearby building with a stone pillar.</p>
+			<p class="indent">These characters have traits that define them as originators, one of the oldest classes, existent almost since the beginning of time. Mingling fighting ability with energy from the creation of the universe, originators fight with spirit in every concievable way. Although some mistake them for using elemental magic, original magic has far more versatility, and is far more powerful.</p>
+			<h4>MAGIC FIGHTERS</h4>
+			<p>Although similar to swordmages, originators don't use arcane magic like wizards and sorcerers, but they don't use natural or divine magic like druids and clerics either. Instead, they employ the use of original magic, a form of energy as old as the universe itself; residue from the first instances of the cosmos. For many originators, this magic was either passed down genetically or was purely innate for one reason or another, but a person who has been exposed to raw original energy may begin to gain its power as well.</p>
+			<h4>SIX ENERGIES</h4>
+			<p>Six types of this original magic exist, and each has its own name and use. Ember, which resembles fire magic; Rime, an icy energy akin to winter magic; Cairn, a similar power to that of the earth; Storm, the combination of air and lightning; Verdure, a natural sort of magic resembling druid magic; and Null, a unique, almost shadowy magic. Originators use one type of original energy only, as more would almost certainly be fatal - mortals are incapable of wielding such power, lest it burst from their body.</p>
+			<p class="indent">The different users of original magic have no qualms with each other, and in fact work together quite often. It isn't uncommon to find a group of originators traveling together, each one using a different energy.</p>
+			<h4>CREATING AN ORIGINATOR</h4>
+			<p>When creating an originator, you should adress both where the power came from, and how you learned to use it. Was it hereditary, and a family member taught you to use it? Or did you one day somehow find cosmic energy, infusing you with the power? And if so, how did you learn how to control it? Or did you never learn how to? You should also ask why you've decided to become an adventurer. Did your unusual powers give you questions, perhaps ones that you have to search for yourself? Or maybe you were simply looking for a way to train yourself. All of these factors impact how you play your originator.</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make an originator quickly by following these suggestions. First, make Charisma your highest ability score. Your next-highest score should be Constitution. Second, choose the hermit background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As an originator, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per originator level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per originator level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, medium armor</li>
+                <li><strong>Weapons:</strong> Simple weapons, any three martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Constitution, Charisma</li>
+                <li><strong>Skills:</strong> Choose three skills from Arcana, Athletics, History, Insight, Nature, Perception, Religion, and Stealth</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li><i>(a)</i> a chain shirt or <i>(b)</i> leather armor and a simple weapon</li>
+				<li><i>(a)</i> a longsword, <i>(b)</i> a longbow and 20 arrows, or <i>(c)</i> two simple weapons</li>
+				<li><i>(a)</i> a quarterstaff or <i>(b)</i> two daggers</li>
+				<li>an explorer's pack, any spellcasting focus, and one martial weapon</li>
+			</ul>
+			<h5 class="caption">THE ORIGINATOR</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-10">Origin Points</td><td class="left">Features</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td>2</td><td class="left">Origin Energy, Macrocosm</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td>2</td><td class="left">—</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td>3</td><td class="left">Fighting Style</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>3</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>4</td><td class="left">Extra Attack</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>4</td><td class="left">Origin Energy feature</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>5</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>5</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>5</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>6</td><td class="left">Origin Energy feature</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>6</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td>6</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td>7</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td>7</td><td class="left">Origin Energy feature</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td>8</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td>8</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td>9</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td>10</td><td class="left">Origin Energy feature</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td>11</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td>12</td><td class="left">Energy Resevoir</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<div element="ID_SMOL_CLASS_FEATURE_ORIGINENERGY" />
+			<div element="ID_SMOL_CLASS_FEATURE_MACROCOSM" />
+			<div element="ID_SMOL_CLASS_FEATURE_FIGHTINGSTYLE" />
+			<div element="ID_SMOL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_ORIGINATOR" />
+			<div element="ID_SMOL_CLASS_FEATURE_EXTRAATTACK" />
+			<div element="ID_SMOL_CLASS_FEATURE_ENERGYRESEVOIR" />
+		</description>
+		<sheet display="false">
+			<description>A warrior who draws power from the first energies of the universe.</description>
+		</sheet>
+		<setters>
+			<set name="short">A warrior who draws power from the first energies of the universe.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_SMOL_MULTICLASS_ORIGINATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_SMOL_MULTICLASS_ORIGINATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_SMOL_MULTICLASS_ORIGINATOR"/>
+			<select type="Proficiency" name="Weapon Proficiency (Originator)" supports="ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE" number="3" requirements="!ID_SMOL_MULTICLASS_ORIGINATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_SMOL_MULTICLASS_ORIGINATOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_SMOL_MULTICLASS_ORIGINATOR"/>
+			<select type="Proficiency" name="Skill Proficiency (Originator)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_STEALTH" number="3" requirements="!ID_SMOL_MULTICLASS_ORIGINATOR"/>
+			<grant type="Class Feature" id="ID_SMOL_CLASS_FEATURE_ORIGINENERGY" level="1"/>			
+			<grant type="Class Feature" id="ID_SMOL_CLASS_FEATURE_MACROCOSM" level="1"/>
+			<grant type="Class Feature" id="ID_SMOL_CLASS_FEATURE_FIGHTINGSTYLE" level="3"/>
+			<grant type="Class Feature" id="ID_SMOL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_ORIGINATOR" level="4"/>
+			<grant type="Class Feature" id="ID_SMOL_CLASS_FEATURE_EXTRAATTACK" level="5"/>
+			<grant type="Class Feature" id="ID_SMOL_CLASS_FEATURE_ENERGYRESEVOIR" level="11"/>
+		</rules>
+		<multiclass id="ID_SMOL_MULTICLASS_ORIGINATOR">
+			<prerequisite>Constitution 13 and Charisma 13</prerequisite>
+			<requirements>([con:13]||[cha:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, simple weapons, longbow, longsword</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Origin Energy" type="Class Feature" source="Smol's Subsidiary" id="ID_SMOL_CLASS_FEATURE_ORIGINENERGY">
+		<description>
+			<p>When you choose this class at 1st level, your energy presents itself in a specific way. Choose one of the six energies. Your energy grants you features at 1st level and again at 6th, 10th, 14th, and 18th level. Your energy also grants you spellcasting, and you can use any type of focus as a spellcasting focus.</p>
+			<h5 class="caption">SPELLCASTING ABILITY</h5>
+			<p>Charisma is your spellcasting ability for your originator spells. The power of your spells comes from the innate origin energy you possess. You use your Charisma whenever an originator spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for an originator spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+			</center>
+		</description>
+		<sheet display="false" />
+		<spellcasting name="Originator" ability="Charisma" />
+		<rules>
+			<select type="Archetype" name="Origin Energy" supports="Origin Energy" level="1" />
+
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			
+			<stat name="originator:spellcasting:slots:1" value="2" level="1" />
+			<stat name="originator:spellcasting:slots:1" value="1" level="2" />
+			<stat name="originator:spellcasting:slots:1" value="1" level="3" />
+			<stat name="originator:spellcasting:slots:2" value="2" level="3" />
+			<stat name="originator:spellcasting:slots:2" value="1" level="4" />
+			<stat name="originator:spellcasting:slots:3" value="2" level="5" />
+			<stat name="originator:spellcasting:slots:3" value="1" level="6" />
+			<stat name="originator:spellcasting:slots:4" value="1" level="7" />
+			<stat name="originator:spellcasting:slots:4" value="1" level="8" />
+			<stat name="originator:spellcasting:slots:4" value="1" level="9" />
+			<stat name="originator:spellcasting:slots:5" value="1" level="9" />
+			<stat name="originator:spellcasting:slots:5" value="1" level="10" />
+			<stat name="originator:spellcasting:slots:5" value="1" level="18" />
+			<stat name="originator:spellcasting:slots:6" value="1" level="11" />
+			<stat name="originator:spellcasting:slots:6" value="1" level="19" />
+			<stat name="originator:spellcasting:slots:7" value="1" level="13" />
+			<stat name="originator:spellcasting:slots:7" value="1" level="20" />
+			<stat name="originator:spellcasting:slots:8" value="1" level="15" />
+			<stat name="originator:spellcasting:slots:9" value="1" level="17" />
+		</rules>
+	</element>
+	<element name="Macrocosm" type="Class Feature" source="Smol's Subsidiary" id="ID_SMOL_CLASS_FEATURE_MACROCOSM">
+		<description>
+			<p>Starting at 1st level, you have a power within you that connects you to the universal web. This power takes the form of origin points, which you can use to create different effects. Some of these effects are general to the class as a whole, but most are specific to one type of energy.</p>
+			<p class="indent">You have 2 origin points, and you gain more as you reach higher levels, as shown in the Origin Points column of the Originator table. You regain all spent origin points when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>You have an inner connection to the universal web, which manifests itself as Origin Points. You have {{origin-points}} Origin Points, which you can use for different effects. You regain all spent Origin Points when you finish a long rest.</description>
+		</sheet>
+		<rules>
+			<stat name="origin-points" value="2" level="1" />
+			<stat name="origin-points" value="1" level="3" />
+			<stat name="origin-points" value="1" level="5" />
+			<stat name="origin-points" value="1" level="7" />
+			<stat name="origin-points" value="1" level="10" />
+			<stat name="origin-points" value="1" level="13" />
+			<stat name="origin-points" value="1" level="15" />
+			<stat name="origin-points" value="1" level="17" />
+			<stat name="origin-points" value="1" level="18" />
+			<stat name="origin-points" value="1" level="19" />
+			<stat name="origin-points" value="1" level="20" />
+		</rules>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="Smol's Subsidiary" id="ID_SMOL_CLASS_FEATURE_FIGHTINGSTYLE">
+		<description>
+			<p>You adopt a particular style of fighting to go along with your magic. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5 class="caption">ARCHERY</h5>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+			<h5 class="caption">DEFENSE</h5>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+			<h5 class="caption">DUELING</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5 class="caption">TWO-WEAPON FIGHTING</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Originator" level="3"/>
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Smol's Subsidiary" id="ID_SMOL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_ORIGINATOR">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Originator 4)" supports="Improvement Option,Originator,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Originator 8)" supports="Improvement Option,Originator,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Originator 12)" supports="Improvement Option,Originator,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Originator 16)" supports="Improvement Option,Originator,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Originator 19)" supports="Improvement Option,Originator,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Smol's Subsidiary" id="ID_SMOL_CLASS_FEATURE_EXTRAATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. In addition, you can spend 2 origin points to attack a third time, unless the first two attacks missed.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn. If at least one attack hit its target, you can make a third attack by spending 2 origin points.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Energy Resevoir" type="Class Feature" source="Smol's Subsidiary" id="ID_SMOL_CLASS_FEATURE_ENERGYRESEVOIR">
+		<description>
+			<p>At 20th level, you gain the ability to save eccess energy for later use. When you take a long rest and have origin points remaining, you can choose to carry those points over. You can store an additional 3 origin points, up to 15. These points are not carried over to your next long rest, meaning that you can only have a maximum of 15 origin points at a time.</p>
+		</description>
+		<sheet>
+			<description>When you take a long rest and have origin points remaining, you can carry over up to 3 of those points over, for a maximum of 15 points.</description>
+		</sheet>
+	</element>
+	
+	<!-- Ember Energy -->
+	<element name="Ember Energy" type="Archetype" source="Smol's Subsidiary" id="ID_SMOL_ENERGY_EMBER">
+		<supports>Origin Energy</supports>
+		<description>
+			<p>Ember energy, the energy of fire, encompasses all that burns, from magma to the light of the sun high above. Ember energy stems from such: the stars themselves. The superheated cores of the stars send out fiery energy into the universe, and the first Ember originators absorbed this energy. They utilized this energy to create many things, from safe campfires to burning war machines. The Ember energy also reinforces strength, with fire burning in one's veins.</p>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_EMBER_CANTRIPS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ENERGY_SPELLS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_EMBER_BURNING_SOUL"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ASHES_TO_ASHES"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_EMBER_LAKE_OF_MAGMA"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ABILITY_SCORE_INCREASE"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_EMBER_TRUE_PYROKINESIS"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_CANTRIPS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ENERGY_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_BURNING_SOUL" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ASHES_TO_ASHES" level="6" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_LAKE_OF_MAGMA" level="10" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ABILITY_SCORE_INCREASE" level="14" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_TRUE_PYROKINESIS" level="18" />
+		</rules>
+	</element>
+	<element name="Ember Energy Cantrips" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_CANTRIPS">
+		<description>
+			<p>When you choose this energy at 1st level, you learn the following cantrips: <i>control flames</i>, <i>fire bolt</i>, and <i>produce flame</i>. You can cast these cantrips at will, as you would in any other class.</p>
+			<p class="indent">You learn additional spells as you level up in this class. At 7th level, you learn the <i>scorch</i> cantrip. At 14th level, you learn the <i>conflagrate</i> cantrip.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" level="1" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_SCORCH" level="7" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_CONFLAGRATE" level="14" />
+		</rules>
+	</element>
+	<element name="Ember Energy Spells" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ENERGY_SPELLS">
+		<description>
+			<p>By channeling the energy known as Ember, originators can cast spells that create or manipulate fire or similar substances.</p>
+			<h5 class="caption">EMBER ENERGY SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Originator Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td> 1st</td><td><em>burning hands, chromatic orb (fire), hellfire lash, hellish rebuke</em></td></tr>
+				<tr><td> 3rd</td><td><em>aganazzar's scorcher, continual flame, flame blade, scorching ray</em></td></tr>
+				<tr><td> 5th</td><td><em>fireball, funeral pyre, melf's minute meteors</em></td></tr>
+				<tr><td> 7th</td><td><em>ashen pack, fire shield, wall of fire</em></td></tr>
+				<tr><td> 9th</td><td><em>flame strike, hungering hate, immolation</em></td></tr>
+				<tr><td>11th</td><td><em>hellish halo, lava coils</em></td></tr>
+				<tr><td>13th</td><td><em>arsenal of flame, fire storm</em></td></tr>
+				<tr><td>15th</td><td><em>fireworks, incendiary cloud</em></td></tr>
+				<tr><td>17th</td><td><em>meteor swarm</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" level="1" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_HELLFIRE_LASH" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_AGANAZZARS_SCORCHER" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONTINUAL_FLAME" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLAME_BLADE" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_SCORCHING_RAY" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_FUNERAL_PYRE" level="5" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS" level="5" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_ASHEN_PACK" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" level="9" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_HUNGERING_HATE" level="9" />
+			<grant type="Spell" id="ID_XGTE_SPELL_IMMOLATION" level="9" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_HELLISH_HALO" level="11" />
+			<grant type="Spell" id="ID_JONOMAN3000_BDPC_SPELL_LAVA_COILS" level="11" />
+			<grant type="Spell" id="ID_JONOMAN3000_BDPC_SPELL_ARSENAL_OF_FLAME" level="13" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_STORM" level="13" />
+			<grant type="Spell" id="ID_JONOMAN3000_BDPC_SPELL_FIREWORKS" level="15" />
+			<grant type="Spell" id="ID_PHB_SPELL_INCENDIARY_CLOUD" level="15" />
+			<grant type="Spell" id="ID_PHB_SPELL_METEOR_SWARM" level="17" />
+		</rules>
+	</element>
+	<element name="Burning Soul" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_BURNING_SOUL">
+		<description>
+			<p>When you choose this energy at 1st level, the fire within you burns brightly, granting you the following benefits.</p>
+			<ul>
+                <li>You have resistance to fire damage.</li>
+                <li>You cannot gain levels of exhaustion from heat or similar effects, provided they are nonmagical.</li>
+				<li>When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to ignite the target instead of dealing damage. The target must succeed on a Wisdom saving throw against your spellcasting DC or be ignited. An ignited creature or object takes 1d6 fire damage at the start of each of its turns for 1 minute or until the fire is doused by itself or another creature.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>You cannot gain exhaustion from nonmagical heat or similar effects.</p>
+				<p class="indent">When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to ignite the target instead of dealing damage. The target must succeed on a DC {{chromaticorb-fire:dc}} Wisdom saving throw or be ignited. An ignited target takes 1d6 fire damage at the start of each of its turns for 1 minute or until the fire is doused.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" level="1" bonus="base" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE" level="18" bonus="base" />
+			<stat name="chromaticorb-fire:dc" value="8" />
+            <stat name="chromaticorb-fire:dc" value="proficiency" />
+            <stat name="chromaticorb-fire:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Ashes to Ashes" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ASHES_TO_ASHES">
+		<description>
+			<p>Starting at 6th level, you gain the ability to burn through even the toughest hides. When you make an attack roll against a creature using an attack or spell that deals fire damage, roll a d6. On a 6, you deal double the fire damage. If the creature has immunity to fire damage, it is treated as if it was resistant. If the attack roll is against an object, the object takes maximum damage.</p>
+			<p class="indent">You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all spent uses after a long rest.</p>
+			<p class="indent">When you reach 12th level in this class, if you roll either a 5 or a 6, the feature takes effect.</p>
+		</description>
+		<sheet usage="{{ashes-to-ashes:count}}/Long Rest">
+			<description>When you hit a creature using an attack or spell that deals fire damage, roll a d6. On a {{ashes-to-ashes:range}}, you deal double the fire damage. If the creature has immunity to fire damage, it is treated as if it was resistant. If the attack roll is against an object, the object takes maximum damage.</description>
+		</sheet>
+		<rules>
+			<stat name="ashes-to-ashes:count" value="1" bonus="base" />
+            <stat name="ashes-to-ashes:count" value="charisma:modifier" bonus="base" />
+			<stat name="ashes-to-ashes:range" value="6" level="6" />
+			<stat name="ashes-to-ashes:range" value="5 or a 6" level="12" />
+		</rules>
+	</element>
+	<element name="Lake of Magma" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_LAKE_OF_MAGMA">
+		<description>
+			<p>At 10th level, you can use not only fire, but molten lava as well. As an action on your turn, you can create a lava pool in a 10-foot radius circle around yourself. Each creature in this area must make a Dexterity saving throw against your spellcasting DC, taking 6d6 fire damage on a failed save, and half as much damage on a successful one. If a creature fails the save, its speed is halved for 1 minute. A successful Constitution save against your spellcasting DC ends the effect early. You can use this feature once, regaining the ability to do so after a long rest.</p>
+			<p class="indent">When you reach 16th level in this class, the damage increases to 8d8, and you can use this feature twice.</p>
+		</description>
+		<sheet usage="{{lake-of-magma:count}}/Long Rest">
+			<description>You create a lava pool in a 10-foot radius circle around yourself. Each creature in this area must make a DC {{lake-of-magma:dc}} Dexterity save, taking {{lake-of-magma:damage}} fire damage and halving their speed for 1 minute on a failure, or half as much damage on a success. A creature can make a DC {{lake-of-magma:dc}} Constitution save at the end of its turns, ending the speed loss on a success.</description>
+		</sheet>
+		<rules>
+			<stat name="lake-of-magma:dc" value="8" />
+			<stat name="lake-of-magma:dc" value="proficiency" />
+            <stat name="lake-of-magma:dc" value="charisma:modifier" />
+			<stat name="lake-of-magma:damage" value="6d6" level="10" bonus="base" />
+			<stat name="lake-of-magma:damage" value="8d8" level="16" bonus="base" />
+			<stat name="lake-of-magma:count" value="1" level="10" />
+			<stat name="lake-of-magma:count" value="1" level="16" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_ABILITY_SCORE_INCREASE">
+		<description>
+			<p>At 14th level, your body begins to adapt to its fiery abilities. Your Strength score is 18, and can't be any lower. At 19th level, it increases to 20.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="strength:score:set" value="18" bonus="base" level="14" />
+			<stat name="strength:score:set" value="20" bonus="base" level="19" />
+		</rules>
+	</element>
+	<element name="True Pyrokinesis" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_EMBER_TRUE_PYROKINESIS">
+		<description>
+			<p>When you reach 18th level in this class, you become an embodiment of fire. You gain the following benefits:</p>
+			<ul>
+                <li>You have immunity to fire damage.</li>
+                <li>When you are hit by an attack that would do fire damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage you would have taken. Alternatively, you can regain a spell slot of a level equal to the attack's damage divided by 10 (minimum of 1).</li>
+				<li>When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot. You cannot ignite the target when casting the spell in this way.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>When you are hit by an attack that deals fire damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage dealt, or you can regain a spell slot of a level equal to the damage divided by 10.</p>
+				<p class="indent">When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot.</p>
+			</description>
+		</sheet>
+	</element>
+
+	<!-- Rime Energy -->
+	<element name="Rime Energy" type="Archetype" source="Smol's Subsidiary" id="ID_SMOL_ENERGY_RIME">
+		<supports>Origin Energy</supports>
+		<description>
+			<p>Rime energy is that of ice and water, of glaciers and waves. It originates from the very season of winter, and from the frost that it brings to cover the land. The chilling air swept across the regions, and the first Rime originators were infused with this cold energy. With this new energy, they could freeze oceans, bring rain and hail from the skies, and use ice to create great crytalline structures. Rime energy boosts intelligence as well, as the cold stimulates brain activity.</p>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_RIME_CANTRIPS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_RIME_ENERGY_SPELLS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_RIME_FROZEN_SOUL"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_RIME_COLD_AS_ICE"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_RIME_SPIKE_OF_FROST"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_RIME_ABILITY_SCORE_INCREASE"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_RIME_TRUE_CRYOKINESIS"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_CANTRIPS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_ENERGY_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_FROZEN_SOUL" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_COLD_AS_ICE" level="6" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_SPIKE_OF_FROST" level="10" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_ABILITY_SCORE_INCREASE" level="14" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_TRUE_CRYOKINESIS" level="18" />
+		</rules>
+	</element>
+	<element name="Rime Energy Cantrips" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_CANTRIPS">
+		<description>
+			<p>When you choose this energy at 1st level, you learn the following cantrips: <i>douse</i>, <i>ray of frost</i>, and <i>shape water</i>. You can cast these cantrips at will, as you would in any other class.</p>
+			<p class="indent">You learn additional spells as you level up in this class. At 7th level, you learn the <i>frostbite</i> cantrip. At 14th level, you learn the <i>ice shard</i> cantrip.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_DOUSE" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_FROSTBITE" level="7" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_ICE_SHARD" level="14" />
+		</rules>
+	</element>
+	<element name="Rime Energy Spells" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_ENERGY_SPELLS">
+		<description>
+			<p>With the use of Rime energy, an originator can cast spells akin to that of elemental water, as well as winter magic.</p>
+			<h5 class="caption">RIME ENERGY SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Originator Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td> 1st</td><td><em>chromatic orb (cold), create or destroy water, ice knife, rimesworn blade</em></td></tr>
+				<tr><td> 3rd</td><td><em>glacious, howling downpour, silas's icy embrace, snilloc's snowball swarm</em></td></tr>
+				<tr><td> 5th</td><td><em>frost armor, sleet storm, tidal wave</em></td></tr>
+				<tr><td> 7th</td><td><em>control water, ice storm, watery sphere</em></td></tr>
+				<tr><td> 9th</td><td><em>cone of cold, frost nova, maelstrom</em></td></tr>
+				<tr><td>11th</td><td><em>ice wave, otiluke's freezing sphere</em></td></tr>
+				<tr><td>13th</td><td><em>cruel wind, simulacrum</em></td></tr>
+				<tr><td>15th</td><td><em>tsunami, undertow</em></td></tr>
+				<tr><td>17th</td><td><em>frozen fog</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="1" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_RIMESWORN_BLADE" level="1" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_GLACIOUS" level="3" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_HOWLING_DOWNPOUR" level="3" />
+			<grant type="Spell" id="ID_SMOL_SPELL_SILASS_ICY_EMBRACE" level="3" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM" level="3" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_FROST_ARMOR" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM" level="5" />
+			<grant type="Spell" id="ID_XGTE_SPELL_TIDAL_WAVE" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="7" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WATERY_SPHERE" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_FROST_NOVA" level="9" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MAELSTROM" level="9" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_ICE_WAVE" level="11" />
+			<grant type="Spell" id="ID_PHB_SPELL_OTILUKES_FREEZING_SPHERE" level="11" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_CRUEL_WIND" level="13" />
+			<grant type="Spell" id="ID_PHB_SPELL_SIMULACRUM" level="13" />
+			<grant type="Spell" id="ID_PHB_SPELL_TSUNAMI" level="15" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_UNDERTOW" level="15" />
+			<grant type="Spell" id="ID_SMOL_SPELL_FROZEN_FOG" level="17" />
+		</rules>
+	</element>
+	<element name="Frozen Soul" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_FROZEN_SOUL">
+		<description>
+			<p>When you choose this energy at 1st level, you empathize with the chill of winter, granting you the following benefits.</p>
+			<ul>
+                <li>You have resistance to cold damage.</li>
+                <li>You can't be encumbered by rain or snow, and snow doesn't limit your vision. In addition, when you are moving across an icy surface, you don't need to make a skill check to keep your balance.</li>
+				<li>When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to freeze the target instead of dealing damage. The target must succeed on a Wisdom saving throw against your spellcasting DC or be encased in ice. While encased, the target's speed is 0, and it can't take actions or reactions. The ice lasts for 1 minute, or until the target is hit by an attack that deals fire damage.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>Rain and snow don't encumber you, and snow doesn't limit your vision. You can move across icy surfaces without making a skill check.</p>
+				<p class="indent">When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point attempt to freeze the target instead of dealing damage. The target must succeed on a DC {{chromaticorb-cold:dc}} Wisdom saving throw or be frozen. While frozen, the target's speed is 0 and it can't take actions or reactions. The ice lasts for 1 minute, or until a fire attack hits the target.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" level="1" bonus="base" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD" level="18" bonus="base" />
+			<stat name="chromaticorb-cold:dc" value="8" />
+            <stat name="chromaticorb-cold:dc" value="proficiency" />
+            <stat name="chromaticorb-cold:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Colder than Ice" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_COLD_AS_ICE">
+		<description>
+			<p>Starting at 6th level, your ice begins to chill further. When you use an attack or spell that deals cold damage, you can choose to summon a rain of hail around yourself. Each creature within 10 feet of you must make a Dexterity saving throw, taking 2d10 cold damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all spent uses after a long rest.</p>
+			<p class="indent">When you reach 12th level in this class, the range increases to 15 feet, and the damage doubles to 4d10.</p>
+		</description>
+		<sheet usage="{{cold-as-ice:count}}/Long Rest">
+			<description>When you use an attack or spell that deals cold damage, each creature within {{cold-as-ice:aura}} feet of you must make a DC {{cold-as-ice:dc}} Dexterity saving throw, taking {{cold-as-ice:damage}} cold damage on a failed save, or half as much damage on a successful one.</description>
+		</sheet>
+		<rules>
+			<stat name="cold-as-ice:count" value="1" bonus="base" />
+            <stat name="cold-as-ice:count" value="charisma:modifier" bonus="base" />
+			<stat name="cold-as-ice:aura" value="10" level="6" />
+			<stat name="cold-as-ice:aura" value="5" level="12" />
+			<stat name="cold-as-ice:damage" value="2d10" level="6" bonus="base" />
+			<stat name="cold-as-ice:damage" value="4d10" level="12" bonus="base" />
+			<stat name="cold-as-ice:dc" value="8" />
+			<stat name="cold-as-ice:dc" value="proficiency" />
+			<stat name="cold-as-ice:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Spike of Frost" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_SPIKE_OF_FROST">
+		<description>
+			<p>At 10th level, you can extend your presence to pinpoint targets. Choose two creatures within 60 feet of yourself. Make a melee spell attack against each one. On a hit, a creature takes 2d10 piercing damage plus 6d6 cold damage. If the attack misses, the spike remains in the place it emerged until the end of your next turn, taking up a 5 foot by 5 foot area, and each creature within 10 feet of it at the start of its turn must succeed on a Constitution saving throw against your spellcasting DC or take 2d6 cold damage. You can use this ability once, regaining the ability to do so after a long rest.</p>
+			<p class="indent">When you reach 16th level in this class, the cold damage after a miss increases to 4d6, and you can use this feature twice.</p>
+		</description>
+		<sheet usage="{{spike-of-frost:count}}/Long Rest">
+			<description>Choose two creatures within 60 feet, and make a melee spell attack against each. On a hit, the creature takes 2d10 piercing damage plus 6d6 cold damage. On a miss, the spike remains, filling a 5-by-5 foot space, and each creature within 10 feet of it at the start of its turn must succeed on a DC {{spike-of-frost:dc}} Constitution saving throw or take {{spike-of-frost:damage}} cold damage. The spike dissapears at the end of your next turn.</description>
+		</sheet>
+		<rules>
+			<stat name="spike-of-frost:dc" value="8" />
+			<stat name="spike-of-frost:dc" value="proficiency" />
+            <stat name="spike-of-frost:dc" value="charisma:modifier" />
+			<stat name="spike-of-frost:damage" value="2d6" level="10" bonus="base" />
+			<stat name="spike-of-frost:damage" value="4d6" level="16" bonus="base" />
+			<stat name="spike-of-frost:count" value="1" level="10" />
+			<stat name="spike-of-frost:count" value="1" level="16" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_ABILITY_SCORE_INCREASE">
+		<description>
+			<p>At 14th level, your mind sharpens with the points of your frosts. Your Intelligence score is 18, and can't be any lower. At 19th level, it increases to 20.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="intelligence:score:set" value="18" bonus="base" level="14" />
+			<stat name="intelligence:score:set" value="20" bonus="base" level="19" />
+		</rules>
+	</element>
+	<element name="True Cryokinesis" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_RIME_TRUE_CRYOKINESIS">
+		<description>
+			<p>When you reach 18th level in this class, you become an embodiment of ice. You gain the following benefits:</p>
+			<ul>
+                <li>You have immunity to cold damage.</li>
+                <li>When you are hit by an attack that would do cold damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage you would have taken. Alternatively, you can regain a spell slot of a level equal to the attack's damage divided by 10 (minimum of 1).</li>
+				<li>When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot. You cannot freeze the target when casting the spell in this way.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>When you are hit by an attack that deals cold damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage dealt, or you can regain a spell slot of a level equal to the damage divided by 10.</p>
+				<p class="indent">When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot.</p>
+			</description>
+		</sheet>
+	</element>
+
+	<!-- Cairn Energy -->
+	<element name="Cairn Energy" type="Archetype" source="Smol's Subsidiary" id="ID_SMOL_ENERGY_CAIRN">
+		<supports>Origin Energy</supports>
+		<description>
+			<p>Being the energy of the earth and its structure, Cairn is a mighty power. The very quaking of the earth itself gives this energy form, and all an originator needs to do to channel its power is to channel the earth itself. With this power, one can hollow out caves and bring up clear soil; carve through valleys and move the mountains themselves. Cairn energy also enhances one's bodily constitution, by reinforcing the form with earthen stability.</p>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_CANTRIPS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ENERGY_SPELLS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_CONCRETE_SOUL"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ROCK_BOTTOM"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_SHAKING_SLABS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ABILITY_SCORE_INCREASE"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_TRUE_GEOKINESIS"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_CANTRIPS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ENERGY_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_CONCRETE_SOUL" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ROCK_BOTTOM" level="6" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_SHAKING_SLABS" level="10" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ABILITY_SCORE_INCREASE" level="14" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_TRUE_GEOKINESIS" level="18" />
+		</rules>
+	</element>
+	<element name="Cairn Energy Cantrips" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_CANTRIPS">
+		<description>
+			<p>When you choose this energy at 1st level, you learn the following cantrips: <i>break</i>, <i>magic stone</i>, and <i>mold earth</i>. You can cast these cantrips at will, as you would in any other class.</p>
+			<p class="indent">You learn additional spells as you level up in this class. At 7th level, you learn the <i>blade ward</i> cantrip. At 14th level, you learn the <i>thunderous chord</i> cantrip.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_BREAK" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MAGIC_STONE" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MOLD_EARTH" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLADE_WARD" level="7" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_THUNDEROUS_CHORD" level="14" />
+		</rules>
+	</element>
+	<element name="Cairn Energy Spells" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ENERGY_SPELLS">
+		<description>
+			<p>Spells that draw from Cairn energy are earthen in nature. However, some also include thunderous sounds, and many include reinforcement.</p>
+			<h5 class="caption">CAIRN ENERGY SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Originator Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td> 1st</td><td><em>chromatic orb (thunder), earth tremor, earthen grip, thunderwave</em></td></tr>
+				<tr><td> 3rd</td><td><em>black pillar, dust devil, enlarge/reduce, mountains of molehills</em></td></tr>
+				<tr><td> 5th</td><td><em>erupting earth, meld into stone, steady terrain</em></td></tr>
+				<tr><td> 7th</td><td><em>stone shape, stoneskin, otiluke's resilient sphere</em></td></tr>
+				<tr><td> 9th</td><td><em>creation, transmute rock, wall of stone</em></td></tr>
+				<tr><td>11th</td><td><em>bones of the earth, flesh to stone</em></td></tr>
+				<tr><td>13th</td><td><em>earthen staff, otherworldly lair</em></td></tr>
+				<tr><td>15th</td><td><em>earthquake, levitate landscape</em></td></tr>
+				<tr><td>17th</td><td><em>invulnerability</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_EARTH_TREMOR" level="1" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_EARTHEN_GRIP" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_THUNDERWAVE" level="1" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_BLACK_PILLAR" level="3" />
+			<grant type="Spell" id="ID_XGTE_SPELL_DUST_DEVIL" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_ENLARGE_REDUCE" level="3" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_MOUNTAINS_OF_MOLEHILLS" level="3" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ERUPTING_EARTH" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_MELD_INTO_STONE" level="5" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_STEADY_TERRAIN" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_STONE_SHAPE" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_CREATION" level="9" />
+			<grant type="Spell" id="ID_XGTE_SPELL_TRANSMUTE_ROCK" level="9" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" level="9" />
+			<grant type="Spell" id="ID_XGTE_SPELL_BONES_OF_THE_EARTH" level="11" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLESH_TO_STONE" level="11" />
+			<grant type="Spell" id="ID_SMOL_SPELL_EARTHEN_STAFF" level="13" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_OTHERWORLDLY_LAIR" level="13" />
+			<grant type="Spell" id="ID_PHB_SPELL_EARTHQUAKE" level="15" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_LEVITATE_LANDSCAPE" level="15" />
+			<grant type="Spell" id="ID_XGTE_SPELL_INVULNERABILITY" level="17" />
+		</rules>
+	</element>
+	<element name="Concrete Soul" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_CONCRETE_SOUL">
+		<description>
+			<p>When you choose this energy at 1st level, you can feel the very earth beneath you, granting you the following benefits.</p>
+			<ul>
+                <li>You have advantage against nonmagical attacks that deal bludgeoning, piercing, and slashing damage.</li>
+                <li>You have advantage against saving throws against inhaled or ingested effects, such as poison or smoke.</li>
+				<li>When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to ground the target instead of dealing damage. The target must succeed on a Wisdom saving throw against your spellcasting DC or become grounded. While grounded, a creature is unable to jump, fly, hover, or climb, and its speed is halved. The effect ends if the creature is knocked prone, or after 1 hour has passed.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>You have advantage against saving throws against inhaled or ingested effects, such as poison or smoke.</p>
+				<p class="indent">When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to ground the target instead of dealing damage. The target must succeed on a DC {{chromaticorb-thunder:dc}} Wisdom saving throw or be unable to jump, fly, hover, or climb, and have its speed halved for 1 hour. The effect ends early if the creature is knocked prone.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING" level="18" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING" level="18" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING" level="18" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_THUNDER" level="18" />
+			<stat name="chromaticorb-thunder:dc" value="8" />
+            <stat name="chromaticorb-thunder:dc" value="proficiency" />
+            <stat name="chromaticorb-thunder:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Deeper than Rock Bottom" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ROCK_BOTTOM">
+		<description>
+			<p>Starting at 6th level, your will hardens. While you are touching the ground, you can use your action to encase yourself in stone. While encased in stone, you are immune to all damage, effects, and spells, you can't move, and you can't take actions or reactions. You can remain in this condition for 1 minute, after which it automatically ends. Each time you are hit while encased, the stone around you gets weaker. After three hits, or when you use an action on your turn to do so, the shell shatters. Each creature within 30 feet of you must succeed on a Dexterity saving throw against your spellcasting DC. On a failure, a creature takes 1d10 damage, which is your choice of bludgeoning, piercing, or slashing. You can choose the damage individually for each creature. </p>
+			<p class="indent">You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all spent uses after a long rest.</p>
+			<p class="indent">When you reach 12th level in this class, the range increases to 45 feet, and the damage becomes magical and ignores resistances and immunities to specifically made weapons.</p>
+		</description>
+		<sheet usage="{{rock-bottom:count}}/Long Rest">
+			<description>As an action, you encase yourself in stone. While encased, you can't be harmed or effected by anything outside the stone, and you can't move or take actions or reactions. The stone lasts for 1 minute, until you are hit 3 times, or until you end the condition on your turn, at which point the stone shatters. Each creature within {{rock-bottom:range}} must succeed on a DC {{rock-bottom:dc}} Dexterity save or take 1d10 {{rock-bottom:damage-type}} damage.</description>
+		</sheet>
+		<rules>
+			<stat name="rock-bottom:count" value="1" bonus="base" />
+            <stat name="rock-bottom:count" value="charisma:modifier" bonus="base" />
+			<stat name="rock-bottom:aura" value="30" level="6" />
+			<stat name="rock-bottom:aura" value="15" level="12" />
+			<stat name="rock-bottom:damage-type" value="bludgeoning, piercing, or slashing" level="6" bonus="base" />
+			<stat name="rock-bottom:damage-type" value="magical bludgeoning, piercing, or slashing" level="12" bonus="base" />
+			<stat name="rock-bottom:dc" value="8" />
+			<stat name="rock-bottom:dc" value="proficiency" />
+			<stat name="rock-bottom:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Shaking Slabs" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_SHAKING_SLABS">
+		<description>
+			<p>At 10th level, you can manipulate the ground beneath you to your advantage. Choose a 20-by-20 square area within 100 feet of you. Each creature in this area must make a Strength saving throw, taking 6d6 bludgeoning damage and being knocked prone on a failed save, and half as much damage on a successful one. A creature that is knocked prone can get up by using half of its movement, but it must also make another Strength save, taking 4d4 bludgeoning damage and falling back down on a failed save, or half as much damage on a successful one. The quaking lasts for 1 minute, and any creature that has not succeeded on a save and stood up by that point takes 5d10 bludgeoning damage and is ejected, prone, into the nearest open space. You can use this ability once, regaining the ability to do so after a long rest.</p>
+			<p class="indent">When you reach 16th level in this class, the initial damage increases to 8d6, the prone damage increases to 6d4, and you can use this feature twice.</p>
+		</description>
+		<sheet usage="{{shaking-slabs:count}}/Long Rest">
+			<description>A 20-by-20 square within 100 feet of you begins to shake. Each creature in the area must make a DC {{shaking-slabs:dc}} Strength saving throw, taking {{shaking-slabs:damage-a}} bludgeoning damage and being knocked prone on a failed save, or half as much on a successful one. Each time a prone creature gets up, it must remake the save, taking {{shaking-slabs:damage-b}} bludgeoning damage and falling down again on a failed save, or half as much damage on a successful one. A creature that has not stood up after 1 minute is ejected into the nearest open space, taking 5d10 bludgeoning damage, and the effect ends.</description>
+		</sheet>
+		<rules>
+			<stat name="shaking-slabs:dc" value="8" />
+			<stat name="shaking-slabs:dc" value="proficiency" />
+            <stat name="shaking-slabs:dc" value="charisma:modifier" />
+			<stat name="shaking-slabs:damage-a" value="6d6" level="10" bonus="base" />
+			<stat name="shaking-slabs:damage-a" value="8d6" level="16" bonus="base" />
+			<stat name="shaking-slabs:damage-b" value="4d4" level="10" bonus="base" />
+			<stat name="shaking-slabs:damage-b" value="6d4" level="16" bonus="base" />
+			<stat name="shaking-slabs:count" value="1" level="10" />
+			<stat name="shaking-slabs:count" value="1" level="16" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_ABILITY_SCORE_INCREASE">
+		<description>
+			<p>At 14th level, your body can withstand far more and still stand like a mountain. Your Constitution score is 18, and can't be any lower. At 19th level, it increases to 20.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="constitution:score:set" value="18" bonus="base" level="14" />
+			<stat name="constitution:score:set" value="20" bonus="base" level="19" />
+		</rules>
+	</element>
+	<element name="True Geokinesis" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_CAIRN_TRUE_GEOKINESIS">
+		<description>
+			<p>When you reach 18th level in this class, you become an embodiment of stone. You gain the following benefits:</p>
+			<ul>
+                <li>You have resistance to all bludgeoning, piercing, and slashing damage, including magical. You are also immune to thunder damage.</li>
+                <li>When you are hit by an attack that would do thunder damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage you would have taken. Alternatively, you can regain a spell slot of a level equal to the attack's damage divided by 10 (minimum of 1).</li>
+				<li>When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot. You cannot ground the target when casting the spell in this way.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>When you are hit by an attack that deals thunder damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage dealt, or you regain a spell slot of a level equal to the damage divided by 10.</p>
+				<p class="indent">When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot.</p>
+			</description>
+		</sheet>
+	</element>
+
+		<!-- Gale Energy -->
+	<element name="Gale Energy" type="Archetype" source="Smol's Subsidiary" id="ID_SMOL_ENERGY_GALE">
+		<supports>Origin Energy</supports>
+		<description>
+			<p>Storms, winds, bolts of lightning: all parts of Gale energy. Originators who utilize these draw their power from the electricity that runs through the storms above and the winds that blow across the landscape, absorbing them like a lightning rod. This power grants the ability to take in your own hands the power of the storms, hurling bolts of lightning like a furious god and sprinting faster than the winds themselves. Gale energy stimulates the muscles, allowing one's Dexterity to greatly increase.</p>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_GALE_CANTRIPS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_GALE_ENERGY_SPELLS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_GALE_TEMPEST_SOUL"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_GALE_CALM_AND_STORM"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_GALE_IONIZED_OZONE"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_GALE_ABILITY_SCORE_INCREASE"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_GALE_TRUE_ATMOKINESIS"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_CANTRIPS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_ENERGY_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_TEMPEST_SOUL" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_CALM_AND_STORM" level="6" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_IONIZED_OZONE" level="10" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_ABILITY_SCORE_INCREASE" level="14" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_TRUE_ATMOKINESIS" level="18" />
+		</rules>
+	</element>
+	<element name="Gale Energy Cantrips" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_CANTRIPS">
+		<description>
+			<p>When you choose this energy at 1st level, you learn the following cantrips: <i>gust</i>, <i>shocking grasp</i>, and <i>voltage</i>. You can cast these cantrips at will, as you would in any other class.</p>
+			<p class="indent">You learn additional spells as you level up in this class. At 7th level, you learn the <i>jolt</i> cantrip. At 14th level, you learn the <i>wind slash</i> cantrip.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_GUST" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" level="1" />
+			<grant type="Spell" id="ID_SMOL_SPELL_VOLTAGE" level="1" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_JOLT" level="7" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_WIND_SLASH" level="14" />
+		</rules>
+	</element>
+	<element name="Gale Energy Spells" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_ENERGY_SPELLS">
+		<description>
+			<p>The magic used by originators with the Gale energy summons bolts of lightning, grants the ability to walk on air, and controls the winds around it.</p>
+			<h5 class="caption">GALE ENERGY SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Originator Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td> 1st</td><td><em>chromatic orb (lightning), feather fall, witch bolt, zephyr strike</em></td></tr>
+				<tr><td> 3rd</td><td><em>avian geyser, gust of wind, levitate, skystrike</em></td></tr>
+				<tr><td> 5th</td><td><em>fly, lightning bolt, wind wall</em></td></tr>
+				<tr><td> 7th</td><td><em>freedom of movement, storm sphere, windblade</em></td></tr>
+				<tr><td> 9th</td><td><em>control winds, storm's eye, vengeance of talos</em></td></tr>
+				<tr><td>11th</td><td><em>chain lightning, wind walk</em></td></tr>
+				<tr><td>13th</td><td><em>reverse gravity, whirlwind</em></td></tr>
+				<tr><td>15th</td><td><em>antipathy/sympathy, silas's cloudburst</em></td></tr>
+				<tr><td>17th</td><td><em>storm of vengeance</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_WITCH_BOLT" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ZEPHYR_STRIKE" level="1" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_AVIAN_GEYSER" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE" level="3" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_SKYSTRIKE" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLY" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_WIND_WALL" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" />
+			<grant type="Spell" id="ID_XGTE_SPELL_STORM_SPHERE" level="7" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_WINDBLADE" level="7" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_WINDS" level="9" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_STORMS_EYE" level="9" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_VENGEANCE_OF_TALOS" level="9" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHAIN_LIGHTNING" level="11" />
+			<grant type="Spell" id="ID_PHB_SPELL_WIND_WALK" level="11" />
+			<grant type="Spell" id="ID_PHB_SPELL_REVERSE_GRAVITY" level="13" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WHIRLWIND" level="13" />
+			<grant type="Spell" id="ID_PHB_SPELL_ANTIPATHY_SYMPATHY" level="15" />
+			<grant type="Spell" id="ID_SMOL_SPELL_SILASS_CLOUDBURST" level="15" />
+			<grant type="Spell" id="ID_PHB_SPELL_STORM_OF_VENGEANCE" level="17" />
+		</rules>
+	</element>
+	<element name="Tempest Soul" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_TEMPEST_SOUL">
+		<description>
+			<p>When you choose this energy at 1st level, electric signals shoot through your veins, granting you the following benefits.</p>
+			<ul>
+                <li>You have resistance to lightning damage.</li>
+                <li>You are immune to the paralyzed condition.</li>
+				<li>When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to electrocute the target instead of dealing damage. The target must succeed on a Wisdom saving throw against your spellcasting DC or be electrocuted for up to 1 hour. While electrocuted, the target is paralyzed, and remakes the save at the beginning of each of its turns, ending the effect on a success, and taking 2d4 lightning damage on a failure.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>You are immune to the paralyzed condition.</p>
+				<p class="indent">When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to electrocute the target instead of dealing damage. The target must succeed on a DC {{chromaticorb-lightning:dc}} Wisdom saving throw or be electrocuted for up to 1 hour. While electrocuted, the target is paralyzed, and must remake the save at the start of each of its turns, ending the effect on a success, and taking 2d4 lightning damage on a failure.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" level="1" bonus="base" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_LIGHTNING" level="18" bonus="base" />
+			<stat name="chromaticorb-lightning:dc" value="8" />
+            <stat name="chromaticorb-lightning:dc" value="proficiency" />
+            <stat name="chromaticorb-lightning:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="The Calm and the Storm" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_CALM_AND_STORM">
+		<description>
+			<p>Starting at 6th level, you can replicate the swirling storms that your power rises from. As an action on your turn, you can cause powerful winds to emanate from your body. Each creature within 40 feet of you must make a Strength saving throw. On a success, the creature is pushed up to 10 feet away from you. On a failure, it takes 1d10 bludgeoning damage and is pushed up to 30 feet away from you before falling prone.</p>
+			<p class="indent">You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all spent uses after a long rest.</p>
+			<p class="indent">When you reach 12th level in this class, the range is 80 feet, the push distances are doubled to 20 and 60 respectively, and the damage on a failed save is 3d10, while a success only deals 1d10.</p>
+		</description>
+		<sheet usage="{{calm-and-storm:count}}/Long Rest">
+			<description>As an action, you emit powerful winds in all directions. Each creature within {{calm-and-storm:range}} feet of you must make a DC {{calm-and-storm:dc}} Strength saving throw. On a success, a creature {{calm-and-storm:damage-a}}is knocked up to {{calm-and-storm:push-a}} feet away. On a failure, a creature takes {{calm-and-storm:damage-b}} bludgeoning damage and is thrown up to {{calm-and-storm:push-b}} feet away, prone.</description>
+		</sheet>
+		<rules>
+			<stat name="calm-and-storm:count" value="1" bonus="base" />
+            <stat name="calm-and-storm:count" value="charisma:modifier" bonus="base" />
+			<stat name="calm-and-storm:range" value="40" level="6" />
+			<stat name="calm-and-storm:range" value="40" level="12" />
+			<stat name="calm-and-storm:push-a" value="10" level="6" />
+			<stat name="calm-and-storm:push-a" value="10" level="12" />
+			<stat name="calm-and-storm:push-b" value="30" level="6" />
+			<stat name="calm-and-storm:push-b" value="30" level="12" />
+			<stat name="calm-and-storm:damage-a" value="" level="6" bonus="base" />
+			<stat name="calm-and-storm:damage-a" value="takes 1d10 bludgeoning damage and " level="12" bonus="base" />
+			<stat name="calm-and-storm:damage-b" value="1d10" level="6" bonus="base" />
+			<stat name="calm-and-storm:damage-b" value="3d10" level="12" bonus="base" />
+			<stat name="calm-and-storm:dc" value="8" />
+			<stat name="calm-and-storm:dc" value="proficiency" />
+			<stat name="calm-and-storm:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Ionized Ozone" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_IONIZED_OZONE">
+		<description>
+			<p>At 10th level, you can form a miniature atmosphere as a protective barrier. A sphere of electrical air expands to a 15-foot radius around yourself. This sphere acts as a reflector, and any ranged weapon or spell attack made against a creature inside the sphere bounces back at the attacker. This does not protect from area of effect spells. If an attack that would deal lightning damage touches the sphere, the attack is absorbed, and the sphere grows by 5 feet.</p>
+			<p class="indent">If a creature touches the sphere, it must make a Constitution saving throw, taking 4d6 lightning damage on a failed save, or half as much damage on a successful one. A creature that attempts to pass through the sphere has disadvantage on the roll. The sphere vanishes after 1 minute, or after the sphere expands past a 25-foot radius. You can use this feature once, regaining the ability to do so after a long rest.</p>
+			<p class="indent">When you reach 16th level in this class, the duration increases to 5 minutes, the maximum radius increases to 50 feet, and you can use this feature twice.</p>
+		</description>
+		<sheet usage="{{ionized-ozone:count}}/Long Rest">
+			<description>A sphere of electrical air expands outwards around yourself to a {{ionized-ozone:max-radius}}-foot radius. Any ranged spell or weapon attack made against a creature inside the sphere is reflected back at the attacker. If an attack that deals lightning damage impacts the barrier, it is not reflected, and the sphere expands by 5 feet. If a creature touches the barrier, it must make a DC {{ionized-ozone:dc}} Constitution saving throw, taking 4d6 lightning damage on a failure, or half as much damage on a success. A creature attempting to pass through has disadvantage on the save. The sphere dissapates after {{ionized-ozone:duration}}, or when the sphere grows larger than a {{ionized-ozone:max-radius}}-foot radius.</description>
+		</sheet>
+		<rules>
+			<stat name="ionized-ozone:dc" value="8" />
+			<stat name="ionized-ozone:dc" value="proficiency" />
+            <stat name="ionized-ozone:dc" value="charisma:modifier" />
+			<stat name="ionized-ozone:duration" value="1 minute" level="10" bonus="base" />
+			<stat name="ionized-ozone:duration" value="5 minutes" level="16" bonus="base" />
+			<stat name="ionized-ozone:max-radius" value="15" level="10" />
+			<stat name="ionized-ozone:max-radius" value="35" level="16" />
+			<stat name="ionized-ozone:count" value="1" level="10" />
+			<stat name="ionized-ozone:count" value="1" level="16" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_ABILITY_SCORE_INCREASE">
+		<description>
+			<p>At 14th level, the electricity running through you stimulates your muscles into faster movement. Your Dexterity score is 18, and can't be any lower. At 19th level, it increases to 20.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="dexterity:score:set" value="18" bonus="base" level="14" />
+			<stat name="dexterity:score:set" value="20" bonus="base" level="19" />
+		</rules>
+	</element>
+	<element name="True Atmokinesis" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_GALE_TRUE_ATMOKINESIS">
+		<description>
+			<p>When you reach 18th level in this class, you become an embodiment of electricity. You gain the following benefits:</p>
+			<ul>
+                <li>You have immunity to lightning damage.</li>
+                <li>When you are hit by an attack that would do lightning damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage you would have taken. Alternatively, you can regain a spell slot of a level equal to the attack's damage divided by 10 (minimum of 1).</li>
+				<li>When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot. You cannot electrocute the target when casting the spell in this way.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>When you are hit by an attack that deals lightning damage, you spend 1 origin point to regain a number of hit points equal to half of the damage dealt, or you regain a spell slot of a level equal to the damage divided by 10.</p>
+				<p class="indent">When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot.</p>
+			</description>
+		</sheet>
+	</element>
+
+		<!-- Verdure Energy -->
+	<element name="Verdure Energy" type="Archetype" source="Smol's Subsidiary" id="ID_SMOL_ENERGY_VERDURE">
+		<supports>Origin Energy</supports>
+		<description>
+			<p>While similar to druidic magic, Verdure energy manifests in a very different way. Rather than stemming from nature itself, Verdure energy is more so connected to the ecosystem in general, from the plants to the animals and everything in between. With this power, originators can both bring life to nature and take it away. Verdure energy works with the body and the soul, heightening one's wisdom.</p>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_CANTRIPS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_ENERGY_SPELLS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_VIBRANT_SOUL"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_KNOWN_BY_FRUIT"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_WRITHING_VINES"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_ABILITY_SCORE_INCREASE"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_TRUE_CHLOROKINESIS"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_CANTRIPS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_ENERGY_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_VIBRANT_SOUL" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_KNOWN_BY_FRUIT" level="6" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_WRITHING_VINES" level="10" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_ABILITY_SCORE_INCREASE" level="14" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_TRUE_CHLOROKINESIS" level="18" />
+		</rules>
+	</element>
+	<element name="Verdure Energy Cantrips" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_CANTRIPS">
+		<description>
+			<p>When you choose this energy at 1st level, you learn the following cantrips: <i>druidcraft</i>, <i>poison spray</i>, and <i>shillelagh</i>. You can cast these cantrips at will, as you would in any other class.</p>
+			<p class="indent">You learn additional spells as you level up in this class. At 7th level, you learn the <i>thorn whip</i> cantrip. At 14th level, you learn the <i>lullaby</i> cantrip.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_POISON_SPRAY" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHILLELAGH" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_THORN_WHIP" level="7" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_LULLABY" level="14" />
+		</rules>
+	</element>
+	<element name="Verdure Energy Spells" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_ENERGY_SPELLS">
+		<description>
+			<p></p>
+			<h5 class="caption">VERDURE ENERGY SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Originator Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td> 1st</td><td><em>animal friendship, beast bond, chromatic orb (poison), entangle</em></td></tr>
+				<tr><td> 3rd</td><td><em>barkskin, enhance ability, lesser restoration, spike growth</em></td></tr>
+				<tr><td> 5th</td><td><em>conjure animals, plant growth, venom blast</em></td></tr>
+				<tr><td> 7th</td><td><em>conjure woodland beings, grasping vine, guardian of nature</em></td></tr>
+				<tr><td> 9th</td><td><em>commune with nature, greater restoration, wrath of nature</em></td></tr>
+				<tr><td>11th</td><td><em>druid grove, wall of thorns</em></td></tr>
+				<tr><td>13th</td><td><em>conjure shambling mound, mirage arcane</em></td></tr>
+				<tr><td>15th</td><td><em>animal shapes, control weather</em></td></tr>
+				<tr><td>17th</td><td><em>shapechange</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_BEAST_BOND" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_ENTANGLE" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_BARKSKIN" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPIKE_GROWTH" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ANIMALS" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH" level="5" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_VENOM_BLAST" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_WOODLAND_BEINGS" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_GRASPING_VINE" level="7" />
+			<grant type="Spell" id="ID_XGTE_SPELL_GUARDIAN_OF_NATURE" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" level="9" />
+			<grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WRATH_OF_NATURE" level="9" />
+			<grant type="Spell" id="ID_XGTE_SPELL_DRUID_GROVE" level="11" />
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_THORNS" level="11" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_CONJURE_SHAMBLING_MOUND" level="13" />
+			<grant type="Spell" id="ID_PHB_SPELL_MIRAGE_ARCANE" level="13" />
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMAL_SHAPES" level="15" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONTROL_WEATHER" level="15" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHAPECHANGE" level="17" />
+		</rules>
+	</element>
+	<element name="Vibrant Soul" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_VIBRANT_SOUL">
+		<description>
+			<p>When you choose this energy at 1st level, you channel the very nature of the ecosystem, granting you the following benefits.</p>
+			<ul>
+                <li>You have resistance to poison damage.</li>
+                <li>You are always under the effects of the <i>speak with animals</i> spell.</li>
+				<li>When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to entangle the target instead of dealing damage. The target must succeed on a Wisdom saving throw against your spellcasting DC or be trapped by vines. While trapped, the creature is considered grappled, with the escape DC being equal to your spellcasting DC. As a bonus action on your turn, you can cause the vines to prick the target. The target takes 1d4 piercing damage plus 2d6 poison damage, and the grapple ends.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>You are always under the effects of the <i>speak with animals</i> spell.</p>
+				<p class="indent">When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to entangle the target instead of dealing damage. The target must succeed on a DC {{chromaticorb-poison:dc}} Wisdom saving throw or be grappled (escape DC {{chromaticorb-poison:dc}}). As a bonus action on your turn, dealing 1d4 piercing damage plus 2d6 poison damage, and the effect ends.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" level="1" bonus="base" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" level="18" bonus="base" />
+			<stat name="chromaticorb-poison:dc" value="8" />
+            <stat name="chromaticorb-poison:dc" value="proficiency" />
+            <stat name="chromaticorb-poison:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="The Fruit of Life" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_KNOWN_BY_FRUIT">
+		<description>
+			<p>Starting at 6th level, you both grow and reap the fruits of nature. As an action on your turn, you can summon up to three <b>awakened shrubs</b> into spaces within 30 feet of yourself. The shrubs are friendly to you and your companions, and will perform any action you tell them to (no action required by you). The shrubs remain summoned for 1 hour, or until they die.</p>
+			<p class="indent">While the shrubs are summoned, you can use a bonus action to cause one of them to explode into a pollen cloud. When you do so, each creature within 5 feet of the shrub must make a Constitution save, taking 4d4 poison damage on a failed save, or half as much on a successful one. For 1 round, the pollen lightly obscures its area, unless a wind of moderate speed or higher bolows it away.</p>
+			<p class="indent">You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all spent uses after a long rest.</p>
+			<p>When you reach 12th level in this class, you can summon up to two <b>awakened trees</b> instead. You can order or direct them in the same way as the shrubs, and they remain summoned for an hour or until they die.</p>
+			<p class="indent">When you explode the trees, the radius increases to 15 feet, and the damage is 4d6 poison plus 2d8 bludgeoning for a failed save, or half as much damage on a successful one, and the cloud is heavily obscured.</p>
+		</description>
+		<sheet action="Action">
+			<description usage="{{known-by-fruit:count}}/Long Rest">You summon up to three <b>awakened shrubs</b> into spaces within 30 feet of yourself. The shrubs are friendly to you and your companions, and will follow your orders as well as possible. The shrubs remain summoned for 1 hour or until they die.
+			You can take a bonus action to cause one of the shrubs to explode. Each creature within 5 feet of it must make a DC {{known-by-fruit:dc}} Constitution saving throw, taking 4d4 poison damage on a failure, or half as much on a success. For 1 round, the area is lightly obscured.</description>
+			<description usage="{{known-by-fruit:count}}/Long Rest" level="12">You summon up to two <b>awakened trees</b> into spaces within 30 feet of yourself. The trees are friendly to you and your companions, and will follow your orders as well as possible. The trees remain summoned for 1 hour or until they die.
+			You can take a bonus action to cause one of the trees to explode. Each creature within 15 feet of it must make a DC {{known-by-fruit:dc}} Constitution saving throw, taking 4d6 poison damage plus 2d8 bludgeoning damage on a failure, or half as much on a success. For 1 round, the area is heavily obscured.</description>
+		</sheet>
+		<rules>
+			<stat name="known-by-fruit:count" value="1" bonus="base" />
+            <stat name="known-by-fruit:count" value="charisma:modifier" bonus="base" />
+			<stat name="known-by-fruit:dc" value="8" />
+			<stat name="known-by-fruit:dc" value="proficiency" />
+			<stat name="known-by-fruit:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Writhing Vines" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_WRITHING_VINES">
+		<description>
+			<p>At 10th level, you can instantly cause a pair of tentacle-like vines to sprout from the ground. Choose two five-by-five foot areas within 50 feet of yourself. In these locations, vines that are 5 feet thick and 25 feet tall sprout. As a bonus action, you can cause one of the vines to attack a creature within 30 feet of it. That creature must make a Strength saving throw, taking 2d8 bludgeoning damage plus 6d6 poison damage on a failed save, or half as much damage on a successful one. In addition, the creature is launched 30 feet on a failed save, and half as far on a successful one. At the end of the distance, the creature takes fall damage as if it had fallen the distance it was launched (1d6 per 10 feet) and falls prone.</p>
+			<p class="indent">Each vine lasts for 1 minute, or until you make 3 attacks with it. Afterwards, it retreats back into the ground. You can use this feature once, regaining the ability to do so after a long rest.</p>
+			<p class="indent">When you reach 16th level in this class, the poison damage increases to 8d6, the creature is launched up to 60 feet away, and you can use this feature twice.</p>
+		</description>
+		<sheet usage="{{writhing-vines:count}}/Long Rest">
+			<description>In two 5-by-5 foot areas within 50 feet of you, 5-foot wide and 25-foot tall vines sprout. As a bonus action on your turn, you can command one of the vines to attack one creature within 30 feet of it. That creature must make a DC {{writhing-vines:dc}} Strength saving throw, taking 2d8 bludgeoning damage plus {{writhing-vines:damage}} and being launched {{writhing-vines:distance}} feet on a failed save, or half as much damage and distance on a successful one. A thrown creature takes damage as if falling. Each vine lasts for {{writhing-vines:time}} minutes, or until you make {{writhing-vines:uses}} attacks with it.</description>
+		</sheet>
+		<rules>
+			<stat name="writhing-vines:dc" value="8" />
+			<stat name="writhing-vines:dc" value="proficiency" />
+            <stat name="writhing-vines:dc" value="charisma:modifier" />
+			<stat name="writhing-vines:damage" value="6d6" level="10" bonus="base" />
+			<stat name="writhing-vines:damage" value="8d6" level="16" bonus="base" />
+			<stat name="writhing-vines:distance" value="30" level="10" />
+			<stat name="writhing-vines:distance" value="30" level="16" />
+			<stat name="writhing-vines:uses" value="3" level="10" />
+			<stat name="writhing-vines:uses" value="2" level="16" />
+			<stat name="writhing-vines:time" value="3" level="10" />
+			<stat name="writhing-vines:time" value="2" level="16" />
+			<stat name="writhing-vines:count" value="1" level="10" />
+			<stat name="writhing-vines:count" value="1" level="16" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_ABILITY_SCORE_INCREASE">
+		<description>
+			<p>At 14th level, you attune to the natural world, both learning and teaching its ways. Your Wisdom score is 18, and can't be any lower. At 19th level, it increases to 20.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="wisdom:score:set" value="18" bonus="base" level="14" />
+			<stat name="wisdom:score:set" value="20" bonus="base" level="19" />
+		</rules>
+	</element>
+	<element name="True Chlorokinesis" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_VERDURE_TRUE_CHLOROKINESIS">
+		<description>
+			<p>When you reach 18th level in this class, you become an embodiment of electricity. You gain the following benefits:</p>
+			<ul>
+                <li>You have immunity to poison damage.</li>
+                <li>When you are hit by an attack that would do poison damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage you would have taken. Alternatively, you can regain a spell slot of a level equal to the attack's damage divided by 10 (minimum of 1, maximum of 9).</li>
+				<li>When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot. You cannot entangle the target when casting the spell in this way.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>When you are hit by an attack that deals poison damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage dealt, or you regain a spell slot of a level equal to the damage divided by 10.</p>
+				<p class="indent">When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot.</p>
+			</description>
+		</sheet>
+	</element>
+
+		<!-- Null Energy -->
+	<element name="Null Energy" type="Archetype" source="Smol's Subsidiary" id="ID_SMOL_ENERGY_NULL">
+		<supports>Origin Energy</supports>
+		<description>
+			<p>Null energy is far different from the other five types. Rather than a power itself, Null acts much more like an absence of power - an anti-energy. When there is not only an absence, but an abyss without the other energies, only in these extreme conditions will Null energy spring forth. It allows one to command the shadows around them, to create demonic rituals, and to raise the dead from below. Null energy connects with charisma, forcing its way into one's psyche.</p>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_NULL_CANTRIPS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_NULL_ENERGY_SPELLS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_NULL_ANEMIC_SOUL"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_NULL_FEAR_THE_DARKNESS"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_NULL_CALL_TO_OBLIVION"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_NULL_ABILITY_SCORE_INCREASE"/>
+			<div element="ID_SMOL_ARCHETYPE_FEATURE_NULL_TRUE_NIHILIKINESIS"/>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_CANTRIPS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_ENERGY_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_ANEMIC_SOUL" level="1" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_FEAR_THE_DARKNESS" level="6" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_CALL_TO_OBLIVION" level="10" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_ABILITY_SCORE_INCREASE" level="14" />
+			<grant type="Archetype Feature" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_TRUE_NIHILIKINESIS" level="18" />
+		</rules>
+	</element>
+	<element name="Null Energy Cantrips" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_CANTRIPS">
+		<description>
+			<p>When you choose this energy at 1st level, you learn the following cantrips: <i>chill touch</i>, <i>toll the dead</i>, and <i>vicious mockery</i>. You can cast these cantrips at will, as you would in any other class.</p>
+			<p class="indent">You learn additional spells as you level up in this class. At 7th level, you learn the <i>acid splash</i> cantrip. At 14th level, you learn the <i>shadow embrace</i> cantrip.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CHILL_TOUCH" level="1" />
+			<grant type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_VICIOUS_MOCKERY" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_ACID_SPLASH" level="7" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_SHADOW_EMBRACE" level="14" />
+		</rules>
+	</element>
+	<element name="Null Energy Spells" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_ENERGY_SPELLS">
+		<description>
+			<p>Null energy acts much like ordinary dark magic and necromancy, using darkness and demons combined with sickness and the undead.</p>
+			<h5 class="caption">NULL ENERGY SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Originator Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td> 1st</td><td><em>cause fear, chromatic orb (necrotic), inflict wounds, sleep</em></td></tr>
+				<tr><td> 3rd</td><td><em>blindness/deafness, melf's acid arrow, phantasmal force, suffer</em></td></tr>
+				<tr><td> 5th</td><td><em>animate dead, grim scythe, summon lesser demons</em></td></tr>
+				<tr><td> 7th</td><td><em>blight, evard's black tentacles, summon greater demon</em></td></tr>
+				<tr><td> 9th</td><td><em>geas, negative energy flood, shadow world</em></td></tr>
+				<tr><td>11th</td><td><em>create undead, myrkul's poweer</em></td></tr>
+				<tr><td>13th</td><td><em>finger of death, power word pain</em></td></tr>
+				<tr><td>15th</td><td><em>alluvial pool, maddening darkness</em></td></tr>
+				<tr><td>17th</td><td><em>touch infinity</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_INFLICT_WOUNDS" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLEEP" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLINDNESS_DEAFNESS" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_MELFS_ACID_ARROW" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_FORCE" level="3" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_SUFFER" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_ANIMATE_DEAD" level="5" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_GRIM_SCYTHE" level="5" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SUMMON_LESSER_DEMONS" level="5" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES" level="7" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SUMMON_GREATER_DEMON" level="7" />
+			<grant type="Spell" id="ID_PHB_SPELL_GEAS" level="9" />
+			<grant type="Spell" id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD" level="9" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_SHADOW_WORLD" level="9" />
+			<grant type="Spell" id="ID_PHB_SPELL_CREATE_UNDEAD" level="11" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_MYRKULS_POWER" level="11" />
+			<grant type="Spell" id="ID_PHB_SPELL_FINGER_OF_DEATH" level="13" />
+			<grant type="Spell" id="ID_XGTE_SPELL_POWER_WORD_PAIN" level="13" />
+			<grant type="Spell" id="ID_DMSG_GRGR_SPELL_ALLUVIAL_POOL" level="15" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MADDENING_DARKNESS" level="15" />
+			<grant type="Spell" id="ID_GFP_COFSA_SPELL_TOUCH_INFINITY" level="17" />
+		</rules>
+	</element>
+	<element name="Anemic Soul" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_ANEMIC_SOUL">
+		<description>
+			<p>When you choose this energy at 1st level, darkness envelops your psyche, granting you the following benefits.</p>
+			<ul>
+                <li>You have resistance to necrotic damage.</li>
+                <li>You have advantage on death saving throws, and against effects that could instantly kill you while at full health.</li>
+				<li>When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to drain the target instead of dealing damage. The target must succeed on a Wisdom saving throw against your spellcasting DC or begin to be drained. While a target is being drained, it has disadvantage on all physical-based ability checks, attack rolls, and saving throws. On your turn while the creature is being drained, you can choose to sap their life force. The creature takes 1d4 necrotic damage per two levels, and you regain half of the damage dealt. The effect then ends. If you take damage before then, the effect ends early.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>You have advantage on death saving throws, and against effects that could instantly kill you while at full health.</p>
+				<p class="indent">When you cast the <i>chromatic orb</i> spell, you can spend 1 origin point to attempt to drain the target instead of dealing damage. The target must succeed on a DC {{chromaticorb-necrotic:dc}} Wisdom saving throw or begin to be drained. While a target is being drained, it has disadvantage on all physical-based ability checks, attack rolls, and saving throws. On your turn while the creature is being drained, you can choose to sap their life force. The creature takes {{chromaticorb-necrotic:damage}} necrotic damage, and you regain half of the damage dealt. The effect then ends. If you take damage before then, the effect ends early.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" level="1" bonus="base" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_NECROTIC" level="18" bonus="base" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" level="18" />
+			<stat name="chromaticorb-necrotic:dc" value="8" />
+            <stat name="chromaticorb-necrotic:dc" value="proficiency" />
+            <stat name="chromaticorb-necrotic:dc" value="charisma:modifier" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="1" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="3" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="5" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="7" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="9" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="11" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="13" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="15" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="17" />
+			<stat name="chromaticorb-necrotic:damage" value="1" level="19" />
+		</rules>
+	</element>
+	<element name="Curse of the Dark" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_FEAR_THE_DARKNESS">
+		<description>
+			<p>Starting at 6th level, you can wrap dark energy around a creature to curse it. Choose a creature within 20 feet of you. The creature must succeed on a Wisdom saving throw against your spellcasting DC, with disadvantage if you are within 10 feet, or be cursed. A cursed creature takes 2d6 necrotic damage at the start of each of its turns. In addition, if the creature loses half or more of its hit points while cursed, it gains 1 level of exhaustion. After that, for every 30 hit points it loses, it gains another level, up to 5.</p>
+			<p class="indent">A cursed creature can make the saving throw again at the end of each of its turns, ending the curse on a success. In addition, the curse can be ended by taking a long rest, or by the spell <i>lesser restoration</i> or similar magic. When the curse ends, all exhaustion levels gained by it disappear. You can use this feature a number of times equal to your Charisma modifier, regaining all spent uses after a long rest.</p>
+			<p class="indent">When you reach 12th level in this class, the damage increases to 4d6 and the curse ends only from the save or the <i>greater restoration</i> spell or similar magic.</p>
+		</description>
+		<sheet usage="{{charisma:modifier}}/Long Rest">
+			<description>Choose a creature within 20 feet of you. The creature must succeed on a DC {{fear-the-darkness:dc}} Wisdom saving throw, with disadvantage if it is within 10 feet of you. On a failure, the creature is cursed, taking {{fear-the-darkness:damage}} necrotic damage at the start of each of its turns. If a creature loses half or more of its hit points while cursed, it gains 1 level of exhaustion. After that, for every 30 hit points it loses, it gains another level of exhaustion (up to 5). The creature can make the saving throw again at the end of each of its turns, ending the effect and losing all levels of exhaustion on a success. The effect also ends after a long rest or when the <i>{{fear-the-darkness:cure}} restoration</i> spell is cast on them.</description>
+		</sheet>
+		<rules>
+			<stat name="fear-the-darkness:dc" value="8" />
+            <stat name="fear-the-darkness:dc" value="proficiency" />
+            <stat name="fear-the-darkness:dc" value="charisma:modifier" />
+			<stat name="fear-the-darkness:damage" value="2d6" level="6" bonus="base" />
+			<stat name="fear-the-darkness:damage" value="4d6" level="12" bonus="base" />
+			<stat name="fear-the-darkness:cure" value="lesser" level="6" bonus="base" />
+			<stat name="fear-the-darkness:cure" value="greater" level="12" bonus="base" />
+		</rules>
+	</element>
+	<element name="Call to Oblivion" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_CALL_TO_OBLIVION">
+		<description>
+			<p>At 10th level, your presence beckons the weak into the dark. At the start of your turn, you can force up to 3 creatures within 150 feet of you to succeed on a Wisdom saving throw against your spellcasting DC or be charmed by you. While charmed, the creature must spend all of its movement to move towards you, and it can't take other actions or reactions. The condition ends if the creature is hit by a creature other than you, or after 1 minute passes.</p>
+			<p class="indent">If you hit the creature with a melee attack while it is charmed, then the creature takes 1d10 necrotic damage, and the creature must succeed on a Constituiton saving throw or be killed if it is under 30 hit points. The DC for this save is equal to 10 plus the amount of necrotic damage dealt. If the creature saves, or is above 30 hit points, it is not killed, and the condition ends for it.</p>
+			<p class="indent">You can use this feature once, regaining the ability to do so after a long rest.</p>
+			<p class="indent">When you reach 16th level in this class, the range increases to 250 feet and you can target 5 creatures, the attack does 3d10 necrotic damage and you can choose which roll is added to the DC, and you can use this feature twice.</p>
+		</description>
+		<sheet>
+			<description level="10" usage="1/Long Rest">At the start of your turn, you can force up to 3 creatures within 150 feet of you to succeed on a DC {{call-to-oblivion:dc}} Wisdom saving throw or be charmed by you. While charmed, a creature must use all of its movement to move toward you, and it can't take other actions. The condition ends if the creature is hit by another creature, after 1 minute, or when you hit it, dealing an extra 1d10 necrotic damage. When you do, the creature must succeed on a Constitution saving throw (DC 10 + necrotic damage), ending the effect on a success, and dying if it is below 30 hit points and fails.</description>
+			<description level="16" usage="2/Long Rest">At the start of your turn, you can force up to 5 creatures within 250 feet of you to succeed on a DC {{call-to-oblivion:dc}} Wisdom saving throw or be charmed by you. While charmed, a creature must use all of its movement to move toward you, and it can't take other actions. The condition ends if the creature is hit by another creature, after 1 minute, or when you hit it, dealing an extra 3d10 necrotic damage. When you do, the creature must succeed on a Constitution saving throw (DC 10 + necrotic damage of one of the rolls), ending the effect on a success, and dying if it is below 30 hit points and fails.</description>
+		</sheet>
+		<rules>
+			<stat name="call-to-oblivion:dc" value="8" />
+            <stat name="call-to-oblivion:dc" value="proficiency" />
+            <stat name="call-to-oblivion:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_ABILITY_SCORE_INCREASE">
+		<description>
+			<p>At 14th level, the darkness in your soul weaves its way into your words. Your Charisma score is 18, and can't be any lower. At 19th level, it increases to 20.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<stat name="charisma:score:set" value="18" bonus="base" level="14" />
+			<stat name="charisma:score:set" value="20" bonus="base" level="19" />
+		</rules>
+	</element>
+	<element name="True Nihilikinesis" type="Archetype Feature" source="Smol's Subsidiary" id="ID_SMOL_ARCHETYPE_FEATURE_NULL_TRUE_NIHILIKINESIS">
+		<description>
+			<p>When you reach 18th level in this class, you become an embodiment of void. You gain the following benefits:</p>
+			<ul>
+                <li>You have immunity to necrotic damage, and resistance to radiant damage.</li>
+                <li>When you are hit by an attack that would do necrotic damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage you would have taken. Alternatively, you can regain a spell slot of a level equal to the attack's damage divided by 10 (minimum of 1, maximum of 9).</li>
+				<li>When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot. You cannot drain the target when casting the spell in this way.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>
+				<p>When you are hit by an attack that deals necrotic damage, you can spend 1 origin point to regain a number of hit points equal to half of the damage dealt, or you regain a spell slot of a level equal to the damage divided by 10.</p>
+				<p class="indent">When you cast <i>chromatic orb</i>, you can do so at up to 3rd level without expending a spell slot.</p>
+			</description>
+		</sheet>
+	</element>
+
+</elements>
